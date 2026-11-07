@@ -1,0 +1,112 @@
+1980	<p><b>${n[0]}: ${n[2].charAt(0).toLowerCase() + n[2].slice(1)}.</b> Ação recomendada: ${n[3].charAt(0).toLowerCase() + n[3].slice(1)}.</p><button class="pill" data-k="${k}">O que fazer neste nível</button>
+1981	<button class="lvl" role="tab" id="t-nv${i}" aria-controls="nvPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''} style="--c:${l[4]}">${l[0]}<em>${l[0].split(' ')[1].toUpperCase()}</em></button>
+1982	<p class="lead">${l[1]}: <span style="font-weight:500">${l[2].charAt(0).toLowerCase() + l[2].slice(1)}. ${l[3]}.</span></p>
+      <div class="three"><div><h4>Características</h4><ul class="dotlist">${li(l[5])}</ul></div><div><h4>Objetivo do líder</h4><p>${l[6]}</p></div><div><h4 class="g">Ação recomendada</h4><ul class="dotlist ok">${li(l[7])}</ul></div></div>
+      <p class="note">${l[8]}${l[9] ? `<br><small><b>Nota:</b> ${MT}</small>` : ''}</p>
+1983	“É só uma fase”
+1984	Ignorar sinais iniciais ou assumir que irão desaparecer sem intervenção.
+1985	“Ele sempre foi assim”
+1986	Confundir traços de personalidade com mudanças no funcionamento.
+1987	Esperar “mais evidência”
+1988	Adiar a intervenção até existir impacto claro ou agravamento.
+1989	Focar apenas em resultados (KPIs)
+1990	Ignorar comportamento, contexto e sinais emocionais.
+1991	Evitar a conversa
+1992	O desconforto do líder leva à inação, aumentando o risco.
+1993	Normalizar sobrecarga
+1994	Interpretar sinais de exaustão como “parte do trabalho”.
+1995	Só agir quando há impacto grave
+1996	Intervenções tardias tendem a ser mais complexas e menos eficazes.
+1997	Esperar por certezas antes de agir
+1998	A dúvida já é motivo para observar melhor.
+1999	Viés de confirmação
+2000	Ver só o que confirma a primeira impressão.
+2001	Confundir observação com interpretação
+2002	Descrever comportamentos (“tens participado menos”), não rótulos (“andas desmotivado”).
+2003	Reduzir o problema ao indivíduo
+2004	Ignorar fatores organizacionais (carga, prioridades, contexto).
+2005	Interpretar silêncio como ausência de problema
+2006	Assumir que “se não diz nada, está tudo bem”.
+2007	Intervir apenas de forma informal e não acompanhar
+2008	Fazer um check-in pontual sem continuidade ou follow-up.
+2009	Patologizar reações normais
+2010	Ficar triste, irritável, ansioso ou cansado perante uma situação difícil é, muitas vezes, uma reação esperada – não um problema clínico. Rotular precipitadamente (“é depressão”, “é ansiedade”) estigmatiza e desvia do que ajuda no imediato: presença, escuta e apoio prático. O que distingue uma reação normal de um sinal de alerta é o padrão – frequência, intensidade, duração e impacto no funcionamento.
+2011	Ignorar a própria reação
+2012	O que sentes (como líder) ao lidar com um colaborador – desconforto, preocupação persistente, vontade de evitar a conversa – é também informação. Costuma ser um primeiro sinal de que algo mudou. Usa-o para te aproximares e observares melhor, nunca como diagnóstico. Se ficaste com a sensação de que devias perguntar, provavelmente já tens motivo para o fazer.
+2013	<p class="sub">Erro ${i + 1} de 15</p><h3>${ER[i][0]}</h3><p>${ER[i][1]}</p>
+2014	${seen.size} de 15 vistos
+2015	4.4 Como abordar um colaborador
+2016	Parte 4 · <b>4.4 Como abordar um colaborador</b>
+2017	Como abordar <span>um colaborador</span>
+2018	Parte B. Os princípios da abordagem, um modelo de conversa em sete passos, quatro estudos de caso e a mini-secção PSP para líderes.
+2019	<span><svg#1/>9 ecrãs</span>
+2020	Princípios da abordagem
+2021	B · Princípios
+2022	Uma abordagem eficaz assenta em
+2023	<b>Criação de segurança psicológica</b>
+2024	<b>Comunicação empática</b>
+2025	<b>Escuta ativa</b>
+2026	<b>Clareza de limites do papel do líder</b>
+2027	O objetivo não é resolver o problema, mas facilitar a abertura e encaminhamento adequado.
+2028	Modelo estruturado de conversa
+2029	B · Modelo de conversa
+2030	Sete passos, da preparação ao follow-up
+2031	Clica em cada um dos sete passos.
+2032	Gestão de diferentes tipos de resposta
+2033	B · Tipos de resposta
+2034	Se a pessoa responde com…
+2035	Pensa no que farias e clica em cada cartão para o virar.
+2036	0 de 4 virados
+2037	Frases de apoio e o que evitar
+2038	Frases para sustentar e validar a pessoa ao longo do diálogo (diferentes das de abertura).
+2039	Frases de apoio durante a conversa
+2040	“Estou disponível para te apoiar.”
+2041	“O teu bem-estar é importante.”
+2042	“Não tens de lidar com isto sozinho.”
+2043	“O que estás a sentir faz sentido, tendo em conta o que está a acontecer.”
+2044	O que evitar
+2045	Minimizar a situação (“podia ser pior”, “tem calma”).
+2046	Pressionar por respostas, detalhes ou explicações.
+2047	Oferecer soluções imediatas sem antes escutar.
+2048	Interpretar ou diagnosticar (“acho que estás em burnout”).
+2049	Assumir um papel clínico.
+2050	Garantir confidencialidade absoluta em situações de risco (quando pode ser necessário envolver outros recursos).
+2051	Estudos de caso
+2052	B · Estudos de caso
+2053	Estudos de caso com intervenção do líder
+2054	Quatro situações, quatro intervenções
+2055	Clica num caso, pensa em como abordarias e clica em “Como pode o líder intervir?” para ver a intervenção.
+2056	1. Queda de performance
+2057	2. Reatividade emocional
+2058	3. Sobrecarga / Burnout
+2059	4. Isolamento e retraimento
+2060	<small style="display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">Estudo de caso 1</small>Um colaborador com historial consistente começa a falhar prazos e a apresentar distração frequente.
+2061	Como pode o líder intervir?
+2062	<b>Abordagem inicial:</b> o líder inicia uma conversa baseada em factos, utilizando frases como: <i>“Tenho notado alguma dificuldade recente no cumprimento de prazos e queria perceber como estás.”</i>
+2063	<b>Exploração:</b> permite ao colaborador explicar o contexto (ex.: sobrecarga, questões pessoais, dificuldade de concentração).
+2064	<b>Ajustes práticos</b>, dependendo da situação: repriorizar tarefas; reduzir temporariamente a carga; dividir tarefas complexas em etapas; clarificar objetivos.
+2065	<b>Definição de plano:</b> estabelecer objetivos realistas a curto prazo; acordar pontos de acompanhamento.
+2066	<b>Follow-up:</b> reavaliar evolução após alguns dias/semanas.
+2067	<small style="display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">Estudo de caso 2</small>Um colaborador reage de forma desproporcional a feedback e apresenta irritabilidade.
+2068	<b>Abordagem estruturada:</b> <i>“Notei que nas últimas interações tens reagido com alguma intensidade. Gostava de perceber o que se passa.”</i>
+2069	<b>Validação:</b> reconhecer que pode haver fatores subjacentes (stress, frustração, sobrecarga).
+2070	<b>Clarificação de limites:</b> separar emoção de comportamento, por exemplo: <i>“Percebo que estejas sob pressão, mas precisamos de garantir um ambiente respeitoso na equipa.”</i>
+2071	<b>Exploração de necessidades:</b> identificar fontes de stress; ajustar carga ou expectativas, se necessário.
+2072	<b>Estratégias:</b> sugerir pausas; incentivar momentos de regulação antes de responder.
+2073	<b>Monitorização:</b> acompanhar evolução e reforçar comportamentos ajustados.
+2074	<small style="display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">Estudo de caso 3</small>Colaborador trabalha excessivamente, evita pausas e apresenta sinais claros de exaustão.
+2075	<b>Identificação e validação:</b> <i>“Tenho reparado que tens assumido uma carga muito elevada e parece-me que estás cansado.”</i>
+2076	<b>Normalização:</b> validar que a sobrecarga tem impacto e que não é sustentável.
+2077	<b>Intervenção organizacional:</b> redistribuir tarefas; definir limites de horário; incentivar pausas reais; rever prioridades.
+2078	<b>Reforço de cultura:</b> transmitir que produtividade não deve ocorrer à custa do bem-estar.
+2079	<b>Encaminhamento:</b> sugerir apoio especializado, se necessário.
+2080	<b>Follow-up contínuo:</b> monitorizar sinais de recuperação ou agravamento.
+2081	<small style="display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">Estudo de caso 4</small>Um colaborador reduz significativamente a interação com a equipa e mostra-se distante.
+2082	<b>Abordagem cuidadosa:</b> <i>“Tenho sentido que estás mais afastado da equipa ultimamente e queria perceber como estás.”</i>
+2083	<b>Criação de espaço seguro:</b> permitir que a pessoa fale ao seu ritmo, sem pressão.
+2084	<b>Exploração:</b> identificar se se trata de desmotivação, dificuldade pessoal ou conflito na equipa.
+2085	<b>Intervenção:</b> facilitar reintegração gradual; promover interações seguras (ex.: reuniões mais pequenas); ajustar expectativas sociais.
+2086	<b>Apoio contínuo:</b> reforçar disponibilidade e manter contacto regular.
+2087	Mini-secção PSP para líderes
+2088	B · Mini-secção PSP
+2089	Quando um colaborador está em sofrimento: o que fazer numa primeira abordagem

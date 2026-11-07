@@ -1,0 +1,13 @@
+{
+"3226": "Click on a tool to go straight to the section where it is.",
+"3227": "Use the Contents and go straight to the situation you need. Each module is one page, to read from top to bottom. The course remembers where you left off.",
+"3228": "The help contacts, on any page.",
+"3229": "At the end of each page, they take you to the previous or the next module. Next opens once you have explored everything on the page.",
+"3230": "It marks what you have not opened yet. Click on every element with a red dot to see all the content on the page.",
+"3231": "Stay in this position for about 30 seconds to 1 minute. Next, the video shows the four options.",
+"3232": "<p class=\"sphrase\" style=\"font-size:clamp(1.2rem,1.9vw,1.6rem);margin-bottom:0.75rem\">${q[0]}</p>\n      <div class=\"sfb ${q[1] ? '' : 'no'}\"><b>${q[1] ? 'Helps' : 'Doesn’t help'} · ${q[2]}</b><span class=\"v\">${right ? 'Exactly.' : 'Not quite.'}</span> ${q[3]}</div>\n      ${last ? '<p style=\"margin-bottom:0.875rem\">You have seen all eight phrases. Next, you will find all the types of response to avoid.</p>' : ''}\n      <div class=\"sbtns\">${i ? '<button class=\"sbtn sbtn--ghost\" data-act=\"back\">← Previous phrase</button>' : ''}<button class=\"sbtn sbtn--solid\" ${last ? 'data-act=\"again\"' : ''}>${last ? 'Start again' : 'Next phrase'}</button></div>",
+"3233": "You do not need to watch everything in one go: use the Contents and go straight to the situation you need. Each module is one page, to read from top to bottom.",
+"3234": "Navigation between modules",
+"3235": "To move on, explore all the elements on this page.",
+"3236": "Your progress is saved. When you come back, you will carry on from where you left off."
+}

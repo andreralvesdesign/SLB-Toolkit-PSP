@@ -1,0 +1,118 @@
+1210	Durante a interação, é importante manter atenção a possíveis indicadores de maior vulnerabilidade:
+1211	<span class="b warnb" aria-hidden="true">!</span>Intensificação emocional súbita (choro intenso, desregulação)
+1212	<span class="b warnb" aria-hidden="true">!</span>Dificuldade em manter coerência no discurso
+1213	<span class="b warnb" aria-hidden="true">!</span>Expressões de desesperança ou exaustão extrema
+1214	Pode ser necessário ajustar a intervenção e considerar apoio adicional.
+1215	Apoiar durante a conversa não implica ter respostas, soluções ou palavras perfeitas.
+1216	Implica estar presente, escutar com atenção, validar a experiência e oferecer suporte de forma respeitosa. Muitas vezes, o impacto está menos no que se diz e mais na forma como se está.
+1217	O que implica
+1218	Estar presente
+1219	Clica em “Ajuda” ou “Não ajuda” para cada frase.
+1220	Ajuda ou não ajuda?
+1221	B · O que evitar
+1222	Durante a conversa: o que evitar
+1223	É comum surgir a vontade de ajudar rapidamente, dizer algo “útil” ou aliviar o desconforto. No entanto, algumas respostas, mesmo com boa intenção, podem dificultar a comunicação e aumentar o distanciamento emocional.
+1224	Frase 1 de 8
+1225	De forma geral, estas respostas têm três efeitos principais
+1226	invalidam a experiência da pessoa
+1227	reduzem o espaço de expressão
+1228	deslocam o foco da pessoa para quem ajuda
+1229	O que evitar durante a conversa
+1230	Oito tipos de resposta a evitar
+1231	Clica em cada cartão para o virares e veres exemplos e porquê.
+1232	0 de 8 virados
+1233	Mais do que encontrar as palavras perfeitas, é fundamental evitar respostas que fechem, pressionem ou simplifiquem a experiência do outro.
+1234	Na maioria das situações, o que mais ajuda não é uma resposta perfeita, mas <em>uma presença disponível, sem julgamento e sem pressa.</em>
+1235	Evitar estas respostas não significa ficar em silêncio ou “não saber o que dizer”. Significa priorizar a escuta, a validação e o ritmo da pessoa, em vez de tentar corrigir, explicar ou resolver.
+1236	Terminaste o módulo “Apoiar durante a conversa”
+1237	Parte 3 – B, secções 5.3 a 5.5 · páginas 49 a 54 do PDF original
+1238	
+      <a class="dl a" href="downloads/frases-uteis-e-o-que-evitar.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Frases úteis e o que evitar<small>PDF · 2 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-3b-apoiar-durante-a-conversa.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Apoiar durante a conversa<small>PDF · 6 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+1239	“Isso não é nada”
+1240	“Já vais ficar bem”
+1241	Invalida o que a pessoa sente
+1242	“Não devias sentir-te assim”
+1243	“Tens de ser mais forte”
+1244	Gera fechamento e defensividade
+1245	Resolver demasiado rápido
+1246	“Tens de fazer isto…”
+1247	“O melhor é esqueceres isso”
+1248	Retira espaço para processar
+1249	Dar conselhos não pedidos
+1250	“Se eu fosse tu…”
+1251	“Devias falar com…”
+1252	Pode gerar resistência
+1253	“Há quem esteja pior”
+1254	“Já vi situações bem mais graves”
+1255	Desvaloriza a experiência
+1256	Interromper ou apressar
+1257	“Sim, sim, já percebi…”
+1258	“Mas o importante é…”
+1259	Transmite falta de escuta
+1260	Excesso de perguntas
+1261	“Mas porquê?” (repetido)
+1262	“O que fizeste depois?” (em sequência)
+1263	Pode ser sentido como pressão
+1264	Focar-se em si próprio
+1265	“Isso já me aconteceu…”
+1266	“Eu no teu lugar…”
+1267	Desvia o foco da pessoa
+1268	<li class="flip flip--info a pop" style="--i:${i + 3}"><button aria-expanded="false" data-front="${f[0]}" data-back="Exemplos: ${f[1].join(' ')} Porquê: ${f[2]}">
+    <span class="face front" aria-hidden="true"><small>Evitar</small><span>${f[0]}</span><span class="turn">Virar <svg#1/></span></span>
+    <span class="face back" aria-hidden="true"><span><b>Exemplos</b>${f[1].join('<br>')}</span><span><b>Porquê</b>${f[2]}</span></span></button></li>
+1269	${$$('.flip.open', ul).length} de 8 virados
+1270	“Isso não é nada.”
+1271	Invalida o que a pessoa sente.
+1272	Reconhece a experiência emocional da pessoa como legítima, sem julgar, corrigir ou relativizar.
+1273	“Tens de ser mais forte.”
+1274	Gera fechamento e defensividade.
+1275	Dá tempo à pessoa para falar, sem interromper nem apressar.
+1276	“O melhor é esqueceres isso.”
+1277	Retira espaço para processar.
+1278	“Há quem esteja pior.”
+1279	Desvaloriza a experiência.
+1280	Pergunta o que a pessoa precisa, em vez de assumir.
+1281	Desvia o foco da pessoa.
+1282	Frase ${i + 1} de ${Q.length}
+1283	<p class="sphrase">${Q[i][0]}</p><div class="sbtns" role="group" aria-label="A tua resposta"><button class="sbtn" data-v="1">Ajuda</button><button class="sbtn" data-v="0">Não ajuda</button></div>${i ? '<div class="sbtns sbtns--back"><button class="sbtn sbtn--ghost" data-act="back">← Frase anterior</button></div>' : ''}
+1284	<p class="sphrase" style="font-size:clamp(1.2rem,1.9vw,1.6rem);margin-bottom:0.75rem">${q[0]}</p>
+      <div class="sfb ${q[1] ? '' : 'no'}"><b>${q[1] ? 'Ajuda' : 'Não ajuda'} · ${q[2]}</b><span class="v">${right ? 'Isso mesmo.' : 'Não é bem assim.'}</span> ${q[3]}</div>
+      ${last ? '<p style="margin-bottom:0.875rem">Viste as oito frases. No ecrã seguinte encontras todos os tipos de resposta a evitar.</p>' : ''}
+      <div class="sbtns">${i ? '<button class="sbtn sbtn--ghost" data-act="back">← Frase anterior</button>' : ''}<button class="sbtn sbtn--solid" ${last ? 'data-act="again"' : ''}>${last ? 'Recomeçar' : 'Frase seguinte'}</button></div>
+1285	3.5 Limites, confidencialidade e guia de conversa
+1286	Parte 3 · <b>3.5 Limites e guia de conversa</b>
+1287	Limites, confidencialidade e <span>guia de conversa</span>
+1288	Parte B – Um colega está em sofrimento. Saber até onde ir, o que manter confidencial e quando envolver outros recursos, com um guia de conversa em seis passos.
+1289	<span><svg#1/>12 ecrãs</span><span><svg#2/>2 vídeos</span>
+1290	12 ecrãs
+1291	Proximidade e responsabilidade
+1292	B · Limites e confidencialidade
+1293	Limites e confidencialidade
+1294	Apoiar implica proximidade, mas também responsabilidade
+1295	Saber até onde ir, o que manter confidencial e quando envolver outros recursos é essencial para proteger tanto a pessoa em sofrimento como quem ajuda.
+1296	Este equilíbrio evita dois riscos comuns:
+1297	Risco 1
+1298	Exposição excessiva<br><span style="font-weight:500;color:var(--ink-soft)">(quebrar confiança)</span>
+1299	Risco 2
+1300	Responsabilização indevida<br><span style="font-weight:500;color:var(--ink-soft)">(assumir um papel que não é seu)</span>
+1301	Confidencialidade e papel do colega
+1302	Três perguntas sobre limites
+1303	Clica em cada pergunta.
+1304	<img src="assets/img/ic-29.png" alt="">O que é confidencial?<span class="tick" aria-hidden="true"></span>
+1305	<img src="assets/img/ic-81.png" alt="">Quando pode ser necessário partilhar ou agir<span class="tick" aria-hidden="true"></span>
+1306	<img src="assets/img/ic-04.png" alt="">Qual é o papel do colega?<span class="tick" aria-hidden="true"></span>
+1307	O que é confidencial?
+1308	De forma geral, tudo o que a pessoa partilha num contexto de apoio deve ser tratado com respeito e discrição.
+1309	Isto inclui
+1310	conteúdos pessoais ou emocionais
+1311	experiências difíceis ou traumáticas
+1312	informações sobre vida familiar, saúde ou relações
+1313	É fundamental porque
+1314	cria segurança para a pessoa falar
+1315	protege a sua dignidade
+1316	reforça a confiança na relação
+1317	Sempre que possível, a informação só deve ser partilhada
+1318	com consentimento da pessoa e com clareza sobre com quem será partilhada e porquê.
+1319	Quando pode ser necessário partilhar ou agir

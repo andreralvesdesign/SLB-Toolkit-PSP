@@ -1,0 +1,113 @@
+1760	Clica em cada um dos quatro níveis, da situação leve à crítica.
+1761	Níveis de situação
+1762	Encaminhamento urgente
+1763	A · Mais do que PSP
+1764	Quando é mais do que PSP
+1765	Procurar apoio especializado de imediato quando a pessoa:
+1766	<span class="b warnb" aria-hidden="true">!</span>Apresenta risco para si própria (ideação ou comportamento autolesivo) ou para terceiros
+1767	<span class="b warnb" aria-hidden="true">!</span>Está tão desorganizada que não consegue cuidar de si
+1768	<span class="b warnb" aria-hidden="true">!</span>Mostra sinais de crise médica
+1769	<span class="b warnb" aria-hidden="true">!</span>Permanece gravemente desregulada apesar do apoio
+1770	O líder não gere a situação sozinho: ativa recursos e não deixa a pessoa só.
+1771	Sinais individuais e sinais de equipa
+1772	A · Individuais vs. equipa
+1773	Sinais individuais vs. sinais de equipa
+1774	Às vezes o sinal está no clima da equipa
+1775	O sofrimento nem sempre se manifesta numa só pessoa. O líder deve ler os dois níveis:
+1776	Sinais individuais
+1777	Mudanças no funcionamento habitual de uma pessoa (isolamento, quebra de desempenho, irritabilidade, exaustão).
+1778	Sinais coletivos / de clima: quando o mal-estar é da equipa
+1779	Contágio emocional (tensão ou desânimo que “se espalha”)
+1780	Aumento de conflitos ou de mal-entendidos
+1781	Absentismo ou presenteísmo generalizados
+1782	Quebra de comunicação e de colaboração
+1783	Descida transversal do envolvimento ou da iniciativa
+1784	Sinais coletivos costumam apontar para fatores organizacionais (carga, liderança, clareza de papéis, reconhecimento) e não apenas para dificuldades individuais.
+1785	Ver em ação: 3.º Role Play
+1786	Vídeo: 3.º Role Play, gestão de conflitos
+1787	3.º Role Play
+1788	Um conflito entre dois colaboradores raramente começa como conflito – começa como pressão acumulada, comunicação falhada, ou expectativas não alinhadas. O momento em que o líder entra faz toda a diferença entre o conflito escalar ou ser resolvido antes de se tornar um problema maior.
+1789	<b>Contexto</b>Secção de frutas e legumes, hora de pico. Dois colaboradores entram em conflito aberto sobre prioridades e falta de comunicação. A líder de secção intervém.
+1790	<b>O que observar</b>Como a líder entra sem tomar partido, como valida as duas perspetivas e como fecha com um acordo claro.
+1791	A líder não perguntou “quem teve a culpa”. Porque é que essa escolha é importante?
+1792	Identifica o momento em que a líder usou validação – o que disse exatamente?
+1793	Como terminaria esta situação se a líder tivesse esperado que as colaboradoras resolvessem sozinhas?
+1794	No teu contexto, que tipo de conflitos reconheces neste cenário?
+1795	Ver em ação: 4.º Role Play
+1796	Vídeo: 4.º Role Play, sobrecarga de trabalho
+1797	4.º Role Play
+1798	Ler sobre PSP é diferente de ver como uma conversa dessas acontece de verdade – com hesitação, com pausas, com o risco de a pessoa não querer falar. O role-play seguinte é o mais próximo de uma situação real que encontrarás neste toolkit. Vale a pena ver com atenção.
+1799	<b>Contexto</b>Open space, final de tarde. Vários prazos a coincidir, equipa sob pressão. A líder de equipa repara em sinais de sobrecarga numa colaboradora e decide abordar.
+1800	<b>O que observar</b>O timing da abordagem, como a líder gere o silêncio, como passa de escuta para apoio prático sem pressionar, e como fecha com follow-up.
+1801	A líder esperou um momento calmo para abordar. Que condições criou antes de iniciar a conversa?
+1802	Quando a colaboradora disse “é só trabalho acumulado”, a líder não aceitou e foi em frente. Como o fez sem parecer intrusiva?
+1803	A conversa terminou com ações concretas. Que diferença faz essa concretização em vez de ficar pela validação emocional?
+1804	Há algo nesta conversa que te parece difícil de replicar? O quê e porquê?
+1805	Erros frequentes na identificação de sinais
+1806	A · Erros frequentes
+1807	Interpretação, evitamento ou racionalização
+1808	A identificação de sinais de risco psicossocial falha frequentemente não por falta de informação, mas por interpretação, evitamento ou racionalização. <span id="erCount" aria-live="polite">1 de 15 vistos</span>
+1809	Erros mais comuns
+1810	Da dúvida à ação
+1811	A · Da dúvida à ação
+1812	Da dúvida à ação: o papel do líder
+1813	A diferença não está em “saber exatamente o que se passa”, mas em <em>não deixar a situação evoluir em silêncio.</em>
+1814	Um dos principais riscos na liderança é esperar por certeza antes de agir. No contexto psicossocial, essa certeza raramente chega – e quando chega, muitas vezes já existe impacto significativo. Intervir não exige diagnóstico nem confirmação. Exige disponibilidade para abordar, mesmo com informação incompleta.
+1815	Não ignorar a dúvida
+1816	Criar espaço para a conversa
+1817	Ajustar ou encaminhar quando necessário
+1818	Frases para iniciar a abordagem
+1819	A · Iniciar a abordagem
+1820	Observação + intenção + abertura
+1821	A abordagem deve ser não intrusiva: estar disponível sem forçar a conversa, sem insistir em detalhes e sem retirar a autonomia da pessoa. O objetivo não é ter a frase perfeita, mas abrir a porta de forma segura, concreta e respeitosa.
+1822	Exemplos
+1823	“Tenho notado algumas mudanças nas últimas semanas e gostava de perceber como estás.”
+1824	“Tenho a sensação de que esta fase pode estar a ser exigente. Como é que estás a viver isto?”
+1825	“Se houver algo que esteja a dificultar o trabalho, podemos olhar para isso juntos.”
+1826	“Não sei exatamente o que se passa, mas achei importante não ignorar e perguntar como estás.”
+1827	“Tenho reparado em algumas mudanças e queria saber como estás.”
+1828	Se a pessoa não quiser falar naquele momento
+1829	O papel do líder não termina – transforma-se em presença discreta, respeito e follow-up.
+1830	Intervenções precoces são, tendencialmente, mais simples, mais proporcionais e mais eficazes.
+1831	Terminaste o módulo “Devo intervir?”
+1832	Parte 4 – A, secções 2 a 6 · páginas 76 a 86 do PDF original
+1833	
+      <a class="dl a" href="downloads/checklist-devo-intervir.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Checklist “Devo intervir?” e o que fazer em cada nível<small>PDF · 3 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-4a-devo-intervir.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Devo intervir? Da dúvida à ação<small>PDF · 11 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+1834	Mudança
+1835	Alterações face ao padrão habitual da pessoa
+1836	Colaborador habitualmente participativo torna-se silencioso
+1837	O que mudou concretamente?
+1838	A mudança deve ser comparada com o funcionamento habitual da pessoa
+1839	Mudanças consistentes no comportamento ou funcionamento
+1840	Pessoa organizada começa a esquecer tarefas simples
+1841	Quando começou?
+1842	Alterações persistentes tendem a ser mais relevantes do que episódios isolados
+1843	Alterações na interação, envolvimento ou disponibilidade
+1844	Evitamento de reuniões ou redução de colaboração
+1845	Outros elementos da equipa notaram o mesmo?
+1846	Quanto mais consistente for a mudança, maior a necessidade de atenção
+1847	Consequências no desempenho ou funcionamento
+1848	Atrasos em entregas críticas
+1849	Está a afetar os resultados ou o funcionamento?
+1850	O impacto pode ser técnico, relacional ou operacional
+1851	Alterações na dinâmica da equipa
+1852	Conflitos, retraimento ou menor colaboração
+1853	Há impacto na equipa?
+1854	Nem todo o impacto aparece nos indicadores formais
+1855	Quebra de qualidade, segurança ou consistência
+1856	Mais erros operacionais ou retrabalho
+1857	Existe risco para qualidade ou segurança?
+1858	Mudanças subtis podem ter impacto acumulado
+1859	Sinais emocionais ou físicos de mal-estar
+1860	Ansiedade visível, irritabilidade ou apatia
+1861	Existem sinais emocionais além do desempenho?
+1862	O sofrimento nem sempre é verbalizado diretamente
+1863	Alterações de energia, foco ou regulação emocional
+1864	Exaustão, baixa energia ou dificuldade de concentração
+1865	A pessoa parece sobrecarregada ou desgastada?
+1866	Sinais cognitivos e emocionais são frequentemente confundidos com “falta de motivação”
+1867	Presenteísmo ou funcionamento “em esforço”
+1868	Está presente, mas com dificuldade clara em funcionar
+1869	Há sinais persistentes de desgaste?

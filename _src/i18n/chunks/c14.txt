@@ -1,0 +1,115 @@
+1540	Ajustar o funcionamento da equipa de forma sustentável
+1541	Reduzir impacto operacional (erros, conflitos, absentismo)
+1542	Em termos simples
+1543	Avaliar cedo permite intervir de forma leve – avaliar tarde obriga a reagir de forma mais intensa.
+1544	Radar de Risco Psicossocial da Equipa
+1545	1.3 · Radar
+1546	Reflete sobre as últimas 2–3 semanas. Responde com base em padrões, não em exceções. Assinala o que se verifica na tua equipa.
+1547	Dimensões do Radar
+1548	Ver leitura dos resultados
+1549	Percorre as cinco dimensões e assinala o que se verifica. <b id="rdSeen">1 de 5 vistas.</b>
+1550	Terminaste o módulo “O papel do líder”
+1551	Parte 4, secção 1 · páginas 66 a 70 do PDF original
+1552	
+      <a class="dl a" href="downloads/radar-de-risco-psicossocial-da-equipa.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Radar de Risco Psicossocial da Equipa<small>PDF · 2 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-4-o-papel-do-lider.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>O papel do líder nos PSP<small>PDF · 5 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+1553	Carga e ritmo
+1554	Clareza e organização
+1555	Relações e clima
+1556	Funcionamento e risco
+1557	Segurança psicológica
+1558	Carga e ritmo de trabalho
+1559	A carga de trabalho é globalmente sustentável
+1560	Existem pausas reais e momentos de recuperação
+1561	Não há pressão constante ou urgência contínua
+1562	As horas extra são ocasionais (não padrão)
+1563	As pessoas conseguem terminar tarefas dentro do tempo esperado
+1564	Clareza e organização do trabalho
+1565	As prioridades estão claras e são consistentes
+1566	Os objetivos são compreendidos pela equipa
+1567	Existe clareza de papéis e responsabilidades
+1568	Mudanças são comunicadas com antecedência suficiente
+1569	As pessoas sabem o que pode ser renegociado
+1570	Relações e clima de equipa
+1571	O ambiente é respeitador e cooperativo
+1572	Conflitos são geridos de forma construtiva
+1573	Existe apoio entre colegas
+1574	As interações são seguras (sem crítica ou humilhação)
+1575	Não há isolamento persistente de elementos da equipa
+1576	Funcionamento e sinais de risco
+1577	O desempenho da equipa está estável
+1578	Não há aumento significativo de erros ou retrabalho
+1579	Não há sinais claros de exaustão generalizada
+1580	Absentismo e presenteísmo estão dentro do habitual
+1581	Não existem mudanças abruptas de comportamento em vários elementos
+1582	Perceção e segurança psicológica
+1583	As pessoas sentem que podem falar abertamente
+1584	Pedem ajuda quando necessário
+1585	Sentem-se ouvidas quando partilham dificuldades
+1586	Existe confiança na liderança
+1587	Feedback é possível sem medo de consequências negativas
+1588	Funcionamento saudável
+1589	Atenção / monitorizar
+1590	${i + 1}. ${RD[i][0]}, ${n} de 5 assinalados
+1591	<p>Percorre as cinco dimensões e assinala o que se verifica. <b>${seen.size} de 5 vistas.</b></p>
+1592	Intervenção prioritária (pelo menos uma dimensão em risco elevado).
+1593	Risco emergente (ajustes necessários).
+1594	Funcionamento estável.
+1595	<p><b>Leitura global: ${glob}</b></p><ul class="stats">${L.map((x, i) => `<li><i class="${x[0]}" aria-hidden="true"></i>${i + 1}. ${RD_SHORT[i]}: <b>${x[1]}</b> (${count(i)} de 5)</li>`).join('')}</ul>
+1596	4.2 Identificar sinais na equipa
+1597	Parte 4 · <b>4.2 Identificar sinais na equipa</b>
+1598	Identificar sinais <span>na equipa</span>
+1599	Parte A. Reconhecer alterações relevantes no funcionamento habitual de uma pessoa, observar com método e ler os sinais em conjunto.
+1600	Identificar não é diagnosticar
+1601	A · Identificar sinais
+1602	Parte A · Identificar sinais na equipa
+1603	O objetivo não é diagnosticar, mas reconhecer alterações relevantes
+1604	A identificação precoce de sinais de possível sofrimento psicológico é uma competência central da liderança. Os sinais devem ser analisados tendo como referência o padrão habitual da pessoa e o contexto em que ocorrem.
+1605	<b style="display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:0.375rem">A questão central</b>Isto é consistente com o funcionamento habitual desta pessoa ou representa uma mudança significativa?
+1606	Um sinal isolado raramente é suficiente para justificar preocupação imediata. O mais relevante é observar padrões persistentes, intensos ou com impacto no funcionamento profissional e relacional.
+1607	Observar com método
+1608	A · Observar com método
+1609	Observar tem uma ordem
+1610	Identificar sinais começa por observar. Antes de interpretar ou agir, o líder olha para três coisas, sempre por esta sequência:
+1611	<span class="c" aria-hidden="true">1</span>Segurança primeiro
+1612	<span class="c" aria-hidden="true">2</span>Necessidades urgentes
+1613	<span class="c" aria-hidden="true">3</span>Sinais de sofrimento
+1614	Há risco imediato para a pessoa ou para terceiros?
+1615	Ex.: sinais de crise, desregulação intensa, indícios de risco.
+1616	Se sim, a prioridade deixa de ser “identificar sinais” e passa a ser garantir segurança e ativar apoio.
+1617	Há algo prático que exige resposta já?
+1618	Ex.: sobrecarga aguda, exaustão evidente, situação a escalar.
+1619	Que mudanças existem face ao funcionamento habitual da pessoa?
+1620	<b style="color:var(--ink)">Ideia-chave:</b> observar não é vigiar nem diagnosticar. É notar mudanças relevantes, com a segurança sempre em primeiro lugar.
+1621	Sinais a considerar
+1622	A · Sinais a considerar
+1623	O que pode mudar no funcionamento de uma pessoa
+1624	Clica em cada categoria.
+1625	1 de 9 vistas
+1626	Categorias de sinais
+1627	Integração dos sinais
+1628	A · Integração dos sinais
+1629	Um sinal isolado raramente justifica intervenção imediata
+1630	A preocupação aumenta quando existe um padrão consistente e continuado. Critérios de maior atenção:
+1631	<b>Persistência</b><span>Os sinais mantêm-se ao longo do tempo.</span>
+1632	<b>Intensidade</b><span>As alterações tornam-se mais marcadas.</span>
+1633	<b>Impacto</b><span>Existe efeito no desempenho, funcionamento ou relações.</span>
+1634	<b>Acumulação</b><span>Vários sinais surgem em simultâneo.</span>
+1635	Quanto maior a convergência destes fatores, maior a necessidade de monitorização ativa e eventual abordagem por parte da liderança.
+1636	Porque variam os sinais
+1637	A · Porque variam os sinais
+1638	A mesma situação provoca reações diferentes
+1639	Lê sempre os sinais face ao padrão habitual de cada pessoa.
+1640	<b>Natureza e gravidade</b><span>do que está a acontecer</span>
+1641	<b>História de saúde mental</b><span>pessoal e familiar</span>
+1642	<b>Contexto cultural</b><span>valores e tradições</span>
+1643	<b>Apoio social</b><span>na vida da pessoa</span>
+1644	<b>Experiências anteriores</b><span>com situações difíceis</span>
+1645	<b>Idade e fase de vida</b><span>momento pessoal</span>
+1646	<b>Saúde física</b><span>estado geral</span>
+1647	Terminaste o módulo “Identificar sinais na equipa”
+1648	Parte 4 – A · páginas 70 a 75 do PDF original
+1649	
+      <a class="dl a" href="downloads/toolkit-psp-parte-4a-identificar-sinais.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Identificar sinais na equipa<small>PDF · 6 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    

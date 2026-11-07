@@ -1,0 +1,113 @@
+2310	Absentismo e presentismo
+2311	Horas extra frequentes
+2312	Queixas ou incidentes
+2313	Erros e quebra de desempenho
+2314	Feedback de clientes e equipa
+2315	A monitorização contínua permite intervenção mais precoce e ajustada.
+2316	“Nas próximas quatro semanas vamos acompanhar horas extra, faltas de curta duração, conflitos e atrasos para perceber onde o trabalho está a ficar insustentável.”
+2317	Previsibilidade na mudança
+2318	Reforçar previsibilidade em períodos de mudança
+2319	Em períodos de reorganização, mudança tecnológica, novas metas ou alterações de equipa, a comunicação clara e frequente reduz incerteza e insegurança.
+2320	Comunicar o que já é conhecido e o que ainda está em decisão
+2321	Atualizar regularmente as equipas
+2322	Evitar silêncio prolongado ou mensagens contraditórias
+2323	Criar espaço para dúvidas e clarificação
+2324	A previsibilidade ajuda a reduzir ansiedade, rumores e retraimento.
+2325	“Apesar de ainda não termos todas as respostas, vou partilhar o que já sabemos, o que continua em análise e quando teremos novas atualizações.”
+2326	Voz e feedback seguros
+2327	Institucionalizar mecanismos seguros de voz e feedback
+2328	A participação das equipas requer canais previsíveis e seguros de comunicação.
+2329	Reuniões individuais (1:1)
+2330	Check-ins regulares
+2331	Mecanismos anónimos de feedback
+2332	Reuniões de reflexão operacional
+2333	Follow-up visível das preocupações levantadas
+2334	As pessoas falam mais quando percebem que serão ouvidas e que o feedback terá consequência prática.
+2335	“Quero perceber o que está a dificultar o trabalho no terreno. O mais importante é que aquilo que for partilhado terá acompanhamento e resposta.”
+2336	Suporte, não heroísmo
+2337	Normalizar suporte e encaminhamento, não heroísmo
+2338	Promover uma cultura de sustentabilidade e não de sobre-esforço permanente.
+2339	Respeito por pausas e limites
+2340	Não glorificar excesso de horas ou disponibilidade constante
+2341	Modelar comportamentos saudáveis na liderança
+2342	Incentivar procura de apoio quando necessário
+2343	Facilitar encaminhamento para recursos de suporte
+2344	Normalizar ajuda reduz estigma e previne desgaste silencioso.
+2345	“Estar comprometido não significa estar sempre disponível. Precisamos de desempenho sustentável, não de desgaste silencioso.”
+2346	Disponibilidade e consistência
+2347	Liderar com disponibilidade emocional e consistência
+2348	A segurança psicológica constrói-se através das interações diárias com a liderança. Líderes acessíveis, consistentes e emocionalmente disponíveis tendem a criar contextos mais seguros e colaborativos.
+2349	Mostrar disponibilidade para ouvir
+2350	Responder de forma previsível e respeitosa
+2351	Manter coerência entre discurso e comportamento
+2352	Evitar reações punitivas, humilhação ou crítica excessiva
+2353	Criar espaço seguro para dúvidas, erros e preocupações
+2354	A consistência relacional aumenta a confiança e reduz o medo interpessoal.
+2355	“Podes trazer problemas, dúvidas e erros sem medo de represália. Vamos olhar para isso para aprender e ajustar.”
+2356	Dignidade, respeito e equidade
+2357	Tratar todas as pessoas com dignidade, respeito e equidade
+2358	O respeito interpessoal e a perceção de justiça são fatores centrais para um clima psicológico saudável.
+2359	Comunicação respeitosa, mesmo sob pressão
+2360	Tratamento equitativo entre elementos da equipa
+2361	Gestão de conflitos sem humilhação
+2362	Tolerância zero para comportamentos abusivos ou discriminatórios
+2363	Promoção de confiança e segurança relacional
+2364	Ambientes marcados por desrespeito, favoritismo ou hostilidade aumentam significativamente o risco psicossocial.
+2365	“Mesmo sob pressão, ninguém será tratado com desrespeito. Problemas operacionais resolvem-se sem humilhação.”
+2366	Escutar antes de “resolver”
+2367	Fazer escuta ativa e validação antes de “resolver”
+2368	Em situações de sofrimento ou dificuldade, a primeira necessidade nem sempre é encontrar uma solução imediata. Muitas vezes, é sentir-se ouvido e compreendido sem julgamento.
+2369	Escuta ativa e atenção genuína
+2370	Validar emoções e dificuldades
+2371	Evitar minimizar ou interromper
+2372	Respeitar a autonomia da pessoa
+2373	Explorar necessidades antes de propor soluções
+2374	A validação emocional fortalece confiança e facilita conversas mais abertas.
+2375	“Quero perceber o que está a acontecer do teu lado. O que tem sido mais difícil neste momento?”
+2376	Intervir cedo perante sinais de sofrimento ou retraimento
+2377	Alterações comportamentais ou emocionais podem constituir sinais precoces de sofrimento psicológico e devem ser abordadas de forma cuidadosa e não julgadora.
+2378	Sinais possíveis
+2379	Mudanças de humor ou energia
+2380	Isolamento ou retraimento
+2381	Dificuldades de concentração
+2382	Quebra de desempenho
+2383	Presentismo ou absentismo
+2384	Irritabilidade ou desmotivação
+2385	A intervenção precoce aumenta a probabilidade de apoio eficaz e previne agravamento do risco.
+2386	“Tenho notado que estás mais silencioso/a, mais cansado/a e com mais dificuldade em fechar tarefas. Queria perceber como estás e se há algo no trabalho que possamos ajustar.”
+2387	Coesão e apoio entre pares
+2388	Sustentar coesão e apoio entre pares
+2389	Equipas com maior cooperação, solidariedade e apoio mútuo tendem a responder melhor à pressão e às dificuldades operacionais.
+2390	Incentivar ajuda entre colegas
+2391	Normalizar pedidos de apoio
+2392	Reforçar sentido de pertença e comunidade
+2393	Criar espaços seguros para partilha de preocupações
+2394	Desencorajar isolamento e competição destrutiva
+2395	O apoio social no trabalho funciona como fator protetor importante para a saúde psicológica.
+2396	“Nesta equipa não valorizamos isolamento nem sobrecarga silenciosa. Quando alguém está com dificuldade, ajustamos e apoiamo-nos mutuamente.”
+2397	Speak-up útil, não simbólico
+2398	Transformar o speak-up em prática útil, não simbólica
+2399	Incentivar as pessoas a falar sem garantir resposta ou seguimento pode aumentar frustração e retraimento. A participação torna-se mais segura quando existe ligação entre escuta, ação e devolução à equipa.
+2400	Ouvir preocupações de forma consistente
+2401	Dar resposta clara ao feedback recebido
+2402	Explicar decisões e limites
+2403	Comunicar o que será alterado, ou não, e porquê
+2404	Demonstrar que falar produz impacto real
+2405	O follow-up consistente reforça confiança e participação futura.
+2406	“Recebi várias preocupações sobre os turnos e a transição de tarefas. Hoje vou explicar o que conseguimos ajustar, o que ainda não será possível alterar e porquê.”
+2407	<div class="vpanel vpanel--text card" role="tabpanel" id="p-${pref}${i}" aria-labelledby="t-${pref}${i}" tabindex="0"${i ? ' hidden' : ''}><div>
+    <h3>${r[1]}</h3><p class="intro">${r[2]}</p><h4>${r[3]}</h4><ul class="dotlist c2">${r[4].map(x => `<li>${x}</li>`).join('')}</ul>
+    <p class="fine" style="margin-top:0.5rem">${r[5]}</p>
+    <div class="reflect"><b>Exemplo de formulação do líder</b><p>${r[6]}</p></div></div></div>
+2408	${seen.size} de 6 vistas
+2409	Parte 5 · Situações Sensíveis
+2410	<b>Parte 5 · Situações Sensíveis</b>
+2411	Nove situações sensíveis
+2412	Nove fichas de consulta rápida
+2413	Cada ficha segue a mesma ordem: o que pode estar a acontecer, o que fazer, o que evitar e quando encaminhar. Vai diretamente à situação de que precisas.
+2414	<a class="partc" href="5-1-burnout.html"><span class="pn">Ficha 1</span><h3>Burnout</h3><p>Exaustão associada ao stress profissional crónico</p></a>
+2415	Burnout
+2416	Exaustão associada ao stress profissional crónico
+2417	<a class="partc" href="5-2-luto.html"><span class="pn">Ficha 2</span><h3>Luto</h3><p>A perda de uma pessoa significativa</p></a>
+2418	Luto
+2419	A perda de uma pessoa significativa

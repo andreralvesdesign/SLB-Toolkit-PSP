@@ -1,0 +1,119 @@
+2090	O objetivo dos PSP é reduzir a ativação inicial, oferecer presença segura, escutar com empatia, apoiar nas necessidades imediatas e facilitar o acesso a ajuda adicional quando necessário. O líder não precisa de ter todas as respostas, nem de “resolver” a situação no momento.
+2091	Os PSP assentam em princípios consistentes com uma abordagem informada pelo trauma: segurança, confiança, escolha, colaboração, empoderamento e respeito pela dignidade humana. Na prática, isto significa proteger a pessoa de stresse adicional, cuidar de necessidades imediatas, oferecer apoio emocional e prático, normalizar reações comuns a situações difíceis e conectar a pessoa a recursos de apoio quando isso fizer sentido.
+2092	Para um líder, a prioridade é muitas vezes seguir uma lógica simples: observar, escutar e conectar.
+2093	Observar, escutar e conectar
+2094	<i aria-hidden="true">3</i>Conectar
+2095	Também é importante distinguir apoio de invasão. Intervir cedo não significa pressionar. Significa estar disponível e oferecer ajuda sem impor conversa, sem insistir em detalhes e sem retirar autonomia à pessoa.
+2096	Frases úteis, o que privilegiar e o que evitar
+2097	Para ter à mão na conversa
+2098	O que privilegiar
+2099	Evitar
+2100	“Tenho reparado em algumas mudanças e queria perceber como estás.”
+2101	“Não precisas de explicar tudo agora.”
+2102	“Estou aqui para te ouvir, se quiseres falar.”
+2103	“O que estás a sentir faz todo o sentido, tendo em conta o que aconteceu.”
+2104	“Neste momento, vamos focar-nos no que pode ajudar já hoje.”
+2105	“Gostavas que te ajudasse a perceber o que podes fazer a seguir?”
+2106	“Se fizer sentido, posso ajudar-te a aceder a apoio.”
+2107	<b>Privacidade e contenção:</b> abordar a pessoa num local tranquilo, longe da exposição desnecessária.
+2108	<b>Escuta ativa:</b> reformular, clarificar, validar e tolerar silêncio.
+2109	<b>Apoio prático imediato:</b> perceber se a pessoa precisa de uma pausa, de sair do local, de ajustar tarefas, de apoio de alguém de confiança ou de informação sobre recursos disponíveis.
+2110	<b>Encaminhamento adequado:</b> reconhecer quando a situação ultrapassa o papel do líder e facilitar a ligação a apoio adicional.
+2111	<b>Follow-up:</b> voltar a contactar a pessoa para mostrar continuidade e não abandono.
+2112	Frases
+2113	“Tem calma.”
+2114	“Podia ser pior.”
+2115	“Não te sintas assim.”
+2116	“Eu sei exatamente o que estás a sentir.”
+2117	“Já passaste por pior.”
+2118	Atitudes
+2119	Pressionar para detalhes.
+2120	Tentar interpretar ou diagnosticar.
+2121	Dar soluções imediatas sem escutar.
+2122	Julgar, minimizar ou moralizar.
+2123	Fazer promessas falsas.
+2124	Insistir em apoiar quando a pessoa não o deseja.
+2125	Garantir confidencialidade absoluta quando existe risco e pode ser necessário envolver outros recursos.
+2126	Terminaste o módulo “Como abordar um colaborador”
+2127	Parte 4 – B, secções 1 a 4 · páginas 87 a 95 do PDF original
+2128	
+      <a class="dl a" href="downloads/mini-seccao-psp-para-lideres.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Mini-secção PSP para líderes<small>PDF · 2 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/estudos-de-caso-intervencao-do-lider.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Estudos de caso com intervenção do líder<small>PDF · 4 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-4b-como-abordar-um-colaborador.pdf" target="_blank" rel="noopener"><span class="ic"><svg#3/></span><span>Como abordar um colaborador<small>PDF · 9 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+2129	Preparação
+2130	Antes da conversa, o líder deve:
+2131	Clarificar a sua intenção de apoio
+2132	Regular eventuais reações emocionais
+2133	Evitar pressupostos
+2134	Garantir um espaço privado e sem interrupções
+2135	Disponibilizar tempo suficiente
+2136	Observação de factos
+2137	A comunicação deve basear-se em comportamentos observáveis, evitando interpretações.
+2138	“Tenho notado que tens participado menos nas reuniões.”
+2139	“Observei alguns atrasos recentes na entrega de tarefas.”
+2140	Validação
+2141	Validação emocional
+2142	A validação permite estabelecer uma ligação e reduzir a defensividade.
+2143	“Imagino que esta fase possa estar a ser exigente.”
+2144	“É natural que determinadas situações tenham impacto.”
+2145	Não interromper
+2146	Utilizar perguntas abertas
+2147	Reformular para confirmar compreensão
+2148	Permitir pausas e silêncio
+2149	Exploração de necessidades
+2150	O foco deve ser identificar necessidades concretas no contexto de trabalho. Possíveis áreas:
+2151	Ajuste de carga de trabalho
+2152	Clarificação de prioridades
+2153	Flexibilidade organizacional
+2154	Apoio adicional
+2155	O líder deve reconhecer os limites do seu papel. Indicadores para encaminhamento:
+2156	Sofrimento intenso
+2157	Persistência dos sintomas
+2158	Impacto significativo no funcionamento
+2159	Sinais de risco acrescido
+2160	A continuidade é fundamental.
+2161	Agendar novo momento
+2162	Monitorizar evolução
+2163	<div class="card gp" role="tabpanel" id="p-md${i}" aria-labelledby="t-md${i}" tabindex="0"${i ? ' hidden' : ''}>
+    <p class="sub" style="color:var(--red);font-size:0.9063rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase">Passo ${i + 1} de 7</p>
+    <p class="lead">${g[1]}</p><p>${g[2]}</p>
+    ${g[3].length ? `<ul class="dotlist c2">${g[3].map(x => `<li>${x}</li>`).join('')}</ul>` : ''}${g[4].length ? `<ul class="say">${g[4].map(x => `<li>${x}</li>`).join('')}</ul>` : ''}</div>
+2164	Negação
+2165	Manter disponibilidade sem pressionar.
+2166	Abertura emocional
+2167	Escutar e validar.
+2168	Resistência
+2169	Reduzir pressão e focar em factos.
+2170	Sobrecarga emocional
+2171	Pausar, normalizar e ajudar a regular.
+2172	<li class="flip a pop" style="--i:${i + 3}"><button aria-expanded="false" data-front="Resposta: ${c[0]}" data-back="O que fazer: ${c[1]}">
+    <span class="face front" aria-hidden="true"><small>Resposta</small><span>${c[0]}</span><span class="turn">Virar <svg#1/></span></span>
+    <span class="face back" aria-hidden="true"><small class="ok">O que fazer</small><span>${c[1]}</span><span></span></span></button></li>
+2173	${$$('.flip.open', ul).length} de 4 virados
+2174	4.5 Liderar para a segurança psicológica
+2175	Parte 4 · <b>4.5 Liderar para a segurança psicológica</b>
+2176	Liderar para a <span>segurança psicológica</span>
+2177	Recomendações funcionais e relacionais para prevenir riscos psicossociais, dez perguntas de autocheck, o autocuidado do líder e os limites do seu papel.
+2178	Recomendações funcionais
+2179	5 · Recomendações
+2180	Prevenção de riscos psicossociais
+2181	Seis recomendações funcionais
+2182	Organizacionais, operacionais e de desenho do trabalho.
+2183	1 de 6 vistas
+2184	Recomendações relacionais
+2185	Promoção de segurança psicológica
+2186	Seis recomendações relacionais
+2187	Emocionais, sociais, comunicação e clima de equipa.
+2188	O que a evidência sugere
+2189	6 · Evidência
+2190	A segurança psicológica desenvolve-se na experiência diária com a liderança
+2191	Não depende apenas de políticas ou procedimentos formais. Os estudos qualitativos apontam consistentemente para diferenças claras entre contextos psicologicamente seguros e inseguros.
+2192	Contextos com maior segurança psicológica
+2193	Comunicação aberta e acessível
+2194	Relações de confiança com a liderança
+2195	Espaço para colocar dúvidas e pedir ajuda
+2196	Líderes que escutam e valorizam contributos
+2197	Abertura à discussão de erros e dificuldades
+2198	Participação ativa na melhoria contínua
+2199	As pessoas sentem-se mais confortáveis para falar, contribuir e assumir riscos interpessoais sem receio de humilhação ou punição.

@@ -1,0 +1,80 @@
+3080	Outras linhas de apoio gratuito (Portugal)
+3081	<b>APAV · Apoio à Vítima</b><small>Dias úteis das 09h00 às 21h00</small>
+3082	<b>Linha de Informação às Vítimas de Violência Doméstica</b><small>24 horas por dia / 365 dias por ano. Se não podes ou não queres telefonar, envia uma mensagem para a Linha SMS 3060, também ela gratuita e confidencial.</small>
+3083	<b>Assédio no trabalho (moral ou sexual) · CITE</b><small>Comissão para a Igualdade no Trabalho e no Emprego · (de 2.ª a 3.ª): 14.30h – 16.00h</small>
+3084	<b>Assédio no trabalho (moral ou sexual) · ACT</b><small>Autoridade para as Condições do Trabalho · Dias úteis: das 09h30 às 12h30</small>
+3085	<b>Linha Internet Segura</b><small>Dias úteis, das 08h00 às 23h00</small>
+3086	<b>Linha de Apoio LGBTI+ (ILGA)</b><small>Quintas e sextas das 20h00 às 23h00</small>
+3087	Uma palavra final
+3088	Cuidar da saúde mental no trabalho <em>não exige respostas perfeitas</em> nem formação clínica.
+3089	Exige, acima de tudo, disponibilidade para observar, escutar e ligar as pessoas ao apoio certo. Os pequenos gestos – uma pergunta atenta, um espaço seguro para falar, a coragem de não ignorar o sofrimento de quem está ao nosso lado – fazem toda a diferença.
+3090	Os PSP consistem num apoio humano, próximo e prático a quem está em dificuldade – de uma forma que respeita sempre a sua dignidade, a sua cultura e as suas capacidades. Não substituem acompanhamento clínico, mas são muitas vezes o primeiro passo que faz a diferença.
+3091	Guarda este material como um recurso a que podes voltar sempre que precisares. E lembra-te de que <b style="color:#fff">cuidar dos outros começa por cuidares também de ti.</b>
+3092	Obrigada por fazeres parte da construção de um ambiente de trabalho mais atento, seguro e saudável para todos.
+3093	Parte 6 concluída
+3094	Terminaste o módulo “Recursos”
+3095	Parte 6, secções 2 e 3 · páginas 137 a 145 do PDF original
+3096	
+      <a class="dl a" href="downloads/linhas-de-apoio.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Linhas de apoio: folha de contactos<small>PDF · 2 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-6-recursos.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Recursos internos e externos<small>PDF · 9 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-completo.pdf" target="_blank" rel="noopener"><span class="ic"><svg#3/></span><span>Toolkit completo<small>PDF · 145 páginas · 49 MB</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+3097	<b>Início</b>
+3098	Boas-vindas
+3099	Toolkit · Guia prático
+3100	Primeiros Socorros Psicológicos <span>no Trabalho</span>
+3101	Reconhecer sinais de sofrimento psicológico, em ti, num colega ou na equipa, e responder de forma humana, segura e estruturada.
+3102	<span><svg#1/>6 partes</span><span><svg#2/>15 vídeos</span>
+3103	6 partes
+3104	15 vídeos
+3105	As 6 partes do curso
+3106	O curso
+3107	Seis partes, para consultar sempre que precisares
+3108	Não precisas de ver tudo de seguida: usa o Índice e vai diretamente à situação de que precisas. Dentro de cada módulo, os ecrãs seguem-se por ordem.
+3109	<a class="partc" href="1-1-como-utilizar.html"><span class="pn">Parte 1</span><h3>Introdução: como utilizar este Toolkit</h3><p>O que é, para quem é e quando utilizar</p></a>
+3110	Introdução: como utilizar este Toolkit
+3111	O que é, para quem é e quando utilizar
+3112	<a class="partc" href="2-1-contextualizacao.html"><span class="pn">Parte 2</span><h3>Primeiros Socorros Psicológicos no Local de Trabalho</h3><p>Contextualização, riscos psicossociais e PSP</p></a>
+3113	Primeiros Socorros Psicológicos no Local de Trabalho
+3114	Contextualização, riscos psicossociais e PSP
+3115	<a class="partc" href="3-1-sinais-de-alerta.html"><span class="pn">Parte 3</span><h3>Se eu sou um Colaborador</h3><p>Estou a passar por um momento difícil · Um colega está em sofrimento</p></a>
+3116	Se eu sou um Colaborador
+3117	Estou a passar por um momento difícil · Um colega está em sofrimento
+3118	<a class="partc" href="4-1-o-papel-do-lider.html"><span class="pn">Parte 4</span><h3>Se eu sou um Líder</h3><p>Identificar sinais na equipa · Como abordar um colaborador</p></a>
+3119	Se eu sou um Líder
+3120	Identificar sinais na equipa · Como abordar um colaborador
+3121	<a class="partc" href="5-0-situacoes-sensiveis.html"><span class="pn">Parte 5</span><h3>Situações Sensíveis</h3><p>Burnout, luto, pânico, calamidade, agressividade, crise, conflito, clientes e suicídio</p></a>
+3122	Situações Sensíveis
+3123	Burnout, luto, pânico, calamidade, agressividade, crise, conflito, clientes e suicídio
+3124	<a class="partc" href="6-1-quando-encaminhar.html"><span class="pn">Parte 6</span><h3>Encaminhamento e Recursos</h3><p>Quando encaminhar e contactos de apoio</p></a>
+3125	Encaminhamento e Recursos
+3126	Quando encaminhar e contactos de apoio
+3127	{{TITLE}} · Toolkit PSP
+3128	Saltar para o conteúdo
+3129	MC Sonae
+3130	Toolkit PSP · {{CRUMB}}
+3131	Legendas
+3132	<span class="cc" aria-hidden="true">CC</span>
+3133	Sem som
+3134	Som
+3135	Progresso no módulo
+3136	
+{{SLIDES}}
+
+3137	Navegação entre ecrãs
+3138	Para avançar, explora todos os elementos deste ecrã.
+3139	Anterior
+3140	Seguinte
+3141	Fechar índice
+3142	0 módulos concluídos
+3143	Módulos do curso
+3144	Queres sair do curso?
+3145	O teu progresso fica guardado. Quando voltares, continuas no ecrã onde ficaste.
+3146	Continuar no curso
+3147	Precisas de apoio agora?
+3148	<b>Emergência</b><small>Perigo imediato para a vida ou saúde</small>
+3149	<b>Linha Somos Sonae</b><small>24h/dia · gratuita e confidencial</small>
+3150	<b>SNS 24 · Aconselhamento Psicológico</b><small>24h/dia · opção 4</small>
+3151	<b>Linha Nacional de Prevenção do Suicídio</b><small>24h/dia</small>
+3152	Todos os recursos (Parte 6)
+3153	Fechar
