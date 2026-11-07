@@ -476,9 +476,14 @@ document.querySelectorAll('a[href]').forEach(a => {
 });
 const media = () => $$('video,audio');
 let muted = !!gstore.get('muted'), cc = gstore.get('cc') !== false;
+/* Captions are drawn by the course (.capov over the picture, sized to the video's width), not by the browser: the native ::cue size differs a lot
+   between engines (on iPhones, where every browser is WebKit, it took half the picture). The track stays "hidden" and only feeds the cues;
+   in full screen the overlay is not on show, so there the browser draws its own captions ("showing"). */
+const isFull = v => document.fullscreenElement === v || document.webkitFullscreenElement === v || !!v.webkitDisplayingFullscreen;
 const applyMedia = () => media().forEach(m => {
   m.muted = muted;
-  [...(m.textTracks || [])].forEach(t => { if (t.kind === 'captions' || t.kind === 'subtitles') t.mode = cc ? 'showing' : 'hidden'; });
+  [...(m.textTracks || [])].forEach(t => { if (t.kind === 'captions' || t.kind === 'subtitles') t.mode = cc && isFull(m) ? 'showing' : 'hidden'; });
+  const o = m.parentElement && m.parentElement.querySelector(':scope > .capov'); if (o) o.hidden = !cc;
 });
 /* captions come from captions.js (window.CAPS), not from <track src>: browsers refuse a track file when the course is opened from disk (file://) */
 const vttSecs = s => { const p = s.split(':').map(parseFloat); return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1]; };
@@ -494,24 +499,31 @@ $$('video').forEach(v => {
   });
   t.remove();
 });
-/* with the native controls visible the browser lifts the captions above the bar; once the controls hide they drop to the very edge of the picture,
-   so lift them one line then. Controls show while paused or while the pointer moves over the video (they hide ~3 s after the last move). */
-const capVideos = $$('video').map(v => ({ v, last: 0, lifted: false }));
-const capLift = s => {
-  const lift = !(s.v.paused || s.v.ended || Date.now() - s.last < 3300);   /* the controls hide ~3 s after the last pointer move OR after the pointer leaves */
-  if (lift === s.lifted) return;
-  s.lifted = lift;
-  [...s.v.textTracks].forEach(t => {
-    /* the line number counts to the cue's FIRST line, so a cue of n lines needs -(n + 1) to end one line above the edge */
-    [...(t.cues || [])].forEach(c => { c.snapToLines = true; c.line = lift ? -(c.text.split('\n').length + 1) : 'auto'; });
-    if (t.mode === 'showing') { t.mode = 'hidden'; t.mode = 'showing'; }   /* a cue already on screen is not laid out again by the change alone */
-  });
-};
-capVideos.forEach(s => {
-  ['mousemove', 'mouseenter', 'mouseleave', 'touchstart', 'keydown'].forEach(ev => s.v.addEventListener(ev, () => { s.last = Date.now(); capLift(s); }, { passive: true }));
-  ['play', 'pause', 'ended', 'seeked', 'loadedmetadata'].forEach(ev => s.v.addEventListener(ev, () => capLift(s)));
+/* the overlay: one box per line, raised above the native control bar while the controls show (paused, or the pointer/finger moved in the last ~3 s) */
+const capVideos = $$('video').filter(v => v.textTracks && v.textTracks.length).map(v => {
+  const o = document.createElement('div'); o.className = 'capov'; o.setAttribute('aria-hidden', 'true'); o.hidden = !cc;
+  v.after(o);
+  const s = { v, o, last: 0, text: null };
+  const paint = () => {
+    const t = [...v.textTracks].find(x => x.kind === 'captions' || x.kind === 'subtitles'), cues = t && t.activeCues ? [...t.activeCues] : [];
+    const txt = cues.map(c => c.text).join('\n');
+    if (txt === s.text) return; s.text = txt;
+    o.innerHTML = ''; txt.split('\n').filter(Boolean).forEach(l => { const sp = document.createElement('span'); sp.textContent = l; o.append(sp); });
+  };
+  s.paint = paint;
+  [...v.textTracks].forEach(t => t.addEventListener('cuechange', paint));
+  return s;
 });
-setInterval(() => capVideos.forEach(s => { if (!s.v.paused) capLift(s); }), 500);
+const capCtl = s => { const on = s.v.paused || s.v.ended || Date.now() - s.last < 3300; s.o.classList.toggle('ctl', on); };
+capVideos.forEach(s => {
+  ['mousemove', 'mouseenter', 'mouseleave', 'touchstart', 'keydown'].forEach(ev => s.v.addEventListener(ev, () => { s.last = Date.now(); capCtl(s); }, { passive: true }));
+  ['play', 'pause', 'ended', 'seeked', 'loadedmetadata', 'timeupdate'].forEach(ev => s.v.addEventListener(ev, () => { capCtl(s); s.paint(); }));
+  /* full screen: the browser draws the captions (iPhone: webkitbegin/endfullscreen on the video; elsewhere fullscreenchange) */
+  ['webkitbeginfullscreen', 'webkitendfullscreen'].forEach(ev => s.v.addEventListener(ev, () => setTimeout(applyMedia, 50)));
+  capCtl(s);
+});
+['fullscreenchange', 'webkitfullscreenchange'].forEach(ev => document.addEventListener(ev, applyMedia));
+setInterval(() => capVideos.forEach(s => { if (!s.v.paused) capCtl(s); }), 500);
 const muteBtn = $('#muteBtn'), ccBtn = $('#ccBtn');
 const syncBtns = () => {
   muteBtn.setAttribute('aria-pressed', muted); muteBtn.dataset.tip = muted ? L('Ativar som', 'Turn sound on') : L('Desativar som', 'Turn sound off');
