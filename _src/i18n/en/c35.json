@@ -1,4 +1,0 @@
-{
- "3238": "<li class=\"a\" style=\"--i:${i + 5}\"><button class=\"topic\" data-to=\"${t[1]}\"><em>${i + 1}</em>${t[0]}</button></li>",
- "3239": "Resources"
-}
