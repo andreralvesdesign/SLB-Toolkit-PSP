@@ -554,8 +554,8 @@ function closeCourse() {
   media().forEach(m => m.pause());
   /* LMS: SCORM Terminate goes here */
   try { if (window.API && API.LMSFinish) API.LMSFinish(''); else if (window.API_1484_11 && API_1484_11.Terminate) API_1484_11.Terminate(''); } catch (e) {}
-  window.close();
-  setTimeout(() => toast(L('O teu progresso está guardado. Já podes fechar este separador.', 'Your progress is saved. You can now close this tab.')), 300);
+  /* portfolio version: leaving the course (Sair, or Terminar at the end) opens the project page of the portfolio, in the same tab */
+  location.href = 'https://www.andrealvesdesign.com/sonae-toolkit-psp';
 }
 const dlg = $('#help');
 $('#helpBtn').onclick = () => dlg.showModal();
