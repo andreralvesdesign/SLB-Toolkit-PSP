@@ -5,10 +5,10 @@ Curso e-learning de **Primeiros Socorros Psicológicos no Trabalho**, construíd
 > **Versão de demonstração para portfólio.** Os documentos para download não estão incluídos: os botões continuam visíveis, mas mostram "Ação não disponível nesta versão de demonstração".
 
 ## Abrir
-Abrir `index.html`, que leva ao ecrã de idioma. Funciona a partir do disco (`file://`) ou de qualquer servidor estático. Publicado em GitHub Pages com o domínio `sonaetoolkit.andrealvesdesign.com` (ficheiro `CNAME`).
+Abrir `index.html`, que leva ao ecrã de idioma. Funciona a partir do disco (`file://`) ou de qualquer servidor estático. Publicado em GitHub Pages com domínio próprio (ficheiro `CNAME`).
 
 ## Endereços
-Cada página tem um nome curto, em português na raiz e em inglês em `en/`: `/idioma`, `/inicio`, `/contextualizacao` … e `/en/language`, `/en/start`, `/en/context` … A lista está em `_src/pages.json`. Online, o `.html` não aparece no endereço (o GitHub Pages serve `/contextualizacao` a partir de `contextualizacao.html`); aberto do disco, os links mantêm o `.html`. O separador do browser diz sempre "Sonae Toolkit PSP" (inglês: "Sonae PFA Toolkit").
+Cada página tem um nome curto, em português na raiz e em inglês em `en/`: `/idioma`, `/inicio`, `/contextualizacao` … e `/en/language`, `/en/start`, `/en/context` … A lista está em `_src/pages.json`. Online, o `.html` não aparece no endereço (o GitHub Pages serve `/contextualizacao` a partir de `contextualizacao.html`); aberto do disco, os links mantêm o `.html`. O separador do browser mostra sempre o nome do curso. As páginas levam `noindex`, para não aparecerem nos motores de busca.
 
 ## Estrutura
 ```

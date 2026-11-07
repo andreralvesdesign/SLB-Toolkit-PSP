@@ -24,6 +24,7 @@ TITLE = ('Sonae Toolkit PSP', 'Sonae PFA Toolkit')
 LANG_SEC = re.compile(r'\s*(?:<!--[^>]*-->\s*)?<section class="slide s-lang\b.*?</section>', re.S)
 REDIRECT = '''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><title>{title}</title>
+<meta name="robots" content="noindex, nofollow">
 <meta http-equiv="refresh" content="0; url={page}.html">
 <link rel="icon" type="image/png" sizes="32x32" href="{pre}assets/img/favicon-32.png">
 <script>location.replace(/^https?:$/.test(location.protocol) ? '{page}' : '{page}.html');</script>
