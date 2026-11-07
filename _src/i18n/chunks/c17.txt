@@ -1,0 +1,110 @@
+1870	A presença física não significa bem-estar ou capacidade funcional
+1871	Persistência dos sinais ao longo do tempo
+1872	Duas semanas consistentes de alteração
+1873	Há quanto tempo isto acontece?
+1874	Sinais persistentes aumentam a probabilidade de risco psicossocial
+1875	Frequência e continuidade
+1876	Problema contínuo vs. episódio isolado
+1877	Houve melhoria ou agravamento?
+1878	Um dia difícil não exige necessariamente intervenção
+1879	Tendência de agravamento ou manutenção
+1880	Funcionamento progressivamente pior
+1881	Coincide com alguma mudança ou período de maior pressão?
+1882	A evolução temporal é tão importante quanto o sinal em si
+1883	Potencial de agravamento rápido
+1884	Exaustão evidente ou deterioração acelerada
+1885	Existe risco para a pessoa?
+1886	Nesta dimensão, a intervenção deve ser mais rápida e direta
+1887	Impacto relevante na equipa ou operação
+1888	Erros críticos, conflitos intensos ou quebra operacional
+1889	Existe risco para a equipa ou operação?
+1890	Não esperar por confirmação absoluta quando há risco significativo
+1891	Quebra importante de funcionamento
+1892	Isolamento extremo ou perda marcada de capacidade
+1893	Isto pode escalar rapidamente sem intervenção?
+1894	A prioridade passa a ser estabilização e segurança
+1895	Pergunta para o líder
+1896	Leitura prática
+1897	${seen.size} de 5 vistas
+1898	Existe uma alteração clara face ao funcionamento habitual
+1899	A pessoa está mais isolada, silenciosa ou menos participativa
+1900	Houve mudança na disponibilidade, envolvimento ou iniciativa
+1901	Outros elementos da equipa notaram diferenças no comportamento
+1902	Existe impacto no desempenho ou qualidade do trabalho
+1903	Aumentaram erros, atrasos ou dificuldades de organização
+1904	Há impacto na dinâmica da equipa (conflitos, retraimento, menor colaboração)
+1905	O funcionamento parece mais instável ou inconsistente
+1906	Existem sinais visíveis de ansiedade, irritabilidade ou exaustão
+1907	A pessoa parece estar a funcionar “em esforço” constante
+1908	Há sinais de baixa energia, dificuldade de concentração ou desgaste
+1909	O presenteísmo parece aumentado (“está presente, mas não funcional”)
+1910	Os sinais persistem há mais de 1–2 semanas
+1911	Existe agravamento ou ausência de melhoria
+1912	As alterações tornaram-se mais frequentes ou intensas
+1913	O padrão mantém-se mesmo após redução de pressão pontual
+1914	Existe deterioração rápida do funcionamento
+1915	Há impacto significativo na equipa ou operação
+1916	Existem conflitos intensos, erros críticos ou quebra importante de funcionamento
+1917	A situação parece difícil de estabilizar sem apoio adicional
+1918	Situação leve
+1919	Poucos indicadores isolados
+1920	Alterações pontuais ou pouco consistentes
+1921	Continuar a observar
+1922	Alterações ligeiras ou recentes
+1923	Pouco impacto no funcionamento
+1924	Sem sinais claros de agravamento
+1925	Mudanças ainda pouco consistentes
+1926	Aumentar observação e abrir espaço relacional sem pressionar.
+1927	Observar de forma mais próxima
+1928	Fazer check-in informal
+1929	Reforçar disponibilidade
+1930	Monitorizar evolução nas semanas seguintes
+1931	<b>Exemplo de abordagem:</b> <i>“Tenho notado que tens estado mais silencioso nos últimos dias e queria perceber como estás.”</i>
+1932	Situação moderada
+1933	Vários indicadores em diferentes dimensões
+1934	Possível risco psicossocial emergente
+1935	Monitorizar ativamente e preparar abordagem
+1936	Sinais persistentes ao longo do tempo
+1937	Impacto visível no funcionamento ou relações
+1938	Indícios de sobrecarga, desgaste ou retraimento
+1939	Várias dimensões presentes simultaneamente
+1940	Compreender melhor a situação e prevenir agravamento.
+1941	Preparar conversa estruturada
+1942	Escolher contexto adequado e privado
+1943	Basear-se em observações concretas
+1944	Explorar necessidades e possíveis ajustes
+1945	Definir follow-up
+1946	<b>Foco da intervenção:</b> nesta fase, o mais importante é não normalizar os sinais nem adiar a abordagem.
+1947	Situação elevada
+1948	Múltiplos indicadores persistentes
+1949	Elevada probabilidade de sofrimento e/ou agravamento
+1950	Intervir de forma estruturada
+1951	Sofrimento ou impacto significativo
+1952	Funcionamento claramente comprometido
+1953	Tendência de agravamento
+1954	Dificuldade em recuperar sem apoio adicional
+1955	Reduzir risco, estabilizar funcionamento e mobilizar apoio adequado.
+1956	Intervenção direta e clara
+1957	Definir medidas práticas de apoio
+1958	Ajustar carga, prioridades ou condições de trabalho
+1959	Envolver RH, saúde ocupacional ou apoio especializado
+1960	Garantir acompanhamento próximo
+1961	<b>Foco da intervenção:</b> nesta fase, a inação tende a aumentar rapidamente o risco psicossocial e operacional.
+1962	Situação crítica
+1963	Indicadores de risco elevado
+1964	Potencial de agravamento significativo
+1965	Intervenção imediata
+1966	Risco elevado para a pessoa, equipa ou operação
+1967	Deterioração rápida do funcionamento
+1968	Exaustão intensa, desregulação emocional ou falha crítica
+1969	Situação difícil de conter apenas com suporte informal
+1970	Garantir segurança, estabilização imediata e ativação de recursos adequados.
+1971	Não adiar intervenção
+1972	Priorizar segurança e contenção
+1973	Ativar recursos de apoio imediatamente
+1974	Reduzir exposição a fatores de risco agudos
+1975	Garantir acompanhamento contínuo e coordenação adequada
+1976	<b>Foco da intervenção:</b> nesta fase, o líder não deve tentar gerir a situação sozinho.
+1977	Caso se envolva o Médico do Trabalho como parte da solução, definir uma janela temporal expectável para observação; se esta não puder ser assegurada, ativar uma alternativa (Somos Sonae 800 100 025 – 24h / apoio psicológico / recurso externo).
+1978	${i + 1}. ${DI[i][0]}, ${n} de 4 assinalados
+1979	<p>Assinala os indicadores presentes. <b>Vê as cinco dimensões${seen.size < 5 ? ` (${seen.size} de 5 vistas)` : ''}.</b></p>

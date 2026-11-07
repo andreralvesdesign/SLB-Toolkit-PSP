@@ -1,0 +1,110 @@
+880	A ligação a outras pessoas é um dos principais reguladores do sistema emocional.
+881	Cultivar relações de confiança e proximidade
+882	Partilhar experiências ou preocupações com pessoas seguras
+883	Permitir-se receber apoio, mesmo que de forma pontual
+884	Estrutura e previsibilidade
+885	Em contextos de stress, a previsibilidade ajuda a reduzir a sensação de desorganização interna.
+886	Manter rotinas e horários consistentes
+887	Preservar atividades do quotidiano, mesmo com menor energia
+888	Evitar alterações abruptas que aumentem a instabilidade
+889	Ilustração: pessoas a assinalar tarefas numa lista.
+890	Gestão de exigência e limites
+891	A forma como geres as tuas exigências internas e externas influencia diretamente o teu nível de sobrecarga.
+892	Ajustar expectativas face ao momento atual
+893	Priorizar tarefas essenciais
+894	Reconhecer limites e evitar manter um ritmo insustentável
+895	Ilustração: pessoa à secretária, rodeada de sinais de visto, a representar uma rotina organizada.
+896	Começa nas bases
+897	A autorregulação não começa nas técnicas. <em>Começa nas bases.</em>
+898	Quando o corpo, as relações e a estrutura estão comprometidos, qualquer estratégia terá menos efeito.
+899	As bases
+900	Corpo
+901	Relações
+902	Estrutura
+903	O que fazer no momento
+904	A · Estratégias imediatas
+905	Estratégias imediatas de autorregulação
+906	Em situações de stress intenso, ansiedade ou sobrecarga, o foco não é resolver imediatamente o problema, mas reduzir a ativação e recuperar clareza suficiente para responder com maior controlo.
+907	Não precisas de aplicar todas as estratégias. Muitas vezes, uma única técnica praticada durante alguns minutos já ajuda a reduzir a intensidade do momento. Se não resultar à primeira, podes experimentar outra ou repetir.
+908	Três grupos de estratégias · clica num para ires diretamente
+909	<em>A</em><b>Parar e reduzir a ativação</b><span>Micro-pausa, respiração, grounding, STOP</span>
+910	<em>B</em><b>Recentrar e organizar</b><span>Foco atencional, mindfulness, externalização</span>
+911	<em>C</em><b>Regular e retomar ligação</b><span>Ativação física, toque, partilha</span>
+912	Ilustração: pessoas num caminho, uma delas com binóculos, a representar escolher o rumo.
+913	Pausa consciente
+914	a · Parar e reduzir a ativação
+915	Pausa consciente (micro-pausa)
+916	<span class="b">1</span>Interrompe o que estás a fazer por 1–3 minutos.
+917	<span class="b">2</span>Se possível, afasta-te fisicamente da situação (ex.: sair da secretária, ir à casa de banho, olhar pela janela).
+918	O objetivo
+919	Não é pensar na situação, mas criar um espaço entre ti e o estímulo.
+920	Vídeo: respiração controlada
+921	a · Vídeo
+922	Vídeo: Respiração controlada
+923	Respiração controlada
+924	Antes de começares, vê o vídeo que mostra o passo a passo do exercício.
+925	Senta-te com os pés apoiados no chão ou adota uma posição confortável.
+926	Concentra-te na expiração – quanto mais longa, maior o efeito calmante.
+927	Se ajudar, vai acompanhando a sequência – “inspira, sustém, expira” – mentalmente ou em voz baixa.
+928	Exercício: respiração controlada
+929	a · Exercício
+930	a · Exercício guiado
+931	Respira com o círculo
+932	Clica em “Começar” e repete durante 1–2 minutos. Podes parar quando quiseres.
+933	Inspira pelo nariz<em>4 segundos</em>
+934	Sustém a respiração<em>2–3 segundos</em>
+935	Expira lentamente pela boca<em>5–6 segundos</em>
+936	Começar
+937	Vídeo: grounding 5-4-3-2-1
+938	Vídeo: Grounding 5-4-3-2-1
+939	Grounding 5-4-3-2-1
+940	O objetivo é trazer a atenção para o presente e sair do ciclo de pensamentos.
+941	Exercício: grounding 5-4-3-2-1
+942	Olha à tua volta e identifica
+943	Faz o exercício agora e clica em cada passo à medida que o concluis.
+944	0 de 5 feitos
+945	Se não conseguires identificar algum sentido (ex.: cheiro), podes ignorar.
+946	Vídeo: estratégia STOP
+947	Vídeo: Estratégia STOP
+948	Estratégia STOP
+949	Usa esta sequência mentalmente ou em voz baixa. Antes de começares, vê o vídeo.
+950	<b>Para <span style="display:inline">(Stop)</span></b><span>Para o que estás a fazer.</span>
+951	<b>Respira <span style="display:inline">(Take a breath)</span></b><span>Faz 1–2 ciclos de respiração lenta.</span>
+952	<b>Observa</b><span>Repara no que estás a sentir (emoções, pensamentos, corpo).</span>
+953	<b>Muda a perspetiva <span style="display:inline">(Perspective)</span></b><span>Pergunta-te “o que está realmente a acontecer?” ou “há outra forma de ver isto?”</span>
+954	<b>Procede/Atua <span style="display:inline">(Proceed)</span></b><span>Escolhe conscientemente o próximo passo (mesmo que pequeno).</span>
+955	Recentrar e organizar
+956	b · Recentrar e organizar
+957	Clica em cada uma das três estratégias.
+958	0 de 3 vistos
+959	Estratégias para recentrar e organizar
+960	<img src="assets/img/ic-75.png" alt="">Foco atencional simples<span class="tick" aria-hidden="true"></span>
+961	<img src="assets/img/ic-34.png" alt="">Mindfulness: observação sem julgamento<span class="tick" aria-hidden="true"></span>
+962	<img src="assets/img/ic-29.png" alt="">Externalização de preocupações<span class="tick" aria-hidden="true"></span>
+963	Foco atencional simples
+964	Direciona a atenção para um elemento neutro (ex.: um objeto) e descreve mentalmente todos os seus detalhes durante 30–60 segundos.
+965	Ilustração: uma lupa a observar uma pessoa sentada à secretária.
+966	Mindfulness: observação sem julgamento
+967	Observa e nomeia o que estás a sentir (“estou ansioso/a”, “estou tenso/a”, “isto é frustração”) sem tentar mudar. O objetivo é criar distância da experiência.
+968	<b>Se tiveres curiosidade:</b> existem várias aplicações gratuitas de <i lang="en">mindfulness</i> e meditação disponíveis, basta procurares na loja de aplicações do telemóvel ou no YouTube. Começa com apenas 5 minutos por dia – a constância importa mais do que a duração.
+969	Ilustração: pessoa a observar um ecrã com uma lupa, a representar foco e atenção.
+970	Externalização de preocupações
+971	Escreve – ou organiza mentalmente – o que te preocupa, o que está sob o teu controlo e o que não está. Isto ajuda a reduzir a sobrecarga.
+972	Ilustração: pessoas a preencher uma lista.
+973	Regular e retomar ligação
+974	c · Regular e retomar ligação
+975	Estratégias para regular e retomar ligação
+976	<img src="assets/img/ic-81.png" alt="">Ativação física leve<span class="tick" aria-hidden="true"></span>
+977	<img src="assets/img/ic-18.png" alt="">Autorregulação através do toque<span class="tick" aria-hidden="true"></span>
+978	<img src="assets/img/ic-16.png" alt="">Partilha e normalização<span class="tick" aria-hidden="true"></span>
+979	Ativação física leve
+980	Movimenta-te durante 2–5 minutos (caminhar, alongar, mudar de posição) para libertar tensão física.
+981	Se preferires algo mais estruturado, podes experimentar contrair e relaxar grupos musculares (ex.: mãos, braços, pernas), focando-te na diferença entre tensão e relaxamento.
+982	Ilustração: pessoa com uma lâmpada acesa sobre a cabeça.
+983	Autorregulação através do toque
+984	Quando estiveres em stress ou ansiedade, podes utilizar o contacto físico contigo próprio/a para ajudar o corpo a acalmar. Experimenta uma das opções:
+985	<b>Coloca uma mão no peito e outra na barriga.</b> Sente o movimento da respiração durante alguns ciclos, sem tentar alterar.
+986	<b>Segura as tuas próprias mãos.</b> Pressiona ligeiramente, como se estivesses a confortar outra pessoa.
+987	<b>Cruza os braços e segura nos ombros ou braços.</b> Aplica uma pressão suave e mantém durante alguns segundos.
+988	<b>Pressiona os pés contra o chão.</b> Foca-te na sensação de contacto e estabilidade.
+989	Permanece nesta posição durante cerca de 30 segundos a 1 minuto. No ecrã seguinte, o vídeo mostra as quatro opções.

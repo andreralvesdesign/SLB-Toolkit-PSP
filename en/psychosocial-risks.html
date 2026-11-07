@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2 - Sonae PFA Toolkit</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/css/course.css">
+</head>
+<body data-chapter="2.2">
+<a class="skip" href="#stage">Skip to content</a>
+<div class="app">
+
+<header class="hdr">
+  <button class="pill" id="menuBtn" aria-controls="drawer" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span class="t">Contents</span>
+  </button>
+  <img class="logo" src="../assets/img/logo-mc.png" alt="MC Sonae">
+  <span class="sep" aria-hidden="true"></span>
+  <p class="crumb">PFA Toolkit <span class="csep">·</span> Module 2 <span class="csep">·</span> <b>2.2 Psychosocial Risks</b></p>
+  <div class="tools">
+  <button class="ibtn" id="ccBtn" aria-pressed="false" aria-label="Captions" data-tip="Captions"><span class="cc" aria-hidden="true">CC</span></button>
+  <button class="ibtn" id="muteBtn" aria-pressed="false" aria-label="No sound" data-tip="Sound">
+    <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+    <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg></button>
+  <span class="vsep" aria-hidden="true"></span>
+  <button class="pill pill--red" id="helpBtn" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg><span class="t">Support</span>
+  </button>
+  <button class="pill" id="exitBtn" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5M21 12H9"/></svg><span class="t">Exit</span>
+  </button>
+  </div>
+  <div class="bar" role="progressbar" aria-label="Progress in this part" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="barFill"></i></div>
+</header>
+
+<main class="stage" id="stage" tabindex="-1">
+<!-- 1 · CAPA -->
+<section class="slide s-cover mid circ circ-b circ-red-b" data-id="capa" data-title="Start" data-k="Cover" aria-roledescription="slide">
+ <div class="in"><div class="cover">
+  <div>
+    <p class="eyebrow a">Module 2 · Psychological First Aid in the Workplace</p>
+    <h1 class="a" style="margin-top:1.125rem">Psychosocial <span>Risks</span></h1>
+    <p class="lede a">Identify, observe and act on the aspects of work that can affect physical, emotional and social health.</p>
+    <div class="start a">
+      <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>9 screens</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>2 videos</span></div>
+    </div>
+    <div class="brandrow a"><img src="../assets/img/eea.png" alt="I choose to learn. We build the future together."><img src="../assets/img/pf.png" alt="#PrecisamosFalar"></div>
+  </div>
+  <div class="hero-art a fromR" aria-hidden="true"><img class="photo" src="../assets/img/foto-capa-2-2.webp" alt="" width="1100" height="880"></div>
+ </div></div>
+</section>
+
+<!-- 2 · INTRODUÇÃO -->
+<section class="slide" data-id="intro" data-title="What they are" data-k="2 · Introduction" aria-roledescription="slide">
+ <div class="in"><div class="split" style="align-items:start">
+  <div>
+    <div class="head">
+      <p class="eyebrow a">Before you start</p>
+      <h2 class="a">Risks that are not always visible</h2>
+      <p class="lede a">Psychosocial risks are aspects of work that can negatively affect physical, emotional and social health.</p>
+      <p class="lede a" style="font-size:1.125rem">They can be present in workload, leadership, relationships, organisational culture or the balance between professional and personal life. Although they are not always visible, their effects build up and can compromise wellbeing, performance and staying in work.</p>
+    </div>
+    <p class="hint a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Three steps · click on one to go straight to it</p>
+    <div class="path a">
+      <button data-goto="identificar"><em>2.1</em><b>Identify</b><span>The six types of risk</span></button>
+      <button data-goto="observar"><em>2.2</em><b>Observe</b><span>Checklist: what to observe</span></button>
+      <button data-goto="agir"><em>2.3</em><b>Act</b><span>What to do at each level</span></button>
+    </div>
+  </div>
+  <figure class="art a pop"><img src="../assets/img/av-30.webp" alt="Illustration: a person at a computer, surrounded by question marks and arrows, with a light bulb beside them."></figure>
+ </div></div>
+</section>
+
+<!-- 3 · VÍDEO 21 -->
+<section class="slide s-white mid" data-id="v21" data-title="Video: psychosocial risks" data-k="2 · Video" aria-roledescription="slide">
+ <div class="in"><div class="vid">
+  <div class="a">
+    <div class="player"><video controls preload="metadata" playsinline poster="../assets/video/video-21-poster.jpg" aria-label="Video: Psychosocial risks">
+      <source src="../assets/video/en/video-21.mp4" type="video/mp4">
+      <track kind="captions" srclang="en-GB" label="English" src="../assets/video/en/video-21.vtt" default>
+    </video></div>
+
+  </div>
+  <div>
+    <div class="head">
+      <p class="eyebrow a">Video</p>
+      <h2 class="a">Psychosocial risks</h2>
+      <p class="lede a">What they are, the six types of risk and why they must be recognised, assessed and managed like any other occupational risk.</p>
+    </div>
+  </div>
+ </div></div>
+</section>
+
+<!-- 4 · IDENTIFICAR -->
+<section class="slide" data-id="identificar" data-title="Identify: types of risk" data-k="2.1" aria-roledescription="slide">
+ <div class="in">
+  <div class="head" style="margin-bottom:1rem">
+    <p class="eyebrow a">2.1 · Identify</p>
+    <h2 class="a">Six types of psychosocial risk</h2>
+    <p class="hint a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/></svg>Click on each type to see what it includes and the warning signs. <span data-count>0 of 6 seen</span></p>
+  </div>
+  <div class="explore explore--wide a">
+    <div class="vtabs vtabs--compact" role="tablist" aria-label="Types of psychosocial risk" aria-orientation="vertical" id="riskTabs"></div>
+    <div id="riskPanels"></div>
+  </div>
+ </div>
+</section>
+
+<!-- 5 · OBSERVAR -->
+<section class="slide circ circ-b circ-red-a" data-id="observar" data-title="Observe: checklist" data-k="2.2" aria-roledescription="slide">
+ <div class="in">
+  <div class="head" style="margin-bottom:0.75rem">
+    <p class="eyebrow a">2.2 · Observe</p>
+    <h2 class="a">Checklist: what to observe in the team</h2>
+    <p class="lede a" style="font-size:1.125rem">It does not replace a formal assessment, but it helps to identify early signs of psychosocial risk.</p>
+  </div>
+  <div class="a" id="chk">
+    <div class="chk-top">
+      <div class="seg" role="group" aria-label="How to use the checklist"><span class="glide" aria-hidden="true"></span>
+        <button data-mode="me" aria-pressed="true">Self-assessment</button>
+        <button data-mode="team" aria-pressed="false">Team observation</button>
+      </div>
+      <p class="chk-q" id="chkQ" aria-live="polite"><span>Question:</span> “Do I recognise this sign in myself?”</p>
+    </div>
+    <div class="chk-groups" role="tablist" aria-label="Groups of signs" id="chkTabs"></div>
+    <div class="card chk-panel" role="tabpanel" id="chkPanel" tabindex="0"></div>
+    <div class="chk-res" aria-live="polite"><span class="n" id="chkN">0</span><p id="chkTxt">Tick the signs you recognise. <b>See all six groups.</b></p></div>
+    <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Your answers are not saved or sent anywhere.</p>
+  </div>
+ </div>
+</section>
+
+<!-- 6 · AGIR -->
+<section class="slide s-white" data-id="agir" data-title="Act: what to do" data-k="2.3" aria-roledescription="slide">
+ <div class="in">
+  <div class="head" style="margin-bottom:0.875rem">
+    <p class="eyebrow a">2.3 · Act</p>
+    <h2 class="a">What to do, depending on what you observe</h2>
+    <p class="hint a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Click on each of the five levels, from the mildest signs to situations of risk.</p>
+  </div>
+  <div class="a">
+    <div class="scale" role="tablist" aria-label="Levels of signs" id="lvlTabs"></div>
+    <div class="card lvlp" role="tabpanel" id="lvlPanel" tabindex="0"></div>
+  </div>
+ </div>
+</section>
+
+<!-- 7 · VÍDEO 24 -->
+<section class="slide mid" data-id="v24" data-title="Video: individual factors" data-k="2.4 · Video" aria-roledescription="slide">
+ <div class="in"><div class="vid">
+  <div class="a">
+    <div class="player"><video controls preload="metadata" playsinline poster="../assets/video/video-24-poster.jpg" aria-label="Video: Individual factors that influence the perception of risks">
+      <source src="../assets/video/en/video-24.mp4" type="video/mp4">
+      <track kind="captions" srclang="en-GB" label="English" src="../assets/video/en/video-24.vtt" default>
+    </video></div>
+
+  </div>
+  <div>
+    <div class="head">
+      <p class="eyebrow a">2.4 · Video</p>
+      <h2 class="a">Individual factors that influence the perception of risks</h2>
+      <p class="lede a">Although risks may be present in the same work context, their impact varies from person to person.</p>
+      <p class="lede a" style="font-size:1.125rem">This difference depends not only on organisational conditions, but also on individual factors that influence how each person perceives, processes and responds to stress.</p>
+    </div>
+  </div>
+ </div></div>
+</section>
+
+<!-- 8 · FATORES INDIVIDUAIS -->
+<section class="slide" data-id="fatores" data-title="Individual factors" data-k="2.4" aria-roledescription="slide">
+ <div class="in">
+  <div class="head" style="margin-bottom:1rem">
+    <p class="eyebrow a">2.4</p>
+    <h2 class="a">Six factors, six ways of experiencing the same risk</h2>
+    <p class="hint a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>Click on each card to turn it over and see an example and how it can have an influence. <span id="fCount">0 of 6 turned</span></p>
+  </div>
+  <ul class="flipgrid" id="fGrid"></ul>
+ </div>
+</section>
+
+<!-- 9 · FINAL -->
+<section class="slide mid circ circ-fin circ-red-c" data-id="fim" data-title="Completed" data-k="End of part" aria-roledescription="slide">
+ <div class="in"><div class="fin">
+  <div class="badge a pop" aria-hidden="true"><span class="confetti" id="confetti"></span>
+    <svg viewBox="0 0 200 200" class="draw">
+      <circle cx="100" cy="100" r="86" fill="#FFFFFF"/>
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#DC3228" stroke-width="6" stroke-linecap="round" style="--len:580" transform="rotate(-90 100 100)"/>
+      <path d="M68 104l22 22 44-48" fill="none" stroke="#00CD73" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" style="--len:120"/>
+    </svg>
+  </div>
+  <div>
+    <div class="head">
+      <p class="eyebrow a">Part completed</p>
+      <h2 class="a">You have finished the part “Psychosocial Risks”</h2>
+      <p class="lede a" id="finTxt">You have seen every screen in this part.</p>
+    </div>
+    <h3 class="a">Read in the Toolkit</h3>
+    <p class="hint a">Part 2, section 2 · pages 11 to 15 of the original PDF</p>
+    <div class="dls">
+      <a class="dl a" href="../downloads/en/checklist-what-to-look-for-in-the-team.pdf" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span><span>Checklist: what to observe in the team<small>PDF · 1 page</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (opens in a new window)</span></a>
+      <a class="dl a" href="../downloads/en/pfa-toolkit-chapter-2.pdf" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span><span>Complete part<small>PDF · 5 pages</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (opens in a new window)</span></a>
+    </div>
+  </div>
+ </div></div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="count"><b id="cnt">01 / 01</b><span id="cntT"></span><div class="dots" id="dots" aria-hidden="true"></div></div>
+  <nav class="nav" aria-label="Navigation between parts">
+    <p class="gate" id="gateHint" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span class="sr">To move on, explore all the elements on this page. </span><span id="gateTxt"></span></span></p>
+    <button class="nbtn nbtn--prev" id="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg><span class="t">Previous</span></button>
+    <button class="nbtn nbtn--next" id="next" aria-describedby="gateHint"><span class="t">Next</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </nav>
+</footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Contents" aria-hidden="true">
+  <div class="drawer-top">
+  <header><h2>Contents</h2><button class="closeb" id="menuClose" aria-label="Close contents"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+  <div class="sum"><div class="meter"><b id="meter"></b></div><p id="meterTxt">0 parts completed</p><p class="small" id="meterChap"></p></div>
+  </div>
+  <nav aria-label="Course modules">
+    <ol class="course-nav" id="courseToc"></ol>
+  </nav>
+</aside>
+
+<dialog id="exit" aria-labelledby="exit-title">
+  <div class="dlg">
+    <h2 id="exit-title" tabindex="-1" autofocus>Do you want to leave the course?</h2>
+    <p class="hint" style="margin-top:0.375rem">Your progress is saved. When you come back, you will carry on from where you left off.</p>
+    <div style="display:flex;justify-content:flex-end;gap:0.625rem;flex-wrap:wrap;margin-top:1.375rem">
+      <button class="pill" id="exitCancel">Continue the course</button>
+      <button class="pill pill--red" id="exitOk">Exit</button>
+    </div>
+  </div>
+</dialog>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<dialog id="help" aria-labelledby="help-title">
+  <div class="dlg">
+    <h2 id="help-title" tabindex="-1" autofocus>Do you need support now?</h2>
+    <p class="hint">On a mobile phone, tap the number to call.</p>
+    <ul class="contacts" style="margin-top:0.75rem">
+      <li><div><b>Emergency</b><small>Immediate danger to life or health</small></div><a href="tel:112">112</a></li>
+      <li><div><b>We Are Sonae Line</b><small>24h/day · free and confidential</small></div><a href="tel:800100025">800 100 025</a></li>
+      <li><div><b>SNS 24 · Psychological Counselling</b><small>24h/day · option 4</small></div><a href="tel:808242424">808 24 24 24</a></li>
+      <li><div><b>National Suicide Prevention Line</b><small>24h/day</small></div><a href="tel:1411">1411</a></li>
+    </ul>
+    <div style="display:flex;justify-content:space-between;gap:0.625rem;flex-wrap:wrap;margin-top:1rem">
+      <a class="pill" href="resources.html">All resources (Module 6)</a>
+      <button class="pill pill--red" id="helpClose">Close</button>
+    </div>
+  </div>
+</dialog>
+<p class="sr" id="announce" aria-live="polite"></p>
+
+<script src="../assets/js/pages.js"></script>
+<script src="../assets/js/captions.js"></script>
+<script src="../assets/js/player.js"></script>
+<script>
+(() => {
+'use strict';
+const { $, $$ } = PSP;
+const { tabs, glide, flips } = PSP;
+
+/* ---------- 4 · Identificar: six risk types (built here, so tabs are wired here rather than by the player) ---------- */
+const RISKS = [
+  ['Work demands', 'ic-61', ['Quantitative demands', 'Work pace', 'Cognitive demands', 'Emotional demands'], ['Persistent tiredness', 'Constant sense of urgency', 'Difficulty switching off', 'Frequent mistakes or loss of concentration']],
+  ['Work organisation and content', 'ic-29', ['Influence at work', 'Opportunities for development', 'Meaning of work', 'Commitment to the workplace'], ['Demotivation', 'Sense of lacking purpose', 'Low involvement', 'Difficulty keeping up commitment']],
+  ['Social relationships and leadership', 'ic-16', ['Predictability', 'Reward', 'Transparency', 'Role conflict', 'Quality of leadership', 'Social support from colleagues and superiors'], ['Frequent conflicts', 'Sense of unfairness', 'Insecurity', 'Communication difficulties']],
+  ['Work–individual interface', 'ic-18', ['Job insecurity', 'Job satisfaction', 'Work/family conflict'], ['Difficulty balancing personal and professional life', 'Constant worry', 'Exhaustion', 'Dissatisfaction']],
+  ['Values in the workplace', 'ic-34', ['Vertical trust', 'Horizontal trust', 'Fairness and respect', 'Social community at work'], ['Sense of not being recognised', 'Distrust', 'Distancing', 'Perception of unfairness']],
+  ['Offensive behaviour', 'ic-81', ['Bullying', 'Sexual harassment', 'Discrimination', 'Verbal or physical violence'], ['Fear', 'Avoidance', 'Anxiety', 'Withdrawal', 'Lowered self-esteem']]
+];
+(() => {
+  const list = $('#riskTabs'), box = $('#riskPanels'), seen = new Set([0]), cnt = $('[data-count]', list.closest('.slide'));
+  list.innerHTML = RISKS.map((r, i) => `<button class="vtab" role="tab" id="t-k${i}" aria-controls="p-k${i}" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''}><span class="vn" aria-hidden="true">${i + 1}</span>${r[0]}<span class="tick" aria-hidden="true"></span></button>`).join('');
+  box.innerHTML = RISKS.map((r, i) => `<div class="vpanel vpanel--text card" role="tabpanel" id="p-k${i}" aria-labelledby="t-k${i}" tabindex="0"${i ? ' hidden' : ''}>
+    <div><h3>${r[0]}</h3><div class="two"><div><h4>What it includes</h4><ul class="dotlist">${r[2].map(x => `<li>${x}</li>`).join('')}</ul></div>
+    <div class="warn"><h4>Warning signs</h4><ul class="dotlist">${r[3].map(x => `<li>${x}</li>`).join('')}</ul></div></div></div></div>`).join('');
+  const mark = () => { $$('.vtab', list).forEach((t, i) => t.classList.toggle('seen', seen.has(i))); cnt.textContent = `${seen.size} of 6 seen`; };
+  tabs(list, (t, i) => {
+    seen.add(i); mark();
+    $$('[role=tabpanel]', box).forEach(p => { const on = p.id === t.getAttribute('aria-controls'); p.hidden = !on; if (on) { p.classList.remove('anim'); void p.offsetWidth; p.classList.add('anim'); } });
+  }, true);
+  mark();
+})();
+
+/* ---------- 5 · Observar: interactive checklist (answers live only in memory) ---------- */
+const CHK_SHORT = ['Demands', 'Organisation', 'Relationships and leadership', 'Work–individual', 'Values', 'Offensive behaviour'];
+const CHK = [
+  ['Work demands', ['Persistent tiredness or signs of generalised fatigue', 'Fast work pace and constant sense of urgency', 'Difficulty switching off from work (e.g. outside working hours)', 'More mistakes, forgetfulness or loss of concentration']],
+  ['Work organisation and content', ['Reduced involvement or initiative', 'Feeling demotivated or lacking purpose at work', 'Low commitment to tasks or goals', 'Reduced participation or a more passive attitude']],
+  ['Social relationships and leadership', ['Frequent conflicts between colleagues or with leadership', 'Communication failures or lack of clarity in guidance', 'An atmosphere of tension, irritability or defensiveness', 'Signs of isolation or difficulty collaborating']],
+  ['Work–individual interface', ['Difficulty balancing work and personal life', 'More absenteeism or frequent requests for flexibility', 'Signs of exhaustion or a drop in performance', 'Constant worry about stability or professional future']],
+  ['Values in the workplace', ['Perception of a lack of recognition or appreciation', 'An atmosphere of distrust between colleagues or towards leadership', 'Less collaboration and team spirit', 'Frequent comments about unfairness or unequal treatment']],
+  ['Offensive behaviour', ['Isolation or avoidance of certain team members', 'Silence, withdrawal or discomfort in meetings', 'Sudden changes in behaviour (e.g. more withdrawn or anxious)', 'Formal or informal complaints about inappropriate behaviour']]
+];
+(() => {
+  const root = $('#chk'), tabsEl = $('#chkTabs'), panel = $('#chkPanel'), seg = $('.seg', root);
+  const state = CHK.map(g => g[1].map(() => false)), seenG = new Set([0]);
+  let g = 0;
+  const count = i => state[i].filter(Boolean).length, total = () => state.flat().filter(Boolean).length;
+  tabsEl.innerHTML = CHK.map((c, i) => `<button role="tab" id="t-c${i}" aria-controls="chkPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''}>${i + 1}. ${CHK_SHORT[i]} <span class="c" aria-hidden="true">0</span></button>`).join('');
+  const draw = () => {
+    panel.setAttribute('aria-labelledby', 't-c' + g);
+    panel.innerHTML = `<h3>${g + 1}. ${CHK[g][0]}</h3><ul>${CHK[g][1].map((x, j) => `<li><label><input type="checkbox" data-j="${j}" ${state[g][j] ? 'checked' : ''}>${x}</label></li>`).join('')}</ul>`;
+    panel.classList.remove('swap'); void panel.offsetWidth; panel.classList.add('swap');
+  };
+  const sum = () => {
+    $$('[role=tab]', tabsEl).forEach((t, i) => { const c = $('.c', t), n = count(i); c.textContent = n; c.classList.toggle('has', n > 0); t.setAttribute('aria-label', `${i + 1}. ${CHK[i][0]}, ${n} of 4 ticked`); });
+    const n = total(); $('#chkN').textContent = n;
+    $('#chkTxt').innerHTML = n === 0
+      ? `Tick the signs you recognise. <b>See all six groups${seenG.size < 6 ? ` (${seenG.size} of 6 seen)` : ''}.</b>`
+      : `<b>${n === 1 ? '1 sign ticked' : n + ' signs ticked'}.</b> If you consistently identify several of these signs, in yourself or in the team, it may be important to explore possible organisational factors and consider support measures, ideally with specialist guidance.`;
+  };
+  tabs(tabsEl, (t, i) => { g = i; seenG.add(i); draw(); sum(); });
+  panel.addEventListener('change', e => { const j = +e.target.dataset.j; state[g][j] = e.target.checked; sum(); });
+  const Q = { me: '“Do I recognise this sign in myself?”', team: '“Do I notice this sign in one or more members of the team?”' };
+  $$('button', seg).forEach(b => b.addEventListener('click', () => {
+    $$('button', seg).forEach(x => x.setAttribute('aria-pressed', x === b)); glide(seg);
+    $('#chkQ').innerHTML = `<span>Question:</span> ${Q[b.dataset.mode]}`;
+  }));
+  draw(); sum();
+})();
+
+/* ---------- 6 · Agir: five levels ---------- */
+const LV = [
+  ['Occasional or mild signs', 'occasional tiredness, reduced concentration, some demotivation', '#00CD73', ['Normalise and do not alarm', 'Encourage breaks and a balanced workload', 'Check whether there is a temporary overload', 'Reinforce clear communication and expectations'], 'av-01'],
+  ['Persistent or increasing signs', 'constant fatigue, demotivation, frequent conflicts, recurring mistakes', '#FFB40F', ['Address the situation individually and respectfully', 'Explore possible factors (work, team, context)', 'Adjust workload, priorities or deadlines, if necessary', 'Strengthen support and close follow-up'], 'av-18'],
+  ['Impact on how the team functions', 'widespread tension, communication failures, drop in collective performance', '#F07828', ['Review work organisation and the distribution of tasks', 'Clarify roles, expectations and priorities', 'Create spaces for communication (e.g. alignment meetings)', 'Work on team dynamics (trust, collaboration)'], 'av-22'],
+  ['Signs of significant psychological distress', 'isolation, intense anxiety, crying, withdrawal, marked changes in behaviour', '#DC3228', ['Approach calmly and respectfully', 'Listen without judging or pressuring', 'Validate their experience (“it makes sense that this is hard”)', 'Assess the need for additional support (informal or professional)'], 'av-12'],
+  ['Situations of risk or offensive behaviour', 'bullying or harassment, discrimination, serious conflict, fear or avoidance', '#8E1A1F', ['Do not ignore or downplay the situation', 'Ensure the person’s safety and protection', 'Follow the organisation’s internal procedures', 'Refer to formal resources (HR, psychological support, reporting channels)'], 'av-26']
+];
+(() => {
+  const list = $('#lvlTabs'), panel = $('#lvlPanel');
+  list.innerHTML = LV.map((l, i) => `<button class="lvl" role="tab" id="t-l${i}" aria-controls="lvlPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''} style="--c:${l[2]}">${l[0]}<em>LEVEL ${i + 1}</em></button>`).join('');
+  const draw = i => {
+    const l = LV[i];
+    panel.style.setProperty('--c', l[2]); panel.setAttribute('aria-labelledby', 't-l' + i);
+    panel.innerHTML = `<div class="ex"><b>${l[0]}</b>For example: ${l[1]}.</div><div><h4 class="g">What to do</h4><ul class="dotlist ok">${l[3].map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+    panel.classList.remove('swap'); void panel.offsetWidth; panel.classList.add('swap');
+  };
+  tabs(list, (t, i) => draw(i));
+  draw(0);
+})();
+
+/* ---------- 8 · Fatores individuais: flip cards ---------- */
+const FI = [
+  ['Adverse life experiences', 'Having experienced insecurity, loss or violence', 'Greater sensitivity to stress or to change'],
+  ['Family history and genetic factors', 'Having relatives with depression or anxiety', 'Greater emotional vulnerability in demanding situations'],
+  ['Biological factors', 'Sleep problems, chronic pain, hormonal changes', 'Lower tolerance to stress, more irritability or fatigue'],
+  ['Temperament and psychological characteristics', 'A tendency towards perfectionism or anxiety', 'Greater difficulty coping with mistakes, pressure or uncertainty'],
+  ['Socioeconomic conditions', 'Financial instability or family responsibilities', 'More pressure and less room to cope with demands'],
+  ['Substance use', 'Using alcohol or medication to cope with stress', 'It may relieve things in the moment, but make the problem worse in the long term']
+];
+(() => {
+  const ul = $('#fGrid');
+  ul.innerHTML = FI.map((f, i) => `<li class="flip flip--info a pop" style="--i:${i + 3}"><button aria-expanded="false" data-front="${f[0]}" data-back="Example: ${f[1]}. How it can have an influence: ${f[2]}">
+    <span class="face front" aria-hidden="true"><small>Factor ${i + 1}</small><span>${f[0]}</span><span class="turn">Turn <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+    <span class="face back" aria-hidden="true"><span><b>Example</b>${f[1]}</span><span><b>How it can have an influence</b>${f[2]}</span></span></button></li>`).join('');
+  const upd = () => { const n = $$('.flip.open', ul).length; $('#fCount').textContent = `${n} of 6 turned`; };
+  flips(ul, upd);
+})();
+PSP.start();
+})();
+</script>
+</body>
+</html>

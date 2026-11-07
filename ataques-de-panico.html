@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Módulo 5 - Sonae Toolkit PSP</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/course.css">
+</head>
+<body data-chapter="5.3">
+<a class="skip" href="#stage">Saltar para o conteúdo</a>
+<div class="app">
+
+<header class="hdr">
+  <button class="pill" id="menuBtn" aria-controls="drawer" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span class="t">Índice</span>
+  </button>
+  <img class="logo" src="assets/img/logo-mc.png" alt="MC Sonae">
+  <span class="sep" aria-hidden="true"></span>
+  <p class="crumb">Toolkit PSP <span class="csep">·</span> Módulo 5 <span class="csep">·</span> <b>5.3 Ataques de pânico</b></p>
+  <div class="tools">
+  <button class="ibtn" id="ccBtn" aria-pressed="false" aria-label="Legendas" data-tip="Legendas"><span class="cc" aria-hidden="true">CC</span></button>
+  <button class="ibtn" id="muteBtn" aria-pressed="false" aria-label="Sem som" data-tip="Som">
+    <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+    <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg></button>
+  <span class="vsep" aria-hidden="true"></span>
+  <button class="pill pill--red" id="helpBtn" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg><span class="t">Apoio</span>
+  </button>
+  <button class="pill" id="exitBtn" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5M21 12H9"/></svg><span class="t">Sair</span>
+  </button>
+  </div>
+  <div class="bar" role="progressbar" aria-label="Progresso nesta parte" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="barFill"></i></div>
+</header>
+
+<main class="stage" id="stage" tabindex="-1">
+<section class="slide s-cover mid circ circ-t circ-yellow-c" data-id="capa" data-title="Início" data-k="Capa" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="cover">
+  <div>
+    <p class="eyebrow a">Módulo 5 · Situações Sensíveis</p>
+    <h1 class="a" style="margin-top:1.125rem">Ataques de <span>pânico</span></h1>
+    <p class="lede a">Um ataque de pânico é um episódio súbito de medo ou desconforto intenso que atinge o pico em poucos minutos. Embora os sintomas possam ser muito assustadores, o ataque de pânico não é perigoso e corresponde a uma ativação intensa do sistema de alerta do organismo.</p>
+    <div class="start a">
+      <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>8 ecrãs</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>1 vídeo</span></div>
+    </div>
+    <div class="brandrow a"><img src="assets/img/eea.png" alt="Eu escolho aprender. Construímos o futuro juntos."><img src="assets/img/pf.png" alt="#PrecisamosFalar"></div>
+  </div>
+  <div class="hero-art a fromR" aria-hidden="true"><img class="photo" src="assets/img/foto-capa-5-3.webp" alt="" width="1100" height="880"></div>
+ </div>
+ </div>
+</section>
+
+<section class="slide" data-id="acontecer" data-title="O que pode estar a acontecer?" data-k="O que pode estar a acontecer" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="head">
+    <p class="eyebrow a">O que pode estar a acontecer?</p>
+    <h2 class="a">O corpo entra em “luta ou fuga”</h2>
+    <p class="lede a">Durante um ataque de pânico, o corpo entra num estado de “luta ou fuga”, ativando intensamente o sistema nervoso simpático.</p>
+  </div>
+  <div class="cols3 colsn a" style="--n:2"><div><h4>Sintomas físicos</h4><ul class="ul2"><li>Palpitações ou batimento cardíaco acelerado</li><li>Sensação de falta de ar ou asfixia</li><li>Tonturas ou sensação de desmaio</li><li>Tremores</li><li>Sudorese</li><li>Náuseas</li><li>Rigidez muscular</li><li>Formigueiros</li></ul></div><div><h4>Sintomas cognitivos e emocionais</h4><ul><li>Medo intenso de perder o controlo</li><li>Medo de enlouquecer ou morrer</li><li>Sensação de estranheza ou irrealidade (desrealização)</li><li>Sensação de estar “fora do corpo” (despersonalização)</li></ul></div></div>
+ </div>
+</section>
+
+<section class="slide s-white circ circ-b circ-yellow-c" data-id="ciclo" data-title="Ciclo do pânico" data-k="O que pode estar a acontecer" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="head" style="margin-bottom:0.875rem">
+    <p class="eyebrow a">O que pode estar a acontecer?</p>
+    <h2 class="a">Ciclo do pânico e ansiedade antecipatória</h2>
+    
+  </div>
+  <div class="split" style="align-items:stretch;grid-template-columns:1.2fr .8fr">
+    <div class="card a"><h3 style="margin-bottom:0.625rem">Ciclo do pânico</h3>
+      <ol class="cyc" aria-label="Ciclo do pânico">
+        <li><span class="b" aria-hidden="true">1</span><div><b>Sensações físicas normais de ansiedade</b></div></li>
+        <li><span class="b" aria-hidden="true">2</span><div><b>São interpretadas como sinais de perigo grave</b><i>“Vou morrer”, “Estou a ter um ataque cardíaco”, “Vou enlouquecer”</i></div></li>
+        <li><span class="b" aria-hidden="true">3</span><div><b>A sensação de ameaça aumenta</b>O corpo fica ainda mais ativado e os sintomas físicos intensificam-se.</div></li>
+      </ol>
+      <p class="loop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>E o ciclo recomeça: cria-se um ciclo de pânico.</p></div>
+    <div class="who a fromR"><h3>Ansiedade antecipatória</h3>
+      <p style="font-size:clamp(1.05rem,1.4vw,1.3rem)">Após um ataque de pânico, pode surgir medo persistente de voltar a sentir os sintomas.</p>
+      <p class="sm"><i>“E se acontece outra vez?”, “E se desmaio à frente de todos?”</i></p>
+      <p class="sm">Isto pode aumentar hipervigilância corporal e comportamentos de evitamento.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide" data-id="fazer" data-title="O que fazer?" data-k="O que fazer" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="head" style="margin-bottom:0.875rem">
+    <p class="eyebrow a ok">Como agir</p>
+    <h2 class="a">O que fazer?</h2>
+    <p class="lede a" style="font-size:1.125rem;max-width:95ch">A prioridade é ajudar a pessoa a sentir segurança e a regular gradualmente o sistema nervoso.</p>
+  </div>
+  <ol class="nl nl--n"><li class="a"><span class="b" aria-hidden="true">1</span><div><b>Normalizar e validar:</b> Explicar que os sintomas são uma resposta intensa de ansiedade e que irão diminuir com o tempo.</div></li><li class="a"><span class="b" aria-hidden="true">2</span><div><b>Ajudar na respiração:</b> Utilizar respiração lenta e diafragmática para reduzir hiperventilação e tensão física.</div></li><li class="a"><span class="b" aria-hidden="true">3</span><div><b>Promover grounding:</b> Ajudar a pessoa a focar-se no momento presente através dos sentidos: identificar objetos à volta, ouvir sons, sentir os pés no chão.</div></li><li class="a"><span class="b" aria-hidden="true">4</span><div><b>Incentivar diálogo interno compassivo:</b> Estimular frases como “isto é ansiedade”, “já passei por isto antes”, “os sintomas vão passar”.</div></li><li class="a"><span class="b" aria-hidden="true">5</span><div><b>Reduzir a sensação de perigo:</b> Falar de forma calma, simples e previsível.</div></li><li class="a"><span class="b" aria-hidden="true">6</span><div><b>Permanecer no local, se possível:</b> Evitar fuga imediata da situação pode ajudar o cérebro a reaprender que o contexto é seguro.</div></li></ol>
+ </div>
+</section>
+
+<section class="slide" data-id="evitar" data-title="O que evitar?" data-k="O que evitar" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="head" style="margin-bottom:0.875rem">
+    <p class="eyebrow a">Cuidados a ter</p>
+    <h2 class="a">O que evitar?</h2>
+    
+  </div>
+  <ol class="nl nl--x"><li class="a"><span class="b" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span><div><b>Minimizar ou ridicularizar:</b> Evitar frases como “Calma, isso não é nada”, “Estás a exagerar”.</div></li><li class="a"><span class="b" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span><div><b>Alimentar interpretações catastróficas:</b> Não reforçar a ideia de que a pessoa está em perigo iminente sem avaliação médica.</div></li><li class="a"><span class="b" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span><div><b>Pressionar para “controlar-se”:</b> Tentar forçar calma rapidamente pode aumentar ansiedade e vergonha.</div></li><li class="a"><span class="b" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span><div><b>Incentivar evitamento excessivo:</b> Sair imediatamente de todas as situações associadas ao pânico pode reforçar medo futuro.</div></li><li class="a"><span class="b" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span><div><b>Lutar contra a ansiedade:</b> Tentar eliminar totalmente os sintomas ou “não pensar nisso” tende a aumentar foco e sofrimento.</div></li></ol>
+ </div>
+</section>
+
+<section class="slide s-white" data-id="encaminhar" data-title="Quando encaminhar?" data-k="Quando encaminhar" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="head">
+    <p class="eyebrow a">Apoio especializado</p>
+    <h2 class="a">Quando encaminhar?</h2>
+    <p class="lede a">O encaminhamento para avaliação médica e/ou psicológica deve ser considerado quando:</p>
+  </div>
+  <div class="split" style="align-items:stretch">
+    <div class="card a"><ul class="when when--tight when--2"><li><span class="b warnb" aria-hidden="true">!</span>É o primeiro episódio de pânico</li><li><span class="b warnb" aria-hidden="true">!</span>Existem dúvidas sobre causa médica dos sintomas</li><li><span class="b warnb" aria-hidden="true">!</span>Os ataques se tornam frequentes ou persistentes</li><li><span class="b warnb" aria-hidden="true">!</span>Existe impacto significativo no trabalho ou vida diária</li><li><span class="b warnb" aria-hidden="true">!</span>A pessoa começa a evitar reuniões, apresentações ou espaços por medo de novo ataque</li><li><span class="b warnb" aria-hidden="true">!</span>Surge ansiedade constante antecipatória</li><li><span class="b warnb" aria-hidden="true">!</span>Há recurso a álcool, sedativos ou outras substâncias para lidar com os sintomas</li><li><span class="b warnb" aria-hidden="true">!</span>As estratégias de regulação deixam de ser suficientes</li></ul></div>
+    <div class="who a fromR"><h3>Onde recorrer</h3>
+      <p style="font-size:clamp(1.1rem,1.5vw,1.4rem)">Os contactos essenciais estão sempre no botão Apoio.</p>
+      <button class="pill pill--red" data-help>Ver contactos de apoio</button></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide mid" data-id="rp5" data-title="Ver em ação: 5.º Role Play" data-k="Ver em ação" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="vid vid--rp">
+  <div class="a">
+    <div class="player"><video controls preload="metadata" playsinline poster="assets/video/video-4i-poster.jpg" aria-label="Vídeo: 5.º Role Play, situação de ataque de pânico">
+      <source src="assets/video/video-4i.mp4" type="video/mp4">
+      <track kind="captions" srclang="pt-PT" label="Português" src="assets/video/video-4i.vtt" default>
+    </video></div>
+
+  </div>
+  <div>
+    <div class="head" style="margin-bottom:0.75rem">
+      <p class="eyebrow a">Ver em ação</p>
+      <h2 class="a">5.º Role Play</h2>
+    </div>
+    <p class="lede a" style="font-size:1.0625rem;margin-bottom:0.625rem">Algumas situações exigem uma resposta mais imediata. Um ataque de pânico não dá aviso – acontece de forma súbita e pode ser muito assustador para quem o vive e para quem está ao lado. O papel de quem apoia não é diagnosticar nem resolver, mas criar segurança e ajudar a regular.</p>
+    <p class="ctxt a"><b>Contexto</b>Loja Wells. Uma cliente apresenta sinais de ataque de pânico junto a uma prateleira. Uma colaboradora identifica os sinais e aproxima-se.</p>
+    <p class="ctxt a" style="margin-top:0.5rem"><b>Nota</b>Este role-play passa-se com uma cliente, mas as mesmas estratégias aplicam-se com um colega em situação semelhante.</p>
+  </div>
+ </div>
+ </div>
+</section>
+
+<section class="slide mid circ circ-fin circ-yellow-a" data-id="fim" data-title="Concluído" data-k="Fim da parte" aria-roledescription="diapositivo">
+ <div class="in">
+<div class="fin">
+  <div class="badge a pop" aria-hidden="true"><span class="confetti" id="confetti"></span>
+    <svg viewBox="0 0 200 200" class="draw">
+      <circle cx="100" cy="100" r="86" fill="#FFFFFF"/>
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#DC3228" stroke-width="6" stroke-linecap="round" style="--len:580" transform="rotate(-90 100 100)"/>
+      <path d="M68 104l22 22 44-48" fill="none" stroke="#00CD73" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" style="--len:120"/>
+    </svg>
+  </div>
+  <div>
+    <div class="head">
+      <p class="eyebrow a">Ficha concluída</p>
+      <h2 class="a">Terminaste a ficha “Ataques de pânico”</h2>
+      <p class="lede a" id="finTxt">Viste todos os ecrãs desta ficha.</p>
+    </div>
+    <h3 class="a">Ler no Toolkit</h3>
+    <p class="hint a">Parte 5, ficha 3 · páginas 114 a 116 do PDF original</p>
+    <div class="dls">
+      <a class="dl a" href="downloads/ficha-3-ataques-de-panico.pdf" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span><span>Ficha: Ataques de pânico<small>PDF · 3 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    </div>
+  </div>
+ </div>
+ </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="count"><b id="cnt">01 / 01</b><span id="cntT"></span><div class="dots" id="dots" aria-hidden="true"></div></div>
+  <nav class="nav" aria-label="Navegação entre partes">
+    <p class="gate" id="gateHint" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span class="sr">Para avançar, explora todos os elementos desta página. </span><span id="gateTxt"></span></span></p>
+    <button class="nbtn nbtn--prev" id="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg><span class="t">Anterior</span></button>
+    <button class="nbtn nbtn--next" id="next" aria-describedby="gateHint"><span class="t">Seguinte</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </nav>
+</footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Índice" aria-hidden="true">
+  <div class="drawer-top">
+  <header><h2>Índice</h2><button class="closeb" id="menuClose" aria-label="Fechar índice"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+  <div class="sum"><div class="meter"><b id="meter"></b></div><p id="meterTxt">0 partes concluídas</p><p class="small" id="meterChap"></p></div>
+  </div>
+  <nav aria-label="Módulos do curso">
+    <ol class="course-nav" id="courseToc"></ol>
+  </nav>
+</aside>
+
+<dialog id="exit" aria-labelledby="exit-title">
+  <div class="dlg">
+    <h2 id="exit-title" tabindex="-1" autofocus>Queres sair do curso?</h2>
+    <p class="hint" style="margin-top:0.375rem">O teu progresso fica guardado. Quando voltares, continuas onde ficaste.</p>
+    <div style="display:flex;justify-content:flex-end;gap:0.625rem;flex-wrap:wrap;margin-top:1.375rem">
+      <button class="pill" id="exitCancel">Continuar no curso</button>
+      <button class="pill pill--red" id="exitOk">Sair</button>
+    </div>
+  </div>
+</dialog>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<dialog id="help" aria-labelledby="help-title">
+  <div class="dlg">
+    <h2 id="help-title" tabindex="-1" autofocus>Precisas de apoio agora?</h2>
+    <p class="hint">No telemóvel, toca no número para ligar.</p>
+    <ul class="contacts" style="margin-top:0.75rem">
+      <li><div><b>Emergência</b><small>Perigo imediato para a vida ou saúde</small></div><a href="tel:112">112</a></li>
+      <li><div><b>Linha Somos Sonae</b><small>24h/dia · gratuita e confidencial</small></div><a href="tel:800100025">800 100 025</a></li>
+      <li><div><b>SNS 24 · Aconselhamento Psicológico</b><small>24h/dia · opção 4</small></div><a href="tel:808242424">808 24 24 24</a></li>
+      <li><div><b>Linha Nacional de Prevenção do Suicídio</b><small>24h/dia</small></div><a href="tel:1411">1411</a></li>
+    </ul>
+    <div style="display:flex;justify-content:space-between;gap:0.625rem;flex-wrap:wrap;margin-top:1rem">
+      <a class="pill" href="recursos.html">Todos os recursos (Módulo 6)</a>
+      <button class="pill pill--red" id="helpClose">Fechar</button>
+    </div>
+  </div>
+</dialog>
+<p class="sr" id="announce" aria-live="polite"></p>
+
+<script src="assets/js/pages.js"></script>
+<script src="assets/js/captions.js"></script>
+<script src="assets/js/player.js"></script>
+<script>
+(() => {
+'use strict';
+const { $, $$ } = PSP;
+
+PSP.start();
+})();
+</script>
+</body>
+</html>

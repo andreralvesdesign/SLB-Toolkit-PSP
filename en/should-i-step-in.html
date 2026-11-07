@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 4 - Sonae PFA Toolkit</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/css/course.css">
+</head>
+<body data-chapter="4.3">
+<a class="skip" href="#stage">Skip to content</a>
+<div class="app">
+
+<header class="hdr">
+  <button class="pill" id="menuBtn" aria-controls="drawer" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg><span class="t">Contents</span>
+  </button>
+  <img class="logo" src="../assets/img/logo-mc.png" alt="MC Sonae">
+  <span class="sep" aria-hidden="true"></span>
+  <p class="crumb">PFA Toolkit <span class="csep">·</span> Module 4 <span class="csep">·</span> <b>4.3 Should I step in?</b></p>
+  <div class="tools">
+  <button class="ibtn" id="ccBtn" aria-pressed="false" aria-label="Captions" data-tip="Captions"><span class="cc" aria-hidden="true">CC</span></button>
+  <button class="ibtn" id="muteBtn" aria-pressed="false" aria-label="No sound" data-tip="Sound">
+    <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+    <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M23 9l-6 6M17 9l6 6"/></svg></button>
+  <span class="vsep" aria-hidden="true"></span>
+  <button class="pill pill--red" id="helpBtn" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg><span class="t">Support</span>
+  </button>
+  <button class="pill" id="exitBtn" aria-haspopup="dialog">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5M21 12H9"/></svg><span class="t">Exit</span>
+  </button>
+  </div>
+  <div class="bar" role="progressbar" aria-label="Progress in this part" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><i id="barFill"></i></div>
+</header>
+
+<main class="stage" id="stage" tabindex="-1">
+<section class="slide s-cover mid circ circ-t circ-violet-c" data-id="capa" data-title="Start" data-k="Cover" aria-roledescription="slide">
+ <div class="in">
+<div class="cover">
+  <div>
+    <p class="eyebrow a">Module 4 · If I am a Leader</p>
+    <h1 class="a" style="margin-top:1.125rem">Should I step in? <span>From doubt to action</span></h1>
+    <p class="lede a">Block A. Five decision dimensions, a quick checklist, what to do at each level and how to start the approach.</p>
+    <div class="start a">
+      <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>13 screens</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>2 videos</span></div>
+    </div>
+    <div class="brandrow a"><img src="../assets/img/eea.png" alt="I choose to learn. We build the future together."><img src="../assets/img/pf.png" alt="#PrecisamosFalar"></div>
+  </div>
+  <div class="hero-art a fromR" aria-hidden="true"><img class="photo" src="../assets/img/foto-capa-4-3.webp" alt="" width="1100" height="880"></div>
+ </div>
+ </div>
+</section>
+
+<section class="slide" data-id="guia" data-title="Quick guide for leaders" data-k="A · Should I step in?" aria-roledescription="slide">
+ <div class="in">
+<div class="split" style="align-items:start">
+  <div>
+    <div class="head">
+    <p class="eyebrow a">Quick guide for leaders</p>
+    <h2 class="a">“Should I step in?”</h2>
+    <p class="lede a">The decision to step in should be based on an integrated reading of signs, and not on a single indicator.</p>
+  </div>
+    <div class="two a">
+      <div class="card"><h3 style="margin-bottom:0.25rem">This checklist helps the leader to</h3><ul class="dotlist"><li>identify relevant changes</li><li>assess impact and persistence</li><li>recognise signs of distress</li><li>decide the level of intervention needed</li></ul></div>
+      <div class="card"><h3 style="margin-bottom:0.25rem">The aim is not to diagnose, but to see whether the situation calls for</h3><ul class="dotlist"><li>observation</li><li>active monitoring</li><li>or a more structured approach</li></ul></div>
+    </div>
+  </div>
+  <figure class="art a pop"><img src="../assets/img/av-30.webp" alt="Illustration: a person at a computer, surrounded by question marks, with a light bulb beside them."></figure>
+ </div>
+ </div>
+</section>
+
+<section class="slide s-white" data-id="dimensoes" data-title="The five decision dimensions" data-k="A · Five dimensions" aria-roledescription="slide">
+ <div class="in">
+<div class="head" style="margin-bottom:0.625rem">
+    <p class="eyebrow a">The five decision dimensions</p>
+    <h2 class="a">Change, impact, distress, time and risk</h2>
+    <p class="hint a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/></svg>Click on each dimension. <span id="dmCount" aria-live="polite">1 of 5 seen</span></p>
+  </div>
+  <div class="a">
+    <div class="seg" role="tablist" aria-label="Decision dimensions" id="dmTabs"><span class="glide" aria-hidden="true"></span></div>
+    <div role="tabpanel" id="dmPanel" tabindex="0" style="margin-top:0.625rem"></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide circ circ-t circ-violet-b" data-id="checklist" data-title="Quick checklist: should I step in?" data-k="A · Checklist" aria-roledescription="slide">
+ <div class="in">
+<div class="head" style="margin-bottom:0.625rem">
+    <p class="eyebrow a">Quick checklist</p>
+    <h2 class="a">Should I step in?</h2>
+    <p class="lede a" style="font-size:1.125rem;max-width:95ch">Consider the last 2–3 weeks and tick the indicators that are present. The aim of this checklist is not to produce absolute certainties: it is to help leaders recognise patterns, act earlier and reduce the risk of silent deterioration.</p>
+  </div>
+  <div class="a" id="di">
+    <div class="chk-groups" role="tablist" aria-label="Checklist dimensions" id="diTabs"></div>
+    <div class="card chk-panel" role="tabpanel" id="diPanel" tabindex="0"></div>
+    <div class="chk-res rd-res" aria-live="polite"><span class="n" id="diN">0</span><div id="diTxt"></div></div>
+    <p class="privacy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Your answers are not saved or sent anywhere. The reading is indicative and does not replace your own judgement.</p>
+  </div>
+ </div>
+</section>
+
+<section class="slide" data-id="niveis" data-title="What to do at each level" data-k="A · What to do" aria-roledescription="slide">
+ <div class="in">
+<div class="head" style="margin-bottom:0.75rem">
+    <p class="eyebrow a">Quick reading of the checklist</p>
+    <h2 class="a">What to do at each level</h2>
+    <p class="hint a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/></svg>Click on each of the four levels, from mild to critical situations.</p>
+  </div>
+  <div class="a">
+    <div class="scale" style="grid-template-columns:repeat(4,1fr)" role="tablist" aria-label="Levels of situation" id="nvTabs"></div>
+    <div class="card nvp" role="tabpanel" id="nvPanel" tabindex="0"></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide s-white" data-id="urgente" data-title="Urgent referral" data-k="A · More than PFA" aria-roledescription="slide">
+ <div class="in">
+<div class="head">
+    <p class="eyebrow a">When it is more than PFA</p>
+    <h2 class="a">Urgent referral</h2>
+    <p class="lede a">Seek specialist support immediately when the person:</p>
+  </div>
+  <div class="split" style="align-items:stretch">
+    <div class="card a"><ul class="when">
+      <li><span class="b warnb" aria-hidden="true">!</span>Presents a risk to themselves (suicidal thoughts or self-harming behaviour) or to others</li>
+      <li><span class="b warnb" aria-hidden="true">!</span>Is so disorganised that they cannot look after themselves</li>
+      <li><span class="b warnb" aria-hidden="true">!</span>Shows signs of a medical crisis</li>
+      <li><span class="b warnb" aria-hidden="true">!</span>Remains seriously dysregulated despite support</li></ul></div>
+    <div class="who a fromR"><h3>In these cases</h3>
+      <p>The leader does not manage the situation alone: they activate resources and do not leave the person on their own.</p>
+      <button class="pill pill--red" data-help>See support contacts</button></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide" data-id="niveis2" data-title="Individual signs and team signs" data-k="A · Individual vs. team" aria-roledescription="slide">
+ <div class="in">
+<div class="head">
+    <p class="eyebrow a">Individual signs vs. team signs</p>
+    <h2 class="a">Sometimes the sign is in the team climate</h2>
+    <p class="lede a">Distress does not always show up in just one person. The leader should read both levels:</p>
+  </div>
+  <div class="cmp">
+    <div class="ctx ctx--navy"><small><i aria-hidden="true"></i>Individual signs</small><p>Changes in a person’s usual functioning (isolation, drop in performance, irritability, exhaustion).</p></div>
+    <div class="ctx ctx--bad"><small><i aria-hidden="true"></i>Collective / climate signs: when the distress is the team’s</small><ul class="dotlist"><li>Emotional contagion (tension or discouragement that “spreads”)</li><li>More conflicts or misunderstandings</li><li>Widespread absenteeism or presenteeism</li><li>Breakdown in communication and collaboration</li><li>An across-the-board drop in involvement or initiative</li></ul></div>
+  </div>
+  <p class="lede a" style="font-size:1.125rem;margin-top:1rem;max-width:90ch">Collective signs usually point to organisational factors (workload, leadership, role clarity, recognition) and not only to individual difficulties.</p>
+ </div>
+</section>
+
+<section class="slide mid" data-id="rp3" data-title="See it in action: Role play 3" data-k="See it in action" aria-roledescription="slide">
+ <div class="in">
+<div class="vid vid--rp">
+  <div class="a">
+    <div class="player"><video controls preload="metadata" playsinline poster="../assets/video/video-4g-poster.jpg" aria-label="Video: Role play 3, managing conflict">
+      <source src="../assets/video/en/video-4g.mp4" type="video/mp4">
+      <track kind="captions" srclang="en-GB" label="English" src="../assets/video/en/video-4g.vtt" default>
+    </video></div>
+
+  </div>
+  <div>
+    <div class="head" style="margin-bottom:0.75rem">
+      <p class="eyebrow a">See it in action</p>
+      <h2 class="a">Role play 3</h2>
+    </div>
+    <p class="lede a" style="font-size:1.0625rem;margin-bottom:0.625rem">A conflict between two employees rarely starts as a conflict – it starts as accumulated pressure, failed communication or misaligned expectations. The moment the leader steps in makes all the difference between the conflict escalating and being resolved before it becomes a bigger problem.</p>
+    <p class="ctxt a"><b>Context</b>Fruit and vegetable section, peak hour. Two employees get into an open conflict over priorities and lack of communication. The section leader steps in.</p>
+    <p class="ctxt a" style="margin-top:0.5rem"><b>What to observe</b>How the leader steps in without taking sides, how she validates both perspectives and how she closes with a clear agreement.</p>
+    <p class="a" style="margin-top:0.75rem"><button class="pill" data-reveal="once" aria-expanded="false" aria-controls="rq3">I have watched the video: something to reflect on</button></p>
+    <ul class="rq" id="rq3" hidden><li>The leader did not ask “whose fault was it”. Why is that choice important?</li><li>Identify the moment when the leader used validation – what exactly did she say?</li><li>How would this situation have ended if the leader had waited for the employees to sort it out on their own?</li><li>In your own context, what kind of conflicts do you recognise in this scenario?</li></ul>
+  </div>
+ </div>
+ </div>
+</section>
+
+<section class="slide s-white mid" data-id="rp4" data-title="See it in action: Role play 4" data-k="See it in action" aria-roledescription="slide">
+ <div class="in">
+<div class="vid vid--rp">
+  <div class="a">
+    <div class="player"><video controls preload="metadata" playsinline poster="../assets/video/video-4h-poster.jpg" aria-label="Video: Role play 4, work overload">
+      <source src="../assets/video/en/video-4h.mp4" type="video/mp4">
+      <track kind="captions" srclang="en-GB" label="English" src="../assets/video/en/video-4h.vtt" default>
+    </video></div>
+
+  </div>
+  <div>
+    <div class="head" style="margin-bottom:0.75rem">
+      <p class="eyebrow a">See it in action</p>
+      <h2 class="a">Role play 4</h2>
+    </div>
+    <p class="lede a" style="font-size:1.0625rem;margin-bottom:0.625rem">Reading about PFA is different from seeing how a conversation like this really happens – with hesitation, with pauses, with the risk of the person not wanting to talk. The next role play is the closest to a real situation that you will find in this toolkit. It is worth watching carefully.</p>
+    <p class="ctxt a"><b>Context</b>Open-plan office, late afternoon. Several deadlines coincide and the team is under pressure. The team leader notices signs of overload in an employee and decides to approach her.</p>
+    <p class="ctxt a" style="margin-top:0.5rem"><b>What to observe</b>The timing of the approach, how the leader handles silence, how she moves from listening to practical support without pressing, and how she closes with a follow-up.</p>
+    <p class="a" style="margin-top:0.75rem"><button class="pill" data-reveal="once" aria-expanded="false" aria-controls="rq4">I have watched the video: something to reflect on</button></p>
+    <ul class="rq" id="rq4" hidden><li>The leader waited for a calm moment to approach. What conditions did she create before starting the conversation?</li><li>When the employee said “it’s just accumulated work”, the leader did not accept that and carried on. How did she do it without seeming intrusive?</li><li>The conversation ended with concrete actions. What difference does that make compared with stopping at emotional validation?</li><li>Is there anything in this conversation that seems hard to replicate? What and why?</li></ul>
+  </div>
+ </div>
+ </div>
+</section>
+
+<section class="slide circ circ-b circ-violet-b" data-id="erros" data-title="Common mistakes in identifying signs" data-k="A · Common mistakes" aria-roledescription="slide">
+ <div class="in">
+<div class="head" style="margin-bottom:0.625rem">
+    <p class="eyebrow a">Common mistakes in identifying signs</p>
+    <h2 class="a">Interpretation, avoidance or rationalisation</h2>
+    <p class="lede a" style="font-size:1.125rem;max-width:95ch">Identifying signs of psychosocial risk often fails not because of a lack of information, but because of interpretation, avoidance or rationalisation. <span id="erCount" aria-live="polite">1 of 15 seen</span></p>
+  </div>
+  <div class="a">
+    <div class="chk-groups" role="tablist" aria-label="Most common mistakes" id="erTabs"></div>
+    <div class="card erp" role="tabpanel" id="erPanel" tabindex="0"></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide s-navy mid" data-id="duvida" data-title="From doubt to action" data-k="A · From doubt to action" aria-roledescription="slide">
+ <div class="in">
+  <div class="head">
+    <p class="eyebrow a">From doubt to action: the role of the leader</p>
+    <h2 class="a keybig" style="max-width:32ch">The difference lies not in “knowing exactly what is going on”, but in <em>not letting the situation develop in silence.</em></h2>
+    <p class="lede a">One of the main risks in leadership is waiting for certainty before acting. In the psychosocial context, that certainty rarely arrives – and when it does, there is often already a significant impact. Stepping in does not require a diagnosis or confirmation. It requires a willingness to approach, even with incomplete information.</p>
+  </div>
+  <ul class="words"><li style="--j:0">Recognising signs</li><li style="--j:1">Do not ignore the doubt</li><li style="--j:2">Create space for a conversation</li><li style="--j:3">Adjust or refer when necessary</li></ul>
+ </div>
+</section>
+
+<section class="slide" data-id="frases" data-title="Phrases to start the approach" data-k="A · Starting the approach" aria-roledescription="slide">
+ <div class="in">
+<div class="head" style="margin-bottom:0.875rem">
+    <p class="eyebrow a">Phrases to start the approach</p>
+    <h2 class="a">Observation + intention + openness</h2>
+    <p class="lede a" style="font-size:1.125rem;max-width:95ch">The approach should be non-intrusive: be available without forcing the conversation, without insisting on details and without taking away the person’s autonomy. The aim is not to have the perfect phrase, but to open the door in a safe, concrete and respectful way.</p>
+  </div>
+  <div class="split" style="align-items:stretch;grid-template-columns:1.3fr .7fr">
+    <div class="card a"><h3 style="margin-bottom:0.5rem">Examples</h3><ul class="say say--2">
+      <li>“I’ve noticed some changes over the past few weeks and I’d like to understand how you are.”</li>
+      <li>“I have a feeling this period may be demanding. How are you experiencing it?”</li>
+      <li>“If there’s anything making work harder, we can look at it together.”</li>
+      <li>“I don’t know exactly what’s going on, but I thought it was important not to ignore it and to ask how you are.”</li>
+      <li>“I’ve noticed a few changes and I wanted to know how you are.”</li></ul></div>
+    <div class="who a fromR"><h3>If the person does not want to talk at that moment</h3>
+      <p style="font-size:clamp(1.15rem,1.6vw,1.5rem)">The leader’s role does not end – it becomes discreet presence, respect and follow-up.</p>
+      <p class="sm">Early interventions tend to be simpler, more proportionate and more effective.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="slide mid circ circ-fin circ-violet-a" data-id="fim" data-title="Completed" data-k="End of part" aria-roledescription="slide">
+ <div class="in">
+<div class="fin">
+  <div class="badge a pop" aria-hidden="true"><span class="confetti" id="confetti"></span>
+    <svg viewBox="0 0 200 200" class="draw">
+      <circle cx="100" cy="100" r="86" fill="#FFFFFF"/>
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#DC3228" stroke-width="6" stroke-linecap="round" style="--len:580" transform="rotate(-90 100 100)"/>
+      <path d="M68 104l22 22 44-48" fill="none" stroke="#00CD73" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" style="--len:120"/>
+    </svg>
+  </div>
+  <div>
+    <div class="head">
+      <p class="eyebrow a">Part completed</p>
+      <h2 class="a">You have finished the part “Should I step in?”</h2>
+      <p class="lede a" id="finTxt">You have seen every screen in this part.</p>
+    </div>
+    <h3 class="a">Read in the Toolkit</h3>
+    <p class="hint a">Part 4 – A, sections 2 to 6 · pages 76 to 86 of the original PDF</p>
+    <div class="dls">
+      <a class="dl a" href="../downloads/en/checklist-should-i-intervene.pdf" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span><span>“Should I step in?” checklist and what to do at each level<small>PDF · 3 pages</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (opens in a new window)</span></a>
+      <a class="dl a" href="../downloads/en/pfa-toolkit-part-4a-should-i-intervene.pdf" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span><span>Should I step in? From doubt to action<small>PDF · 11 pages</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (opens in a new window)</span></a>
+    </div>
+  </div>
+ </div>
+ </div>
+</section>
+</main>
+
+<footer class="ftr">
+  <div class="count"><b id="cnt">01 / 01</b><span id="cntT"></span><div class="dots" id="dots" aria-hidden="true"></div></div>
+  <nav class="nav" aria-label="Navigation between parts">
+    <p class="gate" id="gateHint" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><span class="sr">To move on, explore all the elements on this page. </span><span id="gateTxt"></span></span></p>
+    <button class="nbtn nbtn--prev" id="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg><span class="t">Previous</span></button>
+    <button class="nbtn nbtn--next" id="next" aria-describedby="gateHint"><span class="t">Next</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </nav>
+</footer>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Contents" aria-hidden="true">
+  <div class="drawer-top">
+  <header><h2>Contents</h2><button class="closeb" id="menuClose" aria-label="Close contents"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></header>
+  <div class="sum"><div class="meter"><b id="meter"></b></div><p id="meterTxt">0 parts completed</p><p class="small" id="meterChap"></p></div>
+  </div>
+  <nav aria-label="Course modules">
+    <ol class="course-nav" id="courseToc"></ol>
+  </nav>
+</aside>
+
+<dialog id="exit" aria-labelledby="exit-title">
+  <div class="dlg">
+    <h2 id="exit-title" tabindex="-1" autofocus>Do you want to leave the course?</h2>
+    <p class="hint" style="margin-top:0.375rem">Your progress is saved. When you come back, you will carry on from where you left off.</p>
+    <div style="display:flex;justify-content:flex-end;gap:0.625rem;flex-wrap:wrap;margin-top:1.375rem">
+      <button class="pill" id="exitCancel">Continue the course</button>
+      <button class="pill pill--red" id="exitOk">Exit</button>
+    </div>
+  </div>
+</dialog>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<dialog id="help" aria-labelledby="help-title">
+  <div class="dlg">
+    <h2 id="help-title" tabindex="-1" autofocus>Do you need support now?</h2>
+    <p class="hint">On a mobile phone, tap the number to call.</p>
+    <ul class="contacts" style="margin-top:0.75rem">
+      <li><div><b>Emergency</b><small>Immediate danger to life or health</small></div><a href="tel:112">112</a></li>
+      <li><div><b>We Are Sonae Line</b><small>24h/day · free and confidential</small></div><a href="tel:800100025">800 100 025</a></li>
+      <li><div><b>SNS 24 · Psychological Counselling</b><small>24h/day · option 4</small></div><a href="tel:808242424">808 24 24 24</a></li>
+      <li><div><b>National Suicide Prevention Line</b><small>24h/day</small></div><a href="tel:1411">1411</a></li>
+    </ul>
+    <div style="display:flex;justify-content:space-between;gap:0.625rem;flex-wrap:wrap;margin-top:1rem">
+      <a class="pill" href="resources.html">All resources (Module 6)</a>
+      <button class="pill pill--red" id="helpClose">Close</button>
+    </div>
+  </div>
+</dialog>
+<p class="sr" id="announce" aria-live="polite"></p>
+
+<script src="../assets/js/pages.js"></script>
+<script src="../assets/js/captions.js"></script>
+<script src="../assets/js/player.js"></script>
+<script>
+(() => {
+'use strict';
+const { $, $$ } = PSP;
+const { tabs, glide } = PSP;
+/* ---------- Cinco dimensões de decisão (pp. 76–78), complete: [o que observar, exemplo, pergunta, leitura prática] ---------- */
+const DM = [
+  ['Change', [['Changes from the person’s usual pattern', 'An employee who is usually participative becomes quiet', 'What exactly has changed?', 'The change should be compared with the person’s usual functioning'], ['Consistent changes in behaviour or functioning', 'An organised person starts forgetting simple tasks', 'When did it start?', 'Persistent changes tend to be more relevant than isolated episodes'], ['Changes in interaction, involvement or availability', 'Avoiding meetings or collaborating less', 'Have other team members noticed the same?', 'The more consistent the change, the greater the need for attention']]],
+  ['Impact', [['Consequences for performance or functioning', 'Delays in critical deliveries', 'Is it affecting results or functioning?', 'The impact may be technical, relational or operational'], ['Changes in team dynamics', 'Conflicts, withdrawal or less collaboration', 'Is there an impact on the team?', 'Not all impact shows up in formal indicators'], ['A drop in quality, safety or consistency', 'More operational mistakes or rework', 'Is there a risk to quality or safety?', 'Subtle changes can have a cumulative impact']]],
+  ['Distress', [['Emotional or physical signs of unwellness', 'Visible anxiety, irritability or apathy', 'Are there emotional signs beyond performance?', 'Distress is not always put into words directly'], ['Changes in energy, focus or emotional regulation', 'Exhaustion, low energy or difficulty concentrating', 'Does the person seem overwhelmed or worn down?', 'Cognitive and emotional signs are often mistaken for “lack of motivation”'], ['Presenteeism or functioning “under strain”', 'Present, but with clear difficulty functioning', 'Are there persistent signs of strain?', 'Physical presence does not mean wellbeing or functional capacity']]],
+  ['Time', [['Persistence of signs over time', 'Two consistent weeks of change', 'How long has this been happening?', 'Persistent signs increase the likelihood of psychosocial risk'], ['Frequency and continuity', 'Ongoing problem vs. isolated episode', 'Has there been improvement or deterioration?', 'One difficult day does not necessarily call for intervention'], ['A trend of worsening or staying the same', 'Functioning getting progressively worse', 'Does it coincide with a change or a period of greater pressure?', 'How things evolve over time is as important as the sign itself']]],
+  ['Risk', [['Potential for rapid deterioration', 'Evident exhaustion or accelerated deterioration', 'Is there a risk to the person?', 'On this dimension, the intervention should be faster and more direct'], ['Significant impact on the team or operation', 'Critical errors, intense conflicts or operational breakdown', 'Is there a risk to the team or operation?', 'Do not wait for absolute confirmation when there is significant risk'], ['Major breakdown in functioning', 'Extreme isolation or marked loss of capacity', 'Could this escalate quickly without intervention?', 'The priority becomes stabilisation and safety']]]
+];
+(() => {
+  const seg = $('#dmTabs'), panel = $('#dmPanel'), seen = new Set([0]), H = ['What to observe', 'Example', 'Question for the leader', 'Practical reading'];
+  seg.insertAdjacentHTML('beforeend', DM.map((d, i) => `<button role="tab" id="t-dm${i}" aria-controls="dmPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''}>${i + 1}. ${d[0]}</button>`).join(''));
+  const draw = i => {
+    panel.setAttribute('aria-labelledby', 't-dm' + i);
+    panel.innerHTML = DM[i][1].map(r => `<div class="drow">${r.map((c, j) => `<div><small>${H[j]}</small><p${j === 0 ? ' class="s"' : ''}>${c}</p></div>`).join('')}</div>`).join('');
+    panel.classList.remove('swap'); void panel.offsetWidth; panel.classList.add('swap');
+    seen.add(i); $('#dmCount').textContent = `${seen.size} of 5 seen`;
+  };
+  tabs(seg, (t, i) => { draw(i); glide(seg); }); draw(0);
+})();
+
+/* ---------- Checklist "Devo intervir?" (p. 79). Answers live only in memory.
+   The Toolkit's reading (p. 80) is qualitative. Rules used here, to be validated by the client's psychologists:
+   any "Risco" item = crítica; else at least one "Tempo" item and 4+ items = elevada;
+   else 3+ items across 2+ dimensions = moderada; else 1+ item = leve. ---------- */
+const DI = [
+  ['Change', ['There is a clear change from usual functioning', 'The person is more isolated, quiet or less participative', 'There has been a change in availability, involvement or initiative', 'Other team members have noticed differences in behaviour']],
+  ['Impact', ['There is an impact on performance or quality of work', 'Mistakes, delays or difficulties with organisation have increased', 'There is an impact on team dynamics (conflicts, withdrawal, less collaboration)', 'Functioning seems more unstable or inconsistent']],
+  ['Distress', ['There are visible signs of anxiety, irritability or exhaustion', 'The person seems to be functioning “under constant strain”', 'There are signs of low energy, difficulty concentrating or wear and tear', 'Presenteeism seems to have increased (“present, but not functional”)']],
+  ['Time', ['The signs have persisted for more than 1–2 weeks', 'There is worsening or no improvement', 'The changes have become more frequent or intense', 'The pattern continues even after a temporary reduction in pressure']],
+  ['Risk', ['There is rapid deterioration in functioning', 'There is a significant impact on the team or operation', 'There are intense conflicts, critical errors or a major breakdown in functioning', 'The situation seems hard to stabilise without additional support']]
+];
+const NV = [
+  ['Mild situation', 'Few isolated indicators', 'Occasional or inconsistent changes', 'Keep observing', '#00CD73',
+    ['Slight or recent changes', 'Little impact on functioning', 'No clear signs of worsening', 'Changes are still inconsistent'], 'Increase observation and open up space for connection without pressing.',
+    ['Observe more closely', 'Do an informal check-in', 'Reinforce availability', 'Monitor how things develop over the following weeks'], '<b>Example approach:</b> <i>“I’ve noticed you’ve been quieter over the past few days and I wanted to understand how you are.”</i>', false],
+  ['Moderate situation', 'Several indicators across different dimensions', 'Possible emerging psychosocial risk', 'Actively monitor and prepare an approach', '#FFB40F',
+    ['Signs that persist over time', 'Visible impact on functioning or relationships', 'Indications of overload, wear and tear or withdrawal', 'Several dimensions present at the same time'], 'Understand the situation better and prevent it from getting worse.',
+    ['Prepare a structured conversation', 'Choose a suitable, private setting', 'Base it on concrete observations', 'Explore needs and possible adjustments', 'Define a follow-up'], '<b>Focus of the intervention:</b> at this stage, the most important thing is not to normalise the signs or postpone the approach.', false],
+  ['High situation', 'Multiple persistent indicators', 'High likelihood of distress and/or deterioration', 'Intervene in a structured way', '#DC3228',
+    ['Significant distress or impact', 'Functioning clearly compromised', 'A trend of worsening', 'Difficulty recovering without additional support'], 'Reduce risk, stabilise functioning and mobilise appropriate support.',
+    ['Direct and clear intervention', 'Define practical support measures', 'Adjust workload, priorities or working conditions', 'Involve HR, occupational health or specialist support', 'Ensure close follow-up'], '<b>Focus of the intervention:</b> at this stage, inaction tends to increase psychosocial and operational risk quickly.', true],
+  ['Critical situation', 'Indicators of high risk', 'Potential for significant deterioration', 'Immediate intervention', '#8E1A1F',
+    ['High risk to the person, the team or the operation', 'Rapid deterioration in functioning', 'Intense exhaustion, emotional dysregulation or critical failure', 'A situation that is hard to contain with informal support alone'], 'Ensure safety, immediate stabilisation and activation of appropriate resources.',
+    ['Do not postpone intervention', 'Prioritise safety and containment', 'Activate support resources immediately', 'Reduce exposure to acute risk factors', 'Ensure continuous follow-up and appropriate coordination'], '<b>Focus of the intervention:</b> at this stage, the leader should not try to manage the situation alone.', true]
+];
+const MT = 'If the Occupational Physician is involved as part of the solution, set an expected time window for observation; if this cannot be guaranteed, activate an alternative (We Are Sonae 800 100 025 – 24h / psychological support / external resource).';
+let showLevel = () => {};
+(() => {
+  const tabsEl = $('#diTabs'), panel = $('#diPanel'), txt = $('#diTxt');
+  const state = DI.map(g => g[1].map(() => false)), seen = new Set([0]); let g = 0;
+  const count = i => state[i].filter(Boolean).length;
+  tabsEl.innerHTML = DI.map((c, i) => `<button role="tab" id="t-di${i}" aria-controls="diPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''}>${i + 1}. ${c[0]} <span class="c" aria-hidden="true">0</span></button>`).join('');
+  const draw = () => {
+    panel.setAttribute('aria-labelledby', 't-di' + g);
+    panel.innerHTML = `<h3>${g + 1}. ${DI[g][0]}</h3><ul>${DI[g][1].map((x, j) => `<li><label><input type="checkbox" data-j="${j}" ${state[g][j] ? 'checked' : ''}>${x}</label></li>`).join('')}</ul>`;
+    panel.classList.remove('swap'); void panel.offsetWidth; panel.classList.add('swap');
+  };
+  const sum = () => {
+    $$('[role=tab]', tabsEl).forEach((t, i) => { const c = $('.c', t), n = count(i); c.textContent = n; c.classList.toggle('has', n > 0); t.setAttribute('aria-label', `${i + 1}. ${DI[i][0]}, ${n} of 4 ticked`); });
+    const total = state.flat().filter(Boolean).length, dims = DI.filter((_, i) => count(i)).length; $('#diN').textContent = total;
+    if (!total) { txt.innerHTML = `<p>Tick the indicators that are present. <b>See the five dimensions${seen.size < 5 ? ` (${seen.size} of 5 seen)` : ''}.</b></p>`; return; }
+    const k = count(4) ? 3 : (count(3) && total >= 4) ? 2 : (total >= 3 && dims >= 2) ? 1 : 0, n = NV[k];
+    txt.innerHTML = `<p><b>${n[0]}: ${n[2].charAt(0).toLowerCase() + n[2].slice(1)}.</b> Recommended action: ${n[3].charAt(0).toLowerCase() + n[3].slice(1)}.</p><button class="pill" data-k="${k}">What to do at this level</button>`;
+  };
+  tabs(tabsEl, (t, i) => { g = i; seen.add(i); draw(); sum(); });
+  panel.addEventListener('change', e => { state[g][+e.target.dataset.j] = e.target.checked; sum(); });
+  txt.addEventListener('click', e => { const b = e.target.closest('[data-k]'); if (b) { PSP.go(PSP.idx('niveis')); showLevel(+b.dataset.k); } });
+  draw(); sum();
+})();
+
+/* ---------- O que fazer em cada nível (pp. 80–81), complete ---------- */
+(() => {
+  const list = $('#nvTabs'), panel = $('#nvPanel');
+  list.innerHTML = NV.map((l, i) => `<button class="lvl" role="tab" id="t-nv${i}" aria-controls="nvPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''} style="--c:${l[4]}">${l[0]}<em>${l[0].split(' ')[0].toUpperCase()}</em></button>`).join('');
+  const li = a => a.map(x => `<li>${x}</li>`).join('');
+  const draw = i => {
+    const l = NV[i]; panel.style.setProperty('--c', l[4]); panel.setAttribute('aria-labelledby', 't-nv' + i);
+    panel.innerHTML = `<p class="lead">${l[1]}: <span style="font-weight:500">${l[2].charAt(0).toLowerCase() + l[2].slice(1)}. ${l[3]}.</span></p>
+      <div class="three"><div><h4>Characteristics</h4><ul class="dotlist">${li(l[5])}</ul></div><div><h4>Leader’s aim</h4><p>${l[6]}</p></div><div><h4 class="g">Recommended action</h4><ul class="dotlist ok">${li(l[7])}</ul></div></div>
+      <p class="note">${l[8]}${l[9] ? `<br><small><b>Note:</b> ${MT}</small>` : ''}</p>`;
+    panel.classList.remove('swap'); void panel.offsetWidth; panel.classList.add('swap');
+  };
+  const { sel, ts } = tabs(list, (t, i) => draw(i)); draw(0);
+  showLevel = k => sel(ts[k]);
+})();
+
+/* ---------- Erros frequentes (p. 85), all fifteen ---------- */
+const ER = [
+  ['“It’s just a phase”', 'Ignoring early signs or assuming they will go away without intervention.'],
+  ['“They’ve always been like that”', 'Mistaking personality traits for changes in functioning.'],
+  ['Waiting for “more evidence”', 'Postponing intervention until there is clear impact or worsening.'],
+  ['Focusing only on results (KPIs)', 'Ignoring behaviour, context and emotional signs.'],
+  ['Avoiding the conversation', 'The leader’s discomfort leads to inaction, increasing the risk.'],
+  ['Normalising overload', 'Interpreting signs of exhaustion as “part of the job”.'],
+  ['Only acting when the impact is serious', 'Late interventions tend to be more complex and less effective.'],
+  ['Waiting for certainty before acting', 'Doubt is already a reason to observe more closely.'],
+  ['Confirmation bias', 'Seeing only what confirms the first impression.'],
+  ['Confusing observation with interpretation', 'Describe behaviours (“you’ve been taking part less”), not labels (“you seem unmotivated”).'],
+  ['Reducing the problem to the individual', 'Ignoring organisational factors (workload, priorities, context).'],
+  ['Interpreting silence as the absence of a problem', 'Assuming that “if they’re not saying anything, everything is fine”.'],
+  ['Intervening only informally and not following up', 'Doing a one-off check-in with no continuity or follow-up.'],
+  ['Pathologising normal reactions', 'Feeling sad, irritable, anxious or tired in a difficult situation is often an expected reaction – not a clinical problem. Labelling too quickly (“it’s depression”, “it’s anxiety”) stigmatises and distracts from what helps in the moment: presence, listening and practical support. What distinguishes a normal reaction from a warning sign is the pattern – frequency, intensity, duration and impact on functioning.'],
+  ['Ignoring your own reaction', 'What you feel (as a leader) when dealing with an employee – discomfort, persistent worry, a wish to avoid the conversation – is also information. It is often a first sign that something has changed. Use it to get closer and observe better, never as a diagnosis. If you are left with the feeling that you should ask, you probably already have a reason to do so.']
+];
+(() => {
+  const tabsEl = $('#erTabs'), panel = $('#erPanel'), seen = new Set([0]);
+  tabsEl.innerHTML = ER.map((c, i) => `<button role="tab" id="t-er${i}" aria-controls="erPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''}>${c[0]}</button>`).join('');
+  const draw = i => {
+    panel.setAttribute('aria-labelledby', 't-er' + i);
+    panel.innerHTML = `<p class="sub">Mistake ${i + 1} of 15</p><h3>${ER[i][0]}</h3><p>${ER[i][1]}</p>`;
+    panel.classList.remove('swap'); void panel.offsetWidth; panel.classList.add('swap');
+    seen.add(i); $('#erCount').textContent = `${seen.size} of 15 seen`;
+    $$('[role=tab]', tabsEl).forEach((t, j) => t.classList.toggle('seen', seen.has(j)));
+  };
+  tabs(tabsEl, (t, i) => draw(i)); draw(0);
+})();
+PSP.start();
+})();
+</script>
+</body>
+</html>

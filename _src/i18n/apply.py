@@ -253,7 +253,6 @@ def main():
         res = english_videos(res)
         if f.name == 'shell.html':
             res = res.replace('<html lang="pt-PT">', '<html lang="en-GB">')
-            res = res.replace('class="lngflag" src="assets/img/flag-pt-sq.svg"', 'class="lngflag" src="assets/img/flag-en-sq.svg"')  # the header switch shows the flag of the current language
         dest.write_text(res, encoding='utf-8')
     if problems:
         print('PROBLEMS:', len(problems))

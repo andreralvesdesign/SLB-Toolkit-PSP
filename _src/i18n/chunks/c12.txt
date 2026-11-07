@@ -1,0 +1,116 @@
+1320	A confidencialidade não é absoluta. Existem situações em que não agir pode representar um risco maior.
+1321	Quando existem sinais de
+1322	<b>Risco para a própria pessoa</b> (ex.: desesperança intensa, ideias de autoagressão, perda de controlo)
+1323	<b>Risco para terceiros</b> (ex.: comportamentos agressivos ou desregulados)
+1324	<b>Situações graves no contexto laboral</b> (ex.: assédio, violência, sofrimento psicológico intenso)
+1325	Nestes casos, é importante
+1326	não assumir a responsabilidade sozinho/a
+1327	procurar apoio adequado (chefia, RH, serviços de saúde, etc.)
+1328	sempre que possível, <b>informar a pessoa do que vai ser feito</b>
+1329	Exemplo de frase
+1330	“Estou preocupado/a contigo e acho importante envolvermos mais apoio. Posso ajudar nisso?”
+1331	Qual é o papel do colega?
+1332	O papel de quem apoia não é substituir um profissional, mas sim oferecer suporte inicial e facilitar o acesso a ajuda.
+1333	O papel do colega inclui
+1334	estar presente
+1335	escutar e validar
+1336	ajudar a identificar necessidades
+1337	facilitar o acesso a recursos
+1338	E implica também
+1339	reconhecer limites pessoais
+1340	saber quando parar
+1341	saber quando encaminhar
+1342	É importante ter claro que
+1343	Apoiar não é fazer intervenção clínica. Apoiar não é resolver o problema. Apoiar não é assumir responsabilidade pelo bem-estar do outro.
+1344	Limites na prática
+1345	Pensa no que farias em cada situação e clica no cartão para o virar.
+1346	0 de 5 virados
+1347	Autoproteção de quem ajuda
+1348	Apoiar alguém em sofrimento pode ter impacto emocional. Por isso, é importante garantir também o cuidado de quem ajuda.
+1349	Alguns sinais de sobrecarga
+1350	sentir-se responsável pela situação
+1351	dificuldade em “desligar” após a conversa
+1352	desgaste emocional ou preocupação persistente
+1353	Nestes casos, pode ser útil
+1354	partilhar com alguém de confiança (sem quebrar confidencialidade)
+1355	procurar apoio interno (ex.: RH, supervisão)
+1356	reconhecer que não é possível ajudar sozinho/a
+1357	<em>Ajudar não significa assumir tudo.</em>
+1358	Um apoio responsável implica respeitar a confidencialidade, reconhecer limites e saber quando envolver outros recursos.
+1359	Ver em ação: 1.º Role Play
+1360	Vídeo: 1.º Role Play, após testemunhar um acidente de trabalho
+1361	1.º Role Play
+1362	Nas páginas anteriores viste o que fazer quando um colega está em sofrimento. Agora observa como isso acontece numa situação real.
+1363	<b>Contexto</b>Armazém. Dias após presenciar um acidente de trabalho grave, Maria apresenta sinais claros de distress – distância, dificuldade de concentração, erros em tarefas simples. Um colega aproxima-se.
+1364	Já vi o vídeo: para refletir
+1365	Que sinais observaste em Maria antes de o colega se aproximar? Tê-los-ias identificado no teu contexto de trabalho?
+1366	O colega não tentou resolver o problema nem dar conselhos. Como te sentiste ao observar essa contenção?
+1367	Se fosses tu a Maria, o que teria feito diferença nessa conversa?
+1368	Ver em ação: 2.º Role Play
+1369	Vídeo: 2.º Role Play, após uma má notícia
+1370	2.º Role Play
+1371	Nem sempre o sofrimento vem do trabalho. Às vezes um colega está a gerir uma perda ou uma preocupação pessoal grave – e ainda assim está ali, presente, a tentar funcionar. A forma de apoiar é essencialmente a mesma, mas o contexto exige ainda mais cuidado e menos urgência em “resolver”.
+1372	<b>Contexto</b>Sala de pausa. Uma colaboradora acaba de receber a notícia de um diagnóstico grave de uma familiar próxima. Uma colega repara que algo não está bem.
+1373	A colega não tentou minimizar nem dar soluções. O que fez em vez disso?
+1374	Quando a colaboradora disse “não é nada demais”, qual foi a resposta? O que teria acontecido se a outra tivesse aceitado essa resposta e ido embora?
+1375	Há algo nesta conversa que te parece difícil de aplicar? Porquê?
+1376	Guia de conversa em seis passos
+1377	B · Guia prático de conversa
+1378	Guia prático de conversa
+1379	Seis passos simples
+1380	Este guia organiza a intervenção em seis passos, que ajudam a estruturar a abordagem sem a tornar rígida. Não é necessário seguir todos os passos de forma linear.
+1381	Notas importantes
+1382	Guia rápido: como apoiar um colega
+1383	<span class="x" aria-hidden="true"><svg#1/></span><span class="t">Não é necessário “fazer tudo bem”. A consistência é mais importante do que a perfeição.</span>
+1384	<span class="x" aria-hidden="true"><svg#1/></span><span class="t">Nem todas as conversas evoluem, respeitar o ritmo da pessoa é essencial.</span>
+1385	<span class="x" aria-hidden="true"><svg#1/></span><span class="t">Pequenos gestos (estar presente, escutar) podem ter grande impacto.</span>
+1386	Ajudar um colega não exige respostas complexas. <em>Exige presença, estrutura e respeito pelo ritmo da pessoa.</em>
+1387	Este guia serve como apoio, não como uma regra rígida.
+1388	Fluxograma 4: o que fazer no momento
+1389	Fluxograma 4
+1390	Fluxo de ação rápida: o que fazer no momento
+1391	<i>1</i>Algo não está bem com um colega
+1392	<i>2</i>Tenho condições para me aproximar?
+1393	<i>5</i>Apoio adicional?
+1394	<b>Se o apoio envolver Médico do Trabalho</b>Indicar uma janela temporal expectável para observação. Se o prazo não puder ser assegurado, ativar de imediato uma alternativa (Linha Somos Sonae 800 100 025 – 24h, apoio psicológico ou recurso externo).
+1395	Notei que algo não está bem com um colega.
+1396	Tenho condições para me aproximar agora? Se não: procurar outro momento ou envolver alguém disponível. Se sim: aproximar de forma simples: “Queria saber como estás.” “Notei que pareces mais sobrecarregado/a.”
+1397	A pessoa quer falar? Se não: respeitar. “Se quiseres falar mais tarde, estou disponível.”
+1398	O que é mais necessário agora? Acalmar / estabilizar: presença, tom calmo, pausa. Organizar / falar: escuta, dar espaço, ajudar a clarificar. Apoio prático: “Posso ajudar em alguma coisa?”
+1399	Há necessidade de apoio adicional? Se sim: “Queres que te ajude a falar com alguém?” “Podemos ver juntos que apoio faz sentido.” De acordo com a situação, encaminha para os recursos disponíveis. Se não: manter disponibilidade.
+1400	Parte 3 concluída
+1401	Terminaste o módulo “Limites e guia de conversa”
+1402	Parte 3 – B, secções 6 e 7 · páginas 54 a 64 do PDF original
+1403	
+      <a class="dl a" href="downloads/guia-rapido-como-apoiar-um-colega.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Protocolo passo a passo e Guia rápido<small>PDF · 2 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/fluxograma-4-o-que-fazer-no-momento.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Fluxograma 4: o que fazer no momento<small>PDF · 1 página</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-3b-limites-e-guia-de-conversa.pdf" target="_blank" rel="noopener"><span class="ic"><svg#3/></span><span>Limites, confidencialidade e guia de conversa<small>PDF · 11 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+1404	A pessoa partilha algo pessoal sem risco
+1405	A pessoa não quer falar
+1406	Respeitar e manter disponibilidade
+1407	Existe sofrimento significativo
+1408	Apoiar + considerar encaminhamento
+1409	Há risco para a pessoa ou outros
+1410	Procurar apoio adicional
+1411	Não sabe o que fazer
+1412	Não agir sozinho/a; pedir orientação
+1413	<li class="flip a pop" style="--i:${i + 3}"><button aria-expanded="false" data-front="Situação: ${c[0]}" data-back="O que fazer: ${c[1]}">
+    <span class="face front" aria-hidden="true"><small>Situação</small><span>${c[0]}</span><span class="turn">Virar <svg#1/></span></span>
+    <span class="face back" aria-hidden="true"><small class="ok">O que fazer</small><span>${c[1]}</span><span></span></span></button></li>
+1414	${$$('.flip.open', ul).length} de 5 virados
+1415	Antes de se aproximar, é importante fazer uma breve avaliação interna.
+1416	Escolher momento e local adequados. Garantir alguma privacidade.
+1417	Avaliar disponibilidade
+1418	“Tenho disponibilidade para falar agora?”
+1419	“Se não for agora, posso falar contigo mais tarde.”
+1420	Apoiar implica também garantir condições mínimas para o fazer com qualidade.
+1421	Identificar sinais de que algo pode não estar bem.
+1422	Ler linguagem não verbal. Avaliar abertura. Identificar o que está mais presente.
+1423	Notar mudanças
+1424	“Tenho notado que estás diferente.”
+1425	“Parece que tens estado mais sobrecarregado/a.”
+1426	O foco não é “diagnosticar”, mas reconhecer: “Esta pessoa está diferente do que é habitual.”
+1427	Iniciar a conversa de forma simples e respeitosa.
+1428	Aproximar de forma simples e respeitosa. Referir o que observou, sem alarmar.
+1429	Perguntar de forma simples

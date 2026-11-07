@@ -1,0 +1,114 @@
+990	Partilha e normalização
+991	Se fizer sentido, fala com alguém de confiança. Não precisas de explicar tudo, partilhar ajuda a reduzir o isolamento e a organizar a experiência.
+992	Vídeo: autorregulação através do toque
+993	c · Vídeo
+994	Vídeo: Autorregulação através do toque
+995	Quatro formas de utilizar o contacto físico contigo próprio/a para ajudar o corpo a acalmar.
+996	Fluxograma 2: Ação Rápida
+997	Fluxograma 2
+998	Ação Rápida
+999	<i>1</i>Stress, ansiedade ou sobrecarga?
+1000	<i>2</i>Consigo afastar-me?
+1001	<i>3</i>O que preciso mais?
+1002	<i>4</i>Já me sinto mais calmo/a?
+1003	<i>✓</i>Retomar
+1004	Sinto-me em stress, ansiedade ou sobrecarga? Sim.
+1005	Consigo afastar-me do local por alguns minutos? Se sim: faz uma micro-pausa (1–3 minutos); afasta-te fisicamente, se possível. Se não: usa uma estratégia no local (respiração controlada, grounding 5-4-3-2-1, STOP).
+1006	O que preciso mais neste momento? Acalmar o corpo: respiração controlada, grounding (5-4-3-2-1). Organizar a mente: STOP, externalizar preocupações, foco atencional. Retomar o controlo: movimento (caminhar, alongar), toque (mãos/peito), falar com alguém.
+1007	Já me sinto mais calmo/a ou com maior controlo? Se sim: retoma uma tarefa simples (passo pequeno e concreto). Se não: escolhe outra estratégia ou repete a anterior; em particular, partilha e normaliza; vê a página de Encaminhamento.
+1008	Depois do momento
+1009	Para refletir
+1010	Checklist “depois do momento”
+1011	Pequenos ajustes aumentam a eficácia ao longo do tempo
+1012	Após utilizar uma estratégia, pode ser útil refletir:
+1013	O que estava a sentir no início?
+1014	O que ajudou mais?
+1015	O que posso fazer de forma diferente da próxima vez?
+1016	Este guia de reflexão está disponível apenas em PDF: <a class="pill" href="downloads/fluxograma-3-reflexao-estruturada.pdf" target="_blank" rel="noopener">Abrir o Fluxograma 3: Guia de Reflexão Estruturada<span class="sr"> (PDF, abre numa nova janela)</span></a>
+1017	Em momentos de maior ativação, é normal sentir perda de controlo, urgência ou confusão. Estas estratégias não eliminam imediatamente o problema, mas ajudam a recuperar estabilidade suficiente para responder, em vez de reagir. <b>Começar pequeno já é suficiente.</b>
+1018	Terminaste o módulo “Autorregulação”
+1019	Parte 3 – A, secções 3 e 4 · páginas 36 a 45 do PDF original
+1020	
+      <a class="dl a" href="downloads/fluxograma-2-acao-rapida.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Fluxograma 2: Ação Rápida<small>PDF · 1 página</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/fluxograma-3-reflexao-estruturada.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Fluxograma 3: Guia de Reflexão Estruturada<small>PDF · 1 página</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-parte-3a-autorregulacao.pdf" target="_blank" rel="noopener"><span class="ic"><svg#3/></span><span>Base e estratégias de autorregulação<small>PDF · 10 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+1021	Sustém
+1022	1 ciclo completo
+1023	 ciclos completos
+1024	coisas que consegues ver
+1025	coisas que consegues ouvir
+1026	coisas que consegues tocar
+1027	coisas que consegues cheirar
+1028	coisa que consegues saborear
+1029	<li class="a pop" style="--i:${i + 3}"><button class="gbtn" aria-pressed="false"><b aria-hidden="true">${g[0]}</b><span><span class="sr">${g[0]} </span>${g[1]}</span><small>Assinalar como feito</small></button></li>
+1030	Assinalar como feito
+1031	${$$('.gbtn[aria-pressed=true]', ul).length} de 5 feitos
+1032	Sinto-me em stress, ansiedade ou sobrecarga?
+1033	Consigo afastar-me do local por alguns minutos?
+1034	Faz uma micro-pausa (1–3 minutos). Afasta-te fisicamente, se possível.
+1035	Usa uma estratégia no local:<ul><li>Respiração controlada</li><li>Grounding (5-4-3-2-1)</li><li>STOP</li></ul>
+1036	O que preciso mais neste momento?
+1037	Acalmar o corpo
+1038	<ul><li>Respiração controlada</li><li>Grounding (5-4-3-2-1)</li></ul>
+1039	Organizar a mente
+1040	<ul><li>STOP</li><li>Externalizar preocupações</li><li>Foco atencional</li></ul>
+1041	Retomar o controlo
+1042	<ul><li>Movimento (caminhar, alongar)</li><li>Toque (mãos/peito)</li><li>Falar com alguém</li></ul>
+1043	Já me sinto mais calmo/a ou com maior controlo?
+1044	Retoma uma tarefa simples (passo pequeno e concreto).
+1045	<p>Escolhe outra estratégia ou repete a anterior. Em particular: partilha e normaliza.</p><p>Vê a página de Encaminhamento. Os contactos essenciais estão no botão Apoio.</p>
+1046	3.3 Um colega em sofrimento: reconhecer e aproximar
+1047	Parte 3 · <b>3.3 Reconhecer e aproximar</b>
+1048	Reconhecer sinais e decidir <span>aproximar</span>
+1049	Parte B – Um colega está em sofrimento. O que observar, as dúvidas mais comuns antes de te aproximares e um guia de ação para decidir.
+1050	O que observar
+1051	B · Reconhecer sinais
+1052	Reconhecer sinais
+1053	Nem sempre um colega vai expressar diretamente que está em sofrimento. Muitas vezes, o que surge são mudanças subtis no comportamento habitual.
+1054	Podes notar:
+1055	Maior irritabilidade, impaciência ou reatividade
+1056	Afastamento ou menor interação com a equipa
+1057	Dificuldade em concentrar-se ou aumento de erros
+1058	Queda de motivação ou envolvimento
+1059	Alterações no ritmo de trabalho (mais lento ou acelerado)
+1060	Expressões frequentes de cansaço, frustração ou sobrecarga
+1061	Mais do que sinais isolados, o mais relevante é a mudança
+1062	“Esta pessoa está diferente do que é habitual?”
+1063	“Este comportamento é novo ou mais intenso do que antes?”
+1064	Nem todas as mudanças significam sofrimento, mas podem ser um indicador de que algo não está bem.
+1065	Dúvidas comuns
+1066	B · Dúvidas comuns
+1067	É natural sentir hesitação antes de te aproximares de um colega
+1068	Algumas dúvidas frequentes
+1069	“E se estou a interpretar mal?”
+1070	“E se a pessoa não quiser falar?”
+1071	“E se digo algo errado?”
+1072	“E se pioro a situação?”
+1073	Estas dúvidas são compreensíveis e fazem parte do processo.
+1074	No entanto, é importante ter em conta
+1075	Não é necessário ter a certeza para te aproximares
+1076	Não é necessário ter as palavras perfeitas
+1077	Não é necessário saber como “resolver”
+1078	O mais importante é a intenção: mostrar disponibilidade e cuidado. Na maioria das situações, uma abordagem respeitosa não prejudica e pode fazer uma diferença significativa.
+1079	O que é importante ter em conta?
+1080	Guia de ação: devo aproximar-me?
+1081	B · Guia de ação
+1082	Guia de ação
+1083	Devo aproximar-me?
+1084	Não é necessário esperar por sinais extremos para te aproximares. Pelo contrário, intervenções precoces são mais eficazes e menos invasivas.
+1085	Assinala os pontos a que respondes “sim”
+1086	<label><input type="checkbox">Notei uma mudança no comportamento habitual deste colega.</label>
+1087	<label><input type="checkbox">Parece mais isolado/a, irritado/a ou sobrecarregado/a do que o normal.</label>
+1088	<label><input type="checkbox">Tem demonstrado dificuldades em concentrar-se ou no desempenho.</label>
+1089	<label><input type="checkbox">Tenho a sensação de que “algo não está bem”.</label>
+1090	<label><input type="checkbox">Já pensei mais do que uma vez que devia perguntar como está.</label>
+1091	Se respondeste “sim” a um ou mais destes pontos, pode fazer sentido aproximares-te.
+1092	Se ainda tenho dúvidas…
+1093	Não preciso de ter a certeza para me aproximar
+1094	Posso apenas perguntar de forma simples e respeitosa
+1095	Posso respeitar se a pessoa não quiser falar
+1096	Ilustração: uma pessoa apoia outra que está abatida, com a mão no ombro.
+1097	Sinais de maior atenção
+1098	Guia de ação · agir com prioridade
+1099	Se observares algum destes sinais, é importante não adiar:

@@ -1,11 +1,12 @@
 {
-"2.1 Contextualização": [
-"2-1-contextualizacao.html"
+"1.1 Como utilizar este Toolkit": [
+"1-1-como-utilizar.html"
 ],
-"Módulo 2 · <b>2.1 Contextualização</b>": [
-"2-1-contextualizacao.html"
+"Módulo 1 · <b>1.1 Como utilizar este Toolkit</b>": [
+"1-1-como-utilizar.html"
 ],
 "Início": [
+"1-1-como-utilizar.html",
 "2-1-contextualizacao.html",
 "2-2-riscos-psicossociais.html",
 "2-3-primeiros-socorros-psicologicos.html",
@@ -26,13 +27,17 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-9-suicidio.html",
 "6-1-quando-encaminhar.html",
 "6-2-recursos.html",
+"index.html",
+"index.html",
 "index.html",
 "index.html"
 ],
 "Capa": [
+"1-1-como-utilizar.html",
 "2-1-contextualizacao.html",
 "2-2-riscos-psicossociais.html",
 "2-3-primeiros-socorros-psicologicos.html",
@@ -53,11 +58,20 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-9-suicidio.html",
 "6-1-quando-encaminhar.html",
 "6-2-recursos.html"
 ],
 "diapositivo": [
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
 "2-1-contextualizacao.html",
 "2-1-contextualizacao.html",
 "2-1-contextualizacao.html",
@@ -66,6 +80,8 @@
 "2-1-contextualizacao.html",
 "2-1-contextualizacao.html",
 "2-1-contextualizacao.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
 "2-2-riscos-psicossociais.html",
 "2-2-riscos-psicossociais.html",
 "2-2-riscos-psicossociais.html",
@@ -95,6 +111,8 @@
 "3-1-sinais-de-alerta.html",
 "3-1-sinais-de-alerta.html",
 "3-1-sinais-de-alerta.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
 "3-2-autorregulacao.html",
 "3-2-autorregulacao.html",
 "3-2-autorregulacao.html",
@@ -116,6 +134,8 @@
 "3-3-reconhecer-e-aproximar.html",
 "3-3-reconhecer-e-aproximar.html",
 "3-3-reconhecer-e-aproximar.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
 "3-4-apoiar-durante-a-conversa.html",
 "3-4-apoiar-durante-a-conversa.html",
 "3-4-apoiar-durante-a-conversa.html",
@@ -143,12 +163,14 @@
 "4-1-o-papel-do-lider.html",
 "4-1-o-papel-do-lider.html",
 "4-1-o-papel-do-lider.html",
+"4-1-o-papel-do-lider.html",
 "4-2-identificar-sinais-na-equipa.html",
 "4-2-identificar-sinais-na-equipa.html",
 "4-2-identificar-sinais-na-equipa.html",
 "4-2-identificar-sinais-na-equipa.html",
 "4-2-identificar-sinais-na-equipa.html",
 "4-2-identificar-sinais-na-equipa.html",
+"4-2-identificar-sinais-na-equipa.html",
 "4-3-devo-intervir.html",
 "4-3-devo-intervir.html",
 "4-3-devo-intervir.html",
@@ -161,6 +183,8 @@
 "4-3-devo-intervir.html",
 "4-3-devo-intervir.html",
 "4-3-devo-intervir.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
 "4-4-como-abordar-um-colaborador.html",
 "4-4-como-abordar-um-colaborador.html",
 "4-4-como-abordar-um-colaborador.html",
@@ -186,12 +210,15 @@
 "5-1-burnout.html",
 "5-1-burnout.html",
 "5-1-burnout.html",
+"5-1-burnout.html",
 "5-2-luto.html",
 "5-2-luto.html",
 "5-2-luto.html",
 "5-2-luto.html",
 "5-2-luto.html",
 "5-2-luto.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
@@ -205,6 +232,8 @@
 "5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
 "5-5-comportamento-agressivo.html",
 "5-5-comportamento-agressivo.html",
 "5-5-comportamento-agressivo.html",
@@ -216,17 +245,20 @@
 "5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
+"5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html",
@@ -241,6 +273,7 @@
 "6-1-quando-encaminhar.html",
 "6-1-quando-encaminhar.html",
 "6-1-quando-encaminhar.html",
+"6-1-quando-encaminhar.html",
 "6-2-recursos.html",
 "6-2-recursos.html",
 "6-2-recursos.html",
@@ -249,23 +282,576 @@
 "6-2-recursos.html",
 "6-2-recursos.html",
 "6-2-recursos.html",
-"index.html",
-"index.html",
-"index.html",
-"index.html",
 "index.html",
 "index.html",
 "index.html"
+],
+"Módulo 1 · Introdução": [
+"1-1-como-utilizar.html"
+],
+"Como utilizar este <span>Toolkit</span>": [
+"1-1-como-utilizar.html"
+],
+"O que é, para quem é, quando recorrer a ele e o que vais encontrar.": [
+"1-1-como-utilizar.html"
+],
+"<span><svg#1/>8 ecrãs</span>": [
+"1-1-como-utilizar.html",
+"6-2-recursos.html"
+],
+"8 ecrãs": [
+"1-1-como-utilizar.html",
+"5-3-ataques-de-panico.html",
+"6-2-recursos.html"
+],
+"Eu escolho aprender. Construímos o futuro juntos.": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-9-suicidio.html",
+"6-1-quando-encaminhar.html",
+"6-2-recursos.html",
+"index.html"
+],
+"#PrecisamosFalar": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-9-suicidio.html",
+"6-1-quando-encaminhar.html",
+"6-2-recursos.html",
+"index.html"
+],
+"O que é este material": [
+"1-1-como-utilizar.html"
+],
+"1.1 · O que é este material": [
+"1-1-como-utilizar.html"
+],
+"Um guia prático de Primeiros Socorros Psicológicos (PSP) no trabalho": [
+"1-1-como-utilizar.html"
+],
+"Ajuda-te a reconhecer sinais de sofrimento psicológico, em ti, num colega ou na equipa, e a responder de forma humana, segura e estruturada, segundo uma lógica simples:": [
+"1-1-como-utilizar.html"
+],
+"A lógica dos PSP": [
+"1-1-como-utilizar.html"
+],
+"<i aria-hidden=\"true\">1</i>Observar": [
+"1-1-como-utilizar.html",
+"4-4-como-abordar-um-colaborador.html"
+],
+"<i aria-hidden=\"true\">2</i>Escutar": [
+"1-1-como-utilizar.html",
+"4-4-como-abordar-um-colaborador.html"
+],
+"<i aria-hidden=\"true\">3</i>Ligar ao apoio certo": [
+"1-1-como-utilizar.html"
+],
+"Não exige formação clínica. Reúne informação, checklists, fluxogramas, vídeos (role plays) e exercícios, para teres sempre à mão o que precisas em cada situação.": [
+"1-1-como-utilizar.html"
+],
+"Ilustração: duas pessoas preenchem uma grande lista de verificação.": [
+"1-1-como-utilizar.html"
+],
+"Para quem é": [
+"1-1-como-utilizar.html"
+],
+"1.2 · Para quem é": [
+"1-1-como-utilizar.html"
+],
+"Para todos os colaboradores e líderes": [
+"1-1-como-utilizar.html"
+],
+"Independentemente da função ou da área. Não exige qualquer experiência clínica: foi pensado precisamente para quem, no dia a dia, pode ser a primeira pessoa a notar que algo não está bem.": [
+"1-1-como-utilizar.html"
+],
+"A quem lidera": [
+"1-1-como-utilizar.html"
+],
+"Ferramentas para identificar sinais cedo e agir de forma segura.": [
+"1-1-como-utilizar.html"
+],
+"A cada colaborador": [
+"1-1-como-utilizar.html"
+],
+"Formas de cuidares de ti e de apoiares um colega em sofrimento.": [
+"1-1-como-utilizar.html"
+],
+"O que se pede não é conhecimento técnico, mas <b>disponibilidade, atenção e respeito pelo outro.</b>": [
+"1-1-como-utilizar.html"
+],
+"Quando utilizar": [
+"1-1-como-utilizar.html"
+],
+"1.3 · Quando utilizar": [
+"1-1-como-utilizar.html"
+],
+"Este toolkit acompanha-te em diferentes momentos": [
+"1-1-como-utilizar.html"
+],
+"Clica em cada momento para veres onde encontrar resposta.": [
+"1-1-como-utilizar.html"
+],
+"0 de 5 vistos": [
+"1-1-como-utilizar.html",
+"3-1-sinais-de-alerta.html"
+],
+"Quando utilizar o toolkit": [
+"1-1-como-utilizar.html"
+],
+"<img src=\"assets/img/ic-34.png\" alt=\"\">No dia a dia<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"1-1-como-utilizar.html"
+],
+"<img src=\"assets/img/ic-18.png\" alt=\"\">Um colega está diferente<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"1-1-como-utilizar.html"
+],
+"<img src=\"assets/img/ic-16.png\" alt=\"\">Lidero uma equipa<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"1-1-como-utilizar.html"
+],
+"<img src=\"assets/img/ic-108.png\" alt=\"\">Situações sensíveis<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"1-1-como-utilizar.html"
+],
+"<img src=\"assets/img/ic-08.png\" alt=\"\">Encaminhar ou pedir contactos<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"1-1-como-utilizar.html"
+],
+"Módulo 3 · Bloco A": [
+"1-1-como-utilizar.html"
+],
+"No dia a dia, para prevenção e autocuidado": [
+"1-1-como-utilizar.html"
+],
+"Reconhecer sinais de alerta em ti e cuidar do teu equilíbrio.": [
+"1-1-como-utilizar.html"
+],
+"Ir para o Módulo 3 · Bloco A": [
+"1-1-como-utilizar.html"
+],
+"Ilustração: duas pessoas a trabalhar lado a lado, cada uma na sua secretária, com o portátil.": [
+"1-1-como-utilizar.html"
+],
+"Módulo 3 · Bloco B": [
+"1-1-como-utilizar.html"
+],
+"Quando notas que um colega está diferente ou em sofrimento": [
+"1-1-como-utilizar.html"
+],
+"E queres saber como aproximar-te.": [
+"1-1-como-utilizar.html"
+],
+"Ir para o Módulo 3 · Bloco B": [
+"1-1-como-utilizar.html"
+],
+"Ilustração: duas pessoas, uma apoia a outra que está abatida.": [
+"1-1-como-utilizar.html",
+"2-3-primeiros-socorros-psicologicos.html"
+],
+"Módulo 4": [
+"1-1-como-utilizar.html"
+],
+"Quando lideras uma equipa": [
+"1-1-como-utilizar.html"
+],
+"E queres identificar sinais e agir cedo.": [
+"1-1-como-utilizar.html"
+],
+"Ir para o Módulo 4": [
+"1-1-como-utilizar.html"
+],
+"Ilustração: uma equipa de colegas a trabalhar em conjunto.": [
+"1-1-como-utilizar.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"4-1-o-papel-do-lider.html"
+],
+"Módulo 5": [
+"1-1-como-utilizar.html",
+"5-0-situacoes-sensiveis.html"
+],
+"Em situações sensíveis": [
+"1-1-como-utilizar.html"
+],
+"Burnout, luto, pânico, conflito, crise ou suicídio.": [
+"1-1-como-utilizar.html"
+],
+"Ir para o Módulo 5": [
+"1-1-como-utilizar.html"
+],
+"Ilustração: um emaranhado de linhas entre duas pessoas, a representar confusão.": [
+"1-1-como-utilizar.html",
+"2-3-primeiros-socorros-psicologicos.html"
+],
+"Módulo 6": [
+"1-1-como-utilizar.html"
+],
+"Quando precisas de encaminhar ou de contactos de apoio": [
+"1-1-como-utilizar.html"
+],
+"Os contactos essenciais estão também sempre à mão no botão <b>Apoio</b>.": [
+"1-1-como-utilizar.html"
+],
+"Abrir os contactos de apoio": [
+"1-1-como-utilizar.html"
+],
+"Ilustração: pessoas ligadas entre si por uma linha.": [
+"1-1-como-utilizar.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-2-autorregulacao.html",
+"4-1-o-papel-do-lider.html"
+],
+"O que não substitui": [
+"1-1-como-utilizar.html"
+],
+"1.4 · O que não substitui": [
+"1-1-como-utilizar.html"
+],
+"Os PSP são uma primeira resposta de apoio": [
+"1-1-como-utilizar.html"
+],
+"<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Não são psicoterapia, aconselhamento clínico nem avaliação diagnóstica</span>": [
+"1-1-como-utilizar.html"
+],
+"<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Não exigem que analises o que aconteceu ou que resolvas o problema da pessoa</span>": [
+"1-1-como-utilizar.html"
+],
+"<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Este material não substitui apoio psicológico profissional, acompanhamento médico nem os procedimentos internos da organização</span>": [
+"1-1-como-utilizar.html"
+],
+"O seu objetivo é ajudar-te a <b>estar presente</b> e a <b>ligar a pessoa ao apoio certo</b>.": [
+"1-1-como-utilizar.html"
+],
+"Em situações de risco, recorre ao Módulo 6 ou, em emergência, contacta o 112.": [
+"1-1-como-utilizar.html"
+],
+"Ver contactos": [
+"1-1-como-utilizar.html"
+],
+"O que vais encontrar": [
+"1-1-como-utilizar.html"
+],
+"Como navegar": [
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html"
+],
+"Ferramentas de consulta rápida, para usares no momento certo": [
+"1-1-como-utilizar.html"
+],
+"Clica numa ferramenta para ires diretamente à secção onde ela está.": [
+"1-1-como-utilizar.html"
+],
+"Guiam-te passo a passo": [
+"1-1-como-utilizar.html"
+],
+"Fluxogramas": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"2-3-primeiros-socorros-psicologicos.html#m2-3-s13\"><span>PSP no Momento<em>Módulo 2</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"3-2-autorregulacao.html#m3-2-fluxo\"><span>Ação Rápida<em>Módulo 3 · Bloco A</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"3-2-autorregulacao.html#m3-2-depois\"><span>Reflexão Estruturada<em>Módulo 3 · Bloco A</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"3-5-limites-e-guia-de-conversa.html#m3-5-fluxo\"><span>Apoiar um colega<em>Módulo 3 · Bloco B</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"Observar e decidir": [
+"1-1-como-utilizar.html"
+],
+"Checklists": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"2-2-riscos-psicossociais.html#m2-2-observar\"><span>O que observar na equipa<em>Módulo 2</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"3-3-reconhecer-e-aproximar.html#m3-3-guia\"><span>Devo aproximar-me?<em>Módulo 3 · Bloco B</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"4-1-o-papel-do-lider.html#m4-1-radar\"><span>Radar de Risco Psicossocial<em>Módulo 4</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"4-3-devo-intervir.html#m4-3-checklist\"><span>Devo intervir?<em>Módulo 4</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"Role plays": [
+"1-1-como-utilizar.html"
+],
+"Ver em ação": [
+"1-1-como-utilizar.html",
+"3-5-limites-e-guia-de-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-3-devo-intervir.html",
+"4-3-devo-intervir.html",
+"4-3-devo-intervir.html",
+"4-3-devo-intervir.html",
+"5-3-ataques-de-panico.html",
+"5-3-ataques-de-panico.html"
+],
+"<a href=\"3-5-limites-e-guia-de-conversa.html#m3-5-rp1\"><span>1.º e 2.º Role Play<em>Se eu sou um colaborador</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"4-3-devo-intervir.html#m4-3-rp3\"><span>3.º e 4.º Role Play<em>Se eu sou um líder</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"5-3-ataques-de-panico.html#m5-3-rp5\"><span>5.º Role Play<em>Ataque de pânico</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"Autorregulação": [
+"1-1-como-utilizar.html"
+],
+"Exercícios práticos": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"3-2-autorregulacao.html#m3-2-momento\"><span>Técnicas simples para reduzir a ativação e recuperar o equilíbrio<em>Módulo 3 · Bloco A</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"Resumo “se → então”": [
+"1-1-como-utilizar.html"
+],
+"Cartão de bolso": [
+"1-1-como-utilizar.html"
+],
+"<a href=\"2-3-primeiros-socorros-psicologicos.html#m2-3-s14\"><span>As respostas essenciais, num só cartão<em>Módulo 2</em></span></a>": [
+"1-1-como-utilizar.html"
+],
+"Como navegar no curso": [
+"1-1-como-utilizar.html"
+],
+"Não precisas de ver tudo de seguida": [
+"1-1-como-utilizar.html"
+],
+"Usa o Índice e vai diretamente à situação de que precisas. Cada parte é uma página, para ler de cima para baixo. O curso guarda o ponto onde ficaste.": [
+"1-1-como-utilizar.html"
+],
+"Índice": [
+"1-1-como-utilizar.html",
+"shell.html",
+"shell.html",
+"shell.html"
+],
+"Todos os módulos do curso e as partes de cada um, para abrires por qualquer ordem.": [
+"1-1-como-utilizar.html"
+],
+"Apoio": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"shell.html"
+],
+"Os contactos de ajuda, em qualquer página.": [
+"1-1-como-utilizar.html"
+],
+"CC": [
+"1-1-como-utilizar.html"
+],
+"Legendas e som": [
+"1-1-como-utilizar.html"
+],
+"Ativa ou desativa as legendas e o som dos vídeos.": [
+"1-1-como-utilizar.html"
+],
+"Anterior e Seguinte": [
+"1-1-como-utilizar.html"
+],
+"No fim de cada página, levam-te à parte anterior ou à seguinte. O Seguinte abre quando tiveres explorado tudo o que a página tem.": [
+"1-1-como-utilizar.html"
+],
+"Ponto vermelho": [
+"1-1-como-utilizar.html"
+],
+"Marca o que ainda não abriste. Clica em cada elemento com ponto vermelho para ver todo o conteúdo da página.": [
+"1-1-como-utilizar.html"
+],
+"Ler no Toolkit": [
+"1-1-como-utilizar.html",
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-9-suicidio.html",
+"6-1-quando-encaminhar.html",
+"6-2-recursos.html"
+],
+"No fim de cada parte, o texto completo em PDF.": [
+"1-1-como-utilizar.html"
+],
+"Sair": [
+"1-1-como-utilizar.html",
+"shell.html",
+"shell.html"
+],
+"O teu progresso fica guardado.": [
+"1-1-como-utilizar.html"
+],
+"Concluído": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"6-1-quando-encaminhar.html",
+"6-2-recursos.html"
+],
+"Fim da parte": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"6-1-quando-encaminhar.html",
+"6-2-recursos.html"
+],
+"Parte concluída": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"6-1-quando-encaminhar.html"
+],
+"Terminaste a parte “Como utilizar este Toolkit”": [
+"1-1-como-utilizar.html"
+],
+"Viste todos os ecrãs desta parte.": [
+"1-1-como-utilizar.html",
+"2-1-contextualizacao.html",
+"2-2-riscos-psicossociais.html",
+"2-3-primeiros-socorros-psicologicos.html",
+"3-1-sinais-de-alerta.html",
+"3-2-autorregulacao.html",
+"3-3-reconhecer-e-aproximar.html",
+"3-4-apoiar-durante-a-conversa.html",
+"3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
+"4-2-identificar-sinais-na-equipa.html",
+"4-3-devo-intervir.html",
+"4-4-como-abordar-um-colaborador.html",
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"6-1-quando-encaminhar.html",
+"6-2-recursos.html"
+],
+"Parte 1 · páginas 4 a 6 do PDF original": [
+"1-1-como-utilizar.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-1.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Módulo 1 · Como utilizar este Toolkit<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-completo.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Toolkit completo<small>PDF · 145 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"1-1-como-utilizar.html"
+],
+"2.1 Contextualização": [
+"2-1-contextualizacao.html"
+],
+"Módulo 2 · <b>2.1 Contextualização</b>": [
+"2-1-contextualizacao.html"
 ],
 "Módulo 2 · Primeiros Socorros Psicológicos no Local de Trabalho": [
 "2-1-contextualizacao.html",
 "2-2-riscos-psicossociais.html",
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Porque falamos de<br class=\"brd\"> <span>saúde mental<br class=\"brd\"> no trabalho</span>": [
+"Contextua&shy;lização": [
 "2-1-contextualizacao.html"
 ],
-"O trabalho pode proteger ou fragilizar a saúde mental. Porque é que isso importa, e o que uma casa como o Benfica pode fazer.": [
+"O trabalho pode proteger ou fragilizar a saúde mental. Porque é que isso importa, e o que as organizações podem fazer.": [
 "2-1-contextualizacao.html"
 ],
 "<span><svg#1/>9 ecrãs</span><span><svg#2/>3 vídeos</span>": [
@@ -279,9 +865,6 @@
 "3 vídeos": [
 "2-1-contextualizacao.html"
 ],
-"Dois colegas fazem uma pausa para café e conversam.": [
-"2-1-contextualizacao.html"
-],
 "Saúde mental em Portugal": [
 "2-1-contextualizacao.html"
 ],
@@ -291,23 +874,6 @@
 ],
 "Vídeo: Prevalência de problemas de saúde mental em Portugal": [
 "2-1-contextualizacao.html"
-],
-"<b>CC</b> Legendas não disponíveis nesta versão de demonstração.": [
-"2-1-contextualizacao.html",
-"2-1-contextualizacao.html",
-"2-1-contextualizacao.html",
-"2-2-riscos-psicossociais.html",
-"2-2-riscos-psicossociais.html",
-"2-3-primeiros-socorros-psicologicos.html",
-"3-2-autorregulacao.html",
-"3-2-autorregulacao.html",
-"3-2-autorregulacao.html",
-"3-2-autorregulacao.html",
-"3-5-limites-e-guia-de-conversa.html",
-"3-5-limites-e-guia-de-conversa.html",
-"4-3-devo-intervir.html",
-"4-3-devo-intervir.html",
-"5-3-ataques-de-panico.html"
 ],
 "Prevalência de problemas de saúde mental em Portugal": [
 "2-1-contextualizacao.html"
@@ -394,19 +960,19 @@
 "Em cada exemplo, o mesmo tipo de exigência pode proteger ou fragilizar a saúde mental. A diferença está na forma como o contexto responde.": [
 "2-1-contextualizacao.html"
 ],
-"<img src=\"assets/img/av-working-late.svg\" alt=\"\">A Ana e a Rita trabalham no atendimento ao público do Estádio da Luz, numa semana de jogo grande: a mesma carga, o mesmo prazo, o mesmo público à porta.": [
+"<img src=\"assets/img/av-18.webp\" alt=\"\">A Ana e a Rita têm funções semelhantes e um período de trabalho igualmente intenso.": [
 "2-1-contextualizacao.html"
 ],
 "Ana": [
 "2-1-contextualizacao.html"
 ],
-"Tem autonomia para organizar o turno, sente que o esforço é reconhecido e sabe que pode pedir ajuda. No fim do jogo está cansada, mas com sentido de missão cumprida.": [
+"Tem autonomia para organizar as tarefas, sente que o esforço é reconhecido e sabe que pode pedir ajuda. Termina o período cansada, mas com sentido de realização.": [
 "2-1-contextualizacao.html"
 ],
 "Rita": [
 "2-1-contextualizacao.html"
 ],
-"Trabalha sob pressão constante, sem margem de decisão e com receio de errar à frente de milhares de pessoas. O mesmo cansaço transforma-se em esgotamento.": [
+"Trabalha sob pressão constante, sem margem de decisão e com receio de errar. O mesmo cansaço transforma-se em esgotamento.": [
 "2-1-contextualizacao.html"
 ],
 "O que faz a diferença?": [
@@ -427,7 +993,7 @@
 "Exemplo prático · 2 de 3": [
 "2-1-contextualizacao.html"
 ],
-"<img src=\"assets/img/av-16.svg\" alt=\"\">Um colaborador habitualmente participativo começa a isolar-se, falta a reuniões e responde de forma irritável.": [
+"<img src=\"assets/img/av-16.webp\" alt=\"\">Um colaborador habitualmente participativo começa a isolar-se, falta a reuniões e responde de forma irritável.": [
 "2-1-contextualizacao.html"
 ],
 "Num contexto atento": [
@@ -455,7 +1021,7 @@
 "Exemplo prático · 3 de 3": [
 "2-1-contextualizacao.html"
 ],
-"<img src=\"assets/img/av-back-to-work.svg\" alt=\"\">Após uma baixa por motivos de saúde mental, uma colaboradora regressa à equipa.": [
+"<img src=\"assets/img/av-35.webp\" alt=\"\">Após uma baixa por motivos de saúde mental, uma colaboradora regressa à equipa.": [
 "2-1-contextualizacao.html"
 ],
 "Quando o regresso é preparado": [
@@ -488,10 +1054,6 @@
 "Autonomia": [
 "2-1-contextualizacao.html"
 ],
-"Apoio": [
-"2-1-contextualizacao.html",
-"shell.html"
-],
 "Reconhecimento": [
 "2-1-contextualizacao.html"
 ],
@@ -499,7 +1061,13 @@
 "2-1-contextualizacao.html",
 "4-1-o-papel-do-lider.html"
 ],
-"Colegas celebram juntos com um high five.": [
+"Terminaste a parte “Contextualização”": [
+"2-1-contextualizacao.html"
+],
+"Parte 2, secção 1 · páginas 8 a 10 do PDF original": [
+"2-1-contextualizacao.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-capitulo-1.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Parte completa<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "2-1-contextualizacao.html"
 ],
 "2.2 Os Riscos Psicossociais": [
@@ -522,9 +1090,6 @@
 "3-5-limites-e-guia-de-conversa.html",
 "4-3-devo-intervir.html"
 ],
-"Uma colega à secretária, com a mão na testa, sob pressão.": [
-"2-2-riscos-psicossociais.html"
-],
 "O que são": [
 "2-2-riscos-psicossociais.html",
 "2-3-primeiros-socorros-psicologicos.html",
@@ -536,6 +1101,7 @@
 "Antes de começar": [
 "2-2-riscos-psicossociais.html",
 "2-3-primeiros-socorros-psicologicos.html",
+"5-9-suicidio.html",
 "5-9-suicidio.html"
 ],
 "Riscos que nem sempre se veem": [
@@ -559,7 +1125,7 @@
 "<em>2.3</em><b>Agir</b><span>O que fazer em cada nível</span>": [
 "2-2-riscos-psicossociais.html"
 ],
-"Ilustração: pessoa a pensar, com uma lâmpada e engrenagens na cabeça, a representar riscos que não se veem à primeira.": [
+"Ilustração: pessoa ao computador, rodeada de pontos de interrogação e setas, com uma lâmpada ao lado.": [
 "2-2-riscos-psicossociais.html"
 ],
 "Vídeo: os riscos psicossociais": [
@@ -677,6 +1243,15 @@
 "2-2-riscos-psicossociais.html"
 ],
 "0 de 6 virados": [
+"2-2-riscos-psicossociais.html"
+],
+"Terminaste a parte “Os Riscos Psicossociais”": [
+"2-2-riscos-psicossociais.html"
+],
+"Parte 2, secção 2 · páginas 11 a 15 do PDF original": [
+"2-2-riscos-psicossociais.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/checklist-o-que-observar-na-equipa.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Checklist: o que observar na equipa<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-capitulo-2.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Parte completa<small>PDF · 5 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "2-2-riscos-psicossociais.html"
 ],
 "Exigências laborais": [
@@ -1058,7 +1633,7 @@
 "Seguir os procedimentos internos da organização": [
 "2-2-riscos-psicossociais.html"
 ],
-"Encaminhar para recursos formais (RH, apoio psicológico, canal de denúncias do Benfica)": [
+"Encaminhar para recursos formais (RH, apoio psicológico, canais de denúncia)": [
 "2-2-riscos-psicossociais.html"
 ],
 "<button class=\"lvl\" role=\"tab\" id=\"t-l${i}\" aria-controls=\"lvlPanel\" aria-selected=\"${i === 0}\" ${i ? 'tabindex=\"-1\"' : ''} style=\"--c:${l[2]}\">${l[0]}<em>NÍVEL ${i + 1}</em></button>": [
@@ -1149,16 +1724,8 @@
 "2-3-primeiros-socorros-psicologicos.html",
 "5-3-ataques-de-panico.html"
 ],
-"Uma colega pousa a mão no ombro de outra, em apoio.": [
-"2-3-primeiros-socorros-psicologicos.html"
-],
 "Introdução": [
-"2-3-primeiros-socorros-psicologicos.html",
-"index.html",
-"index.html",
-"index.html",
-"index.html",
-"index.html"
+"2-3-primeiros-socorros-psicologicos.html"
 ],
 "Módulo 2 · 2.3": [
 "2-3-primeiros-socorros-psicologicos.html"
@@ -1170,9 +1737,6 @@
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Nesta secção · clica num tema para ires diretamente": [
-"2-3-primeiros-socorros-psicologicos.html"
-],
-"Ilustração: uma pessoa estende a mão e ajuda outra a subir.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "O essencial": [
@@ -1194,16 +1758,16 @@
 "O que são os PSP": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"<img src=\"assets/img/ic-04.svg\" alt=\"\">O que são?<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-04.png\" alt=\"\">O que são?<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"<img src=\"assets/img/ic-81.svg\" alt=\"\">Em que situações são úteis?<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-81.png\" alt=\"\">Em que situações são úteis?<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"<img src=\"assets/img/ic-34.svg\" alt=\"\">Porque são importantes<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-34.png\" alt=\"\">Porque são importantes<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"<img src=\"assets/img/ic-18.svg\" alt=\"\">O que implicam<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-18.png\" alt=\"\">O que implicam<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "O que são?": [
@@ -1218,8 +1782,10 @@
 "Aplicáveis no momento imediato, após situações difíceis ou críticas": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: duas pessoas estendem a mão uma à outra, a representar o primeiro apoio.": [
-"2-3-primeiros-socorros-psicologicos.html"
+"Ilustração: duas pessoas sentadas frente a frente, em conversa.": [
+"2-3-primeiros-socorros-psicologicos.html",
+"3-2-autorregulacao.html",
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Em que situações são úteis?": [
 "2-3-primeiros-socorros-psicologicos.html"
@@ -1234,9 +1800,6 @@
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Quando alguém demonstra sinais claros de desregulação emocional": [
-"2-3-primeiros-socorros-psicologicos.html"
-],
-"Ilustração: pessoa ansiosa, com as mãos na cabeça, rodeada de preocupações.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Porque são importantes": [
@@ -1254,7 +1817,7 @@
 "Facilitam o acesso a apoio adicional, se necessário": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: três amigos lado a lado, abraçados.": [
+"Ilustração: pessoas ligadas por uma linha, a representar ligação e apoio.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "O que implicam": [
@@ -1272,13 +1835,13 @@
 "Respeitar o ritmo e os limites da outra pessoa": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: duas pessoas a encaixar as peças de um puzzle, a representar apoio em equipa.": [
+"Ilustração: pessoas a juntar as peças de um grande puzzle, a representar apoio em equipa.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "O que não são": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"O que <span style=\"text-decoration:underline;text-decoration-thickness:.08em;text-underline-offset:.14em\">NÃO</span> são": [
+"O que <span style=\"color:#FF8A80\">NÃO</span> são": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Não são psicoterapia</span>": [
@@ -1291,9 +1854,6 @@
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Não substituem apoio psicológico profissional</span>": [
-"2-3-primeiros-socorros-psicologicos.html"
-],
-"Duas colegas conversam, sentadas num sofá.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Tipos de stress": [
@@ -1399,9 +1959,6 @@
 "Todos os colaboradores e líderes, independentemente da função ou da área. Não exige qualquer experiência clínica.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: uma equipa de colegas, lado a lado, a celebrar em conjunto.": [
-"2-3-primeiros-socorros-psicologicos.html"
-],
 "Como aplicar": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
@@ -1447,7 +2004,7 @@
 "reações emocionais": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: pessoa a observar com uma lupa os detalhes num ecrã.": [
+"Ilustração: uma lupa sobre uma pessoa sentada à secretária.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Refere-se à forma como quem ajuda:": [
@@ -1474,8 +2031,9 @@
 "ajuda a encontrar soluções para necessidades e problemas imediatos": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: três colegas em conversa; uma fala e as outras escutam.": [
-"2-3-primeiros-socorros-psicologicos.html"
+"Ilustração: colegas em conversa, com balões de diálogo.": [
+"2-3-primeiros-socorros-psicologicos.html",
+"4-1-o-papel-do-lider.html"
 ],
 "Refere-se a ajudar a pessoa a:": [
 "2-3-primeiros-socorros-psicologicos.html"
@@ -1490,9 +2048,6 @@
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "aceder a serviços e outros apoios": [
-"2-3-primeiros-socorros-psicologicos.html"
-],
-"Ilustração: duas pessoas ligadas à distância, com um globo entre elas.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Reações esperadas": [
@@ -1514,7 +2069,7 @@
 "<span class=\"pm\" aria-hidden=\"true\">+</span>Outras reações": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: pessoa sentada no chão, abatida, com os braços sobre os joelhos.": [
+"Ilustração: três pessoas, cada uma segura uma máscara com uma expressão diferente.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Vídeo: risco e proteção": [
@@ -1643,37 +2198,14 @@
 "Virar todos": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Concluído": [
-"2-3-primeiros-socorros-psicologicos.html",
-"3-5-limites-e-guia-de-conversa.html",
-"4-5-liderar-para-a-seguranca-psicologica.html",
-"5-9-suicidio.html",
-"6-2-recursos.html",
-"index.html"
-],
-"Fim do módulo": [
-"2-3-primeiros-socorros-psicologicos.html",
-"3-5-limites-e-guia-de-conversa.html",
-"4-5-liderar-para-a-seguranca-psicologica.html",
-"5-9-suicidio.html",
-"index.html"
-],
-"Módulo 2 concluído": [
+"Terminaste a parte “Primeiros Socorros Psicológicos”": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Terminaste este módulo": [
-"2-3-primeiros-socorros-psicologicos.html",
-"3-5-limites-e-guia-de-conversa.html",
-"4-5-liderar-para-a-seguranca-psicologica.html",
-"5-9-suicidio.html",
-"index.html"
+"Parte 2, secção 3 · páginas 16 a 25 do PDF original": [
+"2-3-primeiros-socorros-psicologicos.html"
 ],
-"Viste todos os ecrãs deste módulo.": [
-"2-3-primeiros-socorros-psicologicos.html",
-"3-5-limites-e-guia-de-conversa.html",
-"4-5-liderar-para-a-seguranca-psicologica.html",
-"5-9-suicidio.html",
-"index.html"
+"\n      <a class=\"dl a\" href=\"downloads/cartao-de-bolso-psp.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Cartão de Bolso<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/fluxograma-1-psp-no-momento.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Fluxograma 1<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-capitulo-3.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#3/></span><span>Parte completa<small>PDF · 10 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"2-3-primeiros-socorros-psicologicos.html"
 ],
 "7 princípios": [
 "2-3-primeiros-socorros-psicologicos.html"
@@ -1681,10 +2213,10 @@
 "Risco e proteção": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"<li><button class=\"topic\" data-to=\"${t[1]}\"><em>${i + 1}</em>${t[0]}</button></li>": [
+"<li class=\"a\" style=\"--i:${i + 5}\"><button class=\"topic\" data-to=\"${t[1]}\"><em>${i + 1}</em>${t[0]}</button></li>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: pessoa com uma lâmpada acesa na mão, a representar uma ideia.": [
+"Ilustração: pessoa concentrada, com uma lâmpada acesa sobre a cabeça.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Características": [
@@ -1730,8 +2262,9 @@
 "Tensão momentânea": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: pessoa tensa ao computador, com a mão na testa.": [
-"2-3-primeiros-socorros-psicologicos.html"
+"Ilustração: pessoa cansada ao lado de uma bateria quase vazia.": [
+"2-3-primeiros-socorros-psicologicos.html",
+"3-2-autorregulacao.html"
 ],
 "Resposta a exigências prolongadas ou repetidas": [
 "2-3-primeiros-socorros-psicologicos.html"
@@ -1765,7 +2298,7 @@
 "Sensação de estar sempre “em esforço”": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"Ilustração: pessoa curvada a carregar um monte de caixas pesadas.": [
+"Ilustração: um rabisco emaranhado entre duas pessoas, a representar confusão.": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "Resposta imediata a situação intensa ou inesperada": [
@@ -2375,7 +2908,7 @@
 "<li class=\"flip a pop\" style=\"--i:${i + 3}\"><button aria-expanded=\"false\" data-front=\"${c[0]}\" data-back=\"Então ${c[1]}\">\n    <span class=\"face front\" aria-hidden=\"true\"><small>Se</small><span>${c[0].replace(/^Se /, '')}</span><span class=\"turn\">Virar <svg#1/></span></span>\n    <span class=\"face back\" aria-hidden=\"true\"><small class=\"ok\">Então</small><span>${c[1]}</span><span></span></span></button></li>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
-"<li class=\"pk-ill a pop\" style=\"--i:10\" aria-hidden=\"true\"><img src=\"assets/img/av-completed-steps.svg\" alt=\"\"></li>": [
+"<li class=\"pk-ill a pop\" style=\"--i:10\" aria-hidden=\"true\"><img src=\"assets/img/av-20.webp\" alt=\"\"></li>": [
 "2-3-primeiros-socorros-psicologicos.html"
 ],
 "${$$('.flip.open', ul).length} de 7 cartões virados": [
@@ -2394,10 +2927,10 @@
 "3-4-apoiar-durante-a-conversa.html",
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"Sinais de alerta:<br class=\"brd\"> <span class=\"nwd\">o que observar <span>em mim</span></span>": [
+"Sinais de alerta: o que observar <span>em mim</span>": [
 "3-1-sinais-de-alerta.html"
 ],
-"Parte A – Estou a passar por um momento difícil. Reconhecer cedo as mudanças no humor, no corpo, no pensamento e nas relações, e saber quando pedir apoio.": [
+"Bloco A – Estou a passar por um momento difícil. Reconhecer cedo as mudanças no humor, no corpo, no pensamento e nas relações, e saber quando pedir apoio.": [
 "3-1-sinais-de-alerta.html"
 ],
 "<span><svg#1/>7 ecrãs</span>": [
@@ -2422,9 +2955,6 @@
 "5-5-comportamento-agressivo.html",
 "5-7-conflito-na-equipa.html"
 ],
-"Um homem, pensativo, olha pela janela.": [
-"3-1-sinais-de-alerta.html"
-],
 "O que observar em mim": [
 "3-1-sinais-de-alerta.html"
 ],
@@ -2448,7 +2978,7 @@
 "Mais do que identificar sintomas isolados, importa reconhecer mudanças no próprio funcionamento. Perguntas simples podem ajudar:": [
 "3-1-sinais-de-alerta.html"
 ],
-"Ilustração: pessoa de olhos fechados, com pensamentos e emoções à volta da cabeça.": [
+"Ilustração: pessoa cansada, de ombros caídos, ao lado de uma bateria quase vazia.": [
 "3-1-sinais-de-alerta.html"
 ],
 "“Estou diferente do que é habitual em mim?”": [
@@ -2469,26 +2999,22 @@
 "Clica em cada domínio para veres os sinais e as perguntas de reflexão.": [
 "3-1-sinais-de-alerta.html"
 ],
-"0 de 5 vistos": [
-"3-1-sinais-de-alerta.html",
-"index.html"
-],
 "Domínios de sinais": [
 "3-1-sinais-de-alerta.html"
 ],
-"<img src=\"assets/img/ic-34.svg\" alt=\"\">Emocionais<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-34.png\" alt=\"\">Emocionais<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-1-sinais-de-alerta.html"
 ],
-"<img src=\"assets/img/ic-36.svg\" alt=\"\">Físicos<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-36.png\" alt=\"\">Físicos<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-1-sinais-de-alerta.html"
 ],
-"<img src=\"assets/img/ic-61.svg\" alt=\"\">Cognitivos<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-61.png\" alt=\"\">Cognitivos<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-1-sinais-de-alerta.html"
 ],
-"<img src=\"assets/img/ic-04.svg\" alt=\"\">Comportamentais<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-04.png\" alt=\"\">Comportamentais<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-1-sinais-de-alerta.html"
 ],
-"<img src=\"assets/img/ic-16.svg\" alt=\"\">Relacionais<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-16.png\" alt=\"\">Relacionais<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-1-sinais-de-alerta.html"
 ],
 "O que sinto por dentro": [
@@ -2792,7 +3318,16 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"Terminaste a parte “Sinais de alerta”": [
+"3-1-sinais-de-alerta.html"
+],
+"Parte 3 – A, secções 1 e 2 · páginas 27 a 35 do PDF original, com as listas de sinais completas": [
+"3-1-sinais-de-alerta.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-3a-sinais-de-alerta.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Sinais de alerta e quando pedir apoio<small>PDF · 9 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"3-1-sinais-de-alerta.html"
 ],
 "3.2 Autorregulação: a base e o que fazer no momento": [
 "3-2-autorregulacao.html"
@@ -2800,10 +3335,10 @@
 "Módulo 3 · <b>3.2 Autorregulação</b>": [
 "3-2-autorregulacao.html"
 ],
-"Autorregulação:<br class=\"brd\"> <span class=\"nwd\">a base e o que fazer</span><br class=\"brd\"> <span>no momento</span>": [
+"Autorregulação: a base e o que fazer <span>no momento</span>": [
 "3-2-autorregulacao.html"
 ],
-"Parte A – Estou a passar por um momento difícil. O que ajuda a manter o equilíbrio no dia a dia e técnicas simples para reduzir a ativação em momentos de stress, ansiedade ou sobrecarga.": [
+"Bloco A – Estou a passar por um momento difícil. O que ajuda a manter o equilíbrio no dia a dia e técnicas simples para reduzir a ativação em momentos de stress, ansiedade ou sobrecarga.": [
 "3-2-autorregulacao.html"
 ],
 "<span><svg#1/>16 ecrãs</span><span><svg#2/>4 vídeos</span>": [
@@ -2813,9 +3348,6 @@
 "3-2-autorregulacao.html"
 ],
 "4 vídeos": [
-"3-2-autorregulacao.html"
-],
-"Uma colega faz uma pausa e respira, de olhos fechados.": [
 "3-2-autorregulacao.html"
 ],
 "Base de autorregulação": [
@@ -2836,16 +3368,16 @@
 "Dimensões da base de autorregulação": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-36.svg\" alt=\"\">Necessidades fisiológicas<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-36.png\" alt=\"\">Necessidades fisiológicas<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-16.svg\" alt=\"\">Regulação através da relação<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-16.png\" alt=\"\">Regulação através da relação<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-29.svg\" alt=\"\">Estrutura e previsibilidade<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-29.png\" alt=\"\">Estrutura e previsibilidade<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-18.svg\" alt=\"\">Gestão de exigência e limites<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-18.png\" alt=\"\">Gestão de exigência e limites<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
 "Necessidades fisiológicas": [
@@ -2858,9 +3390,6 @@
 "3-2-autorregulacao.html"
 ],
 "<b>Alimentação e hidratação:</b> comer de forma equilibrada e manter níveis adequados de hidratação contribuem para a estabilidade energética e redução da reatividade.": [
-"3-2-autorregulacao.html"
-],
-"Ilustração: duas pessoas a fazer exercício e alongamentos.": [
 "3-2-autorregulacao.html"
 ],
 "Regulação através da relação": [
@@ -2878,9 +3407,6 @@
 "Permitir-se receber apoio, mesmo que de forma pontual": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: duas amigas a cumprimentar-se com um high five.": [
-"3-2-autorregulacao.html"
-],
 "Estrutura e previsibilidade": [
 "3-2-autorregulacao.html"
 ],
@@ -2896,7 +3422,7 @@
 "Evitar alterações abruptas que aumentem a instabilidade": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: pessoa a consultar um calendário grande com a semana organizada.": [
+"Ilustração: pessoas a assinalar tarefas numa lista.": [
 "3-2-autorregulacao.html"
 ],
 "Gestão de exigência e limites": [
@@ -2914,7 +3440,7 @@
 "Reconhecer limites e evitar manter um ritmo insustentável": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: pessoa a organizar o tempo, com um relógio grande e tarefas em ordem.": [
+"Ilustração: pessoa à secretária, rodeada de sinais de visto, a representar uma rotina organizada.": [
 "3-2-autorregulacao.html"
 ],
 "Começa nas bases": [
@@ -2966,7 +3492,7 @@
 "<em>C</em><b>Regular e retomar ligação</b><span>Ativação física, toque, partilha</span>": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: pessoa a percorrer um caminho com etapas marcadas, a escolher o rumo.": [
+"Ilustração: pessoas num caminho, uma delas com binóculos, a representar escolher o rumo.": [
 "3-2-autorregulacao.html"
 ],
 "Pausa consciente": [
@@ -3008,7 +3534,7 @@
 "Respiração controlada": [
 "3-2-autorregulacao.html"
 ],
-"O vídeo com o passo a passo deste exercício ainda não está disponível nesta versão.": [
+"Antes de começares, vê o vídeo que mostra o passo a passo do exercício.": [
 "3-2-autorregulacao.html",
 "3-2-autorregulacao.html"
 ],
@@ -3087,7 +3613,7 @@
 "Estratégia STOP": [
 "3-2-autorregulacao.html"
 ],
-"Usa esta sequência mentalmente ou em voz baixa. O vídeo desta técnica ainda não está disponível nesta versão.": [
+"Usa esta sequência mentalmente ou em voz baixa. Antes de começares, vê o vídeo.": [
 "3-2-autorregulacao.html"
 ],
 "<b>Para <span style=\"display:inline\">(Stop)</span></b><span>Para o que estás a fazer.</span>": [
@@ -3110,7 +3636,9 @@
 "3-2-autorregulacao.html"
 ],
 "b · Recentrar e organizar": [
-"3-2-autorregulacao.html",
+"3-2-autorregulacao.html"
+],
+"b · Estratégias imediatas": [
 "3-2-autorregulacao.html"
 ],
 "Clica em cada uma das três estratégias.": [
@@ -3129,13 +3657,13 @@
 "Estratégias para recentrar e organizar": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-75.svg\" alt=\"\">Foco atencional simples<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-75.png\" alt=\"\">Foco atencional simples<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-34.svg\" alt=\"\">Mindfulness: observação sem julgamento<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-34.png\" alt=\"\">Mindfulness: observação sem julgamento<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-29.svg\" alt=\"\">Externalização de preocupações<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-29.png\" alt=\"\">Externalização de preocupações<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
 "Foco atencional simples": [
@@ -3144,8 +3672,9 @@
 "Direciona a atenção para um elemento neutro (ex.: um objeto) e descreve mentalmente todos os seus detalhes durante 30–60 segundos.": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: pessoa a olhar por uma câmara, a representar foco e atenção.": [
-"3-2-autorregulacao.html"
+"Ilustração: uma lupa a observar uma pessoa sentada à secretária.": [
+"3-2-autorregulacao.html",
+"4-1-o-papel-do-lider.html"
 ],
 "Mindfulness: observação sem julgamento": [
 "3-2-autorregulacao.html"
@@ -3156,7 +3685,7 @@
 "<b>Se tiveres curiosidade:</b> existem várias aplicações gratuitas de <i lang=\"en\">mindfulness</i> e meditação disponíveis, basta procurares na loja de aplicações do telemóvel ou no YouTube. Começa com apenas 5 minutos por dia – a constância importa mais do que a duração.": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: pessoa sentada de pernas cruzadas, a meditar.": [
+"Ilustração: pessoa a observar um ecrã com uma lupa, a representar foco e atenção.": [
 "3-2-autorregulacao.html"
 ],
 "Externalização de preocupações": [
@@ -3165,7 +3694,7 @@
 "Escreve – ou organiza mentalmente – o que te preocupa, o que está sob o teu controlo e o que não está. Isto ajuda a reduzir a sobrecarga.": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: duas pessoas a escrever e a tomar notas.": [
+"Ilustração: pessoas a preencher uma lista.": [
 "3-2-autorregulacao.html"
 ],
 "Regular e retomar ligação": [
@@ -3173,19 +3702,21 @@
 "3-2-autorregulacao.html"
 ],
 "c · Regular e retomar ligação": [
-"3-2-autorregulacao.html",
+"3-2-autorregulacao.html"
+],
+"c · Estratégias imediatas": [
 "3-2-autorregulacao.html"
 ],
 "Estratégias para regular e retomar ligação": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-81.svg\" alt=\"\">Ativação física leve<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-81.png\" alt=\"\">Ativação física leve<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-18.svg\" alt=\"\">Autorregulação através do toque<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-18.png\" alt=\"\">Autorregulação através do toque<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
-"<img src=\"assets/img/ic-16.svg\" alt=\"\">Partilha e normalização<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-16.png\" alt=\"\">Partilha e normalização<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-2-autorregulacao.html"
 ],
 "Ativação física leve": [
@@ -3197,7 +3728,7 @@
 "Se preferires algo mais estruturado, podes experimentar contrair e relaxar grupos musculares (ex.: mãos, braços, pernas), focando-te na diferença entre tensão e relaxamento.": [
 "3-2-autorregulacao.html"
 ],
-"Ilustração: pessoas a fazer exercícios de alongamento.": [
+"Ilustração: pessoa com uma lâmpada acesa sobre a cabeça.": [
 "3-2-autorregulacao.html"
 ],
 "Autorregulação através do toque": [
@@ -3219,16 +3750,13 @@
 "<b>Pressiona os pés contra o chão.</b> Foca-te na sensação de contacto e estabilidade.": [
 "3-2-autorregulacao.html"
 ],
-"Permanece nesta posição durante cerca de 30 segundos a 1 minuto.": [
+"Permanece nesta posição durante cerca de 30 segundos a 1 minuto. A seguir, o vídeo mostra as quatro opções.": [
 "3-2-autorregulacao.html"
 ],
 "Partilha e normalização": [
 "3-2-autorregulacao.html"
 ],
 "Se fizer sentido, fala com alguém de confiança. Não precisas de explicar tudo, partilhar ajuda a reduzir o isolamento e a organizar a experiência.": [
-"3-2-autorregulacao.html"
-],
-"Ilustração: colegas em conversa, com balões de diálogo.": [
 "3-2-autorregulacao.html"
 ],
 "Vídeo: autorregulação através do toque": [
@@ -3305,25 +3833,19 @@
 "O que posso fazer de forma diferente da próxima vez?": [
 "3-2-autorregulacao.html"
 ],
-"Fluxograma 3 · Guia de Reflexão Estruturada.": [
-"3-2-autorregulacao.html"
-],
-"Segue o mesmo caminho do Fluxograma 2 e acrescenta perguntas sobre o corpo, os pensamentos e as emoções:": [
-"3-2-autorregulacao.html"
-],
-"Sinto-me em stress, ansiedade ou sobrecarga? Consigo afastar-me do local por alguns minutos? Se sim, faço uma micro-pausa; se não, uso uma estratégia no local (respiração controlada, grounding 5-4-3-2-1 ou STOP).": [
-"3-2-autorregulacao.html"
-],
-"O meu corpo continua muito ativado? Se sim: mindfulness, foco atencional ou ativação física leve.": [
-"3-2-autorregulacao.html"
-],
-"Se não, observo o que está mais presente. Pensamentos acelerados ou repetitivos: STOP, externalizar preocupações ou foco atencional. Tensão física: ativação física leve ou relaxamento muscular. Sobrecarga emocional ou isolamento: toque, falar com alguém de confiança ou normalizar a experiência.": [
-"3-2-autorregulacao.html"
-],
-"Já me sinto mais calmo/a ou com maior controlo? Se sim, retomo uma tarefa simples (um passo pequeno e concreto). Se não, escolho outra estratégia ou repito as anteriores, vejo o Módulo 6 e procuro ajuda.": [
+"Este guia de reflexão está disponível apenas em PDF: <a class=\"pill\" href=\"downloads/fluxograma-3-reflexao-estruturada.pdf\" target=\"_blank\" rel=\"noopener\">Abrir o Fluxograma 3: Guia de Reflexão Estruturada<span class=\"sr\"> (PDF, abre numa nova janela)</span></a>": [
 "3-2-autorregulacao.html"
 ],
 "Em momentos de maior ativação, é normal sentir perda de controlo, urgência ou confusão. Estas estratégias não eliminam imediatamente o problema, mas ajudam a recuperar estabilidade suficiente para responder, em vez de reagir. <b>Começar pequeno já é suficiente.</b>": [
+"3-2-autorregulacao.html"
+],
+"Terminaste a parte “Autorregulação”": [
+"3-2-autorregulacao.html"
+],
+"Parte 3 – A, secções 3 e 4 · páginas 36 a 45 do PDF original": [
+"3-2-autorregulacao.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/fluxograma-2-acao-rapida.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Fluxograma 2: Ação Rápida<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/fluxograma-3-reflexao-estruturada.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Fluxograma 3: Guia de Reflexão Estruturada<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-3a-autorregulacao.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#3/></span><span>Base e estratégias de autorregulação<small>PDF · 10 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "3-2-autorregulacao.html"
 ],
 "Inspira": [
@@ -3422,10 +3944,7 @@
 "Reconhecer sinais e decidir <span>aproximar</span>": [
 "3-3-reconhecer-e-aproximar.html"
 ],
-"Parte B – Um colega está em sofrimento. O que observar, as dúvidas mais comuns antes de te aproximares e um guia de ação para decidir.": [
-"3-3-reconhecer-e-aproximar.html"
-],
-"Uma colega repara numa colega cansada, encostada à secretária.": [
+"Bloco B – Um colega está em sofrimento. O que observar, as dúvidas mais comuns antes de te aproximares e um guia de ação para decidir.": [
 "3-3-reconhecer-e-aproximar.html"
 ],
 "O que observar": [
@@ -3484,9 +4003,6 @@
 "3-3-reconhecer-e-aproximar.html"
 ],
 "É natural sentir hesitação antes de te aproximares de um colega": [
-"3-3-reconhecer-e-aproximar.html"
-],
-"Duas colegas conversam, sentadas, num espaço do escritório.": [
 "3-3-reconhecer-e-aproximar.html"
 ],
 "Algumas dúvidas frequentes": [
@@ -3575,7 +4091,7 @@
 "Posso respeitar se a pessoa não quiser falar": [
 "3-3-reconhecer-e-aproximar.html"
 ],
-"Ilustração: pessoa pensativa, com a mão no queixo.": [
+"Ilustração: uma pessoa apoia outra que está abatida, com a mão no ombro.": [
 "3-3-reconhecer-e-aproximar.html"
 ],
 "Sinais de maior atenção": [
@@ -3605,7 +4121,7 @@
 "3-3-reconhecer-e-aproximar.html",
 "3-4-apoiar-durante-a-conversa.html",
 "4-3-devo-intervir.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "Pode ser importante não deixar a pessoa sozinha e procurar apoio adicional.": [
@@ -3621,6 +4137,7 @@
 "3-5-limites-e-guia-de-conversa.html",
 "3-5-limites-e-guia-de-conversa.html",
 "3-5-limites-e-guia-de-conversa.html",
+"4-1-o-papel-do-lider.html",
 "6-1-quando-encaminhar.html"
 ],
 "B · Mensagem-chave": [
@@ -3630,6 +4147,15 @@
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "Se algo em ti ficou com a sensação de que devia perguntar, <em>provavelmente já tens informação suficiente para te aproximares.</em>": [
+"3-3-reconhecer-e-aproximar.html"
+],
+"Terminaste a parte “Reconhecer e aproximar”": [
+"3-3-reconhecer-e-aproximar.html"
+],
+"Parte 3 – B, secções 5.1 e 5.2 · páginas 46 a 48 do PDF original": [
+"3-3-reconhecer-e-aproximar.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/guia-de-acao-devo-aproximar-me.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Guia de Ação: devo aproximar-me?<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-3b-reconhecer-e-aproximar.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Reconhecer sinais e decidir aproximar<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "3-3-reconhecer-e-aproximar.html"
 ],
 "<b>${n === 1 ? 'Respondeste “sim” a 1 ponto' : `Respondeste “sim” a ${n} pontos`}.</b> Pode fazer sentido aproximar-se.": [
@@ -3644,19 +4170,18 @@
 "Apoiar durante a <span>conversa</span>": [
 "3-4-apoiar-durante-a-conversa.html"
 ],
-"Parte B – Um colega está em sofrimento. O objetivo não é ter as palavras perfeitas, mas criar um contexto seguro onde a outra pessoa possa, se quiser, falar.": [
+"Bloco B – Um colega está em sofrimento. O objetivo não é ter as palavras perfeitas, mas criar um contexto seguro onde a outra pessoa possa, se quiser, falar.": [
 "3-4-apoiar-durante-a-conversa.html"
 ],
 "<span><svg#1/>10 ecrãs</span>": [
 "3-4-apoiar-durante-a-conversa.html",
-"4-5-liderar-para-a-seguranca-psicologica.html"
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-9-suicidio.html"
 ],
 "10 ecrãs": [
 "3-4-apoiar-durante-a-conversa.html",
-"4-5-liderar-para-a-seguranca-psicologica.html"
-],
-"Dois colegas conversam numa pausa, com calma.": [
-"3-4-apoiar-durante-a-conversa.html"
+"4-5-liderar-para-a-seguranca-psicologica.html",
+"5-9-suicidio.html"
 ],
 "Iniciar, postura e dar espaço": [
 "3-4-apoiar-durante-a-conversa.html"
@@ -4041,6 +4566,15 @@
 "Evitar estas respostas não significa ficar em silêncio ou “não saber o que dizer”. Significa priorizar a escuta, a validação e o ritmo da pessoa, em vez de tentar corrigir, explicar ou resolver.": [
 "3-4-apoiar-durante-a-conversa.html"
 ],
+"Terminaste a parte “Apoiar durante a conversa”": [
+"3-4-apoiar-durante-a-conversa.html"
+],
+"Parte 3 – B, secções 5.3 a 5.5 · páginas 49 a 54 do PDF original": [
+"3-4-apoiar-durante-a-conversa.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/frases-uteis-e-o-que-evitar.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Frases úteis e o que evitar<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-3b-apoiar-durante-a-conversa.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Apoiar durante a conversa<small>PDF · 6 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"3-4-apoiar-durante-a-conversa.html"
+],
 "Minimizar": [
 "3-4-apoiar-durante-a-conversa.html",
 "3-4-apoiar-durante-a-conversa.html"
@@ -4203,16 +4737,13 @@
 "Limites, confidencialidade e <span>guia de conversa</span>": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"Parte B – Um colega está em sofrimento. Saber até onde ir, o que manter confidencial e quando envolver outros recursos, com um guia de conversa em seis passos.": [
+"Bloco B – Um colega está em sofrimento. Saber até onde ir, o que manter confidencial e quando envolver outros recursos, com um guia de conversa em seis passos.": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "<span><svg#1/>12 ecrãs</span><span><svg#2/>2 vídeos</span>": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "12 ecrãs": [
-"3-5-limites-e-guia-de-conversa.html"
-],
-"Duas colegas conversam a sós, num canto tranquilo.": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "Proximidade e responsabilidade": [
@@ -4261,13 +4792,13 @@
 "Clica em cada pergunta.": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"<img src=\"assets/img/ic-29.svg\" alt=\"\">O que é confidencial?<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-29.png\" alt=\"\">O que é confidencial?<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"<img src=\"assets/img/ic-81.svg\" alt=\"\">Quando pode ser necessário partilhar ou agir<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-81.png\" alt=\"\">Quando pode ser necessário partilhar ou agir<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"<img src=\"assets/img/ic-04.svg\" alt=\"\">Qual é o papel do colega?<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-04.png\" alt=\"\">Qual é o papel do colega?<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "O que é confidencial?": [
@@ -4330,7 +4861,7 @@
 "não assumir a responsabilidade sozinho/a": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"procurar apoio adequado (chefia, Recursos Humanos, serviços de saúde, etc.)": [
+"procurar apoio adequado (chefia, RH, serviços de saúde, etc.)": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "sempre que possível, <b>informar a pessoa do que vai ser feito</b>": [
@@ -4398,9 +4929,6 @@
 "Apoiar alguém em sofrimento pode ter impacto emocional. Por isso, é importante garantir também o cuidado de quem ajuda.": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"Uma mulher descansa num sofá, a sorrir.": [
-"3-5-limites-e-guia-de-conversa.html"
-],
 "Alguns sinais de sobrecarga": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
@@ -4434,18 +4962,6 @@
 "Ver em ação: 1.º Role Play": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"Ver em ação": [
-"3-5-limites-e-guia-de-conversa.html",
-"3-5-limites-e-guia-de-conversa.html",
-"3-5-limites-e-guia-de-conversa.html",
-"3-5-limites-e-guia-de-conversa.html",
-"4-3-devo-intervir.html",
-"4-3-devo-intervir.html",
-"4-3-devo-intervir.html",
-"4-3-devo-intervir.html",
-"5-3-ataques-de-panico.html",
-"5-3-ataques-de-panico.html"
-],
 "Vídeo: 1.º Role Play, após testemunhar um acidente de trabalho": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
@@ -4455,10 +4971,10 @@
 "Nas páginas anteriores viste o que fazer quando um colega está em sofrimento. Agora observa como isso acontece numa situação real.": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"<b>Contexto</b>Armazém de logística do Estádio da Luz, semana de jogo. Dias após presenciar um acidente de trabalho grave durante uma montagem, Maria apresenta sinais claros de distress – distância, dificuldade de concentração, erros em tarefas simples. Um colega aproxima-se.": [
+"<b>Contexto</b>Armazém. Dias após presenciar um acidente de trabalho grave, Maria apresenta sinais claros de distress – distância, dificuldade de concentração, erros em tarefas simples. Um colega aproxima-se.": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"Ver as perguntas para refletir": [
+"Já vi o vídeo: para refletir": [
 "3-5-limites-e-guia-de-conversa.html",
 "3-5-limites-e-guia-de-conversa.html",
 "4-3-devo-intervir.html",
@@ -4555,7 +5071,7 @@
 "<i>5</i>Apoio adicional?": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
-"<b>Se o apoio envolver Médico do Trabalho</b>Indicar uma janela temporal expectável para observação. Se o prazo não puder ser assegurado, ativar de imediato uma alternativa (a linha interna de apoio ao colaborador (Informação não disponível nesta versão de demonstração), o SNS 24 (808 24 24 24, opção 4), apoio psicológico ou recurso externo).": [
+"<b>Se o apoio envolver Médico do Trabalho</b>Indicar uma janela temporal expectável para observação. Se o prazo não puder ser assegurado, ativar de imediato uma alternativa (Linha Somos Sonae 800 100 025 – 24h, apoio psicológico ou recurso externo).": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "Notei que algo não está bem com um colega.": [
@@ -4575,6 +5091,15 @@
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "Módulo 3 concluído": [
+"3-5-limites-e-guia-de-conversa.html"
+],
+"Terminaste a parte “Limites e guia de conversa”": [
+"3-5-limites-e-guia-de-conversa.html"
+],
+"Parte 3 – B, secções 6 e 7 · páginas 54 a 64 do PDF original": [
+"3-5-limites-e-guia-de-conversa.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/guia-rapido-como-apoiar-um-colega.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Protocolo passo a passo e Guia rápido<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/fluxograma-4-o-que-fazer-no-momento.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Fluxograma 4: o que fazer no momento<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-3b-limites-e-guia-de-conversa.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#3/></span><span>Limites, confidencialidade e guia de conversa<small>PDF · 11 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "3-5-limites-e-guia-de-conversa.html"
 ],
 "A pessoa partilha algo pessoal sem risco": [
@@ -4785,11 +5310,7 @@
 "O líder como primeira resposta segura e humana: quatro dimensões-chave, a importância dos riscos psicossociais e o Radar de Risco Psicossocial da Equipa.": [
 "4-1-o-papel-do-lider.html"
 ],
-"Um líder fala com a equipa, à mesa de reunião.": [
-"4-1-o-papel-do-lider.html"
-],
 "O papel do líder": [
-"4-1-o-papel-do-lider.html",
 "4-1-o-papel-do-lider.html",
 "4-1-o-papel-do-lider.html"
 ],
@@ -4814,9 +5335,6 @@
 "Que os líderes saibam os recursos que existem e o encaminhamento que pode ser feito em cada caso.": [
 "4-1-o-papel-do-lider.html"
 ],
-"Ilustração: colegas de capa vermelha, como super-heróis, a voar.": [
-"4-1-o-papel-do-lider.html"
-],
 "Dimensões-chave do papel do líder": [
 "4-1-o-papel-do-lider.html",
 "4-1-o-papel-do-lider.html"
@@ -4827,16 +5345,16 @@
 "Clica em cada uma das quatro dimensões.": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-29.svg\" alt=\"\">1. Identificar precocemente sinais<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-29.png\" alt=\"\">1. Identificar precocemente sinais<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-35.svg\" alt=\"\">2. Criar segurança psicológica<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-35.png\" alt=\"\">2. Criar segurança psicológica<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-34.svg\" alt=\"\">3. Oferecer uma primeira resposta<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-34.png\" alt=\"\">3. Oferecer uma primeira resposta<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-08.svg\" alt=\"\">4. Facilitar acesso a apoio<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-08.png\" alt=\"\">4. Facilitar acesso a apoio<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
 "Identificar precocemente sinais": [
@@ -4857,9 +5375,6 @@
 "Evitar suposições e validar perceções antes de agir": [
 "4-1-o-papel-do-lider.html"
 ],
-"Ilustração: pessoa a observar com uma lupa, entre ecrãs e colegas.": [
-"4-1-o-papel-do-lider.html"
-],
 "Criar segurança psicológica": [
 "4-1-o-papel-do-lider.html"
 ],
@@ -4876,9 +5391,6 @@
 "4-1-o-papel-do-lider.html"
 ],
 "Dar seguimento ao que é partilhado (fechar o ciclo)": [
-"4-1-o-papel-do-lider.html"
-],
-"Ilustração: um grupo de colegas sentados em roda, a conversar.": [
 "4-1-o-papel-do-lider.html"
 ],
 "Oferecer uma primeira resposta": [
@@ -4899,13 +5411,15 @@
 "Manter limites claros do papel do líder": [
 "4-1-o-papel-do-lider.html"
 ],
-"Ilustração: duas pessoas sentadas frente a frente, em conversa.": [
-"4-1-o-papel-do-lider.html"
+"Ilustração: uma pessoa apoia outra que está abatida.": [
+"4-1-o-papel-do-lider.html",
+"4-4-como-abordar-um-colaborador.html",
+"5-6-crise-pessoal-grave.html"
 ],
 "Facilitar acesso a apoio": [
 "4-1-o-papel-do-lider.html"
 ],
-"Informar sobre recursos disponíveis (Recursos Humanos, apoio psicológico ao colaborador, saúde e segurança no trabalho)": [
+"Informar sobre recursos disponíveis (RH, EAP, saúde ocupacional)": [
 "4-1-o-papel-do-lider.html"
 ],
 "Normalizar o recurso a apoio (reduzir estigma)": [
@@ -4918,9 +5432,6 @@
 "4-1-o-papel-do-lider.html"
 ],
 "Fazer follow-up após encaminhamento": [
-"4-1-o-papel-do-lider.html"
-],
-"Ilustração: colegas de equipas diferentes reunidos à mesma mesa.": [
 "4-1-o-papel-do-lider.html"
 ],
 "O papel do líder não é resolver": [
@@ -4948,13 +5459,13 @@
 "Riscos psicossociais para os líderes": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-81.svg\" alt=\"\">Porque são críticos para a liderança<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-81.png\" alt=\"\">Porque são críticos para a liderança<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-16.svg\" alt=\"\">Impacto direto na equipa e na operação<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-16.png\" alt=\"\">Impacto direto na equipa e na operação<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
-"<img src=\"assets/img/ic-29.svg\" alt=\"\">Porque avaliar riscos psicossociais<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-29.png\" alt=\"\">Porque avaliar riscos psicossociais<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-1-o-papel-do-lider.html"
 ],
 "Porque são críticos para a liderança": [
@@ -5056,6 +5567,15 @@
 "4-1-o-papel-do-lider.html"
 ],
 "Percorre as cinco dimensões e assinala o que se verifica. <b id=\"rdSeen\">1 de 5 vistas.</b>": [
+"4-1-o-papel-do-lider.html"
+],
+"Terminaste a parte “O papel do líder”": [
+"4-1-o-papel-do-lider.html"
+],
+"Parte 4, secção 1 · páginas 66 a 70 do PDF original": [
+"4-1-o-papel-do-lider.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/radar-de-risco-psicossocial-da-equipa.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Radar de Risco Psicossocial da Equipa<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-4-o-papel-do-lider.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>O papel do líder nos PSP<small>PDF · 5 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "4-1-o-papel-do-lider.html"
 ],
 "Carga e ritmo": [
@@ -5199,10 +5719,7 @@
 "Identificar sinais <span>na equipa</span>": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
-"Parte A. Reconhecer alterações relevantes no funcionamento habitual de uma pessoa, observar com método e ler os sinais em conjunto.": [
-"4-2-identificar-sinais-na-equipa.html"
-],
-"Dois colegas pensativos numa reunião.": [
+"Bloco A. Reconhecer alterações relevantes no funcionamento habitual de uma pessoa, observar com método e ler os sinais em conjunto.": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
 "Identificar não é diagnosticar": [
@@ -5211,16 +5728,13 @@
 "A · Identificar sinais": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
-"Parte A · Identificar sinais na equipa": [
+"Bloco A · Identificar sinais na equipa": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
 "O objetivo não é diagnosticar, mas reconhecer alterações relevantes": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
 "A identificação precoce de sinais de possível sofrimento psicológico é uma competência central da liderança. Os sinais devem ser analisados tendo como referência o padrão habitual da pessoa e o contexto em que ocorrem.": [
-"4-2-identificar-sinais-na-equipa.html"
-],
-"Uma equipa conversa à mesa de reunião.": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
 "<b style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:0.375rem\">A questão central</b>Isto é consistente com o funcionamento habitual desta pessoa ou representa uma mudança significativa?": [
@@ -5352,6 +5866,15 @@
 "4-2-identificar-sinais-na-equipa.html"
 ],
 "<b>Saúde física</b><span>estado geral</span>": [
+"4-2-identificar-sinais-na-equipa.html"
+],
+"Terminaste a parte “Identificar sinais na equipa”": [
+"4-2-identificar-sinais-na-equipa.html"
+],
+"Parte 4 – A · páginas 70 a 75 do PDF original": [
+"4-2-identificar-sinais-na-equipa.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-4a-identificar-sinais.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Identificar sinais na equipa<small>PDF · 6 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "4-2-identificar-sinais-na-equipa.html"
 ],
 "Oscilações de humor": [
@@ -5593,16 +6116,13 @@
 "Devo intervir? <span>Da dúvida à ação</span>": [
 "4-3-devo-intervir.html"
 ],
-"Parte A. Cinco dimensões de decisão, uma checklist rápida, o que fazer em cada nível e como iniciar a abordagem.": [
+"Bloco A. Cinco dimensões de decisão, uma checklist rápida, o que fazer em cada nível e como iniciar a abordagem.": [
 "4-3-devo-intervir.html"
 ],
 "<span><svg#1/>13 ecrãs</span><span><svg#2/>2 vídeos</span>": [
 "4-3-devo-intervir.html"
 ],
 "13 ecrãs": [
-"4-3-devo-intervir.html"
-],
-"Um homem pensativo, a avaliar uma situação.": [
 "4-3-devo-intervir.html"
 ],
 "Guia rápido para líderes": [
@@ -5645,7 +6165,7 @@
 "ou uma abordagem mais estruturada": [
 "4-3-devo-intervir.html"
 ],
-"Ilustração: pessoa a pesar duas opções, uma em cada mão, com um ponto de interrogação.": [
+"Ilustração: pessoa ao computador, rodeada de pontos de interrogação, com uma lâmpada ao lado.": [
 "4-3-devo-intervir.html"
 ],
 "As cinco dimensões de decisão": [
@@ -5706,8 +6226,7 @@
 ],
 "Encaminhamento urgente": [
 "4-3-devo-intervir.html",
-"4-3-devo-intervir.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"4-3-devo-intervir.html"
 ],
 "A · Mais do que PSP": [
 "4-3-devo-intervir.html"
@@ -5746,9 +6265,6 @@
 "4-3-devo-intervir.html"
 ],
 "O sofrimento nem sempre se manifesta numa só pessoa. O líder deve ler os dois níveis:": [
-"4-3-devo-intervir.html"
-],
-"Dois colegas trabalham juntos à secretária.": [
 "4-3-devo-intervir.html"
 ],
 "Sinais individuais": [
@@ -5790,7 +6306,7 @@
 "Um conflito entre dois colaboradores raramente começa como conflito – começa como pressão acumulada, comunicação falhada, ou expectativas não alinhadas. O momento em que o líder entra faz toda a diferença entre o conflito escalar ou ser resolvido antes de se tornar um problema maior.": [
 "4-3-devo-intervir.html"
 ],
-"<b>Contexto</b>Loja do Benfica no Estádio da Luz, hora de pico antes de um jogo. Dois colaboradores entram em conflito aberto sobre prioridades e falta de comunicação. A responsável de loja intervém.": [
+"<b>Contexto</b>Secção de frutas e legumes, hora de pico. Dois colaboradores entram em conflito aberto sobre prioridades e falta de comunicação. A líder de secção intervém.": [
 "4-3-devo-intervir.html"
 ],
 "<b>O que observar</b>Como a líder entra sem tomar partido, como valida as duas perspetivas e como fecha com um acordo claro.": [
@@ -5820,7 +6336,7 @@
 "Ler sobre PSP é diferente de ver como uma conversa dessas acontece de verdade – com hesitação, com pausas, com o risco de a pessoa não querer falar. O role-play seguinte é o mais próximo de uma situação real que encontrarás neste toolkit. Vale a pena ver com atenção.": [
 "4-3-devo-intervir.html"
 ],
-"<b>Contexto</b>Serviços centrais, open space, final de tarde de véspera de um jogo grande. Vários prazos a coincidir, equipa sob pressão. A líder de equipa repara em sinais de sobrecarga numa colaboradora e decide abordar.": [
+"<b>Contexto</b>Open space, final de tarde. Vários prazos a coincidir, equipa sob pressão. A líder de equipa repara em sinais de sobrecarga numa colaboradora e decide abordar.": [
 "4-3-devo-intervir.html"
 ],
 "<b>O que observar</b>O timing da abordagem, como a líder gere o silêncio, como passa de escuta para apoio prático sem pressionar, e como fecha com follow-up.": [
@@ -5913,6 +6429,15 @@
 "4-3-devo-intervir.html"
 ],
 "Intervenções precoces são, tendencialmente, mais simples, mais proporcionais e mais eficazes.": [
+"4-3-devo-intervir.html"
+],
+"Terminaste a parte “Devo intervir?”": [
+"4-3-devo-intervir.html"
+],
+"Parte 4 – A, secções 2 a 6 · páginas 76 a 86 do PDF original": [
+"4-3-devo-intervir.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/checklist-devo-intervir.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Checklist “Devo intervir?” e o que fazer em cada nível<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-4a-devo-intervir.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Devo intervir? Da dúvida à ação<small>PDF · 11 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "4-3-devo-intervir.html"
 ],
 "Mudança": [
@@ -6311,7 +6836,7 @@
 "Ajustar carga, prioridades ou condições de trabalho": [
 "4-3-devo-intervir.html"
 ],
-"Envolver os Recursos Humanos, a saúde e segurança no trabalho ou apoio especializado": [
+"Envolver RH, saúde ocupacional ou apoio especializado": [
 "4-3-devo-intervir.html"
 ],
 "Garantir acompanhamento próximo": [
@@ -6365,7 +6890,7 @@
 "<b>Foco da intervenção:</b> nesta fase, o líder não deve tentar gerir a situação sozinho.": [
 "4-3-devo-intervir.html"
 ],
-"Caso se envolva o Médico do Trabalho como parte da solução, definir uma janela temporal expectável para observação; se esta não puder ser assegurada, ativar uma alternativa (linha interna de apoio ao colaborador (Informação não disponível nesta versão de demonstração) / SNS 24, 808 24 24 24, opção 4 / apoio psicológico / recurso externo).": [
+"Caso se envolva o Médico do Trabalho como parte da solução, definir uma janela temporal expectável para observação; se esta não puder ser assegurada, ativar uma alternativa (Somos Sonae 800 100 025 – 24h / apoio psicológico / recurso externo).": [
 "4-3-devo-intervir.html"
 ],
 "${i + 1}. ${DI[i][0]}, ${n} de 4 assinalados": [
@@ -6488,13 +7013,10 @@
 "Como abordar <span>um colaborador</span>": [
 "4-4-como-abordar-um-colaborador.html"
 ],
-"Parte B. Os princípios da abordagem, um modelo de conversa em sete passos, quatro estudos de caso e a mini-secção PSP para líderes.": [
+"Bloco B. Os princípios da abordagem, um modelo de conversa em sete passos, quatro estudos de caso e a mini-secção PSP para líderes.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "<span><svg#1/>9 ecrãs</span>": [
-"4-4-como-abordar-um-colaborador.html"
-],
-"Um líder conversa com uma colaboradora, com atenção.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "Princípios da abordagem": [
@@ -6583,7 +7105,7 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Minimizar a situação (“podia ser pior”, “tem calma”).": [
 "4-4-como-abordar-um-colaborador.html"
@@ -6631,7 +7153,7 @@
 "4. Isolamento e retraimento": [
 "4-4-como-abordar-um-colaborador.html"
 ],
-"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 1</small>Um produtor de conteúdos da Benfica TV, com historial consistente, começa a falhar prazos de entrega e a apresentar distração frequente.": [
+"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 1</small>Um colaborador com historial consistente começa a falhar prazos e a apresentar distração frequente.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "Como pode o líder intervir?": [
@@ -6655,7 +7177,7 @@
 "<b>Follow-up:</b> reavaliar evolução após alguns dias/semanas.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
-"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 2</small>Um colaborador da loja, em plena campanha de sócios, reage de forma desproporcional a feedback e apresenta irritabilidade.": [
+"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 2</small>Um colaborador reage de forma desproporcional a feedback e apresenta irritabilidade.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "<b>Abordagem estruturada:</b> <i>“Notei que nas últimas interações tens reagido com alguma intensidade. Gostava de perceber o que se passa.”</i>": [
@@ -6676,7 +7198,7 @@
 "<b>Monitorização:</b> acompanhar evolução e reforçar comportamentos ajustados.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
-"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 3</small>Um colaborador da organização de dia de jogo trabalha excessivamente, semana após semana, evita pausas e apresenta sinais claros de exaustão.": [
+"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 3</small>Colaborador trabalha excessivamente, evita pausas e apresenta sinais claros de exaustão.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "<b>Identificação e validação:</b> <i>“Tenho reparado que tens assumido uma carga muito elevada e parece-me que estás cansado.”</i>": [
@@ -6697,7 +7219,7 @@
 "<b>Follow-up contínuo:</b> monitorizar sinais de recuperação ou agravamento.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
-"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 4</small>Um colaborador do Campus do Seixal reduz significativamente a interação com a equipa e mostra-se distante.": [
+"<small style=\"display:block;font-size:0.9063rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)\">Estudo de caso 4</small>Um colaborador reduz significativamente a interação com a equipa e mostra-se distante.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "<b>Abordagem cuidadosa:</b> <i>“Tenho sentido que estás mais afastado da equipa ultimamente e queria perceber como estás.”</i>": [
@@ -6740,21 +7262,10 @@
 "Observar, escutar e conectar": [
 "4-4-como-abordar-um-colaborador.html"
 ],
-"<i aria-hidden=\"true\">1</i>Observar": [
-"4-4-como-abordar-um-colaborador.html",
-"index.html"
-],
-"<i aria-hidden=\"true\">2</i>Escutar": [
-"4-4-como-abordar-um-colaborador.html",
-"index.html"
-],
 "<i aria-hidden=\"true\">3</i>Conectar": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "Também é importante distinguir apoio de invasão. Intervir cedo não significa pressionar. Significa estar disponível e oferecer ajuda sem impor conversa, sem insistir em detalhes e sem retirar autonomia à pessoa.": [
-"4-4-como-abordar-um-colaborador.html"
-],
-"Ilustração: pessoa num ecrã, disponível para ajudar.": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "Frases úteis, o que privilegiar e o que evitar": [
@@ -6845,6 +7356,15 @@
 "4-4-como-abordar-um-colaborador.html"
 ],
 "Garantir confidencialidade absoluta quando existe risco e pode ser necessário envolver outros recursos.": [
+"4-4-como-abordar-um-colaborador.html"
+],
+"Terminaste a parte “Como abordar um colaborador”": [
+"4-4-como-abordar-um-colaborador.html"
+],
+"Parte 4 – B, secções 1 a 4 · páginas 87 a 95 do PDF original": [
+"4-4-como-abordar-um-colaborador.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/mini-seccao-psp-para-lideres.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Mini-secção PSP para líderes<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/estudos-de-caso-intervencao-do-lider.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Estudos de caso com intervenção do líder<small>PDF · 4 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-4b-como-abordar-um-colaborador.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#3/></span><span>Como abordar um colaborador<small>PDF · 9 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "4-4-como-abordar-um-colaborador.html"
 ],
 "Preparação": [
@@ -7015,13 +7535,10 @@
 "Módulo 4 · <b>4.5 Liderar para a segurança psicológica</b>": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"Liderar para<br class=\"brd\"> <span class=\"nwd\">a <span>segurança psicológica</span></span>": [
+"Liderar para a <span>segurança psicológica</span>": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "Recomendações funcionais e relacionais para prevenir riscos psicossociais, dez perguntas de autocheck, o autocuidado do líder e os limites do seu papel.": [
-"4-5-liderar-para-a-seguranca-psicologica.html"
-],
-"Uma equipa conversa de forma aberta e descontraída.": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "Recomendações funcionais": [
@@ -7132,9 +7649,6 @@
 "A criação de segurança psicológica depende da combinação entre as duas.": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"Um colega apoia outros dois à secretária.": [
-"4-5-liderar-para-a-seguranca-psicologica.html"
-],
 "Competências funcionais": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
@@ -7233,13 +7747,13 @@
 "Cuidar de quem lidera": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"<img src=\"assets/img/ic-36.svg\" alt=\"\">Uma variável operacional<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-36.png\" alt=\"\">Uma variável operacional<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"<img src=\"assets/img/ic-75.svg\" alt=\"\">Perguntas de autocuidado para o líder<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-75.png\" alt=\"\">Perguntas de autocuidado para o líder<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"<img src=\"assets/img/ic-34.svg\" alt=\"\">Estratégias de autocuidado<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-34.png\" alt=\"\">Estratégias de autocuidado<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "O autocuidado do líder como medida de prevenção": [
@@ -7346,13 +7860,19 @@
 "A evidência sugere que a segurança psicológica é construída nas microinterações diárias, através de líderes acessíveis, consistentes, responsivos e não punitivos, mas também de condições de trabalho claras, justas e organizadas.": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"Colegas aplaudem e agradecem a um colega.": [
-"4-5-liderar-para-a-seguranca-psicologica.html"
-],
 "Quando estrutura e humanidade se combinam, as pessoas tendem a falar mais cedo, pedir ajuda com menos medo, cooperar melhor e permanecer mais ligadas à equipa e ao trabalho.": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "Módulo 4 concluído": [
+"4-5-liderar-para-a-seguranca-psicologica.html"
+],
+"Terminaste a parte “Liderar para a segurança psicológica”": [
+"4-5-liderar-para-a-seguranca-psicologica.html"
+],
+"Parte 4 – B, secções 5 a 10 · páginas 96 a 107 do PDF original": [
+"4-5-liderar-para-a-seguranca-psicologica.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/autocheck-do-lider-10-perguntas.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Dez perguntas de autocheck do líder<small>PDF · 1 página</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/recomendacoes-para-lideres.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Recomendações funcionais e relacionais<small>PDF · 7 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-4b-liderar-para-a-seguranca-psicologica.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#3/></span><span>Liderar para a segurança psicológica<small>PDF · 12 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "Clarificar prioridades e papéis": [
@@ -7386,7 +7906,7 @@
 "Revisão regular de prioridades em períodos de maior pressão": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"Particularmente relevante em contextos com picos de calendário (dias de jogo, jogos europeus, final de época, campanhas de sócios), operações de estádio, logística e funções com elevada interdependência. A clareza de papéis e a comunicação consistente funcionam como fatores protetores face à sobrecarga e ao stresse ocupacional.": [
+"Particularmente relevante em contextos com picos sazonais, operações, logística e funções com elevada interdependência. A clareza de papéis e a comunicação consistente funcionam como fatores protetores face à sobrecarga e ao stresse ocupacional.": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "“Esta semana temos três prioridades principais. O urgente não vai competir com tudo ao mesmo tempo. Se entrar uma tarefa nova, revemos juntos o que sai, o que fica e quem assume.”": [
@@ -7449,7 +7969,7 @@
 "Erros e quebra de desempenho": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
-"Feedback de sócios, adeptos e equipa": [
+"Feedback de clientes e equipa": [
 "4-5-liderar-para-a-seguranca-psicologica.html"
 ],
 "A monitorização contínua permite intervenção mais precoce e ajustada.": [
@@ -7753,17 +8273,14 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-9-suicidio.html"
 ],
 "<b>Módulo 5 · Situações Sensíveis</b>": [
 "5-0-situacoes-sensiveis.html"
 ],
 "Nove situações sensíveis": [
 "5-0-situacoes-sensiveis.html"
-],
-"Módulo 5": [
-"5-0-situacoes-sensiveis.html",
-"index.html"
 ],
 "Nove fichas de consulta rápida": [
 "5-0-situacoes-sensiveis.html"
@@ -7775,7 +8292,8 @@
 "5-0-situacoes-sensiveis.html"
 ],
 "Burnout": [
-"5-0-situacoes-sensiveis.html"
+"5-0-situacoes-sensiveis.html",
+"5-1-burnout.html"
 ],
 "Exaustão associada ao stress profissional crónico": [
 "5-0-situacoes-sensiveis.html"
@@ -7784,7 +8302,8 @@
 "5-0-situacoes-sensiveis.html"
 ],
 "Luto": [
-"5-0-situacoes-sensiveis.html"
+"5-0-situacoes-sensiveis.html",
+"5-2-luto.html"
 ],
 "A perda de uma pessoa significativa": [
 "5-0-situacoes-sensiveis.html"
@@ -7834,10 +8353,10 @@
 "Gerir o conflito de forma segura e respeitosa": [
 "5-0-situacoes-sensiveis.html"
 ],
-"<a class=\"partc\" href=\"5-8-apoio-a-socio-e-adepto-em-sofrimento.html\"><span class=\"pn\">Ficha 8</span><h3>Apoio a sócio ou adepto em sofrimento</h3><p>Uma resposta humana dentro do papel profissional</p></a>": [
+"<a class=\"partc\" href=\"5-8-apoio-a-cliente-em-sofrimento.html\"><span class=\"pn\">Ficha 8</span><h3>Apoio a cliente em sofrimento</h3><p>Uma resposta humana dentro do papel profissional</p></a>": [
 "5-0-situacoes-sensiveis.html"
 ],
-"Apoio a sócio ou adepto em sofrimento": [
+"Apoio a cliente em sofrimento": [
 "5-0-situacoes-sensiveis.html"
 ],
 "Uma resposta humana dentro do papel profissional": [
@@ -7847,7 +8366,8 @@
 "5-0-situacoes-sensiveis.html"
 ],
 "Suicídio": [
-"5-0-situacoes-sensiveis.html"
+"5-0-situacoes-sensiveis.html",
+"5-9-suicidio.html"
 ],
 "Ideação suicida num colega · suicídio em ambiente de trabalho": [
 "5-0-situacoes-sensiveis.html"
@@ -7858,13 +8378,7 @@
 "Módulo 5 · <b>5.1 Burnout</b>": [
 "5-1-burnout.html"
 ],
-"Burnout: quando<br class=\"brd\"> <span class=\"nwd\">o cansaço <span>não passa</span></span>": [
-"5-1-burnout.html"
-],
 "O burnout é um estado de exaustão física, emocional e mental associado ao stress profissional crónico.": [
-"5-1-burnout.html"
-],
-"Uma colega exausta, com as mãos na cabeça.": [
 "5-1-burnout.html"
 ],
 "O que pode estar a acontecer?": [
@@ -7885,8 +8399,8 @@
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html"
 ],
@@ -7903,7 +8417,7 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Três dimensões principais": [
 "5-1-burnout.html"
@@ -7914,7 +8428,7 @@
 "<small>Nível individual</small><b>Exaustão emocional</b><span>Sensação de esgotamento físico e mental, falta de energia, desgaste emocional e dificuldade em lidar com as exigências do trabalho e com os outros.</span>": [
 "5-1-burnout.html"
 ],
-"<small>Nível interpessoal</small><b>Despersonalização ou cinismo</b><span>Distanciamento emocional em relação ao trabalho, colegas, sócios ou adeptos, acompanhado de irritabilidade, frieza, cinismo ou perda de envolvimento.</span>": [
+"<small>Nível interpessoal</small><b>Despersonalização ou cinismo</b><span>Distanciamento emocional em relação ao trabalho, colegas ou clientes, acompanhado de irritabilidade, frieza, cinismo ou perda de envolvimento.</span>": [
 "5-1-burnout.html"
 ],
 "<small>Nível autoavaliativo</small><b>Reduzida realização pessoal</b><span>Sensação de ineficácia, baixa autoestima profissional e perceção de que o trabalho perdeu significado ou propósito.</span>": [
@@ -7968,24 +8482,18 @@
 "5-1-burnout.html",
 "5-2-luto.html",
 "5-2-luto.html",
-"5-2-luto.html",
-"5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
 "5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
-"5-4-situacoes-de-calamidade.html",
 "5-5-comportamento-agressivo.html",
 "5-5-comportamento-agressivo.html",
-"5-5-comportamento-agressivo.html",
-"5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html"
 ],
@@ -7998,7 +8506,7 @@
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Reforçar os recursos de proteção": [
 "5-1-burnout.html"
@@ -8121,33 +8629,32 @@
 "O que evitar?": [
 "5-1-burnout.html",
 "5-1-burnout.html",
-"5-1-burnout.html",
-"5-2-luto.html",
 "5-2-luto.html",
 "5-2-luto.html",
 "5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
-"5-3-ataques-de-panico.html",
-"5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
 "5-5-comportamento-agressivo.html",
 "5-5-comportamento-agressivo.html",
-"5-5-comportamento-agressivo.html",
-"5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
-"5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html"
 ],
-"Colegas conversam numa pausa para café.": [
-"5-1-burnout.html"
+"Cuidados a ter": [
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Estratégias de adaptação ineficazes:</b> Supressão emocional, isolamento, uso excessivo do trabalho como fuga.": [
 "5-1-burnout.html"
@@ -8164,23 +8671,16 @@
 "Quando encaminhar?": [
 "5-1-burnout.html",
 "5-1-burnout.html",
-"5-1-burnout.html",
-"5-2-luto.html",
 "5-2-luto.html",
 "5-2-luto.html",
 "5-3-ataques-de-panico.html",
 "5-3-ataques-de-panico.html",
-"5-3-ataques-de-panico.html",
-"5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
 "5-4-situacoes-de-calamidade.html",
 "5-5-comportamento-agressivo.html",
 "5-5-comportamento-agressivo.html",
-"5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-6-crise-pessoal-grave.html",
-"5-6-crise-pessoal-grave.html",
-"5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
 "5-7-conflito-na-equipa.html",
 "5-9-suicidio.html"
@@ -8193,8 +8693,18 @@
 "5-5-comportamento-agressivo.html",
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "6-1-quando-encaminhar.html"
+],
+"Apoio especializado": [
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "O encaminhamento para apoio especializado deve ser considerado quando:": [
 "5-1-burnout.html",
@@ -8233,19 +8743,42 @@
 "5-6-crise-pessoal-grave.html",
 "5-7-conflito-na-equipa.html"
 ],
+"Ficha concluída": [
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"Terminaste a ficha “Burnout”": [
+"5-1-burnout.html"
+],
+"Viste todos os ecrãs desta ficha.": [
+"5-1-burnout.html",
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-7-conflito-na-equipa.html",
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"Parte 5, ficha 1 · páginas 109 a 111 do PDF original": [
+"5-1-burnout.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-1-burnout.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Burnout<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-1-burnout.html"
+],
 "5.2 Luto": [
 "5-2-luto.html"
 ],
 "Módulo 5 · <b>5.2 Luto</b>": [
 "5-2-luto.html"
 ],
-"Luto: estar presente<br class=\"brd\"> <span>na perda</span>": [
-"5-2-luto.html"
-],
-"O luto é uma resposta humana normal à perda de uma pessoa significativa. Implica adaptar-se a uma nova realidade e aprender a viver num mundo onde a pessoa falecida já não está presente. No Benfica, a perda pode ser a de um colega, de um familiar ou de alguém muito querido da comunidade benfiquista; quando o luto é coletivo, vive-se também no local de trabalho.": [
-"5-2-luto.html"
-],
-"Uma colega em lágrimas, apoiada por dois colegas.": [
+"O luto é uma resposta humana normal à perda de uma pessoa significativa. Implica adaptar-se a uma nova realidade e aprender a viver num mundo onde a pessoa falecida já não está presente.": [
 "5-2-luto.html"
 ],
 "Cada processo de luto é único": [
@@ -8313,10 +8846,15 @@
 "Preservar um vínculo simbólico com quem partiu, integrando a sua presença na memória e nos afetos, enquanto se continua a viver": [
 "5-2-luto.html"
 ],
-"A intervenção deve focar-se na escuta ativa, validação emocional e apoio à adaptação gradual à perda.": [
-"5-2-luto.html"
+"Como agir": [
+"5-2-luto.html",
+"5-3-ataques-de-panico.html",
+"5-4-situacoes-de-calamidade.html",
+"5-5-comportamento-agressivo.html",
+"5-6-crise-pessoal-grave.html",
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"Duas pessoas dão as mãos, em apoio.": [
+"A intervenção deve focar-se na escuta ativa, validação emocional e apoio à adaptação gradual à perda.": [
 "5-2-luto.html"
 ],
 "<b>Facilitar a aceitação da perda:</b> Permitir que a pessoa fale sobre a morte, o funeral ou as circunstâncias da perda, ajudando a integrar a realidade do acontecimento.": [
@@ -8370,6 +8908,15 @@
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>Há comportamentos autolesivos, ideação suicida ou comportamentos de risco": [
 "5-2-luto.html"
 ],
+"Terminaste a ficha “Luto”": [
+"5-2-luto.html"
+],
+"Parte 5, ficha 2 · páginas 112 a 113 do PDF original": [
+"5-2-luto.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-2-luto.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Luto<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-2-luto.html"
+],
 "5.3 Ataques de pânico": [
 "5-3-ataques-de-panico.html"
 ],
@@ -8383,13 +8930,6 @@
 "5-3-ataques-de-panico.html"
 ],
 "<span><svg#1/>8 ecrãs</span><span><svg#2/>1 vídeo</span>": [
-"5-3-ataques-de-panico.html"
-],
-"8 ecrãs": [
-"5-3-ataques-de-panico.html",
-"6-2-recursos.html"
-],
-"Uma mulher respira fundo, com a mão no peito.": [
 "5-3-ataques-de-panico.html"
 ],
 "O corpo entra em “luta ou fuga”": [
@@ -8484,9 +9024,6 @@
 "<b>Permanecer no local, se possível:</b> Evitar fuga imediata da situação pode ajudar o cérebro a reaprender que o contexto é seguro.": [
 "5-3-ataques-de-panico.html"
 ],
-"Uma colega tranquila, sentada no escritório.": [
-"5-3-ataques-de-panico.html"
-],
 "<b>Minimizar ou ridicularizar:</b> Evitar frases como “Calma, isso não é nada”, “Estás a exagerar”.": [
 "5-3-ataques-de-panico.html"
 ],
@@ -8541,10 +9078,19 @@
 "Algumas situações exigem uma resposta mais imediata. Um ataque de pânico não dá aviso – acontece de forma súbita e pode ser muito assustador para quem o vive e para quem está ao lado. O papel de quem apoia não é diagnosticar nem resolver, mas criar segurança e ajudar a regular.": [
 "5-3-ataques-de-panico.html"
 ],
-"<b>Contexto</b>Museu Benfica – Cosme Damião, em dia de grande afluência. Uma visitante apresenta sinais de ataque de pânico junto a uma vitrine. Uma guia do museu identifica os sinais e aproxima-se.": [
+"<b>Contexto</b>Loja Wells. Uma cliente apresenta sinais de ataque de pânico junto a uma prateleira. Uma colaboradora identifica os sinais e aproxima-se.": [
 "5-3-ataques-de-panico.html"
 ],
-"<b>Nota</b>Este role-play passa-se com uma visitante, mas as mesmas estratégias aplicam-se com um colega em situação semelhante.": [
+"<b>Nota</b>Este role-play passa-se com uma cliente, mas as mesmas estratégias aplicam-se com um colega em situação semelhante.": [
+"5-3-ataques-de-panico.html"
+],
+"Terminaste a ficha “Ataques de pânico”": [
+"5-3-ataques-de-panico.html"
+],
+"Parte 5, ficha 3 · páginas 114 a 116 do PDF original": [
+"5-3-ataques-de-panico.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-3-ataques-de-panico.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Ataques de pânico<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "5-3-ataques-de-panico.html"
 ],
 "5.4 Situações de calamidade": [
@@ -8553,13 +9099,10 @@
 "Módulo 5 · <b>5.4 Calamidade</b>": [
 "5-4-situacoes-de-calamidade.html"
 ],
-"Situações<br class=\"brd\"> <span class=\"nwd\">de <span>calamidade</span></span>": [
+"Situações de <span>calamidade</span>": [
 "5-4-situacoes-de-calamidade.html"
 ],
-"Perante um acontecimento súbito, grave ou potencialmente traumático, é esperado que surjam reações intensas de stress. Os Primeiros Socorros Psicológicos visam reduzir sofrimento imediato, promover segurança e apoiar a recuperação inicial. No Benfica, pode ser um incidente grave no Estádio com público presente (uma queda, um mal súbito, uma evacuação), um acidente de trabalho ou uma notícia trágica que atinge toda a casa.": [
-"5-4-situacoes-de-calamidade.html"
-],
-"Duas pessoas conversam em apoio, de mãos dadas.": [
+"Perante um acontecimento súbito, grave ou potencialmente traumático, é esperado que surjam reações intensas de stress. Os Primeiros Socorros Psicológicos visam reduzir sofrimento imediato, promover segurança e apoiar a recuperação inicial.": [
 "5-4-situacoes-de-calamidade.html"
 ],
 "É importante lembrar": [
@@ -8680,6 +9223,15 @@
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>Existem sintomas intensos de ansiedade, dissociação ou sofrimento persistente": [
 "5-4-situacoes-de-calamidade.html"
 ],
+"Terminaste a ficha “Calamidade”": [
+"5-4-situacoes-de-calamidade.html"
+],
+"Parte 5, ficha 4 · páginas 117 a 119 do PDF original": [
+"5-4-situacoes-de-calamidade.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-4-situacoes-de-calamidade.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Situações de calamidade<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-4-situacoes-de-calamidade.html"
+],
 "5.5 Comportamento agressivo": [
 "5-5-comportamento-agressivo.html"
 ],
@@ -8692,9 +9244,6 @@
 "O comportamento agressivo pode surgir como uma tentativa desadaptativa de expressar frustração, defender necessidades ou recuperar sensação de controlo. Embora a emoção da pessoa possa ser válida, comportamentos agressivos podem colocar em causa a segurança, o respeito e o funcionamento das relações.": [
 "5-5-comportamento-agressivo.html"
 ],
-"Uma colega repreende outra, de forma tensa.": [
-"5-5-comportamento-agressivo.html"
-],
 "Compreender não é aceitar": [
 "5-5-comportamento-agressivo.html"
 ],
@@ -8704,7 +9253,7 @@
 "Compreender as causas de um comportamento agressivo <em>não significa aceitá-lo ou normalizá-lo.</em>": [
 "5-5-comportamento-agressivo.html"
 ],
-"A segurança, o respeito e os limites interpessoais devem ser sempre protegidos em contexto laboral: entre colegas e também com sócios, adeptos e visitantes, sobretudo em dias de jogo, quando a emoção sobe e há muita gente no mesmo espaço. Se houver risco para a integridade física, aciona de imediato a segurança do Estádio e o 112.": [
+"A segurança, o respeito e os limites interpessoais devem ser sempre protegidos em contexto laboral.": [
 "5-5-comportamento-agressivo.html"
 ],
 "Dificuldade em regular emoções ou lidar com frustração": [
@@ -8756,9 +9305,6 @@
 "5-5-comportamento-agressivo.html"
 ],
 "A prioridade é reduzir a escalada emocional, garantir segurança e promover comunicação eficaz.": [
-"5-5-comportamento-agressivo.html"
-],
-"Um líder calmo e sorridente, com a equipa ao fundo.": [
 "5-5-comportamento-agressivo.html"
 ],
 "<b>Manter autocontrolo:</b> Falar de forma calma, firme e respeitosa, evitando aumentar tensão emocional.": [
@@ -8830,6 +9376,15 @@
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>As estratégias de mediação e gestão de conflito deixam de ser eficazes": [
 "5-5-comportamento-agressivo.html"
 ],
+"Terminaste a ficha “Comportamento agressivo”": [
+"5-5-comportamento-agressivo.html"
+],
+"Parte 5, ficha 5 · páginas 120 a 122 do PDF original": [
+"5-5-comportamento-agressivo.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-5-comportamento-agressivo.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Comportamento agressivo<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-5-comportamento-agressivo.html"
+],
 "5.6 Crise pessoal grave": [
 "5-6-crise-pessoal-grave.html"
 ],
@@ -8844,14 +9399,11 @@
 ],
 "<span><svg#1/>6 ecrãs</span>": [
 "5-6-crise-pessoal-grave.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "6 ecrãs": [
 "5-6-crise-pessoal-grave.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
-],
-"Uma mulher sozinha, sentada no chão, com a mão na cabeça.": [
-"5-6-crise-pessoal-grave.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Situações pessoais difíceis ou potencialmente traumáticas": [
 "5-6-crise-pessoal-grave.html"
@@ -8883,9 +9435,6 @@
 "A vivência de uma destas experiências pode ser acompanhada por uma perceção de ineficácia, falta de recursos ou falha dos mecanismos habituais de adaptação e resolução de problemas.": [
 "5-6-crise-pessoal-grave.html"
 ],
-"Ilustração: pessoa sentada, encolhida, com uma nuvem escura por cima.": [
-"5-6-crise-pessoal-grave.html"
-],
 "A prioridade é oferecer presença, flexibilidade e apoio prático sem invadir a privacidade da pessoa.": [
 "5-6-crise-pessoal-grave.html"
 ],
@@ -8905,9 +9454,6 @@
 "5-6-crise-pessoal-grave.html"
 ],
 "<b>Informar sobre recursos existentes:</b> Sinalizar apoios disponíveis, como apoio psicológico, medicina do trabalho, horários flexíveis, recursos sociais.": [
-"5-6-crise-pessoal-grave.html"
-],
-"Colegas juntam as mãos, em equipa.": [
 "5-6-crise-pessoal-grave.html"
 ],
 "<b>Pressionar para falar sobre detalhes pessoais:</b> Evitar perguntas invasivas ou insistência em explicações.": [
@@ -8943,6 +9489,15 @@
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>Quando a pessoa pede ajuda especializada": [
 "5-6-crise-pessoal-grave.html"
 ],
+"Terminaste a ficha “Crise pessoal grave”": [
+"5-6-crise-pessoal-grave.html"
+],
+"Parte 5, ficha 6 · páginas 123 a 124 do PDF original": [
+"5-6-crise-pessoal-grave.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-6-crise-pessoal-grave.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Crise pessoal grave<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-6-crise-pessoal-grave.html"
+],
 "5.7 Conflito na equipa": [
 "5-7-conflito-na-equipa.html"
 ],
@@ -8953,9 +9508,6 @@
 "5-7-conflito-na-equipa.html"
 ],
 "Os conflitos fazem parte das relações humanas e podem surgir mesmo em equipas funcionais. O objetivo não é eliminar totalmente o conflito, mas promover formas seguras, respeitosas e eficazes de o gerir.": [
-"5-7-conflito-na-equipa.html"
-],
-"Duas pessoas apertam a mão, depois de uma conversa.": [
 "5-7-conflito-na-equipa.html"
 ],
 "Diferenças que geram tensão": [
@@ -9057,9 +9609,6 @@
 "Ao longo da conversa": [
 "5-7-conflito-na-equipa.html"
 ],
-"Dois colegas fazem um high five depois de uma conversa.": [
-"5-7-conflito-na-equipa.html"
-],
 "<b>Manter foco e regulação emocional:</b> Evitar entrar em provocações ou discussões paralelas. Se necessário, repetir calmamente o ponto principal e recentrar conversa no objetivo.": [
 "5-7-conflito-na-equipa.html"
 ],
@@ -9117,123 +9666,132 @@
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>As tentativas de resolução interna deixam de ser eficazes": [
 "5-7-conflito-na-equipa.html"
 ],
-"5.8 Apoio a sócio ou adepto em sofrimento": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"Terminaste a ficha “Conflito na equipa”": [
+"5-7-conflito-na-equipa.html"
 ],
-"Módulo 5 · <b>5.8 Apoio a sócios e adeptos</b>": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"Parte 5, ficha 7 · páginas 125 a 127 do PDF original": [
+"5-7-conflito-na-equipa.html"
 ],
-"Apoio a sócio ou adepto <span>em sofrimento</span>": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"\n      <a class=\"dl a\" href=\"downloads/ficha-7-conflito-na-equipa.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Conflito na equipa<small>PDF · 3 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-7-conflito-na-equipa.html"
 ],
-"Um sócio, adepto ou visitante em sofrimento emocional pode apresentar maior sensibilidade, reatividade ou dificuldade em comunicar necessidades de forma organizada. Isto pode acontecer à porta do Estádio, na bilheteira, na loja, no Museu ou ao telefone, e em dia de jogo a emoção do resultado pode amplificar o que a pessoa já traz consigo. O objetivo não é fazer psicoterapia, mas oferecer uma resposta humana, segura e empática dentro do papel profissional.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5.8 Apoio a cliente em sofrimento": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"Uma colega entrega uma caixa a um cliente, a sorrir.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"Módulo 5 · <b>5.8 Apoio a cliente</b>": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"Apoio a cliente <span>em sofrimento</span>": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"Um cliente em sofrimento emocional pode apresentar maior sensibilidade, reatividade ou dificuldade em comunicar necessidades de forma organizada. O objetivo não é fazer psicoterapia, mas oferecer uma resposta humana, segura e empática dentro do papel profissional.": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Situações emocionalmente exigentes": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"O sócio, adepto ou visitante pode estar a viver situações pessoais ou profissionais emocionalmente exigentes, podendo apresentar:": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"O cliente pode estar a viver situações pessoais ou profissionais emocionalmente exigentes, podendo apresentar:": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "hipersensibilidade emocional": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "ansiedade, tristeza ou desespero": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "irritabilidade ou zanga": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"frustração com o serviço (bilhetes, quotas, filas, acessos)": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"frustração com o serviço": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "respostas emocionais intensas": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "necessidade de ser ouvido, compreendido e validado": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"Ilustração: duas pessoas em pé, a conversar com calma.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
-],
-"Um colaborador atende duas pessoas com atenção.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
-],
-"<b>Demonstrar disponibilidade:</b> Escutar de forma ativa e respeitosa, mostrando interesse genuíno pelo que a pessoa está a comunicar.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"<b>Demonstrar disponibilidade:</b> Escutar de forma ativa e respeitosa, mostrando interesse genuíno pelo que o cliente está a comunicar.": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Manter uma postura calma e empática:</b> Falar de forma tranquila, previsível e não defensiva.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Validar o sofrimento:</b> Reconhecer que a experiência da pessoa pode ser difícil ou emocionalmente intensa.<i> “Percebo que esta situação esteja a ser muito difícil para si.”</i>": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"<b>Clarificar necessidades:</b> Utilizar perguntas abertas e não intrusivas para perceber o que aconteceu, o que a pessoa precisa, como pode ser ajudado naquele momento.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"<b>Clarificar necessidades:</b> Utilizar perguntas abertas e não intrusivas para perceber o que aconteceu, o que o cliente precisa, como pode ser ajudado naquele momento.": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Ajudar na resolução de problemas:</b> Sempre que possível, identificar soluções práticas, clarificar próximos passos, reduzir incerteza.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Gerir expectativas:</b> Ser transparente e realista e evitar prometer aquilo que não pode garantir.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"<b>Utilizar estratégias de estabilização:</b> Se a pessoa estiver muito desregulada: incentivar respiração lenta, utilizar grounding, ajudar a recentrar atenção no presente.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"<b>Utilizar estratégias de estabilização:</b> Se o cliente estiver muito desregulado: incentivar respiração lenta, utilizar grounding, ajudar a recentrar atenção no presente.": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
-"<b>Tentar “resolver” imediatamente o sofrimento:</b> A pressão para fazer a pessoa sentir-se melhor rapidamente pode reduzir capacidade de escuta genuína.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"<b>Tentar “resolver” imediatamente o sofrimento:</b> A pressão para fazer o cliente sentir-se melhor rapidamente pode reduzir capacidade de escuta genuína.": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Invalidar ou minimizar:</b> Evitar frases como “Isso não é assim tão grave”, “Tem de ter calma”.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Atribuir culpa:</b> Não insinuar que o sofrimento da pessoa é “culpa dela”.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Julgar ou rotular:</b> Focar-se na necessidade e sofrimento da pessoa, e não no que “há de errado” com ela.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "<b>Entrar em confronto defensivo:</b> Evitar responder à emoção com irritação, sarcasmo ou rigidez excessiva.": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html"
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "Quando realizar encaminhamento urgente?": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "Se existir:": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>ideação ou intenção suicida": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>comportamento autolesivo": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "<span class=\"b warnb\" aria-hidden=\"true\">!</span>risco grave para a segurança da pessoa ou de terceiros": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "Pedir apoio imediato e contactar serviços de emergência:": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "<b>Linha de Emergência Nacional</b>": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "<b>Linha Nacional de Prevenção do Suicídio</b>": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
 ],
 "<b>SNS 24 · Aconselhamento Psicológico</b>": [
-"5-8-apoio-a-socio-e-adepto-em-sofrimento.html",
+"5-8-apoio-a-cliente-em-sofrimento.html",
 "5-9-suicidio.html"
+],
+"Terminaste a ficha “Apoio a cliente”": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"Parte 5, ficha 8 · páginas 128 a 129 do PDF original": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/ficha-8-apoio-a-cliente-em-sofrimento.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Apoio a cliente em sofrimento<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"5-8-apoio-a-cliente-em-sofrimento.html"
 ],
 "5.9 Suicídio": [
 "5-9-suicidio.html"
@@ -9241,16 +9799,13 @@
 "Módulo 5 · <b>5.9 Suicídio</b>": [
 "5-9-suicidio.html"
 ],
+"Esta ficha aborda a ideação suicida e o suicídio em ambiente de trabalho. É um tema sensível e delicado. Avança ao teu ritmo e, se preferires, volta mais tarde.": [
+"5-9-suicidio.html"
+],
 "Aviso": [
 "5-9-suicidio.html"
 ],
 "Módulo 5 · Situações Sensíveis · Ficha 9": [
-"5-9-suicidio.html"
-],
-"Suicídio: reconhecer sinais <span>e procurar ajuda</span>": [
-"5-9-suicidio.html"
-],
-"Esta ficha aborda a ideação suicida e o suicídio em ambiente de trabalho. É um tema sensível e delicado. Avança ao teu ritmo e, se preferires, volta mais tarde.": [
 "5-9-suicidio.html"
 ],
 "<em>Situação 1</em><b>Um colega com ideação suicida</b><span>O que pode estar a acontecer, o que fazer, o que evitar e quando encaminhar</span>": [
@@ -9262,7 +9817,7 @@
 "<a class=\"pill\" href=\"5-0-situacoes-sensiveis.html\">Voltar às situações sensíveis</a>": [
 "5-9-suicidio.html"
 ],
-"<b>Precisas de ajuda agora?</b><a href=\"tel:112\">112</a><a href=\"tel:1411\">1411 <small>Prevenção do Suicídio</small></a><a href=\"tel:808242424\">808 24 24 24 <small>SNS 24</small></a>": [
+"<b>Precisas de ajuda agora?</b><a href=\"tel:112\">112</a><a href=\"tel:1411\">1411 <small>Prevenção do Suicídio</small></a><a href=\"tel:808242424\">808 24 24 24 <small>SNS 24</small></a><a href=\"tel:800100025\">800 100 025 <small>Somos Sonae</small></a>": [
 "5-9-suicidio.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html",
@@ -9271,9 +9826,6 @@
 "5-9-suicidio.html",
 "5-9-suicidio.html",
 "5-9-suicidio.html",
-"5-9-suicidio.html"
-],
-"Um homem conforta, com calma, uma pessoa preocupada.": [
 "5-9-suicidio.html"
 ],
 "Situação 1: o que pode estar a acontecer": [
@@ -9459,13 +10011,16 @@
 "Este é um tema sensível e delicado": [
 "5-9-suicidio.html"
 ],
-"Se quiseres aprofundar o conhecimento sobre a prevenção do suicídio – como reconhecer sinais de alerta, como abordar alguém em sofrimento e que recursos existem – fala com os Recursos Humanos ou com a Saúde e Segurança no Trabalho sobre materiais de formação e prevenção. (Informação não disponível nesta versão de demonstração)": [
+"Se quiseres aprofundar o conhecimento sobre a prevenção do suicídio – como reconhecer sinais de alerta, como abordar alguém em sofrimento e que recursos existem – consulta o <a class=\"inl\" href=\"#demo-indisponivel\" target=\"_blank\" rel=\"noopener\">Manual sobre Prevenção do Suicídio<span class=\"sr\"> (abre numa nova janela, no SharePoint de Saúde Ocupacional MC)</span></a>.": [
+"5-9-suicidio.html"
+],
+"Parte 5, ficha 9 · páginas 130 a 133 do PDF original": [
+"5-9-suicidio.html"
+],
+"\n    <a class=\"dl\" href=\"downloads/ficha-9-suicidio.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Ficha: Suicídio<small>PDF · 4 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    <a class=\"dl\" href=\"downloads/toolkit-psp-parte-5-situacoes-sensiveis.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Módulo 5 completo: as nove fichas<small>PDF · 26 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n  ": [
 "5-9-suicidio.html"
 ],
 "<a class=\"pill\" href=\"5-0-situacoes-sensiveis.html\">Todas as situações sensíveis</a>": [
-"5-9-suicidio.html"
-],
-"Módulo 5 concluído": [
 "5-9-suicidio.html"
 ],
 "6.1 Quando encaminhar": [
@@ -9488,9 +10043,6 @@
 "6-1-quando-encaminhar.html"
 ],
 "5 ecrãs": [
-"6-1-quando-encaminhar.html"
-],
-"Duas colegas conversam, junto a um portátil.": [
 "6-1-quando-encaminhar.html"
 ],
 "1.1 · Quando encaminhar": [
@@ -9524,7 +10076,7 @@
 "Para onde encaminhar": [
 "6-1-quando-encaminhar.html"
 ],
-"Os recursos internos e externos, com contactos e horários, estão na página seguinte.": [
+"Os recursos internos e externos, com contactos e horários, estão na parte seguinte.": [
 "6-1-quando-encaminhar.html"
 ],
 "Ver os recursos": [
@@ -9542,13 +10094,13 @@
 "Indicadores para encaminhar": [
 "6-1-quando-encaminhar.html"
 ],
-"<img src=\"assets/img/ic-81.svg\" alt=\"\">Sinais de risco<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-81.png\" alt=\"\">Sinais de risco<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "6-1-quando-encaminhar.html"
 ],
-"<img src=\"assets/img/ic-29.svg\" alt=\"\">Incapacidade funcional<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-29.png\" alt=\"\">Incapacidade funcional<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "6-1-quando-encaminhar.html"
 ],
-"<img src=\"assets/img/ic-36.svg\" alt=\"\">Sintomas persistentes<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-36.png\" alt=\"\">Sintomas persistentes<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "6-1-quando-encaminhar.html"
 ],
 "Sinais de risco": [
@@ -9636,25 +10188,30 @@
 "Não é substituir o apoio inicial, mas <em>garantir que a pessoa recebe o tipo de ajuda mais adequado às suas necessidades.</em>": [
 "6-1-quando-encaminhar.html"
 ],
+"Terminaste a parte “Quando encaminhar”": [
+"6-1-quando-encaminhar.html"
+],
+"Parte 6, secção 1 · páginas 135 a 136 do PDF original": [
+"6-1-quando-encaminhar.html"
+],
+"\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-6-quando-encaminhar.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Quando encaminhar<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
+"6-1-quando-encaminhar.html"
+],
 "6.2 Recursos": [
 "6-2-recursos.html"
 ],
 "Módulo 6 · <b>6.2 Recursos</b>": [
 "6-2-recursos.html"
 ],
-"<span class=\"nwd\">Recursos e <span>contactos</span></span><br class=\"brd\"> <span>de apoio</span>": [
+"Recursos": [
 "6-2-recursos.html"
 ],
-"Os recursos internos do Benfica e as principais linhas de apoio gratuito em Portugal, para a saúde mental e para além dela.": [
+"Os recursos internos da MC e as principais linhas de apoio gratuito em Portugal, para a saúde mental e para além dela.": [
 "6-2-recursos.html"
 ],
-"<span><svg#1/>8 ecrãs</span>": [
-"6-2-recursos.html"
-],
-"Três colegas descontraídos, a tomar café e a conversar.": [
-"6-2-recursos.html"
-],
-"Apoio psicológico ao colaborador": [
+"Somos Sonae": [
+"6-2-recursos.html",
+"6-2-recursos.html",
 "6-2-recursos.html"
 ],
 "2.1 · Recursos internos": [
@@ -9663,55 +10220,83 @@
 "6-2-recursos.html",
 "6-2-recursos.html"
 ],
-"Apoio psicológico ao colaborador do Benfica": [
-"6-2-recursos.html"
-],
-"(Informação não disponível nesta versão de demonstração) Este ecrã descreve o programa interno de apoio psicológico a quem trabalha no Benfica: quem presta o serviço, quem o pode usar e que garantias de privacidade existem. Enquanto não estiver definido, usa as linhas gratuitas do ecrã seguinte e fala com a tua chefia ou com os Recursos Humanos.": [
+"Programa multidisciplinar de apoio desenvolvido pela Sonae em 2013, com o intuito de apoiar os colaboradores e as suas famílias nos momentos de maior necessidade e vulnerabilidade mental, económica e social. É promovido por equipas multidisciplinares e especializadas da Cruz Vermelha Portuguesa (CVP), e a privacidade de quem o usufrui é garantida.": [
 "6-2-recursos.html"
 ],
 "Saúde mental e apoio psicológico": [
 "6-2-recursos.html"
 ],
-"Informação a validar com o Benfica antes de o curso ser publicado.": [
+"Programa de saúde mental em parceria com a CVP e a sua rede de apoio psicossocial, que integra psicólogos clínicos credenciados.": [
 "6-2-recursos.html"
 ],
-"<b>Plano de apoio:</b> (Informação não disponível nesta versão de demonstração).": [
-"6-2-recursos.html",
+"<b>Plano de apoio gratuito e confidencial:</b> até 10 consultas, a realizar em 12 meses, podendo ser prolongado mediante avaliação clínica do caso.": [
 "6-2-recursos.html"
 ],
-"<b>Modalidade:</b> (Informação não disponível nesta versão de demonstração).": [
-"6-2-recursos.html",
+"<b>Modalidade:</b> podem ser presenciais ou online, sendo que a modalidade será escolhida em articulação com o(a) psicólogo(a).": [
 "6-2-recursos.html"
 ],
-"<b>Abrangência:</b> (Informação não disponível nesta versão de demonstração).": [
-"6-2-recursos.html",
+"<b>Abrangência:</b> todos(as) os(as) colaboradores(as)!": [
 "6-2-recursos.html"
 ],
 "Como aceder": [
 "6-2-recursos.html"
 ],
-"(Informação não disponível nesta versão de demonstração)": [
-"6-2-recursos.html",
+"Ligar para a linha dedicada do Programa Somos Sonae, gerida pela CVP e disponível 24h/dia.": [
+"6-2-recursos.html"
+],
+"No contacto, só precisas de te identificar como colaborador(a) MC e serás encaminhado/a para a rede de psicólogos clínicos credenciados.": [
+"6-2-recursos.html"
+],
+"Saber mais sobre o Somos Sonae": [
+"6-2-recursos.html"
+],
+"(abre numa nova janela)": [
+"6-2-recursos.html"
+],
+"Seguro de Saúde Multicare": [
 "6-2-recursos.html",
 "6-2-recursos.html"
 ],
-"Enquanto não houver contacto interno, o SNS 24 (808 24 24 24, opção 4) e a Linha 1411 são gratuitos e funcionam 24h.": [
-"6-2-recursos.html"
-],
-"Seguro de saúde e bem-estar": [
-"6-2-recursos.html",
-"6-2-recursos.html"
-],
-"(Informação não disponível nesta versão de demonstração) Se o Benfica disponibiliza seguro de saúde, medicina online ou programas de bem-estar aos colaboradores, descreve-os aqui, incluindo as consultas de psicologia, se existirem.": [
+"Através da Medicina Online do Seguro de Saúde Multicare, os colaboradores efetivos têm acesso a consultas de psicologia (telefone ou videoconferência), totalmente gratuitas, assim como a programas de bem-estar.": [
 "6-2-recursos.html"
 ],
 "Programas de bem-estar": [
 "6-2-recursos.html"
 ],
+"Programas de Gestão de Stress e Ansiedade": [
+"6-2-recursos.html"
+],
+"Dormir Melhor": [
+"6-2-recursos.html"
+],
+"Programa Põe-te em Forma": [
+"6-2-recursos.html"
+],
+"Programa de Cessação tabágica": [
+"6-2-recursos.html"
+],
 "Plano e modalidades": [
 "6-2-recursos.html"
 ],
+"<b>Plano de apoio gratuito e confidencial:</b> consultas de psicologia e programas de bem-estar.": [
+"6-2-recursos.html"
+],
+"<b>Modalidade:</b> ilimitadas, se forem por telefone ou videoconferência; 6 consultas de Psicologia/Psiquiatria presenciais, por anuidade.": [
+"6-2-recursos.html"
+],
+"<b>Abrangência:</b> todos(as) os(as) colaboradores(as) efetivos(as), com seguro de saúde!": [
+"6-2-recursos.html"
+],
 "Como aceder e agendar": [
+"6-2-recursos.html"
+],
+"Através da linha dedicada do Seguro de Saúde:": [
+"6-2-recursos.html"
+],
+"Ou através do website da Multicare:": [
+"6-2-recursos.html"
+],
+"multicare.pt/medicina-online": [
 "6-2-recursos.html"
 ],
 "Linhas de apoio psicológico": [
@@ -9768,58 +10353,73 @@
 "Outros recursos internos": [
 "6-2-recursos.html"
 ],
-"<img src=\"assets/img/ic-36.svg\" alt=\"\">Serviços de saúde<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-36.png\" alt=\"\">Medicina Online · Seguro de Saúde<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "6-2-recursos.html"
 ],
-"<img src=\"assets/img/ic-18.svg\" alt=\"\">Código de Conduta e denúncias<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-18.png\" alt=\"\">Somos Sonae: outras vertentes<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "6-2-recursos.html"
 ],
-"<img src=\"assets/img/ic-108.svg\" alt=\"\">Medicina no Trabalho<span class=\"tick\" aria-hidden=\"true\"></span>": [
+"<img src=\"assets/img/ic-108.png\" alt=\"\">Medicina no Trabalho<span class=\"tick\" aria-hidden=\"true\"></span>": [
 "6-2-recursos.html"
 ],
-"Serviços de saúde para colaboradores": [
+"Medicina Online · Seguro de Saúde": [
 "6-2-recursos.html"
 ],
-"(Informação não disponível nesta versão de demonstração) Se o Benfica disponibiliza seguro de saúde, medicina online ou consultas de especialidade aos colaboradores, descreve-os aqui:": [
+"Além das iniciativas de saúde mental, a Medicina Online do Seguro de Saúde disponibiliza um acesso totalmente gratuito a diversas consultas de especialidade, de forma cómoda e sem necessidade de deslocações:": [
 "6-2-recursos.html"
 ],
-"Que serviços existem (por exemplo, medicina geral e familiar, nutrição, saúde da mulher)": [
+"Consultas de medicina geral e familiar": [
 "6-2-recursos.html"
 ],
-"Quem os pode usar (todos os colaboradores ou só alguns vínculos)": [
+"Prescrição de exames e medicamentos": [
 "6-2-recursos.html"
 ],
-"Como se marca e quanto custa": [
+"Dermatologia": [
 "6-2-recursos.html"
 ],
-"Código de Conduta e canal de denúncias": [
+"Nutrição": [
 "6-2-recursos.html"
 ],
-"O Código de Conduta da Benfica SAD (em vigor desde 23 de novembro de 2022) afirma que o bem-estar físico e psicológico de quem trabalha no Benfica tem uma importância fundamental. Proíbe o assédio e a discriminação no trabalho e protege quem denuncia.": [
+"Consultas de saúde da mulher": [
 "6-2-recursos.html"
 ],
-"São inaceitáveis, entre outros, os comentários degradantes ou vexatórios, os comportamentos intimidativos ou ameaçadores, e ignorar, isolar ou segregar um colega": [
+"Entre outras…": [
 "6-2-recursos.html"
 ],
-"Quem tenha conhecimento ou suspeita fundada de assédio deve denunciar": [
+"Este programa tem o propósito de apoiar os colaboradores e as suas famílias, em situação de vulnerabilidade social e económica, nos momentos que mais necessitarem. Em parceria com a CVP, atua em diferentes vertentes (em adição ao eixo da saúde mental):": [
 "6-2-recursos.html"
 ],
-"Quem denuncia, e as testemunhas que indicar, não pode ser sancionado disciplinarmente por isso, salvo atuação dolosa": [
+"Apoio socioeconómico": [
 "6-2-recursos.html"
 ],
-"Canal de denúncias interno, confidencial: <a class=\"inl\" href=\"https://slbenficasad.integrityline.com/frontpage\" target=\"_blank\" rel=\"noopener\">slbenficasad.integrityline.com<span class=\"sr\"> (abre numa nova janela)</span></a>": [
+"Apoio jurídico": [
 "6-2-recursos.html"
 ],
-"Nota": [
+"Programa de saúde oral, em parceria com a “Mundo a Sorrir” (Lisboa, Porto e Braga)": [
 "6-2-recursos.html"
 ],
-"(Informação não disponível nesta versão de demonstração) Este é o Código da Benfica SAD. Confirmar se o mesmo código e o mesmo canal valem para todos os colaboradores do Clube e das restantes entidades do Grupo Benfica.": [
+"Eixo de apoio à vítima de violência doméstica": [
+"6-2-recursos.html"
+],
+"<b>Linha de atendimento, gratuita e confidencial (<a href=\"tel:800100025\">800 100 025</a>), disponível 24h/dia</b>": [
+"6-2-recursos.html"
+],
+"Articulação da CVP com as suas estruturas de apoio à vítima, que integram a Rede Nacional de Apoio a Vítimas de Violência Doméstica, mediante consentimento prévio": [
+"6-2-recursos.html"
+],
+"Apoio integral: jurídico e psicológico": [
+"6-2-recursos.html"
+],
+"Apoio socioeconómico: sempre que se considerar necessário mediante a análise do caso e ajustado às características": [
+"6-2-recursos.html"
+],
+"Os planos de apoio garantem a confidencialidade necessária e respeitam a sensibilidade inerente ao caso.": [
 "6-2-recursos.html"
 ],
 "Medicina no Trabalho": [
 "6-2-recursos.html"
 ],
-"Todos os trabalhadores têm direito a Medicina do Trabalho, para além dos exames periódicos obrigatórios:": [
+"Na MC, todos os colaboradores têm acesso a consultas de Medicina do Trabalho, para além dos exames periódicos obrigatórios:": [
 "6-2-recursos.html"
 ],
 "Exame Ocasional a Pedido do Trabalhador": [
@@ -9831,13 +10431,13 @@
 "Exame Ocasional a Pedido da Empresa": [
 "6-2-recursos.html"
 ],
-"Estas consultas podem ser pedidas através dos Recursos Humanos ou do serviço de Saúde e Segurança no Trabalho. (Informação não disponível nesta versão de demonstração) Em períodos de grande atividade, como semanas com vários jogos, o acesso a consulta pode não ser possível no próprio dia.": [
+"Estas consultas podem ser solicitadas através da equipa ‘People’ das lojas, operações, logística ou estrutura central. Em algumas lojas de menor dimensão, o acesso a consulta nem sempre é possível no próprio dia ou em dias muito próximos da referenciação.": [
 "6-2-recursos.html"
 ],
 "É importante saber": [
 "6-2-recursos.html"
 ],
-"Caso a Medicina do Trabalho não consiga dar uma resposta no prazo previsto, deve estar prevista a ativação de uma alternativa adequada (ex.: a linha interna de apoio ao colaborador (Informação não disponível nesta versão de demonstração), o SNS 24 – <a href=\"tel:808242424\">808 24 24 24</a>, opção 4 –, apoio psicológico ou recurso externo), para não comprometer a resposta ao colaborador em tempo útil.": [
+"Caso a Medicina do Trabalho não consiga dar uma resposta no prazo previsto, deve estar prevista a ativação de uma alternativa adequada (ex.: Linha Somos Sonae <a href=\"tel:800100025\">800 100 025</a> – 24h, apoio psicológico ou recurso externo), para não comprometer a resposta ao colaborador em tempo útil.": [
 "6-2-recursos.html"
 ],
 "Outras linhas de apoio": [
@@ -9850,16 +10450,16 @@
 "Outras linhas de apoio gratuito (Portugal)": [
 "6-2-recursos.html"
 ],
-"<b>APAV · Apoio à Vítima</b><small>Dias úteis das 08h00 às 23h00</small>": [
+"<b>APAV · Apoio à Vítima</b><small>Dias úteis das 09h00 às 21h00</small>": [
 "6-2-recursos.html"
 ],
 "<b>Linha de Informação às Vítimas de Violência Doméstica</b><small>24 horas por dia / 365 dias por ano. Se não podes ou não queres telefonar, envia uma mensagem para a Linha SMS 3060, também ela gratuita e confidencial.</small>": [
 "6-2-recursos.html"
 ],
-"<b>Assédio no trabalho (moral ou sexual) · CITE</b><small>Comissão para a Igualdade no Trabalho e no Emprego · Atendimento: segundas e terças-feiras, das 14h30 às 16h00</small>": [
+"<b>Assédio no trabalho (moral ou sexual) · CITE</b><small>Comissão para a Igualdade no Trabalho e no Emprego · (de 2.ª a 3.ª): 14.30h – 16.00h</small>": [
 "6-2-recursos.html"
 ],
-"<b>Assédio no trabalho (moral ou sexual) · ACT</b><small>Autoridade para as Condições do Trabalho · Dias úteis: das 09h00 às 12h30</small>": [
+"<b>Assédio no trabalho (moral ou sexual) · ACT</b><small>Autoridade para as Condições do Trabalho · Dias úteis: das 09h30 às 12h30</small>": [
 "6-2-recursos.html"
 ],
 "<b>Linha Internet Segura</b><small>Dias úteis, das 08h00 às 23h00</small>": [
@@ -9876,7 +10476,7 @@
 "Cuidar da saúde mental no trabalho <em>não exige respostas perfeitas</em> nem formação clínica.": [
 "6-2-recursos.html"
 ],
-"Exige, acima de tudo, disponibilidade para observar, escutar e ligar as pessoas ao apoio certo. Os pequenos gestos – uma pergunta atenta, um espaço seguro para falar, a coragem de não ignorar o sofrimento de quem está ao nosso lado, no Estádio, no Campus ou no escritório – fazem toda a diferença.": [
+"Exige, acima de tudo, disponibilidade para observar, escutar e ligar as pessoas ao apoio certo. Os pequenos gestos – uma pergunta atenta, um espaço seguro para falar, a coragem de não ignorar o sofrimento de quem está ao nosso lado – fazem toda a diferença.": [
 "6-2-recursos.html"
 ],
 "Os PSP consistem num apoio humano, próximo e prático a quem está em dificuldade – de uma forma que respeita sempre a sua dignidade, a sua cultura e as suas capacidades. Não substituem acompanhamento clínico, mas são muitas vezes o primeiro passo que faz a diferença.": [
@@ -9885,22 +10485,22 @@
 "Guarda este material como um recurso a que podes voltar sempre que precisares. E lembra-te de que <b style=\"color:#fff\">cuidar dos outros começa por cuidares também de ti.</b>": [
 "6-2-recursos.html"
 ],
-"Agradecemos-te por fazeres parte da construção de um ambiente de trabalho mais atento, seguro e saudável para todos os que fazem o Benfica. <em>E pluribus unum</em>: de muitos, um só.": [
+"Obrigada por fazeres parte da construção de um ambiente de trabalho mais atento, seguro e saudável para todos.": [
 "6-2-recursos.html"
 ],
-"Fim do Toolkit": [
+"Módulo 6 concluído": [
 "6-2-recursos.html"
 ],
-"Toolkit concluído": [
+"Terminaste a parte “Recursos”": [
 "6-2-recursos.html"
 ],
-"Terminaste o Toolkit de Primeiros Socorros Psicológicos": [
+"Parte 6, secções 2 e 3 · páginas 137 a 145 do PDF original": [
 "6-2-recursos.html"
 ],
-"Percorreste todos os módulos do Toolkit.": [
+"\n      <a class=\"dl a\" href=\"downloads/linhas-de-apoio.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#1/></span><span>Linhas de apoio: folha de contactos<small>PDF · 2 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-parte-6-recursos.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#2/></span><span>Recursos internos e externos<small>PDF · 9 páginas</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n      <a class=\"dl a\" href=\"downloads/toolkit-psp-completo.pdf\" target=\"_blank\" rel=\"noopener\"><span class=\"ic\"><svg#3/></span><span>Toolkit completo<small>PDF · 145 páginas · 49 MB</small></span><span class=\"go\" aria-hidden=\"true\">→</span><span class=\"sr\"> (abre numa nova janela)</span></a>\n    ": [
 "6-2-recursos.html"
 ],
-"Módulo 1 · <b>Introdução</b>": [
+"<b>Início</b>": [
 "index.html"
 ],
 "Idioma · Language": [
@@ -9909,22 +10509,22 @@
 "<span lang=\"pt-PT\">Escolhe o idioma</span><span lang=\"en-GB\">Choose your language</span>": [
 "index.html"
 ],
-"<img class=\"flag\" src=\"assets/img/flag-pt.svg\" alt=\"\"><b>Português</b>": [
+"<img class=\"flag\" src=\"assets/img/flag-pt.svg\" alt=\"\"><b>Português</b><small>Curso em português</small>": [
 "index.html"
 ],
-"<img class=\"flag\" src=\"assets/img/flag-en.svg\" alt=\"\"><b>English</b>": [
+"<img class=\"flag\" src=\"assets/img/flag-en.svg\" alt=\"\"><b>English</b><small>Course in English</small>": [
 "index.html"
 ],
 "Boas-vindas": [
 "index.html"
 ],
-"Sport Lisboa e Benfica · Toolkit": [
+"Toolkit · Guia prático": [
 "index.html"
 ],
 "Primeiros Socorros Psicológicos <span>no Trabalho</span>": [
 "index.html"
 ],
-"Reconhecer sinais de sofrimento psicológico, em ti, num colega ou na equipa, e responder de forma humana, segura e estruturada. Para quem trabalha no Benfica: do Estádio da Luz ao Campus do Seixal, do Museu às lojas e aos serviços centrais.": [
+"Reconhecer sinais de sofrimento psicológico, em ti, num colega ou na equipa, e responder de forma humana, segura e estruturada.": [
 "index.html"
 ],
 "<span><svg#1/>6 módulos</span><span><svg#2/>15 vídeos</span>": [
@@ -9936,166 +10536,25 @@
 "15 vídeos": [
 "index.html"
 ],
-"O que é e para quem é": [
-"index.html",
+"Os 6 módulos do curso": [
 "index.html"
 ],
-"Um guia prático de Primeiros Socorros Psicológicos (PSP) para quem trabalha no Benfica": [
+"O curso": [
 "index.html"
 ],
-"Ajuda-te a reconhecer sinais de sofrimento psicológico, em ti, num colega ou na equipa, e a responder de forma humana, segura e estruturada, segundo uma lógica simples:": [
+"Seis módulos, para consultar sempre que precisares": [
 "index.html"
 ],
-"A lógica dos PSP": [
+"Não precisas de ver tudo de seguida: usa o Índice e vai diretamente à situação de que precisas. Cada parte é uma página, para ler de cima para baixo.": [
 "index.html"
 ],
-"<i aria-hidden=\"true\">3</i>Ligar ao apoio certo": [
+"<a class=\"partc\" href=\"1-1-como-utilizar.html\"><span class=\"pn\">Módulo 1</span><h3>Introdução: como utilizar este Toolkit</h3><p>O que é, para quem é e quando utilizar</p></a>": [
 "index.html"
 ],
-"É para todos os colaboradores e líderes, em qualquer função ou área. Não exige formação clínica: pede <b>disponibilidade, atenção e respeito pelo outro</b>. Reúne checklists, fluxogramas, vídeos e exercícios, para teres à mão o que precisas em cada situação.": [
+"Introdução: como utilizar este Toolkit": [
 "index.html"
 ],
-"Ilustração: pessoa a assinalar tarefas numa grande lista de verificação.": [
-"index.html"
-],
-"O que não substitui": [
-"index.html",
-"index.html"
-],
-"Os PSP são uma primeira resposta de apoio": [
-"index.html"
-],
-"<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Não são psicoterapia, aconselhamento clínico nem avaliação diagnóstica</span>": [
-"index.html"
-],
-"<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Não exigem que analises o que aconteceu ou que resolvas o problema da pessoa</span>": [
-"index.html"
-],
-"<span class=\"x\" aria-hidden=\"true\"><svg#1/></span><span class=\"t\">Este material não substitui apoio psicológico profissional, acompanhamento médico nem os procedimentos internos do Benfica</span>": [
-"index.html"
-],
-"O seu objetivo é ajudar-te a <b>estar presente</b> e a <b>ligar a pessoa ao apoio certo</b>.": [
-"index.html"
-],
-"Em situações de risco, recorre ao Módulo 6 ou, em emergência, contacta o 112.": [
-"index.html"
-],
-"Ver contactos": [
-"index.html"
-],
-"Uma colega ouve outra com atenção, à mesa.": [
-"index.html"
-],
-"Quando utilizar": [
-"index.html",
-"index.html"
-],
-"Este toolkit acompanha-te em diferentes momentos": [
-"index.html"
-],
-"Clica em cada momento para veres onde encontrar resposta.": [
-"index.html"
-],
-"Quando utilizar o toolkit": [
-"index.html"
-],
-"<img src=\"assets/img/ic-34.svg\" alt=\"\">No dia a dia<span class=\"tick\" aria-hidden=\"true\"></span>": [
-"index.html"
-],
-"<img src=\"assets/img/ic-18.svg\" alt=\"\">Um colega está diferente<span class=\"tick\" aria-hidden=\"true\"></span>": [
-"index.html"
-],
-"<img src=\"assets/img/ic-16.svg\" alt=\"\">Lidero uma equipa<span class=\"tick\" aria-hidden=\"true\"></span>": [
-"index.html"
-],
-"<img src=\"assets/img/ic-108.svg\" alt=\"\">Situações sensíveis<span class=\"tick\" aria-hidden=\"true\"></span>": [
-"index.html"
-],
-"<img src=\"assets/img/ic-08.svg\" alt=\"\">Encaminhar ou pedir contactos<span class=\"tick\" aria-hidden=\"true\"></span>": [
-"index.html"
-],
-"Módulo 3 · A": [
-"index.html"
-],
-"No dia a dia, para prevenção e autocuidado": [
-"index.html"
-],
-"Reconhecer sinais de alerta em ti e cuidar do teu equilíbrio.": [
-"index.html"
-],
-"Ir para o Módulo 3 · A": [
-"index.html"
-],
-"Ilustração: pessoa a equilibrar o trabalho e a vida pessoal, entre a secretária e a casa.": [
-"index.html"
-],
-"Módulo 3 · B": [
-"index.html"
-],
-"Quando notas que um colega está diferente ou em sofrimento": [
-"index.html"
-],
-"E queres saber como aproximar-te.": [
-"index.html"
-],
-"Ir para o Módulo 3 · B": [
-"index.html"
-],
-"Ilustração: duas amigas abraçam-se; uma conforta a outra.": [
-"index.html"
-],
-"Módulo 4": [
-"index.html"
-],
-"Quando lideras uma equipa": [
-"index.html"
-],
-"E queres identificar sinais e agir cedo.": [
-"index.html"
-],
-"Ir para o Módulo 4": [
-"index.html"
-],
-"Ilustração: um grupo de colegas a construir algo em conjunto, guiados por quem lidera.": [
-"index.html"
-],
-"Em situações sensíveis": [
-"index.html"
-],
-"Burnout, luto, pânico, conflito, crise ou suicídio.": [
-"index.html"
-],
-"Ir para o Módulo 5": [
-"index.html"
-],
-"Ilustração: pessoa rodeada de setas e pontos de interrogação, a representar confusão.": [
-"index.html"
-],
-"Módulo 6": [
-"index.html"
-],
-"Quando precisas de encaminhar ou de contactos de apoio": [
-"index.html"
-],
-"Os contactos essenciais estão também sempre à mão no botão <b>Apoio</b>.": [
-"index.html"
-],
-"Abrir os contactos de apoio": [
-"index.html"
-],
-"Ilustração: três pessoas ligadas entre si à distância, a representar ligação e apoio.": [
-"index.html"
-],
-"Os módulos do Toolkit": [
-"index.html"
-],
-"Como navegar": [
-"index.html"
-],
-"Cinco módulos, para consultar sempre que precisares": [
-"index.html"
-],
-"Não precisas de ver tudo de seguida: usa o <b>Índice</b> e vai diretamente à situação de que precisas. Cada módulo tem uma ou mais páginas, para ler de cima para baixo, e o Toolkit guarda o ponto onde ficaste. O botão <b>Apoio</b> tem os contactos de ajuda em qualquer página, e o <b>ponto vermelho</b> marca o que ainda não abriste.": [
+"O que é, para quem é e quando utilizar": [
 "index.html"
 ],
 "<a class=\"partc\" href=\"2-1-contextualizacao.html\"><span class=\"pn\">Módulo 2</span><h3>Primeiros Socorros Psicológicos no Local de Trabalho</h3><p>Contextualização, riscos psicossociais e PSP</p></a>": [
@@ -10125,13 +10584,13 @@
 "Identificar sinais na equipa · Como abordar um colaborador": [
 "index.html"
 ],
-"<a class=\"partc\" href=\"5-0-situacoes-sensiveis.html\"><span class=\"pn\">Módulo 5</span><h3>Situações Sensíveis</h3><p>Burnout, luto, pânico, calamidade, agressividade, crise, conflito, sócios e adeptos, e suicídio</p></a>": [
+"<a class=\"partc\" href=\"5-0-situacoes-sensiveis.html\"><span class=\"pn\">Módulo 5</span><h3>Situações Sensíveis</h3><p>Burnout, luto, pânico, calamidade, agressividade, crise, conflito, clientes e suicídio</p></a>": [
 "index.html"
 ],
 "Situações Sensíveis": [
 "index.html"
 ],
-"Burnout, luto, pânico, calamidade, agressividade, crise, conflito, sócios e adeptos, e suicídio": [
+"Burnout, luto, pânico, calamidade, agressividade, crise, conflito, clientes e suicídio": [
 "index.html"
 ],
 "<a class=\"partc\" href=\"6-1-quando-encaminhar.html\"><span class=\"pn\">Módulo 6</span><h3>Encaminhamento e Recursos</h3><p>Quando encaminhar e contactos de apoio</p></a>": [
@@ -10143,21 +10602,13 @@
 "Quando encaminhar e contactos de apoio": [
 "index.html"
 ],
-"Módulo 1 concluído": [
-"index.html"
-],
-"{{TITLE}} · Toolkit PSP · Benfica": [
+"{{TITLE}} · Toolkit PSP": [
 "shell.html"
 ],
 "Saltar para o conteúdo": [
 "shell.html"
 ],
-"Índice": [
-"shell.html",
-"shell.html",
-"shell.html"
-],
-"Sport Lisboa e Benfica": [
+"MC Sonae": [
 "shell.html"
 ],
 "Toolkit PSP · {{CRUMB}}": [
@@ -10176,23 +10627,13 @@
 "Som": [
 "shell.html"
 ],
-"Mudar idioma para inglês": [
-"shell.html"
-],
-"Mudar idioma": [
-"shell.html"
-],
-"Sair": [
-"shell.html",
-"shell.html"
-],
-"Progresso na página": [
+"Progresso nesta parte": [
 "shell.html"
 ],
 "\n{{SLIDES}}\n": [
 "shell.html"
 ],
-"Navegação entre páginas": [
+"Navegação entre partes": [
 "shell.html"
 ],
 "Para avançar, explora todos os elementos desta página.": [
@@ -10207,7 +10648,7 @@
 "Fechar índice": [
 "shell.html"
 ],
-"0 módulos concluídos": [
+"0 partes concluídas": [
 "shell.html"
 ],
 "Módulos do curso": [
@@ -10216,7 +10657,7 @@
 "Queres sair do curso?": [
 "shell.html"
 ],
-"O teu progresso fica guardado.<br>Quando voltares, continuas onde ficaste.": [
+"O teu progresso fica guardado. Quando voltares, continuas onde ficaste.": [
 "shell.html"
 ],
 "Continuar no curso": [
@@ -10228,7 +10669,7 @@
 "<b>Emergência</b><small>Perigo imediato para a vida ou saúde</small>": [
 "shell.html"
 ],
-"<b>Apoio ao colaborador do Benfica</b><small>(Informação não disponível nesta versão de demonstração)</small>": [
+"<b>Linha Somos Sonae</b><small>24h/dia · gratuita e confidencial</small>": [
 "shell.html"
 ],
 "<b>SNS 24 · Aconselhamento Psicológico</b><small>24h/dia · opção 4</small>": [

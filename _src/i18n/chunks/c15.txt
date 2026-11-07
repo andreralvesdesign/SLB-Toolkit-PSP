@@ -1,0 +1,110 @@
+1650	Oscilações de humor
+1651	Alterações emocionais visíveis podem constituir um sinal importante de sofrimento psicológico, sobretudo quando representam uma mudança face ao comportamento habitual da pessoa.
+1652	Irritabilidade, impaciência ou reatividade aumentada
+1653	Respostas emocionais desproporcionadas a situações menores
+1654	Mudanças bruscas de humor, passando rapidamente de envolvimento para retraimento
+1655	Maior sensibilidade emocional ou dificuldade em regular emoções
+1656	Expressões frequentes de frustração, tensão ou desânimo
+1657	Estas alterações podem refletir níveis elevados de stresse, ansiedade, exaustão emocional ou outras dificuldades psicológicas.
+1658	A diminuição de energia e vitalidade pode manifestar-se de forma progressiva e afetar o envolvimento profissional.
+1659	Aparente fadiga ou lentificação ao longo do dia
+1660	Queixas frequentes de cansaço
+1661	Redução da motivação ou do entusiasmo
+1662	Menor participação nas atividades da equipa
+1663	Diminuição do envolvimento ou iniciativa
+1664	A baixa energia pode estar associada a sobrecarga, burnout, dificuldades emocionais ou problemas relacionados com descanso e recuperação.
+1665	Dificuldades cognitivas
+1666	O sofrimento psicológico pode afetar capacidades cognitivas essenciais ao desempenho profissional.
+1667	Dificuldade de concentração ou distração frequente
+1668	Maior dificuldade em tomar decisões
+1669	Esquecimentos ou falhas de memória mais frequentes
+1670	Pensamento mais lento ou dificuldade em resolver problemas
+1671	Necessidade de mais tempo para tarefas habituais
+1672	Estas alterações podem comprometer a eficácia no trabalho e gerar frustração adicional para a própria pessoa.
+1673	Queixas somáticas
+1674	O sofrimento psicológico manifesta-se frequentemente através de sintomas físicos, mesmo na ausência de uma causa médica evidente.
+1675	Dores de cabeça frequentes
+1676	Queixas gastrointestinais ou dores musculares
+1677	Tensão física persistente
+1678	Episódios recorrentes de mal-estar físico
+1679	Procura frequente de apoio médico ou pedidos de baixa
+1680	Embora estes sinais possam ter múltiplas causas, a sua repetição pode indicar níveis elevados de stresse ou exaustão.
+1681	Alterações do sono
+1682	As dificuldades relacionadas com o sono têm frequentemente impacto direto no funcionamento profissional e emocional.
+1683	Comentários frequentes sobre insónia ou má qualidade do sono
+1684	Aparência de cansaço persistente
+1685	Bocejos frequentes ou diminuição do estado de alerta
+1686	Sonolência durante o dia
+1687	Dificuldade em manter atenção e foco
+1688	As alterações do sono podem ser simultaneamente causa e consequência de sofrimento psicológico.
+1689	Mudanças sociais
+1690	Alterações na forma como a pessoa se relaciona com colegas e participa socialmente podem constituir sinais relevantes.
+1691	Isolamento progressivo ou afastamento da equipa
+1692	Evitamento de interações sociais ou eventos informais
+1693	Mudança significativa no estilo de comunicação (mais silencioso, evasivo ou invulgarmente expansivo)
+1694	Maior frequência de conflitos interpessoais
+1695	Redução da colaboração ou participação
+1696	Estas mudanças podem refletir ansiedade, desmotivação, sobrecarga emocional ou dificuldades relacionais.
+1697	Presenteísmo
+1698	O presenteísmo ocorre quando a pessoa está fisicamente presente, mas com redução significativa da capacidade funcional.
+1699	Presença física com baixa produtividade
+1700	Aparente distração ou dificuldade de concentração
+1701	Evitamento de tarefas mais complexas
+1702	Realização apenas do mínimo necessário
+1703	Permanência excessiva no trabalho sem resultados proporcionais
+1704	Trabalho em horários incomuns ou prolongados sem eficácia evidente
+1705	O presenteísmo é frequentemente menos visível do que o absentismo, mas pode estar associado a ansiedade, depressão, burnout ou exaustão prolongada.
+1706	Mudanças nos padrões de ausência podem constituir sinais de alerta importantes.
+1707	Aumento de faltas ou baixas médicas
+1708	Ausências de última hora
+1709	Atrasos frequentes ou saídas antecipadas
+1710	Justificações vagas ou inconsistentes para faltas
+1711	Alteração significativa face ao padrão habitual de assiduidade
+1712	O absentismo deve ser interpretado considerando a frequência, duração e contexto das ausências.
+1713	Alterações de desempenho
+1714	Mudanças na performance profissional devem ser analisadas para além de uma leitura exclusivamente técnica ou disciplinar.
+1715	Diminuição da qualidade ou rigor do trabalho
+1716	Incumprimento de prazos
+1717	Aumento de erros ou necessidade de correções
+1718	Dificuldades de organização e priorização
+1719	Redução da iniciativa, criatividade ou capacidade de resolução de problemas
+1720	Sobreinvestimento excessivo no trabalho de forma aparentemente insustentável (ex.: perfeccionismo extremo ou excesso de horas como estratégia de compensação)
+1721	Estas alterações podem refletir limitações temporárias de capacidade e não necessariamente falta de competência ou motivação.
+1722	<h3>${c[0]}</h3><p class="intro">${c[1]}</p><h4>Sinais a considerar</h4><ul class="dotlist c2">${c[2].map(x => `<li>${x}</li>`).join('')}</ul><p class="note">${c[3]}</p>
+1723	${seen.size} de 9 vistas
+1724	4.3 Devo intervir? Da dúvida à ação
+1725	Parte 4 · <b>4.3 Devo intervir?</b>
+1726	Devo intervir? <span>Da dúvida à ação</span>
+1727	Parte A. Cinco dimensões de decisão, uma checklist rápida, o que fazer em cada nível e como iniciar a abordagem.
+1728	<span><svg#1/>13 ecrãs</span><span><svg#2/>2 vídeos</span>
+1729	13 ecrãs
+1730	Guia rápido para líderes
+1731	A · Devo intervir?
+1732	“Devo intervir?”
+1733	A decisão de intervir deve basear-se numa leitura integrada de sinais, e não num indicador isolado.
+1734	Esta checklist ajuda o líder a
+1735	identificar alterações relevantes
+1736	avaliar impacto e persistência
+1737	reconhecer sinais de sofrimento
+1738	decidir o nível de intervenção necessário
+1739	O objetivo não é diagnosticar, mas perceber se a situação justifica
+1740	observação
+1741	monitorização ativa
+1742	ou uma abordagem mais estruturada
+1743	Ilustração: pessoa ao computador, rodeada de pontos de interrogação, com uma lâmpada ao lado.
+1744	As cinco dimensões de decisão
+1745	A · Cinco dimensões
+1746	Mudança, impacto, sofrimento, tempo e risco
+1747	Clica em cada dimensão.
+1748	1 de 5 vistas
+1749	Dimensões de decisão
+1750	Checklist rápida: devo intervir?
+1751	A · Checklist
+1752	Checklist rápida
+1753	Devo intervir?
+1754	Considera as últimas 2–3 semanas e assinala os indicadores presentes. O objetivo desta checklist não é gerar certezas absolutas: é ajudar líderes a reconhecer padrões, agir mais cedo e reduzir o risco de agravamento silencioso.
+1755	Dimensões da checklist
+1756	As tuas respostas não são guardadas nem enviadas. A leitura é indicativa e não substitui o teu julgamento.
+1757	O que fazer em cada nível
+1758	A · O que fazer
+1759	Leitura rápida da checklist

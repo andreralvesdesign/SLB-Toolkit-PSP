@@ -1,0 +1,112 @@
+330	Ambiente de desconfiança entre colegas ou liderança
+331	Redução da colaboração e do espírito de equipa
+332	Comentários frequentes sobre injustiça ou tratamento desigual
+333	Isolamento ou evitamento de determinados membros da equipa
+334	Silêncio, retraimento ou desconforto em reuniões
+335	Mudanças abruptas no comportamento (ex.: mais fechados ou ansiosos)
+336	Queixas formais ou informais sobre comportamentos inadequados
+337	${i + 1}. ${CHK[i][0]}, ${n} de 4 assinalados
+338	Assinala os sinais que reconheces. <b>Vê os seis grupos${seenG.size < 6 ? ` (${seenG.size} de 6 vistos)` : ''}.</b>
+339	<b>${n === 1 ? '1 sinal assinalado' : n + ' sinais assinalados'}.</b> Se identificares vários destes sinais de forma consistente, em ti ou na equipa, pode ser importante explorar possíveis fatores organizacionais e considerar medidas de apoio, idealmente com acompanhamento especializado.
+340	“Reconheço este sinal em mim?”
+341	“Noto este sinal num ou mais elementos da equipa?”
+342	Sinais pontuais ou ligeiros
+343	cansaço ocasional, menor concentração, alguma desmotivação
+344	Normalizar e não alarmar
+345	Promover pausas e equilíbrio de carga
+346	Verificar se há sobrecarga temporária
+347	Reforçar comunicação clara e expectativas
+348	Sinais persistentes ou em aumento
+349	fadiga constante, desmotivação, conflitos frequentes, erros recorrentes
+350	Abordar a situação de forma individual e respeitosa
+351	Explorar possíveis fatores (trabalho, equipa, contexto)
+352	Ajustar carga, prioridades ou prazos, se necessário
+353	Reforçar apoio e acompanhamento próximo
+354	Impacto no funcionamento da equipa
+355	tensão generalizada, falhas de comunicação, quebra de desempenho coletivo
+356	Rever organização do trabalho e distribuição de tarefas
+357	Clarificar papéis, expectativas e prioridades
+358	Promover espaços de comunicação (ex.: reuniões de alinhamento)
+359	Trabalhar a dinâmica da equipa (confiança, colaboração)
+360	Sinais de sofrimento psicológico significativo
+361	isolamento, ansiedade intensa, choro, retraimento, alterações marcadas de comportamento
+362	Aproximar-se com calma e respeito
+363	Escutar sem julgar ou pressionar
+364	Validar a experiência (“faz sentido que esteja difícil”)
+365	Avaliar necessidade de apoio adicional (informal ou profissional)
+366	Situações de risco ou comportamentos ofensivos
+367	assédio, discriminação, conflito grave, medo ou evitamento
+368	Não ignorar nem minimizar a situação
+369	Garantir segurança e proteção da pessoa
+370	Seguir os procedimentos internos da organização
+371	Encaminhar para recursos formais (RH, apoio psicológico, canais de denúncia)
+372	<button class="lvl" role="tab" id="t-l${i}" aria-controls="lvlPanel" aria-selected="${i === 0}" ${i ? 'tabindex="-1"' : ''} style="--c:${l[2]}">${l[0]}<em>NÍVEL ${i + 1}</em></button>
+373	<div class="ex"><b>${l[0]}</b>Por exemplo: ${l[1]}.</div><div><h4 class="g">O que fazer</h4><ul class="dotlist ok">${l[3].map(x => `<li>${x}</li>`).join('')}</ul></div>
+374	Experiências de vida adversas
+375	Ter vivido insegurança, perda ou violência
+376	Maior sensibilidade ao stress ou a mudanças
+377	História familiar e fatores genéticos
+378	Ter familiares com depressão ou ansiedade
+379	Maior vulnerabilidade emocional em situações exigentes
+380	Fatores biológicos
+381	Problemas de sono, dor crónica, alterações hormonais
+382	Menor tolerância ao stress, mais irritabilidade ou fadiga
+383	Temperamento e características psicológicas
+384	Tendência para perfeccionismo ou ansiedade
+385	Maior dificuldade em lidar com erro, pressão ou incerteza
+386	Condições socioeconómicas
+387	Instabilidade financeira ou responsabilidades familiares
+388	Maior pressão e menor margem para lidar com exigências
+389	Consumo de substâncias
+390	Uso de álcool ou medicação para lidar com stress
+391	Pode aliviar no momento, mas agravar o problema a longo prazo
+392	<li class="flip flip--info a pop" style="--i:${i + 3}"><button aria-expanded="false" data-front="${f[0]}" data-back="Exemplo: ${f[1]}. Como pode influenciar: ${f[2]}">
+    <span class="face front" aria-hidden="true"><small>Fator ${i + 1}</small><span>${f[0]}</span><span class="turn">Virar <svg#1/></span></span>
+    <span class="face back" aria-hidden="true"><span><b>Exemplo</b>${f[1]}</span><span><b>Como pode influenciar</b>${f[2]}</span></span></button></li>
+393	${n} de 6 virados
+394	2.3 Primeiros Socorros Psicológicos
+395	Parte 2 · <b>2.3 Primeiros Socorros Psicológicos</b>
+396	Primeiros Socorros <span>Psicológicos</span>
+397	Respostas simples e humanas para apoiar quem está em sofrimento emocional agudo, no momento em que mais importa.
+398	<span><svg#1/>15 ecrãs</span><span><svg#2/>1 vídeo</span>
+399	15 ecrãs
+400	1 vídeo
+401	Introdução
+402	Parte 2 · Cap. 3
+403	Uma resposta inicial de suporte humano
+404	Nem todas as situações de risco exigem Primeiros Socorros Psicológicos (PSP). No entanto, quando existe sofrimento emocional agudo, desregulação ou impacto significativo, os PSP podem funcionar como uma resposta inicial de suporte humano e contenção.
+405	Nesta secção · clica num tema para ires diretamente
+406	O essencial
+407	O que são os Primeiros Socorros Psicológicos
+408	Clica em cada um dos quatro temas.
+409	0 de 4 vistos
+410	O que são os PSP
+411	<img src="assets/img/ic-04.png" alt="">O que são?<span class="tick" aria-hidden="true"></span>
+412	<img src="assets/img/ic-81.png" alt="">Em que situações são úteis?<span class="tick" aria-hidden="true"></span>
+413	<img src="assets/img/ic-34.png" alt="">Porque são importantes<span class="tick" aria-hidden="true"></span>
+414	<img src="assets/img/ic-18.png" alt="">O que implicam<span class="tick" aria-hidden="true"></span>
+415	O que são?
+416	Conjunto de respostas simples, humanas e estruturadas
+417	Destinadas a apoiar pessoas em sofrimento emocional agudo
+418	Aplicáveis no momento imediato, após situações difíceis ou críticas
+419	Ilustração: duas pessoas sentadas frente a frente, em conversa.
+420	Em que situações são úteis?
+421	Após notícias inesperadas ou difíceis
+422	Em situações de crise emocional visível
+423	Após acidentes, conflitos intensos ou eventos perturbadores
+424	Quando alguém demonstra sinais claros de desregulação emocional
+425	Porque são importantes
+426	Reduzem o impacto imediato do stress
+427	Ajudam a restaurar uma sensação de segurança
+428	Diminuem o isolamento emocional
+429	Facilitam o acesso a apoio adicional, se necessário
+430	Ilustração: pessoas ligadas por uma linha, a representar ligação e apoio.
+431	O que implicam
+432	Estar presente de forma calma e respeitosa
+433	Escutar com atenção e sem julgamento
+434	Demonstrar empatia e disponibilidade
+435	Respeitar o ritmo e os limites da outra pessoa
+436	Ilustração: pessoas a juntar as peças de um grande puzzle, a representar apoio em equipa.
+437	O que não são
+438	O que <span style="color:#FF8A80">NÃO</span> são
+439	<span class="x" aria-hidden="true"><svg#1/></span><span class="t">Não são psicoterapia</span>

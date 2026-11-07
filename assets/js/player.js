@@ -1,4 +1,4 @@
-/* Toolkit PSP · Benfica · course player · SCROLL VERSION (adapted from the Sonae scroll build)
+/* Toolkit PSP · course player · SCROLL VERSION (output/scroll)
  * Every module is one page: the sections (the slides of output/slides) follow each other down the page, the module navigation
  * (Anterior / Seguinte) closes the page, and Seguinte opens once everything on the page was explored.
  * Shared by every chapter. Extracted from the approved pilot (piloto-slides, 2.3) and generalised:
@@ -13,45 +13,32 @@ window.PSP = (() => {
 'use strict';
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const RM = matchMedia('(prefers-reduced-motion:reduce)').matches;
-/* Touch screens: a phone turns a tap into a mouse "hover" that stays on the last thing touched (a button keeps its black hover
-   colour, a card stays lifted). Where the main pointer cannot hover, every :hover rule is dropped from the stylesheets once, so a tap
-   only does what the tap does; the tap feedback comes from :active instead (course.css, "toque"). Laptops with a touch screen keep hover. */
-const NOHOVER = matchMedia('(hover:none), (pointer:coarse)').matches && !matchMedia('(any-hover:hover) and (any-pointer:fine)').matches;
-if (NOHOVER) {
-  const parts = sel => { const out = []; let d = 0, cur = ''; for (const ch of sel) { if (ch === '(') d++; if (ch === ')') d--; if (ch === ',' && !d) { out.push(cur); cur = ''; } else cur += ch; } out.push(cur); return out; };
-  const strip = (list, owner) => {
-    for (let i = list.length - 1; i >= 0; i--) {
-      const r = list[i];
-      if (r.cssRules && !r.selectorText) { strip(r.cssRules, r); continue; }
-      if (!r.selectorText || !r.selectorText.includes(':hover')) continue;
-      const keep = parts(r.selectorText).filter(x => !x.includes(':hover'));
-      if (keep.length) r.selectorText = keep.join(','); else owner.deleteRule(i);
-    }
-  };
-  [...document.styleSheets].forEach(sh => { try { strip(sh.cssRules, sh); } catch (e) {} });
-  document.documentElement.classList.add('touch');
-}
 const CH = document.body.dataset.chapter || 'x';
 /* Language: the English course lives in en/ and is the same player. <html lang="en-GB"> switches every text below (L(pt, en)).
-   Progress is kept per language; sound, captions and the review switches are shared. */
+   Progress, sound, captions and the review switches are shared between the two languages. */
 const EN = document.documentElement.lang.toLowerCase().startsWith('en');
 const L = (pt, en) => EN ? en : pt;
 const mk = p => ({ get(k){ try{ return JSON.parse(localStorage.getItem(p + k)); }catch(e){ return null; } }, set(k, v){ try{ localStorage.setItem(p + k, JSON.stringify(v)); }catch(e){} } });
-/* Short addresses: the home page is the course folder itself and every other page has its own folder (2-1/index.html),
-   for Portuguese at the root and for English under en/ (en/2-1/). UP leads from this page to its language root, SITE to the course root. */
-const UP = CH === '0' ? '' : '../', SITE = UP + (EN ? '../' : '');
-const slugOf = id => String(id).replace('.', '-');
-/* every browser-storage key carries the course folder (the review tool serves all versions from one origin); the page folder and en/ belong to it */
-const NS = (location.pathname.replace(/[^/]*$/, '').replace(/\d-\d\/$/, '').replace(/en\/$/, '').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '')) || 'course';
-const store = mk('psp:' + NS + ':' + (EN ? 'en:' : '') + CH + ':'), gstore = mk('psp:' + NS + ':'), dstore = mk('psp:' + NS + ':' + (EN ? 'en:' : ''));
+/* every browser-storage key carries the course folder (the review tool serves all versions from one origin); en/ belongs to the folder above it */
+const NS = (location.pathname.replace(/[^/]*$/, '').replace(/en\/$/, '').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '')) || 'course';
+/* progress used to be kept per language: what the English pages saved is folded into the shared keys, once */
+(() => { try {
+  const pre = 'psp:' + NS + ':en:';
+  Object.keys(localStorage).filter(k => k.startsWith(pre)).forEach(k => {
+    const to = 'psp:' + NS + ':' + k.slice(pre.length), a = JSON.parse(localStorage.getItem(k)), b = JSON.parse(localStorage.getItem(to));
+    localStorage.setItem(to, JSON.stringify(Array.isArray(a) ? [...new Set([...(b || []), ...a])] : b === null ? a : a === true ? true : b));
+    localStorage.removeItem(k);
+  });
+} catch (e) {} })();
+const store = mk('psp:' + NS + ':' + CH + ':'), gstore = mk('psp:' + NS + ':'), dstore = gstore;
 const pad = n => String(n).padStart(2, '0');
 /* only write when the value changed (a write inside a section is a DOM mutation, and the gate re-checks on every mutation) */
 const put = (node, prop, v) => { if (node && node[prop] !== v) node[prop] = v; };
 
 /* ======================= Course map ======================= */
 const COURSE = [
-  /* the course start and the old 1.1 "Como utilizar este Toolkit" are one module now: the introduction, on index.html */
-  { part: 'Módulo 1 · Introdução', items: [{ id: '0', n: '1.1', t: 'Introdução', f: 'index.html' }] },
+  { part: 'Início', items: [{ id: '0', n: '', t: 'Início do curso', f: 'index.html' }] },
+  { part: 'Módulo 1 · Introdução', items: [{ id: '1.1', n: '1.1', t: 'Como utilizar este Toolkit', f: '1-1-como-utilizar.html' }] },
   { part: 'Módulo 2 · Primeiros Socorros Psicológicos no Local de Trabalho', items: [
     { id: '2.1', n: '2.1', t: 'Contextualização', f: '2-1-contextualizacao.html' },
     { id: '2.2', n: '2.2', t: 'Os Riscos Psicossociais', f: '2-2-riscos-psicossociais.html' },
@@ -77,31 +64,42 @@ const COURSE = [
     { id: '5.5', n: '5.5', t: 'Comportamento agressivo', f: '5-5-comportamento-agressivo.html' },
     { id: '5.6', n: '5.6', t: 'Crise pessoal grave', f: '5-6-crise-pessoal-grave.html' },
     { id: '5.7', n: '5.7', t: 'Conflito na equipa', f: '5-7-conflito-na-equipa.html' },
-    { id: '5.8', n: '5.8', t: 'Apoio a sócio ou adepto em sofrimento', f: '5-8-apoio-a-socio-e-adepto-em-sofrimento.html' },
+    { id: '5.8', n: '5.8', t: 'Apoio a cliente em sofrimento', f: '5-8-apoio-a-cliente-em-sofrimento.html' },
     { id: '5.9', n: '5.9', t: 'Suicídio', f: '5-9-suicidio.html' }] },
   { part: 'Módulo 6 · Encaminhamento e Recursos', items: [
     { id: '6.1', n: '6.1', t: 'Quando encaminhar', f: '6-1-quando-encaminhar.html' },
     { id: '6.2', n: '6.2', t: 'Recursos', f: '6-2-recursos.html' }] }
 ];
 if (EN) {
-  const PARTS = ['Module 1 · Introduction', 'Module 2 · Psychological First Aid in the Workplace', 'Module 3 · If I am an Employee', 'Module 4 · If I am a Leader', 'Module 5 · Sensitive Situations', 'Module 6 · Referral and Resources'];
+  const PARTS = ['Home', 'Module 1 · Introduction', 'Module 2 · Psychological First Aid in the Workplace', 'Module 3 · If I am an Employee', 'Module 4 · If I am a Leader', 'Module 5 · Sensitive Situations', 'Module 6 · Referral and Resources'];
   const TITLES = {
-    '0': 'Introduction', '2.1': 'Context', '2.2': 'Psychosocial Risks', '2.3': 'Psychological First Aid',
+    '0': 'Start of the course', '1.1': 'How to use this Toolkit', '2.1': 'Context', '2.2': 'Psychosocial Risks', '2.3': 'Psychological First Aid',
     '3.1': 'Warning signs: what to look for in myself', '3.2': 'Self-regulation: the foundation and what to do in the moment', '3.3': 'A colleague in distress: recognising and approaching',
     '3.4': 'Supporting during the conversation', '3.5': 'Limits, confidentiality and conversation guide',
     '4.1': 'The role of the leader in PFA', '4.2': 'Identifying signs in the team', '4.3': 'Should I step in? From doubt to action', '4.4': 'How to approach an employee', '4.5': 'Leading for psychological safety',
     '5.0': 'The nine situations', '5.1': 'Burnout', '5.2': 'Grief', '5.3': 'Panic attacks', '5.4': 'Disaster situations', '5.5': 'Aggressive behaviour', '5.6': 'Serious personal crisis',
-    '5.7': 'Conflict in the team', '5.8': 'Supporting a member or fan in distress', '5.9': 'Suicide', '6.1': 'When to refer', '6.2': 'Resources'
+    '5.7': 'Conflict in the team', '5.8': 'Supporting a customer in distress', '5.9': 'Suicide', '6.1': 'When to refer', '6.2': 'Resources'
   };
   COURSE.forEach((pt, i) => { pt.part = PARTS[i]; pt.items.forEach(c => { c.t = TITLES[c.id]; }); });
 }
+/* Page names: the f above are the source fragments; the pages have the short names of _src/pages.json (window.PAGES, written by build.py),
+   in Portuguese at the root and in English in en/. Online (http/https) the address leaves ".html" out (/contextualizacao, /en/context);
+   from disk (file://) the links keep it, so the course still opens with a double-click. */
+const PG_ = window.PAGES || {};
+const ONLINE = /^https?:$/.test(location.protocol);
+const U = f => ONLINE ? f.replace(/\.html(?=$|[#?])/, '') : f;
+const PG = (src, lang = EN ? 1 : 0) => U(((PG_[src] || [])[lang] || src.replace(/\.html$/, '')) + '.html');
+COURSE.forEach(p => p.items.forEach(c => { c.f = PG(c.f); }));
+const IS_LANG = CH === 'lang';   /* the language screen is a page of its own (idioma / language) */
+if (ONLINE) {
+  /* the address: no ".html" */
+  if (/\.html$/.test(location.pathname)) { try { history.replaceState(null, '', location.pathname.replace(/\.html$/, '') + location.search + location.hash); } catch (e) {} }
+  /* links between pages: no ".html" (assets and other sites are left alone) */
+  $$('a[href]').forEach(a => { const h = a.getAttribute('href'); if (/^(\.\.\/)?[\w-]+\.html(?=$|[#?])/.test(h)) a.setAttribute('href', U(h)); });
+}
 /* linear sequence for prev/next: chapters, plus one placeholder per part still in preparation */
-/* the "f" of every page becomes its short address as seen from this page ("./", "../", "../2-1/", "3-2/"…) */
-COURSE.forEach(p => p.items.forEach(c => { c.f = c.id === '0' ? (UP || './') : UP + slugOf(c.id) + '/'; }));
 const SEQ = COURSE.flatMap(p => p.items.length ? p.items : [{ id: null, n: '', t: p.part, f: null }]);
-const CI = SEQ.findIndex(c => c.id === CH), PREV_CH = CI > 0 && SEQ[CI - 1].f ? SEQ[CI - 1] : null, NEXT_CH = CI > -1 && SEQ[CI + 1] && SEQ[CI + 1].f ? SEQ[CI + 1] : null;
-/* the very last module: its Seguinte becomes Terminar (it closes the Toolkit, through the exit dialog) */
-const LAST = CI > -1 && CI === SEQ.length - 1;
+const CI = SEQ.findIndex(c => c.id === CH), PREV_CH = CI > 0 && SEQ[CI - 1].f ? SEQ[CI - 1] : null, NEXT_CH = CI > -1 && SEQ[CI + 1] && SEQ[CI + 1].f ? SEQ[CI + 1] : null, LAST = CI === SEQ.length - 1;
 const chLabel = c => (c.n ? c.n + ' ' : '') + c.t;
 /* Modules can be opened in any order, from the Índice or the Início. The only forced order is inside a module (the Seguinte gate).
    If the client ever wants a module to wait for another, list it here: { '2.2': '2.1' } locks 2.2 in the Índice until 2.1 is done
@@ -124,10 +122,10 @@ slides.forEach((s, i) => {
 });
 $$('.not').forEach((el, i) => el.style.setProperty('--i', i + 2));
 const idx = id => slides.findIndex(s => s.dataset.id === id);
-/* index.html: the language screen (the section with data-noprev) is shown on its own, the rest of the page once a language is chosen */
+/* the language screen (idioma / language page: its one section has data-noprev) is shown on its own; "Seguinte" opens the home page */
 const SOLO = slides.find(s => s.hasAttribute('data-noprev')) || null;
 const shownIdx = () => slides.map((s, i) => s.hidden ? -1 : i).filter(i => i > -1);
-/* Review tool (review.fullfill.pt): the URL hash is the slide's stable id, qualified by the module (m2-1-v01, m0-capa), and the page title says where we are.
+/* Deep links: the URL hash is the slide's stable id, qualified by the module (m2-1-v01, m0-capa), and the page title says where we are.
    Ids come from data-id in the fragments and never change; a hash of another module opens that module (index.html#m2-1-v01 works from the root). */
 const slug = c => 'm' + String(c).replace(/\./g, '-');
 const hashOf = i => slug(CH) + '-' + slides[i].dataset.id;
@@ -141,7 +139,10 @@ function target() {
   const m = h.match(/^s(\d+)$/); if (m) return { i: Math.min(N - 1, +m[1] - 1) }; /* old position links; #s999 = last slide (back from the next module) */
   return null;
 }
-const pageTitle = i => { const it = ITEM[CH]; return (it ? (it.n ? chLabel(it) : it.t) : CH) + ' \u2013 ' + slides[i].dataset.title + ' \u2013 ' + L('Toolkit PSP · Benfica', 'PFA Toolkit · Benfica'); };
+/* the browser tab: the course name, with the module in front inside a module ("Módulo 3 - Sonae Toolkit PSP");
+   the language screen and the home page show the course name only. Same rule as build.py, which writes the first <title>. */
+const MOD = /^[1-9]/.test(CH) ? CH.split('.')[0] : '';
+const pageTitle = () => (MOD ? L('Módulo ', 'Module ') + MOD + ' - ' : '') + L('Sonae Toolkit PSP', 'Sonae PFA Toolkit');
 
 /* jump to a section (Índice, data-goto, the hash): the page scrolls there and its heading takes the focus */
 function go(n, focus = true, smooth = true) {
@@ -155,15 +156,13 @@ function go(n, focus = true, smooth = true) {
 /* the section being read: its id goes into the hash and its title into the page title (review tool) */
 function setCur(n) {
   if (n === cur || n < 0) return; cur = n; store.set('cur', n);
-  if (location.hash !== '#' + hashOf(n)) history.replaceState(null, '', '#' + hashOf(n));
+  /* the address stays clean (/contextualizacao): a #section link still opens its section, then the hash is dropped */
+  if (location.hash) { try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {} }
   document.title = pageTitle(n);
   (hooks[slides[n].dataset.id] || (() => {}))();
 }
-/* header language flag: the language screen always starts on Portuguese; the pages show the language they are in */
-const setFlag = l => { const f = $('#langSw .lngflag'); if (f) f.src = f.getAttribute('src').replace(/flag-(pt|en)-sq/, 'flag-' + l + '-sq'); };
 function solo(on) {
   if (!SOLO) return;
-  setFlag(on ? 'pt' : EN ? 'en' : 'pt');
   slides.forEach(s => { s.hidden = on ? s !== SOLO : s === SOLO; });
   document.body.classList.toggle('is-solo', on);
   cur = -1; window.scrollTo(0, 0); track(); ui();
@@ -172,49 +171,52 @@ function solo(on) {
 function ui() {
   const pv = $('#prev'), nx = $('#next'), alone = !!SOLO && !SOLO.hidden;
   pv.hidden = alone || !PREV_CH; pv.disabled = !PREV_CH; nx.disabled = !alone && !NEXT_CH && !LAST;
-  if (LAST && !alone) { put($('.t', nx), 'textContent', L('Terminar', 'Finish')); nx.setAttribute('aria-label', L('Terminar o Toolkit', 'Finish the Toolkit')); }
-  [[pv, PREV_CH, L('Página anterior', 'Previous page')], [nx, alone ? null : NEXT_CH, L('Página seguinte', 'Next page')]].forEach(([b, c, lead]) => {
+  if (LAST) put($('#next .t'), 'textContent', L('Terminar', 'Finish'));
+  [[pv, PREV_CH, L('Parte anterior', 'Previous part')], [nx, alone ? null : NEXT_CH, L('Parte seguinte', 'Next part')]].forEach(([b, c, lead]) => {
     if (c) { b.title = chLabel(c); b.setAttribute('aria-label', `${lead}: ${chLabel(c)}`); } else { b.removeAttribute('title'); b.removeAttribute('aria-label'); }
   });
-  /* the page we are on, as the header crumb says it ("Módulo 2 · 2.1 Contextualização") */
-  put($('#cntT'), 'textContent', alone ? '' : ($('.hdr .crumb') || { textContent: '' }).textContent.replace(/^(?:Toolkit PSP|PFA Toolkit|Toolkit) · /, ''));
+  /* where Seguinte leads (in place of the "01 / 09" counter of the slides version) */
+  /* "A seguir:" in bold, then the page name as plain text; rewritten only when the target changes (the gate observer watches every DOM change) */
+  const ct = $('#cntT'), ctk = !alone && NEXT_CH ? chLabel(NEXT_CH) : '';
+  if (ct && ct.dataset.nxt !== ctk) {
+    ct.dataset.nxt = ctk; ct.textContent = '';
+    if (ctk) { const s = document.createElement('strong'); s.textContent = L('A seguir:', 'Up next:'); ct.append(s, ' ' + ctk); }
+  }
   gateUI(); courseMap();
 }
 /* the closing section says what is still missing, or where Seguinte goes */
 function finText() {
   const fin = $('#finTxt'); if (!fin) return;
-  const n = GATE ? todoUnits().length : 0, sheet = CH.startsWith('5.') && CH !== '5.0';
+  const n = GATE ? todoUnits().length : 0;
   /* the title and the badge only say "done" once nothing is left (the originals are kept on the first pass) */
   const sec = fin.closest('.slide'), h = $('h2', sec), eb = $('.eyebrow', sec);
   if (h && !h.dataset.done) { h.dataset.done = h.textContent; if (eb) eb.dataset.done = eb.textContent; }
-  if (h) put(h, 'textContent', n ? h.dataset.done.replace(/^Terminaste /, 'Ainda não terminaste ').replace(/^You have finished (.*)$/, 'You have not finished $1 yet') : h.dataset.done);
+  if (h) put(h, 'textContent', n ? h.dataset.done.replace(/^Terminaste /, 'Ainda não terminaste ').replace(/^You have finished (.*)$/, 'You have not finished $1 yet') : LAST ? L('Parabéns! Chegaste ao fim deste Toolkit', 'Congratulations! You have reached the end of this Toolkit') : h.dataset.done);
   if (eb) put(eb, 'textContent', n ? L('Quase lá', 'Almost there') : eb.dataset.done);
   sec.classList.toggle('fin-open', !!n);
   put(fin, 'textContent', n
     ? L(`Para concluíres, falta explorar ${n === 1 ? '1 elemento' : `${n} elementos`} com ponto vermelho nesta página.`, `To finish, you still have ${n === 1 ? '1 element' : `${n} elements`} with a red dot to explore on this page.`)
-    /* the heading already says the module is finished, so the text only says what comes next */
-    : NEXT_CH ? L('Utiliza o botão “Seguinte” para avançar para o próximo módulo.', 'Use the “Next” button to move on to the next module.')
-      : LAST ? L('Percorreste todos os módulos do Toolkit. Podes voltar a qualquer módulo pelo Índice sempre que precisares. Usa o botão “Terminar”, aqui em baixo, para fechar.', 'You have gone through every part of the Toolkit. You can come back to any module from the Index whenever you need. Use the “Finish” button below to close it.') : '');
+    : NEXT_CH ? L('Utiliza o botão "Seguinte" para avançar.', 'Use the "Next" button to continue.')
+      : CI === SEQ.length - 1 ? L('Utiliza o botão "Terminar" para fechar a página.', 'Use the "Finish" button to close the page.') : '');
 }
 /* the module counts as done when every section was on screen and nothing is left to explore */
 function checkDone() {
   if (SOLO && !SOLO.hidden) return;
-  if (shownIdx().every(i => visited.has(i)) && !locked()) dstore.set('done:' + CH, true);
+  if (shownIdx().every(i => visited.has(i)) && !locked() && !dstore.get('done:' + CH)) { dstore.set('done:' + CH, true); courseMap(); }
 }
 const goPrev = () => { if (PREV_CH) location.href = PREV_CH.f; };
 $('#prev').onclick = goPrev;
-$('#next').onclick = tryNext;
+$('#next').onclick = () => (LAST && !locked() ? closeCourse() : tryNext());
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-go=next]');
   if (b) { const i = slides.indexOf(b.closest('.slide')), nx = shownIdx().find(k => k > i); if (i > -1 && nx !== undefined) go(nx); else tryNext(); return; }
   const g = e.target.closest('[data-goto]'); if (g) { e.preventDefault(); const i = idx(g.dataset.goto); if (i > -1) go(i); }
 });
 /* Review reset: wipes the saved progress (ecrãs vistos, módulos concluídos, ecrãs desbloqueados) and goes back to the start.
-   Captions, sound and the ?gate=off review mode are kept. Triggers: triple-click on the Benfica emblem (asks first) or Shift+Alt+R / Ctrl+Alt+R. */
+   Captions, sound and the ?gate=off review mode are kept. Triggers: triple-click on the MC logo (asks first) or Shift+Alt+R / Ctrl+Alt+R. */
 function resetAll() {
   try { Object.keys(localStorage).filter(k => k.startsWith('psp:' + NS + ':') && !/:(muted|cc|gateoff|lang)$/.test(k)).forEach(k => localStorage.removeItem(k)); } catch (err) {}
-  const onHome = CH === '0' && !EN;
-  location.href = (SITE || './') + '#m0-idioma'; if (onHome) location.reload();
+  if (IS_LANG) location.reload(); else location.href = PG('idioma');
 }
 document.addEventListener('keydown', e => {
   if (!(e.altKey && (e.shiftKey || e.ctrlKey) && e.code === 'KeyR')) return;
@@ -228,10 +230,8 @@ $('.hdr .logo').addEventListener('click', e => {
  * every button[aria-pressed] pressed once, every .chat (decision tree) taken to an end, every [data-need] clicked once and every
  * [data-need-when="selector"] container where that selector has appeared. Units are sticky; cleared slides are remembered.
  * A slide with data-nogate is never locked. Videos are not part of the gate.
- * Benfica version: the gate is OFF. Seguinte always works and a module is done once every section was on screen;
- * the units are still discovered so the red dots, the "Clica…" lines and their counters keep guiding the learner.
- * To switch the gate back on, return the original line: open with ?gate=on / ?gate=off, remembered in the browser. */
-const GATE = false;
+ * Review mode: open any chapter with ?gate=off (remembered in the browser) and ?gate=on to switch it back on. */
+const GATE = (() => { const m = location.search.match(/[?&]gate=(on|off)\b/); if (m) gstore.set('gateoff', m[1] === 'off'); return !gstore.get('gateoff'); })();
 const cleared = new Set(store.get('cleared') || []);
 const units = slides.map(() => []);
 const pending = i => units[i].filter(u => !u.ok);
@@ -265,10 +265,7 @@ function cta(s, i) {
   if ($('.hint.cta', s) || s.hasAttribute('data-nocta')) return;
   const p = document.createElement('p'); p.className = 'hint cta a';
   p.innerHTML = `${POINTER}<span>${ctaText(s, units[i].map(u => u.el))}</span> <b class="cta-n"></b>`;
-  const head = $('.head', s); head ? head.append(p) : $('.in', s).prepend(p);
-  /* it enters with the section, right after the heading block (the instructions written in the page already do) */
-  const before = $$('.a', s).filter(e => e !== p && (e.compareDocumentPosition(p) & Node.DOCUMENT_POSITION_FOLLOWING)).map(e => +e.style.getPropertyValue('--i') || 0);
-  p.style.setProperty('--i', before.length ? Math.max(...before) + 1 : 0);
+  const head = $('.head', s); p.style.setProperty('--i', head ? $$('.a', head).length : 0); head ? head.append(p) : $('.in', s).prepend(p);
   ctas[i] = p;
 }
 /* only write when the text changed: a write is itself a DOM mutation, and sweep() runs on every mutation */
@@ -290,36 +287,52 @@ function discover(s, i) {
   $$('.chat', s).forEach(c => add(c, () => !!$('.endc', c)));
   $$('[data-need-when]', s).forEach(c => add(c, () => !!$(c.dataset.needWhen, c)));
   $$('[data-need]:not([data-need-when])', s).forEach(b => { let hit = false; b.addEventListener('click', () => { hit = true; sweep(i); }, true); add(b, () => hit); });
-  units[i].forEach(u => { u.cls = u.el.matches('.chat,[data-need-when]'); u.host = u.cls ? u.el : dotHost(u.el); markTodo(u, !u.ok && !cleared.has(i)); });
+  /* what was already explored in a section that is not finished: kept by position, so it survives a reload and a change of language */
+  const kept = (store.get('seen') || {})[i] || [];
+  units[i].forEach((u, k) => { if (kept.includes(k)) u.ok = true; u.cls = u.el.matches('.chat,[data-need-when]'); u.host = u.cls ? u.el : dotHost(u.el); markTodo(u, !u.ok && !cleared.has(i)); });
   if (units[i].length) { cta(s, i); ctaCount(i); if (cleared.has(i)) markDone(i); }
 }
 function sweep(i) {
   const was = locked();
-  units[i].forEach(u => { if (!u.ok && (!u.el.isConnected || u.test())) { u.ok = true; markTodo(u, false); } });
+  let fresh = false;
+  units[i].forEach(u => { if (!u.ok && (!u.el.isConnected || u.test())) { u.ok = true; fresh = true; markTodo(u, false); } });
+  if (fresh) { const m = store.get('seen') || {}; m[i] = units[i].flatMap((u, k) => u.ok ? [k] : []); store.set('seen', m); }
   ctaCount(i);
   if (!pending(i).length && !cleared.has(i)) { cleared.add(i); store.set('cleared', [...cleared]); }
   if (!pending(i).length) markDone(i);
   gateUI();
   if (was && !locked()) {
     say(L('Já exploraste tudo nesta página. Podes avançar com o botão Seguinte, no fim da página.', 'You have explored everything on this page. You can move on with the Next button at the end of the page.'));
-    $('#next').classList.add('nudge'); checkDone();
+    checkDone();
   }
 }
 function gateUI() {
   const nx = $('#next'), lock = locked(), n = lock ? todoUnits().length : 0, h = $('#gateHint');
   nx.classList.toggle('locked', lock); if (lock) nx.setAttribute('aria-disabled', 'true'); else nx.removeAttribute('aria-disabled');
   h.hidden = !lock; if (lock) put($('#gateTxt'), 'textContent', n === 1 ? L('Falta 1', '1 left') : L(`Faltam ${n}`, `${n} left`));
-  finText();
+  finText(); tabDots();
 }
+/* something still to explore inside a tab that is not open: the tab carries the dot, otherwise nothing on screen shows what is left */
+function tabDots() {
+  const todo = todoUnits();
+  $$('[role=tab][aria-controls]').forEach(t => {
+    const p = document.getElementById(t.getAttribute('aria-controls'));
+    if (!p || todo.some(u => u.el === t)) return;
+    markTodo({ host: dotHost(t) }, t.getAttribute('aria-selected') !== 'true' && todo.some(u => p.contains(u.el)));
+  });
+}
+document.addEventListener('click', () => setTimeout(tabDots));
+document.addEventListener('keyup', () => setTimeout(tabDots));
 /* the single entry point for every "next" gesture: the next module, or (locked) the first thing still to explore */
 function tryNext() {
   if (!locked()) {
-    if (SOLO && !SOLO.hidden) { if (!langGo()) { solo(false); const h = $('h1', slides[shownIdx()[0]]); h && h.focus({ preventScroll: true }); } return; }
-    if (NEXT_CH) location.href = NEXT_CH.f; else if (LAST) $('#exit').showModal(); return;
+    if (SOLO && !SOLO.hidden) { langGo(); return; }
+    if (NEXT_CH) location.href = NEXT_CH.f; return;
   }
   const todo = todoUnits(), n = todo.length;
   toast(L(`Explora todos os elementos desta página para avançar. ${n === 1 ? 'Falta 1.' : `Faltam ${n}.`}`, `Explore all the elements on this page to move on. ${n} left.`));
-  const el = todo.map(u => u.el).find(e => e.offsetParent);
+  const hiddenIn = $('[role=tab] .todo-dot');
+  const el = todo.map(u => u.el).find(e => e.offsetParent) || (hiddenIn && hiddenIn.closest('[role=tab]'));
   if (el) { el.scrollIntoView({ block: 'center', behavior: RM ? 'auto' : 'smooth' }); el.classList.remove('gate-pulse'); void el.offsetWidth; el.classList.add('gate-pulse'); setTimeout(() => el.classList.remove('gate-pulse'), 2400); }
 }
 function gateStart() {
@@ -343,8 +356,8 @@ const NARROW = matchMedia('(max-width:860px), (max-aspect-ratio:4/5)');
 let trackF = 0;
 function track() {
   trackF = 0;
-  const on = shownIdx(), hdr = $('.hdr'); if (!on.length || !hdr) return; /* no header: the closing screen after Sair */
-  const top = hdr.offsetHeight, line = top + (innerHeight - top) * .35, doc = document.documentElement;
+  const on = shownIdx(); if (!on.length) return;
+  const top = $('.hdr').offsetHeight, line = top + (innerHeight - top) * .35, doc = document.documentElement;
   let n = on[0];
   on.forEach(i => { if (slides[i].getBoundingClientRect().top <= line) n = i; });
   if (innerHeight + scrollY >= doc.scrollHeight - 4) n = on[on.length - 1];
@@ -361,6 +374,17 @@ function watchSections() {
     visited.add(i); store.set('visited', [...visited]); checkDone(); courseMap();
   }), { rootMargin: '0px 0px -12% 0px' });
   slides.forEach(s => io.observe(s));
+  /* narrow windows: sections are long, so everything below the fold would play off-screen or keep the reader waiting on a long stagger.
+     There each block is held (.pend) until it reaches the screen; blocks arriving together keep a short stagger between them. */
+  if (RM || !matchMedia('(max-width:860px),(max-aspect-ratio:4/5)').matches) return;
+  const each = new IntersectionObserver(es => {
+    let k = 0;
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.style.setProperty('--i', k++); e.target.classList.remove('pend'); each.unobserve(e.target);
+    });
+  }, { rootMargin: '0px 0px -5% 0px' });
+  $$('.slide .a').forEach(el => { el.classList.add('pend'); each.observe(el); });
 }
 /* covers: a cue that the page goes on (also a button that moves to the next section) */
 $$('.s-cover').forEach(c => {
@@ -391,7 +415,7 @@ const openMenu = on => {
 menuBtn.onclick = () => openMenu(true);
 $('#courseToc').addEventListener('click', e => {
   const a = e.target.closest('a.lock'); if (!a) return;
-  e.preventDefault(); toast(L(`Este módulo abre depois de concluíres “${ITEM[PRE[a.dataset.id]].t}”.`, `This module opens after you complete “${ITEM[PRE[a.dataset.id]].t}”.`));
+  e.preventDefault(); toast(L(`Esta parte abre depois de concluíres “${ITEM[PRE[a.dataset.id]].t}”.`, `This part opens after you complete “${ITEM[PRE[a.dataset.id]].t}”.`));
 });
 $('#menuClose').onclick = () => openMenu(false);
 scrim.onclick = () => openMenu(false);
@@ -412,7 +436,7 @@ function courseMap() {
     el.dataset.built = '1';
     const link = (c, kick) => `<a href="${c.f}" data-id="${c.id}"${c.id === CH ? ' aria-current="page"' : ''}><span class="no" aria-hidden="true"></span><span class="tx">${kick ? `<span class="chip">${kick}</span>` : ''}${c.t}</span><span class="st"></span></a>`;
     el.innerHTML = COURSE.map((p, pi) => {
-      /* every Parte is the same kind of card: chip + title + counter, chapters inside */
+      /* every Parte, including Início and Parte 1, is the same kind of card: chip + title + counter, chapters inside */
       const [kick, ...rest] = p.part.split(' · ');
       return `<li class="cpart p${pi}"><details name="parts"${p.items.some(c => c.id === CH) ? ' open' : ''}><summary><span class="pt"><span class="chip">${kick}</span>${rest.join(' · ') || L('Apresentação do curso', 'Course introduction')}</span><span class="pc"></span></summary><ul>${p.items.map(c => `<li>${link(c)}</li>`).join('')}</ul></details></li>`;
     }).join('');
@@ -421,38 +445,82 @@ function courseMap() {
   $$('a[data-id]', el).forEach(a => {
     const c = ITEM[a.dataset.id], d = done(c), here = a.getAttribute('aria-current') === 'page', lk = isLocked(c);
     a.classList.toggle('done', d); a.classList.toggle('lock', lk);
-    if (lk) { a.setAttribute('aria-disabled', 'true'); a.title = L(`Abre depois de concluíres o módulo “${ITEM[PRE[c.id]].t}”`, `Opens after you complete the module “${ITEM[PRE[c.id]].t}”`); } else { a.removeAttribute('aria-disabled'); a.removeAttribute('title'); }
+    if (lk) { a.setAttribute('aria-disabled', 'true'); a.title = L(`Abre depois de concluíres a parte “${ITEM[PRE[c.id]].t}”`, `Opens after you complete the part “${ITEM[PRE[c.id]].t}”`); } else { a.removeAttribute('aria-disabled'); a.removeAttribute('title'); }
     put($('.no', a), 'textContent', d ? '✓' : (c.n || c.id));
-    put($('.st', a), 'innerHTML', (d ? `<span class="sr">${L('concluído', 'completed')}</span>` : '') + (lk ? `<span class="sr">${L('bloqueado, abre depois de concluíres o módulo', 'locked, opens after you complete the module')} ${ITEM[PRE[c.id]].t}</span>` : '') + (here ? `<em>${L('Estás aqui', 'You are here')}</em>` : ''));
+    put($('.st', a), 'innerHTML', (d ? `<span class="sr">${L('concluída', 'completed')}</span>` : '') + (lk ? `<span class="sr">${L('bloqueada, abre depois de concluíres a parte', 'locked, opens after you complete the parle')} ${ITEM[PRE[c.id]].t}</span>` : '') + (here ? `<em>${L('Aqui', 'Here')}</em>` : ''));
   });
   COURSE.forEach((p, i) => { const pc = $$('.cpart', el)[i]; if (pc) put($('.pc', pc), 'textContent', `${p.items.filter(done).length} ${L('de', 'of')} ${p.items.length}`); });
-  /* a módulo (a Parte of the course map) is done when every one of its pages is done */
-  const mods = COURSE.filter(p => p.items.length), n = mods.filter(p => p.items.every(done)).length;
-  $('#meter').style.width = (n / mods.length * 100) + '%';
-  put($('#meterTxt'), 'textContent', L(`${n} de ${mods.length} módulos concluídos`, `${n} of ${mods.length} modules completed`));
+  const chapters = COURSE.flatMap(p => p.items).filter(c => c.id !== '0'), n = chapters.filter(done).length;
+  $('#meter').style.width = (n / chapters.length * 100) + '%';
+  put($('#meterTxt'), 'textContent', L(`${n} de ${chapters.length} partes concluídas`, `${n} of ${chapters.length} parts completed`));
   const on = shownIdx(), sn = on.filter(i => visited.has(i)).length;
-  put($('#meterChap'), 'textContent', L(`Nesta página: ${sn} de ${on.length} secções vistas`, `In this module: ${sn} of ${on.length} sections seen`));
+  put($('#meterChap'), 'textContent', L(`Nesta parte: ${sn} de ${on.length} secções vistas`, `In this part: ${sn} of ${on.length} sections seen`));
 }
 
 /* ======================= Sound, captions, exit, help ======================= */
 const toastEl = $('#toast'); let toastT;
 const toast = m => { toastEl.textContent = m; toastEl.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => toastEl.classList.remove('on'), 2600); };
+/* Portfolio demo: the Toolkit PDFs (downloads/) and internal documents (#demo-indisponivel) are not shared; their buttons stay but only show a message */
+const DEMO_BLOCK = a => /(^|\/)downloads\/|^#demo-/i.test(a.getAttribute('href') || '');
+document.addEventListener('click', e => {
+  const a = e.target.closest && e.target.closest('a[href]');
+  if (!a || !DEMO_BLOCK(a)) return;
+  e.preventDefault(); e.stopPropagation();
+  toast(L('Ação não disponível nesta versão de demonstração.', 'Action not available in this demo version.'));
+}, true);
+document.querySelectorAll('a[href]').forEach(a => {
+  if (!DEMO_BLOCK(a)) return;
+  a.removeAttribute('target'); a.removeAttribute('download'); a.setAttribute('aria-disabled', 'true');
+  /* screen readers: the hidden "(abre numa nova janela…)" no longer holds; say what really happens */
+  a.querySelectorAll('.sr').forEach(s => { if (/janela|window/i.test(s.textContent)) s.textContent = L(' (não disponível nesta versão de demonstração)', ' (not available in this demo version)'); });
+});
 const media = () => $$('video,audio');
 let muted = !!gstore.get('muted'), cc = gstore.get('cc') !== false;
 const applyMedia = () => media().forEach(m => {
   m.muted = muted;
   [...(m.textTracks || [])].forEach(t => { if (t.kind === 'captions' || t.kind === 'subtitles') t.mode = cc ? 'showing' : 'hidden'; });
 });
+/* captions come from captions.js (window.CAPS), not from <track src>: browsers refuse a track file when the course is opened from disk (file://) */
+const vttSecs = s => { const p = s.split(':').map(parseFloat); return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1]; };
+$$('video').forEach(v => {
+  const t = v.querySelector('track'), m = t && t.src.match(/video-(\w+)\.vtt/), txt = m && window.CAPS && (window.CAPS[EN ? 'en' : 'pt'] || {})[m[1]];
+  if (!txt) return;
+  const tt = v.addTextTrack('captions', t.label, t.srclang); tt.mode = 'hidden';
+  txt.replace(/\r/g, '').split(/\n\n+/).forEach(b => {
+    const l = b.split('\n'), i = l.findIndex(x => x.includes('-->'));
+    if (i < 0) return;
+    const [a, e] = l[i].split('-->').map(x => vttSecs(x.trim()));
+    tt.addCue(new VTTCue(a, e, l.slice(i + 1).join('\n')));
+  });
+  t.remove();
+});
+/* with the native controls visible the browser lifts the captions above the bar; once the controls hide they drop to the very edge of the picture,
+   so lift them one line then. Controls show while paused or while the pointer moves over the video (they hide ~3 s after the last move). */
+const capVideos = $$('video').map(v => ({ v, last: 0, lifted: false }));
+const capLift = s => {
+  const lift = !(s.v.paused || s.v.ended || Date.now() - s.last < 3300);   /* the controls hide ~3 s after the last pointer move OR after the pointer leaves */
+  if (lift === s.lifted) return;
+  s.lifted = lift;
+  [...s.v.textTracks].forEach(t => {
+    /* the line number counts to the cue's FIRST line, so a cue of n lines needs -(n + 1) to end one line above the edge */
+    [...(t.cues || [])].forEach(c => { c.snapToLines = true; c.line = lift ? -(c.text.split('\n').length + 1) : 'auto'; });
+    if (t.mode === 'showing') { t.mode = 'hidden'; t.mode = 'showing'; }   /* a cue already on screen is not laid out again by the change alone */
+  });
+};
+capVideos.forEach(s => {
+  ['mousemove', 'mouseenter', 'mouseleave', 'touchstart', 'keydown'].forEach(ev => s.v.addEventListener(ev, () => { s.last = Date.now(); capLift(s); }, { passive: true }));
+  ['play', 'pause', 'ended', 'seeked', 'loadedmetadata'].forEach(ev => s.v.addEventListener(ev, () => capLift(s)));
+});
+setInterval(() => capVideos.forEach(s => { if (!s.v.paused) capLift(s); }), 500);
 const muteBtn = $('#muteBtn'), ccBtn = $('#ccBtn');
 const syncBtns = () => {
-  muteBtn.setAttribute('aria-pressed', muted); muteBtn.dataset.tip = muted ? L('Ativar som', 'Turn sound on') : L('Tirar som', 'Mute');
-  ccBtn.setAttribute('aria-pressed', cc); ccBtn.dataset.tip = cc ? L('Desligar legendas', 'Turn captions off') : L('Ligar legendas', 'Turn captions on');
+  muteBtn.setAttribute('aria-pressed', muted); muteBtn.dataset.tip = muted ? L('Ativar som', 'Turn sound on') : L('Desativar som', 'Turn sound off');
+  ccBtn.setAttribute('aria-pressed', cc); ccBtn.dataset.tip = cc ? L('Desativar legendas', 'Turn captions off') : L('Ativar legendas', 'Turn captions on');
 };
-muteBtn.onclick = () => { muted = !muted; gstore.set('muted', muted); applyMedia(); syncBtns(); toast(muted ? L('Som desligado', 'Sound off') : L('Som ligado', 'Sound on')); };
+muteBtn.onclick = () => { muted = !muted; gstore.set('muted', muted); applyMedia(); syncBtns(); toast(muted ? L('Som desativado', 'Sound off') : L('Som ativo', 'Sound on')); };
 ccBtn.onclick = () => {
   cc = !cc; gstore.set('cc', cc); applyMedia(); syncBtns();
-  const hasTracks = media().some(m => m.textTracks && m.textTracks.length);
-  toast(cc ? (hasTracks ? L('Legendas ligadas', 'Captions on') : L('Legendas ligadas', 'Captions on')) : L('Legendas desligadas', 'Captions off'));
+  toast(cc ? L('Legendas ativas', 'Captions on') : L('Legendas desativadas', 'Captions off'));
 };
 media().forEach(m => { m.addEventListener('volumechange', () => { if (m.muted !== muted) { muted = m.muted; gstore.set('muted', muted); syncBtns(); } }); m.addEventListener('loadedmetadata', applyMedia); });
 applyMedia(); syncBtns();
@@ -461,7 +529,7 @@ applyMedia(); syncBtns();
    Remove the attribute when the file is delivered. */
 $$('.player video[data-pending]').forEach(v => {
   const p = v.closest('.player'); p.classList.add('missing');
-  p.insertAdjacentHTML('beforeend', `<div class="vmiss"><span>${L('Vídeo não disponível nesta versão de demonstração.', 'Video not available in this demo version.')}</span></div>`);
+  p.insertAdjacentHTML('beforeend', `<div class="vmiss"><b>${v.getAttribute('aria-label') || L('Vídeo', 'Video')}</b><span>${L('O vídeo entra aqui na versão final, com legendas em português.', 'The video will appear here in the final version, with English captions.')}</span></div>`);
   v.remove();
 });
 
@@ -469,21 +537,14 @@ const exitDlg = $('#exit');
 $('#exitBtn').onclick = () => exitDlg.showModal();
 $('#exitCancel').onclick = () => exitDlg.close();
 exitDlg.addEventListener('click', e => { if (e.target === exitDlg) exitDlg.close(); });
-$('#exitOk').onclick = () => {
-  exitDlg.close(); media().forEach(m => m.pause());
+$('#exitOk').onclick = () => { exitDlg.close(); closeCourse(); };
+function closeCourse() {
+  media().forEach(m => m.pause());
   /* LMS: SCORM Terminate goes here */
   try { if (window.API && API.LMSFinish) API.LMSFinish(''); else if (window.API_1484_11 && API_1484_11.Terminate) API_1484_11.Terminate(''); } catch (e) {}
-  /* close the tab or window (and the LMS window around it, when the course runs in a frame) */
-  try { window.close(); } catch (e) {}
-  try { if (window.top !== window) window.top.close(); } catch (e) {}
-  /* browsers only let a page close a tab that a script opened (an LMS pop-up can, a tab opened by hand cannot):
-     when the tab stays open, the course gives way to a closing screen instead of staying on the page */
-  setTimeout(() => {
-    if (window.closed) return;
-    document.body.innerHTML = `<main class="bye" role="main"><img class="bye-logo" src="${SITE}assets/img/emblema-slb.svg" alt=""><h1>${L('Saíste do Toolkit', 'You have left the Toolkit')}</h1><p>${L('O teu progresso ficou guardado.<br>Já podes fechar este separador.', 'Your progress is saved.<br>You can now close this tab.')}</p><button class="pill" type="button" onclick="location.reload()">${L('Voltar ao Toolkit', 'Back to the Toolkit')}</button></main>`;
-    document.title = L('Saíste do Toolkit', 'You have left the Toolkit');
-  }, 300);
-};
+  window.close();
+  setTimeout(() => toast(L('O teu progresso está guardado. Já podes fechar este separador.', 'Your progress is saved. You can now close this tab.')), 300);
+}
 const dlg = $('#help');
 $('#helpBtn').onclick = () => dlg.showModal();
 $$('[data-help]').forEach(b => b.addEventListener('click', () => dlg.showModal()));
@@ -615,7 +676,7 @@ function flips(ul, onChange, o = {}) {
     if (open && !quiet) say(`${li._front}. ${li._back}`);
   };
   let all = o.all;
-  if (!all) { const bar = document.createElement('div'); bar.className = 'flip-tools'; all = document.createElement('button'); all.type = 'button'; all.className = 'pill'; bar.append(all); ul.after(bar); }
+  if (!all) { const bar = document.createElement('div'); bar.className = 'flip-tools a'; bar.style.setProperty('--i', $$('.a', ul.closest('.slide')).length); all = document.createElement('button'); all.type = 'button'; all.className = 'pill'; bar.append(all); ul.after(bar); }
   const sync = () => { all.textContent = items.every(isOpen) ? L('Voltar a esconder', 'Hide all again') : L('Virar todos', 'Turn all'); };
   items.forEach(li => { set(li, false, true); $('button', li).addEventListener('click', () => { set(li, !isOpen(li)); sync(); onChange && onChange(); }); });
   all.onclick = () => {
@@ -743,118 +804,129 @@ function flow(cfg) {
     const b = e.target.closest('button'); if (!b) return; const m = b.dataset.v === 'map';
     $$('button', view).forEach(x => x.setAttribute('aria-pressed', x === b));
     chat.hidden = m; fm.hidden = !m; if (m) paintMap();
-    const shown = m ? fm : chat; shown.classList.remove('swap'); void shown.offsetWidth; shown.classList.add('swap');
     say(m ? L('Fluxograma visual. Cada resposta é um botão.', 'Visual flowchart. Each answer is a button.') : L('Conversa.', 'Conversation.'));
   });
   begin();
 }
 /* completion badge confetti */
-(() => { const el = $('#confetti'); if (!el) return; const C = ['#C30000','#242424','#12814B','#1074BC','#FFD432','#B5B5B5']; let h = '';
+(() => { const el = $('#confetti'); if (!el) return; const C = ['#DC3228','#000F64','#00CD73','#0073FF','#FFB40F','#B45AF5','#FF41DC']; let h = '';
   for (let i = 0; i < 22; i++) { const a = i / 22 * Math.PI * 2 + (i % 3) * .2, r = 150 + (i % 4) * 22;
     h += `<i style="--c:${C[i % C.length]};--s:${8 + (i % 3) * 5}px;--x:${Math.round(Math.cos(a) * r)}px;--y:${Math.round(Math.sin(a) * r)}px;--d:${(i % 5) * 40}ms"></i>`; }
   el.innerHTML = h; })();
 /* ======================= Language =======================
- * Portuguese lives at the root, English in en/ (same page folders: 2-1/ and en/2-1/). The cover has a chooser (.langpick): the link of the current language is
+ * Portuguese lives at the root, English in en/ (same file names). The cover has a chooser (.langpick): the link of the current language is
  * the one thing the cover asks for (it opens the gate), the other one opens the same page in the other language.
  * Every page also gets a small switch in the Índice, which keeps the slide the reader is on. The last language used is remembered (psp:lang). */
 const HERE = EN ? 'en' : 'pt';
-/* the same page in the other language: from the course root, en/ for English, then the page folder */
-const langHref = l => (SITE + (l === 'en' ? 'en/' : '') + (CH === '0' ? '' : slugOf(CH) + '/')) || './';
+/* this page's source fragment, found from its name in the address (with or without .html) */
+const pageSrc = () => {
+  const n = decodeURIComponent(location.pathname.split('/').pop() || '').replace(/\.html$/, '');
+  return Object.keys(PG_).find(k => !k.startsWith('_') && PG_[k][EN ? 1 : 0] === n) || 'idioma';
+};
+/* the same page in language l (src: another page instead) */
+const langHref = (l, src = pageSrc()) => (l === HERE ? '' : l === 'en' ? 'en/' : '../') + PG(src, l === 'en' ? 1 : 0);
 gstore.set('lang', HERE);
-/* the language screen is the first slide of index.html; once a language was picked in this tab the home page opens on the cover */
 const LANG_KEY = 'psp:' + NS + ':lang-ok';
 const langDone = () => { try { sessionStorage.setItem(LANG_KEY, '1'); } catch (e) {} };
-if ($('.langpick') && !location.hash) { try { if (sessionStorage.getItem(LANG_KEY)) history.replaceState(null, '', '#m0-capa'); } catch (e) {} }
 /* choosing only marks a language (radio buttons); "Seguinte" then moves on: next slide in the same language, or the other language's cover */
 const langBtns = $$('.langpick .lbtn');
 /* the "Seguinte"/"Next" button follows the language that was just picked, before the page itself changes */
 const NEXT_TXT = { pt: 'Seguinte', en: 'Next' };
-const pick = b => {
-  langBtns.forEach(x => { x.setAttribute('aria-checked', x === b); x.tabIndex = x === b ? 0 : -1; });
-  const t = $('#next .t'); if (t) t.textContent = NEXT_TXT[b.dataset.lang];
-  setFlag(b.dataset.lang); /* the header flag follows the language being picked */
-  langDone();
+const pick = b => { langBtns.forEach(x => { x.setAttribute('aria-checked', x === b); x.tabIndex = x === b ? 0 : -1; }); const t = $('#next .t'); if (t) t.textContent = NEXT_TXT[b.dataset.lang]; langDone(); };
+/* picking the other language switches the whole interface at once: the same language screen opens in the other language,
+   with that option already selected and focused ("Seguinte"/"Next" then goes on to the cover) */
+const LANG_PICK = 'psp:' + NS + ':lang-pick';
+const choose = (b, kbd) => {
+  if (b.dataset.lang === HERE) { pick(b); return; }
+  gstore.set('lang', b.dataset.lang);
+  /* the focus only comes back after the reload for keyboard users (a mouse click would get a focus ring it never asked for) */
+  try { sessionStorage.setItem(LANG_PICK, b.dataset.lang + (kbd ? ':k' : '')); } catch (e) {}
+  location.replace(langHref(b.dataset.lang, 'idioma'));
 };
 langBtns.forEach((b, i) => {
-  b.addEventListener('click', () => pick(b));
+  b.addEventListener('click', e => choose(b, e.detail === 0));
   b.addEventListener('keydown', e => {
     const k = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key]; if (!k) return;
-    e.preventDefault(); e.stopPropagation(); const n = langBtns[(i + k + langBtns.length) % langBtns.length]; pick(n); n.focus();
+    e.preventDefault(); e.stopPropagation(); const n = langBtns[(i + k + langBtns.length) % langBtns.length]; n.focus(); choose(n, true);
   });
 });
+try {
+  const [p, how] = (sessionStorage.getItem(LANG_PICK) || '').split(':');
+  if (p) {
+    sessionStorage.removeItem(LANG_PICK);
+    const b = langBtns.find(x => x.dataset.lang === p);
+    if (b) { pick(b); if (how === 'k') setTimeout(() => b.focus({ preventScroll: true }), 0); }
+  }
+} catch (e) {}
+/* "Seguinte" on the language screen: the home page (inicio / start) of the language that was picked */
 const langGo = () => {
-  const sel = $('.lbtn[aria-checked=true]'); if (!sel || sel.dataset.lang === HERE) return false;
-  gstore.set('lang', sel.dataset.lang); location.href = langHref(sel.dataset.lang) + '#m0-capa'; return true;
+  const sel = $('.lbtn[aria-checked=true]'); if (!sel) return false;
+  gstore.set('lang', sel.dataset.lang); langDone(); location.href = langHref(sel.dataset.lang, 'index.html'); return true;
 };
-/* header language switch: the same page and section in the other language (the section ids are the same in both) */
-const langSw = $('#langSw');
-if (langSw) langSw.onclick = () => { const to = HERE === 'pt' ? 'en' : 'pt'; gstore.set('lang', to); langDone(); location.href = langHref(to) + (location.hash || '#m0-capa'); };
+/* language button in the header, beside the sound button: the flag of the language in use; a click opens the same section in the other language.
+   Not on the language screen (.is-solo). */
+(() => {
+  const o = HERE === 'en' ? 'pt' : 'en', b = document.createElement('button');
+  b.type = 'button'; b.id = 'langBtn'; b.className = 'ibtn ibtn--flag';
+  b.setAttribute('aria-label', L('Idioma: português. Mudar para inglês', 'Language: English. Switch to Portuguese'));
+  b.dataset.tip = L('Mudar para inglês', 'Switch to Portuguese');
+  b.innerHTML = `<img src="${EN ? '../' : ''}assets/img/flag-${HERE}.svg" alt="">`;
+  b.addEventListener('click', () => { gstore.set('lang', o); langDone(); location.href = langHref(o) + (cur > -1 ? '#' + hashOf(cur) : ''); });
+  $('#muteBtn').after(b);
+})();
+/* phones and tablets: captions, sound, language and exit live in one settings button (the real buttons stay in the page, hidden, and keep doing the work).
+   Apoio stays on the bar: it must always be one touch away. */
+(() => {
+  const icon = sel => { const i = $(sel); return i ? i.cloneNode(true).outerHTML : ''; };
+  const btn = document.createElement('button');
+  btn.type = 'button'; btn.id = 'setBtn'; btn.className = 'ibtn';
+  btn.setAttribute('aria-label', L('Definições', 'Settings')); btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-controls', 'setMenu');
+  btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.6"/><circle cx="8" cy="17" r="2.6"/></svg>';
+  const over = document.createElement('div'); over.id = 'setOver'; over.hidden = true;
+  const m = document.createElement('div');
+  m.id = 'setMenu'; m.hidden = true; m.tabIndex = -1; m.setAttribute('role', 'group'); m.setAttribute('aria-label', L('Definições', 'Settings'));
+  const row = (id, ic, t, sw) => `<button type="button" class="setrow" id="${id}"${sw ? ' aria-pressed="false"' : ''}><span class="seti" aria-hidden="true">${ic}</span><span class="sett">${t}</span>${sw ? '<span class="setsw" aria-hidden="true"></span>' : ''}</button>`;
+  m.innerHTML = row('setCc', '<span class="cc">CC</span>', L('Legendas', 'Captions'), true)
+    + row('setMute', icon('#muteBtn .on'), L('Som', 'Sound'), true)
+    + `<button type="button" class="setrow" id="setLang" aria-label="${L('Idioma: português. Mudar para inglês', 'Language: English. Switch to Portuguese')}"><span class="seti" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.500 5.500 12 3z"/></svg></span><span class="sett">${L('Idioma', 'Language')}</span><span class="setseg" data-on="${HERE}" aria-hidden="true"><i>PT</i><i>EN</i></span></button>`
+    + row('setExit', icon('#exitBtn svg'), L('Sair do curso', 'Leave the course'));
+  $('.tools').append(btn); $('.hdr').append(over, m);
+  const sync = () => {
+    $('#setCc').setAttribute('aria-pressed', $('#ccBtn').getAttribute('aria-pressed') === 'true');
+    $('#setMute').setAttribute('aria-pressed', $('#muteBtn').getAttribute('aria-pressed') !== 'true');
+  };
+  const open = on => {
+    if (on) sync();
+    m.hidden = over.hidden = !on; btn.setAttribute('aria-expanded', on); document.body.classList.toggle('set-open', on);
+    if (on) m.focus({ preventScroll: true });
+  };
+  btn.addEventListener('click', () => open(m.hidden));
+  over.addEventListener('click', () => open(false));
+  $('#setCc').addEventListener('click', () => { $('#ccBtn').click(); sync(); });
+  $('#setMute').addEventListener('click', () => { $('#muteBtn').click(); sync(); });
+  /* same behaviour as the two switches: the control moves and the menu stays open, also after the page reloads in the other language */
+  const SET_OPEN = 'psp:' + NS + ':set-open';
+  $('#setLang').addEventListener('click', () => {
+    $('.setseg').dataset.on = HERE === 'en' ? 'pt' : 'en';
+    try { sessionStorage.setItem(SET_OPEN, '1'); } catch (e) {}
+    setTimeout(() => $('#langBtn').click(), RM ? 0 : 220);
+  });
+  $('#setExit').addEventListener('click', () => { open(false); $('#exitBtn').click(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !m.hidden) { open(false); btn.focus(); } });
+  addEventListener('resize', () => { if (!m.hidden && !btn.offsetParent) open(false); });
+  try { if (sessionStorage.getItem(SET_OPEN)) { sessionStorage.removeItem(SET_OPEN); if (btn.offsetParent) open(true); } } catch (e) {}
+})();
 /* the skip link must not touch the hash (it belongs to the slide id) */
 $('.skip').addEventListener('click', e => { e.preventDefault(); $('#stage').focus(); });
 const langOk = () => { try { return !!sessionStorage.getItem(LANG_KEY); } catch (e) { return false; } };
 /* back in a module that is not finished (opened without a hash, e.g. from the Índice): open on the section where the reader was */
 const resume = () => { const c = store.get('cur'); return !location.hash && c > 0 && c < N && !dstore.get('done:' + CH) ? { i: c } : null; };
-/* ======================= Benfica emblem (lines only) as a section background =======================
- * Only as the background of a whole section (never inside a block or a button), chosen on the rendered page.
- * Never with a video or an illustration, and never when the part the emblem covers (the right side) holds much text,
- * boxes or controls: that part is measured (text rects, boxes with a background or border, svg, buttons, fields).
- * Never two sections in a row. Light sections: with moderation, at least four sections apart, but at least once per page (fallback: the eligible section
- * with the least on its right; the closing section only as a last resort). Red sections: every one with a free right side.
- * Fit: the top is pinned to the top of the section and it runs past the bottom; --wm-s scales it from the section height,
- * never under 135%, more in small sections and varying from one to the next; --wm-x crops it on the right.
- * Chosen once, when the page opens; resizing the window only refits the chosen sections (never removes them). */
-const EM_RATIO = 400.2 / 395.9;
-const emFit = (s, n) => {
-  /* scale from the section height; crop on the right so about two thirds show, within half the section width.
-     When the emblem is much wider than that (narrow windows, tall sections) it is placed by its axis instead: the eagle sits
-     at 72% of the section width and both wings are cut, so the emblem stays recognisable rather than one wing tip. */
-  const sr = s.getBoundingClientRect(), H = sr.height;
-  const k = Math.min(2.6, Math.max(1.35, 1.35 * 650 / H) * [1, 1.12, 1.25][n % 3]), W = H * k * EM_RATIO;
-  const fits = W * .7 <= sr.width * .5;
-  const show = fits ? W * .7 : Math.min(sr.width, W / 2 + sr.width * .72);
-  return { sr, k, W, show: Math.min(show, sr.width * .5), x: fits ? -Math.round(W - show) : -Math.round(W / 2 - sr.width * .28) };
-};
-function emblemsRefit() { $$('.wm-sec').forEach(s => { const f = emFit(s, +s.dataset.wmn); s.style.setProperty('--wm-x', f.x + 'px'); s.style.setProperty('--wm-s', f.k); }); }
-function emblems() {
-  let last = -9, best = null, n = 0, light = 0;
-  const picked = new Set();  /* never two sections in a row */
-  const free = s => { const i = slides.indexOf(s); return !picked.has(i - 1) && !picked.has(i + 1); };
-  const put = (s, x, k, m) => { picked.add(slides.indexOf(s)); s.dataset.wmn = m; s.style.setProperty('--wm-x', x + 'px'); s.style.setProperty('--wm-s', k); s.classList.add('wm-sec'); n++; };
-  slides.forEach((s, i) => {
-    if (s.hidden || s.matches('.s-cover,[data-nowm]')) return;
-    if ($('img[src*="av-"],img[src*="fotos/"],figure,video,.player,.vid,.ill,.art,.hero-art,.notart,.rule', s)) return;  /* illustrations, photos, videos */
-    const red = s.classList.contains('s-navy'), fin = !!$('.badge', s);
-    if (!red && $$('.in *', s).some(e => { const r = e.getBoundingClientRect(); return r.width > 150 && r.height > 80 && getComputedStyle(e).backgroundColor === 'rgb(195, 0, 0)'; })) return;  /* red blocks */
-    if (!red && !fin && i - last < 4) return;
-    if (s.getBoundingClientRect().height < 200) return;
-    const { sr, k, show, x } = emFit(s, n);
-    const z = { l: sr.right - show, r: sr.right, t: sr.top, b: sr.bottom }, area = (z.r - z.l) * (z.b - z.t);
-    const hit = r => Math.max(0, Math.min(r.right, z.r) - Math.max(r.left, z.l)) * Math.max(0, Math.min(r.bottom, z.b) - Math.max(r.top, z.t));
-    let used = 0;
-    const tw = document.createTreeWalker($('.in', s), NodeFilter.SHOW_TEXT);
-    for (let t = tw.nextNode(); t; t = tw.nextNode()) {
-      if (!t.textContent.trim()) continue;
-      const rg = document.createRange(); rg.selectNodeContents(t); [...rg.getClientRects()].forEach(r => { used += hit(r); });
-    }
-    $$('.in *', s).forEach(e => {
-      const c = getComputedStyle(e);
-      if (c.backgroundColor !== 'rgba(0, 0, 0, 0)' || c.borderTopStyle !== 'none' || e.matches('svg,canvas,button,input,select,textarea')) used += hit(e.getBoundingClientRect());
-    });
-    const cov = used / area, nw = NARROW.matches;  /* one column: the text spans the width, so allow more there */
-    if (red) { if (cov <= (nw ? .5 : .2) && free(s)) put(s, x, k, n); return; }
-    const score = cov + (fin ? 2 : 0);
-    if (free(s) && (!best || score < best.score)) best = { s, x, k, score, m: n };
-    if (fin || cov > (nw ? .35 : .2) || !free(s)) return;
-    put(s, x, k, n); last = i; light++;
-  });
-  if (!light && best && free(best.s)) put(best.s, best.x, best.k, best.m);
-}
 function start() {
   { const x = target(); if (x && x.to) { location.replace(x.to); return; } }
   if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
   gateStart(); watchSections();
   const t = target() || resume();
-  if (SOLO) solo(t ? slides[t.i] === SOLO : !langOk());
+  if (SOLO) solo(true);
   addEventListener('hashchange', () => { const x = target(); if (!x) return; if (x.to) location.replace(x.to); else go(x.i); });
   addEventListener('scroll', onScroll, { passive: true });
   addEventListener('resize', onScroll);
@@ -864,8 +936,6 @@ function start() {
     addEventListener('load', () => { if (cur === t.i) slides[t.i].scrollIntoView({ block: 'start' }); }, { once: true });
   } else { window.scrollTo(0, 0); track(); }
   ui(); fixSoon(); $$('.seg').forEach(glide);
-  if (document.readyState === 'complete') emblems(); else addEventListener('load', emblems, { once: true });
-  { let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(emblemsRefit, 150); }); }
 }
 return { $, $$, RM, pad, store, hooks, go, idx, tabs, glide, flips, flow, toast, say, start, tryNext, gate: { on: GATE, pending, locked, units, cleared }, get cur() { return cur; } };
 })();

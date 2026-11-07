@@ -1,0 +1,115 @@
+220	Vídeo
+221	Os riscos psicossociais
+222	O que são, os seis tipos de risco e porque devem ser reconhecidos, avaliados e geridos como qualquer outro risco profissional.
+223	Identificar: tipos de risco
+224	2.1 · Identificar
+225	Seis tipos de risco psicossocial
+226	Clica em cada tipo para veres o que inclui e os sinais de alerta.
+227	0 de 6 vistos
+228	Tipos de risco psicossocial
+229	Observar: checklist
+230	2.2 · Observar
+231	Checklist: o que observar na equipa
+232	Não substitui uma avaliação formal, mas ajuda a identificar sinais precoces de risco psicossocial.
+233	Como usar a checklist
+234	Autoavaliação
+235	Observação da equipa
+236	<span>Pergunta:</span> “Reconheço este sinal em mim?”
+237	Grupos de sinais
+238	Assinala os sinais que reconheces. <b>Vê os seis grupos.</b>
+239	As tuas respostas não são guardadas nem enviadas.
+240	Agir: o que fazer
+241	2.3 · Agir
+242	O que fazer, consoante o que observas
+243	Clica em cada um dos cinco níveis, dos sinais mais ligeiros às situações de risco.
+244	Níveis de sinais
+245	Vídeo: fatores individuais
+246	2.4 · Vídeo
+247	Vídeo: Fatores individuais que influenciam a perceção dos riscos
+248	Fatores individuais que influenciam a perceção dos riscos
+249	Embora os riscos possam estar presentes no mesmo contexto de trabalho, o impacto que têm varia de pessoa para pessoa.
+250	Essa diferença depende não apenas das condições organizacionais, mas também de fatores individuais que influenciam a forma como cada pessoa percebe, processa e responde ao stress.
+251	Fatores individuais
+252	Seis fatores, seis formas de viver o mesmo risco
+253	Clica em cada cartão para o virares e veres um exemplo e como pode influenciar.
+254	0 de 6 virados
+255	Terminaste o módulo “Os Riscos Psicossociais”
+256	Parte 2, secção 2 · páginas 11 a 15 do PDF original
+257	
+      <a class="dl a" href="downloads/checklist-o-que-observar-na-equipa.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Checklist: o que observar na equipa<small>PDF · 1 página</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+      <a class="dl a" href="downloads/toolkit-psp-capitulo-2.pdf" target="_blank" rel="noopener"><span class="ic"><svg#2/></span><span>Módulo completo<small>PDF · 5 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+258	Exigências laborais
+259	Exigências quantitativas
+260	Ritmo de trabalho
+261	Exigências cognitivas
+262	Exigências emocionais
+263	Cansaço persistente
+264	Sensação de urgência constante
+265	Dificuldade em desligar
+266	Erros frequentes ou quebra de concentração
+267	Organização do trabalho e conteúdo
+268	Influência no trabalho
+269	Possibilidade de desenvolvimento
+270	Significado do trabalho
+271	Compromisso face ao local de trabalho
+272	Desmotivação
+273	Sensação de falta de propósito
+274	Baixo envolvimento
+275	Dificuldade em manter compromisso
+276	Relações sociais e de liderança
+277	Transparência
+278	Conflito de papéis
+279	Qualidade da liderança
+280	Apoio social de colegas e superiores
+281	Conflitos frequentes
+282	Sensação de injustiça
+283	Insegurança
+284	Dificuldades na comunicação
+285	Interface trabalho–indivíduo
+286	Insegurança laboral
+287	Satisfação com o trabalho
+288	Conflito trabalho/família
+289	Dificuldade em conciliar vida pessoal e profissional
+290	Preocupação constante
+291	Exaustão
+292	Insatisfação
+293	Valores no local de trabalho
+294	Confiança vertical
+295	Confiança horizontal
+296	Justiça e respeito
+297	Comunidade social no trabalho
+298	Sensação de falta de reconhecimento
+299	Desconfiança
+300	Perceção de injustiça
+301	Comportamentos ofensivos
+302	Assédio moral
+303	Assédio sexual
+304	Discriminação
+305	Violência verbal ou física
+306	Diminuição da autoestima
+307	<div class="vpanel vpanel--text card" role="tabpanel" id="p-k${i}" aria-labelledby="t-k${i}" tabindex="0"${i ? ' hidden' : ''}>
+    <div><h3>${r[0]}</h3><div class="two"><div><h4>O que inclui</h4><ul class="dotlist">${r[2].map(x => `<li>${x}</li>`).join('')}</ul></div>
+    <div class="warn"><h4>Sinais de alerta</h4><ul class="dotlist">${r[3].map(x => `<li>${x}</li>`).join('')}</ul></div></div></div></div>
+308	${seen.size} de 6 vistos
+309	Exigências
+310	Organização
+311	Relações e liderança
+312	Trabalho–indivíduo
+313	Cansaço persistente ou sinais de fadiga generalizada
+314	Ritmo de trabalho acelerado e sensação de urgência constante
+315	Dificuldade em desligar do trabalho (ex.: fora de horas)
+316	Aumento de erros, esquecimentos ou quebra de concentração
+317	Diminuição do envolvimento ou da iniciativa
+318	Sensação de desmotivação ou falta de propósito no trabalho
+319	Baixo compromisso com tarefas ou objetivos
+320	Participação reduzida ou atitude mais passiva
+321	Conflitos frequentes entre colegas ou com a liderança
+322	Falhas de comunicação ou falta de clareza nas orientações
+323	Ambiente de tensão, irritabilidade ou defensividade
+324	Sinais de isolamento ou dificuldade na colaboração
+325	Dificuldade em conciliar trabalho e vida pessoal
+326	Aumento de absentismo ou pedidos frequentes de flexibilidade
+327	Sinais de exaustão ou quebra de desempenho
+328	Preocupação constante com estabilidade ou futuro profissional
+329	Perceção de falta de reconhecimento ou valorização

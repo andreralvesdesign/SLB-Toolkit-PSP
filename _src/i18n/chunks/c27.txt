@@ -1,0 +1,112 @@
+2970	Os sinais de risco são indicadores de sofrimento psicológico significativo e de maior vulnerabilidade emocional. Podem surgir devido a alterações no comportamento, nas emoções ou na capacidade de funcionamento da pessoa.
+2971	Alguns exemplos incluem
+2972	Alterações marcadas de comportamento (isolamento, agitação, apatia)
+2973	Expressões de desesperança, vazio ou falta de sentido
+2974	Diminuição acentuada do funcionamento pessoal, social ou profissional
+2975	Aumento do consumo de álcool ou outras substâncias
+2976	Dificuldade em lidar com emoções ou situações do quotidiano
+2977	Reações emocionais muito intensas ou desproporcionais à situação
+2978	Incapacidade funcional
+2979	A incapacidade funcional refere-se à dificuldade ou incapacidade da pessoa em realizar tarefas do dia a dia e manter o seu funcionamento habitual.
+2980	Pode manifestar-se através de
+2981	Dificuldade em cumprir tarefas básicas (autocuidado, trabalho, estudo ou responsabilidades diárias)
+2982	Incapacidade de tomar decisões simples ou resolver problemas do quotidiano
+2983	Ausências frequentes ou quebra significativa de desempenho
+2984	Sensação de estar “bloqueado”, sem conseguir avançar ou agir
+2985	Dificuldade em manter relações sociais ou responsabilidades habituais
+2986	Sintomas persistentes
+2987	Os sintomas persistentes são reações emocionais, cognitivas ou físicas que permanecem ao longo do tempo sem melhoria significativa, interferindo no bem-estar da pessoa.
+2988	Podem incluir
+2989	Ansiedade, tristeza ou irritabilidade persistentes
+2990	Problemas de sono (insónia, sono interrompido, pesadelos)
+2991	Pensamentos intrusivos ou dificuldade em “desligar”
+2992	Cansaço emocional constante ou sensação de exaustão
+2993	Dificuldade de concentração ou sensação de sobrecarga mental
+2994	Sintomas físicos associados ao stress (tensão, dores, fadiga)
+2995	O objetivo do encaminhamento
+2996	Não é substituir o apoio inicial, mas <em>garantir que a pessoa recebe o tipo de ajuda mais adequado às suas necessidades.</em>
+2997	Terminaste o módulo “Quando encaminhar”
+2998	Parte 6, secção 1 · páginas 135 a 136 do PDF original
+2999	
+      <a class="dl a" href="downloads/toolkit-psp-parte-6-quando-encaminhar.pdf" target="_blank" rel="noopener"><span class="ic"><svg#1/></span><span>Quando encaminhar<small>PDF · 2 páginas</small></span><span class="go" aria-hidden="true">→</span><span class="sr"> (abre numa nova janela)</span></a>
+    
+3000	6.2 Recursos
+3001	Parte 6 · <b>6.2 Recursos</b>
+3002	<span>Recursos</span>
+3003	Os recursos internos da MC e as principais linhas de apoio gratuito em Portugal, para a saúde mental e para além dela.
+3004	Somos Sonae
+3005	2.1 · Recursos internos
+3006	Programa multidisciplinar de apoio desenvolvido pela Sonae em 2013, com o intuito de apoiar os colaboradores e as suas famílias nos momentos de maior necessidade e vulnerabilidade mental, económica e social. É promovido por equipas multidisciplinares e especializadas da Cruz Vermelha Portuguesa (CVP), e a privacidade de quem o usufrui é garantida.
+3007	Saúde mental e apoio psicológico
+3008	Programa de saúde mental em parceria com a CVP e a sua rede de apoio psicossocial, que integra psicólogos clínicos credenciados.
+3009	<b>Plano de apoio gratuito e confidencial:</b> até 10 consultas, a realizar em 12 meses, podendo ser prolongado mediante avaliação clínica do caso.
+3010	<b>Modalidade:</b> podem ser presenciais ou online, sendo que a modalidade será escolhida em articulação com o(a) psicólogo(a).
+3011	<b>Abrangência:</b> todos(as) os(as) colaboradores(as)!
+3012	Como aceder
+3013	Ligar para a linha dedicada do Programa Somos Sonae, gerida pela CVP e disponível 24h/dia.
+3014	No contacto, só precisas de te identificar como colaborador(a) MC e serás encaminhado/a para a rede de psicólogos clínicos credenciados.
+3015	Saber mais sobre o Somos Sonae
+3016	(abre numa nova janela)
+3017	Seguro de Saúde Multicare
+3018	Através da Medicina Online do Seguro de Saúde Multicare, os colaboradores efetivos têm acesso a consultas de psicologia (telefone ou videoconferência), totalmente gratuitas, assim como a programas de bem-estar.
+3019	Programas de bem-estar
+3020	Programas de Gestão de Stress e Ansiedade
+3021	Dormir Melhor
+3022	Programa Põe-te em Forma
+3023	Programa de Cessação tabágica
+3024	Plano e modalidades
+3025	<b>Plano de apoio gratuito e confidencial:</b> consultas de psicologia e programas de bem-estar.
+3026	<b>Modalidade:</b> ilimitadas, se forem por telefone ou videoconferência; 6 consultas de Psicologia/Psiquiatria presenciais, por anuidade.
+3027	<b>Abrangência:</b> todos(as) os(as) colaboradores(as) efetivos(as), com seguro de saúde!
+3028	Como aceder e agendar
+3029	Através da linha dedicada do Seguro de Saúde:
+3030	Ou através do website da Multicare:
+3031	multicare.pt/medicina-online
+3032	Linhas de apoio psicológico
+3033	2.2 · Recursos externos
+3034	Principais linhas de apoio gratuito (Portugal)
+3035	No telemóvel, toca no número para ligar.
+3036	<b>Número de Emergência Europeu</b><small>Deve ser utilizado apenas em situações de perigo imediato para a vida, saúde ou bens</small>
+3037	<b>SNS 24 · Aconselhamento Psicológico</b><small>Opção 4 · 24 horas/dia, todos os dias</small>
+3038	<b>Linha Nacional de Prevenção do Suicídio</b><small>24 horas/dia, todos os dias</small>
+3039	<b>SOS Voz Amiga</b><small>Diariamente das 15h30 às 00h30</small>
+3040	<b>Conversa Amiga</b><small>Diariamente das 15h00 às 22h00</small>
+3041	<b>Voz de Apoio</b><small>Diariamente das 21h00 às 00h00</small>
+3042	<b>Telefone da Amizade</b><small>Diariamente das 16h00 às 23h00</small>
+3043	Além da saúde mental: recursos internos
+3044	3.1 · Recursos internos
+3045	3 · Além da saúde mental
+3046	Outras iniciativas relevantes: recursos internos
+3047	Clica em cada um dos três recursos.
+3048	Outros recursos internos
+3049	<img src="assets/img/ic-36.png" alt="">Medicina Online · Seguro de Saúde<span class="tick" aria-hidden="true"></span>
+3050	<img src="assets/img/ic-18.png" alt="">Somos Sonae: outras vertentes<span class="tick" aria-hidden="true"></span>
+3051	<img src="assets/img/ic-108.png" alt="">Medicina no Trabalho<span class="tick" aria-hidden="true"></span>
+3052	Medicina Online · Seguro de Saúde
+3053	Além das iniciativas de saúde mental, a Medicina Online do Seguro de Saúde disponibiliza um acesso totalmente gratuito a diversas consultas de especialidade, de forma cómoda e sem necessidade de deslocações:
+3054	Consultas de medicina geral e familiar
+3055	Prescrição de exames e medicamentos
+3056	Dermatologia
+3057	Nutrição
+3058	Consultas de saúde da mulher
+3059	Entre outras…
+3060	Este programa tem o propósito de apoiar os colaboradores e as suas famílias, em situação de vulnerabilidade social e económica, nos momentos que mais necessitarem. Em parceria com a CVP, atua em diferentes vertentes (em adição ao eixo da saúde mental):
+3061	Apoio socioeconómico
+3062	Apoio jurídico
+3063	Programa de saúde oral, em parceria com a “Mundo a Sorrir” (Lisboa, Porto e Braga)
+3064	Eixo de apoio à vítima de violência doméstica
+3065	<b>Linha de atendimento, gratuita e confidencial (<a href="tel:800100025">800 100 025</a>), disponível 24h/dia</b>
+3066	Articulação da CVP com as suas estruturas de apoio à vítima, que integram a Rede Nacional de Apoio a Vítimas de Violência Doméstica, mediante consentimento prévio
+3067	Apoio integral: jurídico e psicológico
+3068	Apoio socioeconómico: sempre que se considerar necessário mediante a análise do caso e ajustado às características
+3069	Os planos de apoio garantem a confidencialidade necessária e respeitam a sensibilidade inerente ao caso.
+3070	Medicina no Trabalho
+3071	Na MC, todos os colaboradores têm acesso a consultas de Medicina do Trabalho, para além dos exames periódicos obrigatórios:
+3072	Exame Ocasional a Pedido do Trabalhador
+3073	Exame Ocasional por Iniciativa do Médico
+3074	Exame Ocasional a Pedido da Empresa
+3075	Estas consultas podem ser solicitadas através da equipa ‘People’ das lojas, operações, logística ou estrutura central. Em algumas lojas de menor dimensão, o acesso a consulta nem sempre é possível no próprio dia ou em dias muito próximos da referenciação.
+3076	É importante saber
+3077	Caso a Medicina do Trabalho não consiga dar uma resposta no prazo previsto, deve estar prevista a ativação de uma alternativa adequada (ex.: Linha Somos Sonae <a href="tel:800100025">800 100 025</a> – 24h, apoio psicológico ou recurso externo), para não comprometer a resposta ao colaborador em tempo útil.
+3078	Outras linhas de apoio
+3079	3.2 · Recursos externos
